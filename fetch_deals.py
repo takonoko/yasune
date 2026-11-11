@@ -14,6 +14,8 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
+from makers import find_maker
+
 API = "https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch"
 JST = timezone(timedelta(hours=9))
 
@@ -32,10 +34,12 @@ EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 MASK_FASHION = re.compile(r"柄|レース|花|水着|カラー|おしゃれ|オシャレ|刺繍|チェック|ドット|デザイン|ファッション|かわいい|可愛い|韓国|血色|くすみ|ラメ")
 MIN_REVIEWS = 3       # レビューがほぼ無い商品は「通常価格」が当てにならないので除外
 PER_GENRE = 30        # 1ジャンルあたり載せる最大件数
+PER_MAKER = 3         # 同じジャンルに同じメーカーを載せる最大件数（Ankerだらけにしない）
 FETCH = 100           # APIから1回に取る件数（上限100）
+PAGES = 3             # 1ジャンルあたり何ページ分取るか（有名メーカーで絞ると減るので多めに）
 
 
-def call_api(genre_ids: str) -> dict:
+def call_api(genre_ids: str, start: int = 1) -> dict:
     params = {
         "appid": os.environ["YAHOO_APPID"],
         "genre_category_id": genre_ids,
@@ -44,6 +48,7 @@ def call_api(genre_ids: str) -> dict:
         "condition": "new",
         "sort": "-review_count",
         "results": FETCH,
+        "start": start,
         "image_size": 300,
     }
     aff = os.environ.get("VC_AFFILIATE_ID")
@@ -82,6 +87,10 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     review = hit.get("review") or {}
     if (review.get("count") or 0) < MIN_REVIEWS:
         return None
+    brands = [(hit.get("brand") or {}).get("name") or ""] + [b.get("name") or "" for b in hit.get("parentBrands") or []]
+    maker = find_maker([b for b in brands if b], name)
+    if not maker:  # 知らないメーカーは載せない
+        return None
     img = (hit.get("exImage") or {}).get("url") or (hit.get("image") or {}).get("medium")
     pt = hit.get("point") or {}
     points = pt.get("lyLimitedBonusAmount") or 0             # 誰でももらえるストアポイント
@@ -102,6 +111,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         "real_off": round((1 - real / was) * 100),
         "end": end,
         "shop": seller.get("name"),
+        "maker": maker,
         "rating": review.get("rate"),
         "reviews": review.get("count"),
         "free_shipping": (hit.get("shipping") or {}).get("code") == 2,
@@ -115,24 +125,31 @@ def main(out_path: str) -> None:
     for i, (genre, ids) in enumerate(GENRES.items()):
         if i and not os.environ.get("MOCK_DIR"):
             time.sleep(1.5)  # 利用制限: 1秒1回まで
+        hits = []
         try:
-            data = load_mock(genre) if os.environ.get("MOCK_DIR") else call_api(ids)
-        except Exception as e:  # 1ジャンル失敗しても他は続ける
+            if os.environ.get("MOCK_DIR"):
+                hits = load_mock(genre).get("hits", [])
+            else:
+                for p in range(PAGES):
+                    if p:
+                        time.sleep(1.5)
+                    hits += call_api(ids, 1 + p * FETCH).get("hits", [])
+        except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
-            continue
-        picked = []
-        for hit in data.get("hits", []):
-            d = to_deal(hit, genre, now_ts)
-            if not d:
+        cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
+        cands.sort(key=lambda d: d["real_off"], reverse=True)  # お得な順に見て、上から採用する
+        picked, per_maker = [], {}
+        for d in cands:
+            keys = {d["name"]} | ({d["jan"]} if d["jan"] else set())  # 同じ商品の重複を除く
+            if keys & seen:
                 continue
-            key = d["jan"] or d["name"]  # 同じ商品の重複を除く
-            if key in seen:
+            if per_maker.get(d["maker"], 0) >= PER_MAKER:
                 continue
-            seen.add(key)
+            per_maker[d["maker"]] = per_maker.get(d["maker"], 0) + 1
+            seen |= keys
             picked.append(d)
-        picked.sort(key=lambda d: d["real_off"], reverse=True)
         deals += picked[:PER_GENRE]
-        print(f"[{genre}] {len(data.get('hits', []))}件取得 → {len(picked[:PER_GENRE])}件掲載")
+        print(f"[{genre}] {len(hits)}件取得 → {len(picked[:PER_GENRE])}件掲載")
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
