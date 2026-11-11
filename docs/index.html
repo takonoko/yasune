@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ヤスネ帳</title>
+<meta name="description" content="家電・日用品・食品・ガジェットのセール品を毎日自動でまとめています。">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f6f7f4; --surface:#ffffff; --fg:#1d221f; --muted:#5f6862; --line:#dde2dc;
+  --tag:#d6312b; --tag-ink:#ffffff; --pr:#7a6a2a; --pr-bg:#f3edd6; --yahoo:#c8102e;
+  --display:"M PLUS 1p","Hiragino Sans","Yu Gothic",sans-serif;
+  --body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141816; --surface:#1d2320; --fg:#e8ece9; --muted:#9aa49e; --line:#2e3631;
+  --tag:#ff5a4f; --tag-ink:#1a0a09; --pr:#e0cf8a; --pr-bg:#3a3420; --yahoo:#ff6b7f; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 var(--body)}
+img{max-width:100%}
+.wrap{max-width:1000px;margin:0 auto;padding-block:20px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
+h1{font-family:var(--display);font-weight:800;font-size:1.9rem;margin:0;letter-spacing:.02em}
+h1 span{color:var(--tag)}
+.updated{color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
+.lead{color:var(--muted);font-size:.9rem;margin:6px 0 16px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+.tabs button{font:500 .95rem var(--body);padding:8px 14px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--tag);outline-offset:2px}
+.bar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:14px 0;color:var(--muted);font-size:.85rem}
+select{font:inherit;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+@media (min-width:640px){.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-width:0;color:inherit;text-decoration:none}
+.card:hover{border-color:var(--muted)}
+.thumb{position:relative;aspect-ratio:1;background:#fff;display:grid;place-items:center}
+.thumb img{width:100%;height:100%;object-fit:contain}
+.off{position:absolute;top:8px;left:8px;font-family:var(--display);font-weight:800;background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:4px;font-size:.9rem;font-variant-numeric:tabular-nums}
+.body{padding:12px;display:grid;gap:6px;flex:1}
+.name{margin:0;font-size:.9rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-variant-numeric:tabular-nums}
+.now{font-family:var(--display);font-weight:800;font-size:1.4rem;color:var(--tag)}
+.was{color:var(--muted);text-decoration:line-through;font-size:.8rem}
+.meta{color:var(--muted);font-size:.75rem;display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:auto}
+.store{color:var(--yahoo);font-weight:500}
+.empty{color:var(--muted);padding:24px 0}
+footer{margin-top:28px;color:var(--muted);font-size:.8rem;display:grid;gap:4px}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ヤスネ<span>帳</span></h1>
+    <div class="updated" id="updated">読み込み中…</div>
+  </header>
+  <p class="lead">家電・日用品・食品・ガジェットのセール品を、1日4回自動で集めています。</p>
+  <nav class="tabs" id="tabs" aria-label="ジャンル"></nav>
+  <div class="bar">
+    <label for="sort">並び順</label>
+    <select id="sort">
+      <option value="off">値引き率が高い順</option>
+      <option value="end">セール終了が近い順</option>
+      <option value="price">価格が安い順</option>
+      <option value="reviews">レビューが多い順</option>
+    </select>
+    <span id="count"></span>
+  </div>
+  <section class="grid" id="grid"></section>
+  <footer>
+    <span>当サイトはアフィリエイト広告を利用しています。</span>
+    <span>価格・在庫は更新時点のものです。購入前に販売ページで必ずご確認ください。</span>
+    <span><a href="https://developer.yahoo.co.jp/sitemap/" target="_blank" rel="noopener">Web Services by Yahoo! JAPAN</a></span>
+  </footer>
+</div>
+<script>
+const GENRES=["すべて","家電","日用品","食品","ガジェット"];
+const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
+let deals=[],genre="すべて";
+const $=id=>document.getElementById(id);
+const yen=v=>"¥"+Number(v).toLocaleString("ja-JP");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function left(t){if(!t)return"";const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return"終了";return h<24?`あと${h}時間`:`あと${Math.floor(h/24)}日`}
+GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.textContent=g;b.setAttribute("aria-pressed",g===genre);
+  b.onclick=()=>{genre=g;[...$("tabs").children].forEach(x=>x.setAttribute("aria-pressed",x===b));render()};$("tabs").append(b)});
+function render(){
+  const so=$("sort").value;
+  let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
+  const cmp={off:(a,b)=>b.off-a.off,end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>a.now-b.now,reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
+  list.sort(cmp);
+  $("count").textContent=`${list.length}件`;
+  $("grid").innerHTML=list.map(d=>`<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
+    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}<span class="off">${d.off}%OFF</span></div>
+    <div class="body">
+      <p class="name">${esc(d.name)}</p>
+      <div class="price"><span class="now">${yen(d.now)}</span><span class="was">通常 ${yen(d.was)}</span></div>
+      <div class="meta"><span class="store">${STORE[d.store]||""}</span>${d.end?`<span>セール終了 ${left(d.end)}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${d.reviews}件）</span>`:""}${d.free_shipping?"<span>送料無料</span>":""}</div>
+    </div></a>`).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
+}
+$("sort").onchange=render;
+fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
+  deals=j.deals||[];
+  $("updated").textContent="最終更新 "+new Date(j.updated).toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"});
+  render();
+}).catch(()=>{$("updated").textContent="";$("grid").innerHTML='<p class="empty">データを読み込めませんでした。時間をおいて開き直してください。</p>'});
+</script>
+</body>
+</html>
