@@ -11,7 +11,8 @@ MAKERS = {
     "象印": ["ZOJIRUSHI"], "タイガー": ["タイガー魔法瓶"], "ティファール": ["T-fal"], "デロンギ": ["DeLonghi", "De'Longhi"],
     "バルミューダ": ["BALMUDA"], "ダイソン": ["Dyson"], "アイロボット": ["iRobot", "ルンバ", "Roomba", "ブラーバ"],
     "エコバックス": ["ECOVACS"], "ロボロック": ["Roborock"], "Anker": ["アンカー", "eufy"], "シャーク": ["Shark"],
-    "ブラウン": ["BRAUN"], "フィリップス": ["PHILIPS"], "山善": ["YAMAZEN"], "ツインバード": ["TWINBIRD"],
+    # BRAUN はカタカナの「ブラウン」を使わない（色の名前と区別できないため）
+    "BRAUN": [], "フィリップス": ["PHILIPS"], "山善": ["YAMAZEN"], "ツインバード": ["TWINBIRD"],
     "コイズミ": ["KOIZUMI"], "テスコム": ["TESCOM"], "レコルト": ["recolte"], "コロナ": ["CORONA"], "ダイニチ": ["DAINICHI"],
     "富士通ゼネラル": [], "アラジン": ["Aladdin"], "クイジナート": ["Cuisinart"], "ヤーマン": ["YA-MAN"], "リファ": ["ReFa"],
     "SwitchBot": ["スイッチボット"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
