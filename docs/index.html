@@ -4,102 +4,123 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ヤスネ帳</title>
-<meta name="description" content="家電・日用品・食品・ガジェットのセール品を毎日自動でまとめています。">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
+<meta name="description" content="家電・日用品・食品・ガジェットのセール品を、ポイント還元込みの実質価格で毎日まとめています。">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
 <style>
+/* 明るく、やわらかく。値札の赤ではなくオレンジ、ポイントは緑で区別する */
 :root{
-  --bg:#f6f7f4; --surface:#ffffff; --fg:#1d221f; --muted:#5f6862; --line:#dde2dc;
-  --tag:#d6312b; --tag-ink:#ffffff; --pr:#7a6a2a; --pr-bg:#f3edd6; --yahoo:#c8102e;
-  --display:"M PLUS 1p","Hiragino Sans","Yu Gothic",sans-serif;
-  --body:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  --bg:#f3f5f7; --surface:#ffffff; --fg:#2a3138; --muted:#6b7680; --line:#e3e8ec;
+  --accent:#e8742c; --accent-soft:#fdeee3; --accent-ink:#b4521a;
+  --point:#1f8a5b; --point-soft:#e4f4ec;
+  --chip:#ffffff; --chip-on:#2a3138; --chip-on-ink:#ffffff;
+  --round:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#141816; --surface:#1d2320; --fg:#e8ece9; --muted:#9aa49e; --line:#2e3631;
-  --tag:#ff5a4f; --tag-ink:#1a0a09; --pr:#e0cf8a; --pr-bg:#3a3420; --yahoo:#ff6b7f; color-scheme:dark}}
+  --bg:#1c2228; --surface:#252c33; --fg:#e9edf0; --muted:#a3adb5; --line:#343d45;
+  --accent:#f29a5c; --accent-soft:#3a2c22; --accent-ink:#f6b98c;
+  --point:#5cc995; --point-soft:#1f3a2e;
+  --chip:#252c33; --chip-on:#e9edf0; --chip-on-ink:#1c2228; color-scheme:dark}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 var(--body)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 var(--body)}
 img{max-width:100%}
-.wrap{max-width:1000px;margin:0 auto;padding-block:20px 48px;
+.wrap{max-width:1040px;margin:0 auto;padding-block:24px 56px;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px}
-h1{font-family:var(--display);font-weight:800;font-size:1.9rem;margin:0;letter-spacing:.02em}
-h1 span{color:var(--tag)}
-.updated{color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
-.lead{color:var(--muted);font-size:.9rem;margin:6px 0 16px}
-.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
-.tabs button{font:500 .95rem var(--body);padding:8px 14px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;cursor:pointer;white-space:nowrap}
-.tabs button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--tag);outline-offset:2px}
-.bar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:14px 0;color:var(--muted);font-size:.85rem}
-select{font:inherit;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
-@media (min-width:640px){.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-width:0;color:inherit;text-decoration:none}
-.card:hover{border-color:var(--muted)}
-.thumb{position:relative;aspect-ratio:1;background:#fff;display:grid;place-items:center}
+header{display:grid;gap:4px}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--accent);color:#fff;display:grid;place-items:center;font:700 1.15rem var(--round)}
+h1{font:700 1.6rem var(--round);margin:0;letter-spacing:.04em}
+.lead{color:var(--muted);font-size:.9rem;margin:0}
+.updated{color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums}
+.controls{display:grid;gap:10px;margin:20px 0 16px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.tabs button{font:500 .95rem var(--body);padding:8px 16px;border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-pressed="true"]{background:var(--chip-on);color:var(--chip-on-ink);border-color:var(--chip-on)}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.bar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;color:var(--muted);font-size:.85rem}
+select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:640px){.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}}
+.card{background:var(--surface);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0;color:inherit;text-decoration:none;box-shadow:0 1px 2px rgba(30,40,50,.06)}
+.card:hover{box-shadow:0 4px 14px rgba(30,40,50,.12)}
+.thumb{position:relative;aspect-ratio:1;background:#fff;display:grid;place-items:center;padding:10px}
 .thumb img{width:100%;height:100%;object-fit:contain}
-.off{position:absolute;top:8px;left:8px;font-family:var(--display);font-weight:800;background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:4px;font-size:.9rem;font-variant-numeric:tabular-nums}
-.body{padding:12px;display:grid;gap:6px;flex:1}
-.name{margin:0;font-size:.9rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
-.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-variant-numeric:tabular-nums}
-.now{font-family:var(--display);font-weight:800;font-size:1.4rem;color:var(--tag)}
-.was{color:var(--muted);text-decoration:line-through;font-size:.8rem}
-.meta{color:var(--muted);font-size:.75rem;display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:auto}
-.store{color:var(--yahoo);font-weight:500}
-.empty{color:var(--muted);padding:24px 0}
-footer{margin-top:28px;color:var(--muted);font-size:.8rem;display:grid;gap:4px}
-footer a{color:inherit}
+.off{position:absolute;top:8px;left:8px;font:700 .8rem var(--round);background:var(--accent-soft);color:var(--accent-ink);padding:3px 9px;border-radius:999px;font-variant-numeric:tabular-nums}
+.body{padding:12px 12px 14px;display:grid;gap:6px;flex:1;align-content:start}
+.name{margin:0;font-size:.85rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-variant-numeric:tabular-nums}
+.now{font:700 1.3rem var(--round)}
+.now small{font-size:.75rem;margin-left:1px}
+.was{color:var(--muted);text-decoration:line-through;font-size:.75rem}
+.pt{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;background:var(--point-soft);color:var(--point);border-radius:8px;padding:5px 8px;font-size:.78rem;font-variant-numeric:tabular-nums}
+.pt b{font-weight:700}
+.meta{color:var(--muted);font-size:.72rem;display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:2px}
+.soon{color:var(--accent-ink)}
+.empty{color:var(--muted);padding:32px 0}
+.note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
+.note a{color:inherit}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>ヤスネ<span>帳</span></h1>
+    <div class="brand"><div class="logo" aria-hidden="true">安</div><h1>ヤスネ帳</h1></div>
+    <p class="lead">家電・日用品・食品・ガジェットのセール品を、ポイント込みの実質価格でまとめています。</p>
     <div class="updated" id="updated">読み込み中…</div>
   </header>
-  <p class="lead">家電・日用品・食品・ガジェットのセール品を、1日4回自動で集めています。</p>
-  <nav class="tabs" id="tabs" aria-label="ジャンル"></nav>
-  <div class="bar">
-    <label for="sort">並び順</label>
-    <select id="sort">
-      <option value="off">値引き率が高い順</option>
-      <option value="end">セール終了が近い順</option>
-      <option value="price">価格が安い順</option>
-      <option value="reviews">レビューが多い順</option>
-    </select>
-    <span id="count"></span>
+  <div class="controls">
+    <nav class="tabs" id="tabs" aria-label="ジャンル"></nav>
+    <div class="bar">
+      <label for="sort">並び順</label>
+      <select id="sort">
+        <option value="real_off">実質のお得さ順</option>
+        <option value="off">値引き率順</option>
+        <option value="end">セール終了が近い順</option>
+        <option value="price">実質価格が安い順</option>
+        <option value="reviews">レビューが多い順</option>
+      </select>
+      <span id="count"></span>
+    </div>
   </div>
   <section class="grid" id="grid"></section>
-  <footer>
+  <div class="note">
+    <span>実質価格は、セール価格から誰でももらえるストアポイントを引いた金額です。キャンペーンやカードのポイントは含みません。</span>
+    <span>価格・在庫・ポイントは更新時点のものです。購入前に販売ページで必ずご確認ください。</span>
     <span>当サイトはアフィリエイト広告を利用しています。</span>
-    <span>価格・在庫は更新時点のものです。購入前に販売ページで必ずご確認ください。</span>
     <span><a href="https://developer.yahoo.co.jp/sitemap/" target="_blank" rel="noopener">Web Services by Yahoo! JAPAN</a></span>
-  </footer>
+  </div>
 </div>
 <script>
 const GENRES=["すべて","家電","日用品","食品","ガジェット"];
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
 let deals=[],genre="すべて";
 const $=id=>document.getElementById(id);
-const yen=v=>"¥"+Number(v).toLocaleString("ja-JP");
+const num=v=>Number(v).toLocaleString("ja-JP");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function left(t){if(!t)return"";const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return"終了";return h<24?`あと${h}時間`:`あと${Math.floor(h/24)}日`}
+function left(t){if(!t)return null;const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return null;return h<24?{txt:`あと${h}時間`,soon:true}:{txt:`あと${Math.floor(h/24)}日`,soon:false}}
 GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.textContent=g;b.setAttribute("aria-pressed",g===genre);
   b.onclick=()=>{genre=g;[...$("tabs").children].forEach(x=>x.setAttribute("aria-pressed",x===b));render()};$("tabs").append(b)});
-function render(){
-  const so=$("sort").value;
-  let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
-  const cmp={off:(a,b)=>b.off-a.off,end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>a.now-b.now,reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
-  list.sort(cmp);
-  $("count").textContent=`${list.length}件`;
-  $("grid").innerHTML=list.map(d=>`<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
+function card(d){
+  const real=d.real??d.now, l=left(d.end);
+  const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
+  return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
     <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}<span class="off">${d.off}%OFF</span></div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
-      <div class="price"><span class="now">${yen(d.now)}</span><span class="was">通常 ${yen(d.was)}</span></div>
-      <div class="meta"><span class="store">${STORE[d.store]||""}</span>${d.end?`<span>セール終了 ${left(d.end)}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${d.reviews}件）</span>`:""}${d.free_shipping?"<span>送料無料</span>":""}</div>
-    </div></a>`).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
+      <div class="price"><span class="now">${num(d.now)}<small>円</small></span><span class="was">${num(d.was)}円</span></div>
+      ${pt}
+      <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${d.free_shipping?"<span>送料無料</span>":""}<span>${STORE[d.store]||""}</span></div>
+    </div></a>`;
+}
+function render(){
+  const so=$("sort").value;
+  let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
+  const r=d=>d.real??d.now;
+  const cmp={real_off:(a,b)=>(b.real_off??b.off)-(a.real_off??a.off),off:(a,b)=>b.off-a.off,end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
+  list.sort(cmp);
+  $("count").textContent=`${list.length}件`;
+  $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
 }
 $("sort").onchange=render;
 fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
