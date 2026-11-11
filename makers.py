@@ -4,76 +4,88 @@
 import re
 import unicodedata
 
-MAKERS = [
-    # 家電
-    "パナソニック", "Panasonic", "日立", "HITACHI", "東芝", "TOSHIBA", "シャープ", "SHARP",
-    "三菱電機", "MITSUBISHI", "ダイキン", "DAIKIN", "ソニー", "SONY", "アイリスオーヤマ", "IRIS OHYAMA",
-    "象印", "ZOJIRUSHI", "タイガー魔法瓶", "タイガー", "ティファール", "T-fal", "デロンギ", "DeLonghi", "De'Longhi",
-    "バルミューダ", "BALMUDA", "ダイソン", "Dyson", "アイロボット", "iRobot", "ルンバ", "Roomba", "ブラーバ",
-    "エコバックス", "ECOVACS", "ロボロック", "Roborock", "アンカー", "Anker", "eufy", "シャーク", "Shark",
-    "ブラウン", "BRAUN", "フィリップス", "PHILIPS", "山善", "YAMAZEN", "ツインバード", "TWINBIRD",
-    "コイズミ", "KOIZUMI", "テスコム", "TESCOM", "レコルト", "recolte", "コロナ", "CORONA", "ダイニチ", "DAINICHI",
-    "富士通ゼネラル", "アラジン", "Aladdin", "クイジナート", "Cuisinart", "ヤーマン", "YA-MAN", "リファ", "ReFa",
-    "SwitchBot", "スイッチボット", "TP-Link", "Tapo", "マキタ", "makita", "ドウシシャ", "DOSHISHA", "ハイセンス", "Hisense",
-    "ブルーノ", "BRUNO", "ラッセルホブス", "Russell Hobbs", "ネスプレッソ", "Nespresso", "ネスカフェ",
+MAKERS = {
+    # 家電（表示名: 別の書き方）
+    "パナソニック": ["Panasonic"], "日立": ["HITACHI"], "東芝": ["TOSHIBA"], "シャープ": ["SHARP"],
+    "三菱電機": ["MITSUBISHI"], "ダイキン": ["DAIKIN"], "ソニー": ["SONY"], "アイリスオーヤマ": ["IRIS OHYAMA"],
+    "象印": ["ZOJIRUSHI"], "タイガー": ["タイガー魔法瓶"], "ティファール": ["T-fal"], "デロンギ": ["DeLonghi", "De'Longhi"],
+    "バルミューダ": ["BALMUDA"], "ダイソン": ["Dyson"], "アイロボット": ["iRobot", "ルンバ", "Roomba", "ブラーバ"],
+    "エコバックス": ["ECOVACS"], "ロボロック": ["Roborock"], "Anker": ["アンカー", "eufy"], "シャーク": ["Shark"],
+    "ブラウン": ["BRAUN"], "フィリップス": ["PHILIPS"], "山善": ["YAMAZEN"], "ツインバード": ["TWINBIRD"],
+    "コイズミ": ["KOIZUMI"], "テスコム": ["TESCOM"], "レコルト": ["recolte"], "コロナ": ["CORONA"], "ダイニチ": ["DAINICHI"],
+    "富士通ゼネラル": [], "アラジン": ["Aladdin"], "クイジナート": ["Cuisinart"], "ヤーマン": ["YA-MAN"], "リファ": ["ReFa"],
+    "SwitchBot": ["スイッチボット"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
+    "ブルーノ": ["BRUNO"], "ラッセルホブス": ["Russell Hobbs"], "ネスレ": ["Nestle", "ネスプレッソ", "Nespresso", "ネスカフェ"],
     # ガジェット・パソコン・カメラ
-    "Apple", "アップル", "エレコム", "ELECOM", "バッファロー", "BUFFALO", "サンディスク", "SanDisk",
-    "キオクシア", "KIOXIA", "サムスン", "Samsung", "ロジクール", "Logicool", "Logitech", "JBL", "Bose", "ボーズ",
-    "オーディオテクニカ", "audio-technica", "ゼンハイザー", "Sennheiser", "Google", "グーグル", "Belkin", "CIO",
-    "UGREEN", "サンワサプライ", "SANWA SUPPLY", "キヤノン", "Canon", "エプソン", "EPSON", "ブラザー", "brother",
-    "ニコン", "Nikon", "富士フイルム", "FUJIFILM", "LG", "ASUS", "Lenovo", "レノボ", "Dell", "デル", "HP",
-    "Acer", "エイサー", "Microsoft", "マイクロソフト", "Nintendo", "任天堂", "GoPro", "DJI", "Insta360", "Shokz",
-    "Xiaomi", "シャオミ", "HUAWEI", "ファーウェイ", "OPPO", "Beats", "Jabra", "アイ・オー・データ", "I-O DATA", "IODATA",
-    "トランセンド", "Transcend", "Western Digital", "Crucial", "クルーシャル", "ナカバヤシ", "Victor", "ビクター",
-    "JVC", "Kenwood", "ケンウッド", "Pioneer", "パイオニア", "オリンパス", "OM SYSTEM", "Garmin", "ガーミン",
-    "カシオ", "CASIO", "セイコー", "SEIKO", "シチズン", "CITIZEN", "Fitbit", "PlayStation", "ソフトバンク",
+    "Apple": ["アップル"], "エレコム": ["ELECOM"], "バッファロー": ["BUFFALO"], "サンディスク": ["SanDisk"],
+    "キオクシア": ["KIOXIA"], "サムスン": ["Samsung"], "ロジクール": ["Logicool", "Logitech"], "JBL": [], "Bose": ["ボーズ"],
+    "オーディオテクニカ": ["audio-technica"], "ゼンハイザー": ["Sennheiser"], "Google": ["グーグル"], "Belkin": [], "CIO": [],
+    "UGREEN": [], "サンワサプライ": ["SANWA SUPPLY"], "キヤノン": ["Canon"], "エプソン": ["EPSON"], "ブラザー": ["brother"],
+    "ニコン": ["Nikon"], "富士フイルム": ["FUJIFILM"], "LG": [], "ASUS": [], "Lenovo": ["レノボ"], "Dell": ["デル"], "HP": [],
+    "Acer": ["エイサー"], "マイクロソフト": ["Microsoft"], "任天堂": ["Nintendo"], "GoPro": [], "DJI": [], "Insta360": [], "Shokz": [],
+    "Xiaomi": ["シャオミ"], "HUAWEI": ["ファーウェイ"], "OPPO": [], "Beats": [], "Jabra": [], "アイ・オー・データ": ["I-O DATA", "IODATA"],
+    "トランセンド": ["Transcend"], "Western Digital": [], "Crucial": ["クルーシャル"], "ナカバヤシ": [], "JVCケンウッド": ["Victor", "ビクター", "JVC", "Kenwood", "ケンウッド"],
+    "パイオニア": ["Pioneer"], "OMシステム": ["オリンパス", "OM SYSTEM"], "ガーミン": ["Garmin"],
+    "カシオ": ["CASIO"], "セイコー": ["SEIKO"], "シチズン": ["CITIZEN"], "Fitbit": [], "PlayStation": [],
     # 日用品
-    "花王", "Kao", "P&G", "ライオン", "LION", "ユニ・チャーム", "ユニチャーム", "unicharm", "エリエール", "大王製紙",
-    "ネピア", "nepia", "クリネックス", "スコッティ", "日本製紙クレシア", "小林製薬", "アース製薬", "エステー", "白元",
-    "資生堂", "サンスター", "ジョンソン", "無印良品", "ニトリ", "山崎実業", "サラヤ", "シャボン玉石けん", "ミヨシ",
-    "牛乳石鹸", "ユニリーバ", "ダヴ", "LUX", "アリエール", "ボールド", "ファブリーズ", "レノア",
-    "さらさ", "アタック", "ビオレ", "キュキュット", "ハミング", "ナノックス", "NANOX", "クリアクリーン",
-    "超快適", "快適ガード", "パンテーン", "パンパース", "ムーニー", "メリーズ", "グーン", "ジレット", "Schick",
-    "貝印", "サランラップ", "旭化成", "クレラップ", "クレハ", "フマキラー", "KINCHO", "金鳥",
-    "ウタマロ", "マジックリン", "バスマジックリン", "クイックルワイパー", "スコッチ・ブライト", "3M",
+    "花王": ["Kao", "アタック", "ビオレ", "メリット", "キュキュット", "ハミング", "マジックリン", "クイックルワイパー", "パンテーン"],
+    "P&G": ["アリエール", "ボールド", "ファブリーズ", "レノア", "さらさ", "JOY", "パンパース", "ジレット"],
+    "ライオン": ["LION", "ナノックス", "NANOX", "クリアクリーン"], "ユニ・チャーム": ["ユニチャーム", "unicharm", "超快適", "ムーニー"],
+    "エリエール": ["大王製紙", "グーン"], "ネピア": ["nepia"], "クリネックス": ["スコッティ", "日本製紙クレシア"],
+    "小林製薬": [], "アース製薬": [], "エステー": [], "白元": ["快適ガード"], "資生堂": [], "サンスター": [], "ジョンソン": [],
+    "無印良品": [], "ニトリ": [], "山崎実業": [], "サラヤ": [], "シャボン玉石けん": [], "ミヨシ": [], "牛乳石鹸": [],
+    "ユニリーバ": ["ダヴ", "Dove", "LUX"], "メリーズ": [], "Schick": [], "貝印": [], "旭化成": ["サランラップ"], "クレハ": ["クレラップ"],
+    "フマキラー": [], "金鳥": ["KINCHO"], "ウタマロ": [], "3M": ["スコッチ・ブライト"],
     # 食品
-    "サントリー", "キリン", "アサヒ", "伊藤園", "コカ・コーラ", "コカコーラ", "日清", "明治", "森永", "江崎グリコ", "グリコ",
-    "カルビー", "ロッテ", "味の素", "キッコーマン", "ミツカン", "ハウス食品", "エスビー", "S&B", "マルコメ",
-    "東洋水産", "マルちゃん", "サッポロ", "永谷園", "ネスレ", "UCC", "AGF", "キーコーヒー", "ポッカ", "大塚食品",
-    "大塚製薬", "ヤマサ", "はごろも", "いなば", "日本ハム", "伊藤ハム", "丸美屋", "カゴメ", "雪印", "不二家",
-    "ブルボン", "亀田製菓", "湖池屋", "ニチレイ", "マルハニチロ", "ニッスイ", "日本水産", "ヤマキ", "にんべん",
-    "エバラ", "ブルドック", "オタフク", "キユーピー", "キューピー", "Mizkan", "ポカリスエット", "アクエリアス",
-    "い・ろ・は・す", "いろはす", "クリスタルガイザー", "エビアン", "evian", "ボルヴィック", "サンペレグリノ",
-    "ウィルキンソン", "カップヌードル", "チキンラーメン", "サッポロ一番", "ペヤング", "まるか食品", "シマダヤ",
-    "ドール", "Dole", "デルモンテ", "ケロッグ", "Kellogg", "日清シスコ", "ザバス", "SAVAS",
-]
+    "サントリー": [], "キリン": [], "アサヒ": [], "伊藤園": [], "コカ・コーラ": ["コカコーラ", "い・ろ・は・す", "いろはす", "アクエリアス"],
+    "日清食品": ["日清", "カップヌードル", "チキンラーメン"], "明治": [], "森永": [], "グリコ": ["江崎グリコ"],
+    "カルビー": [], "ロッテ": [], "味の素": [], "キッコーマン": [], "ミツカン": ["Mizkan"], "ハウス食品": [], "エスビー": ["S&B"], "マルコメ": [],
+    "東洋水産": ["マルちゃん"], "サッポロ": ["サッポロ一番"], "永谷園": [], "UCC": [], "AGF": [], "キーコーヒー": [], "ポッカ": [],
+    "大塚": ["大塚食品", "大塚製薬", "ポカリスエット"], "ヤマサ": [], "はごろも": [], "いなば": [], "日本ハム": [], "伊藤ハム": [], "丸美屋": [],
+    "カゴメ": [], "雪印": [], "不二家": [], "ブルボン": [], "亀田製菓": [], "湖池屋": [], "ニチレイ": [], "マルハニチロ": [],
+    "ニッスイ": ["日本水産"], "ヤマキ": [], "にんべん": [], "エバラ": [], "ブルドック": [], "オタフク": [], "キユーピー": ["キューピー"],
+    "クリスタルガイザー": [], "エビアン": ["evian"], "ボルヴィック": [], "サンペレグリノ": [], "ウィルキンソン": [], "ペヤング": ["まるか食品"],
+    "シマダヤ": [], "ドール": ["Dole"], "デルモンテ": [], "ケロッグ": ["Kellogg"], "ザバス": ["SAVAS"],
+}
 
 
 def _norm(s: str) -> str:
     return unicodedata.normalize("NFKC", s or "").lower()
 
 
-_ascii = [m for m in MAKERS if re.fullmatch(r"[\x20-\x7e]+", m)]
-_jp = [m for m in MAKERS if m not in _ascii]
+# 書き方 → 表示名
+_ALIAS = {}
+for _name, _alts in MAKERS.items():
+    for _a in [_name] + _alts:
+        _ALIAS[_norm(_a)] = _name
+_ascii = [a for a in _ALIAS if re.fullmatch(r"[\x20-\x7e]+", a)]
+_jp = [a for a in _ALIAS if a not in _ascii]
+# 長い書き方を先に当てる（「サッポロ一番」を「サッポロ」より先に）
+_ascii.sort(key=len, reverse=True)
+_jp.sort(key=len, reverse=True)
 # 英字は単語の途中で当たらないようにする（例: "HP" が "SHP" に当たらない）
-_ASCII_RE = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(_norm(m)) for m in _ascii) + r")(?![a-z0-9])")
-_JP_RE = re.compile("|".join(re.escape(_norm(m)) for m in _jp))
+_ASCII_RE = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(a) for a in _ascii) + r")(?![a-z0-9])")
+_JP_RE = re.compile("|".join(re.escape(a) for a in _jp))
 # 「Apple Watch 対応」「iPhone用」のような互換品は、メーカー名が入っていても対象外
 _COMPAT = re.compile(r"(対応|用|互換|適用|専用|交換|兼用|for)")
+# スマホのフィルムやケースなどの小物は、機種名のメーカーで当たってしまうので載せない
+_ACCESSORY = re.compile(r"フィルム|ケース|カバー|強化ガラス|手帳型|バンド|ベルト")
 
 
 def find_maker(brand_names, name: str):
-    """ブランド欄 → 商品名の順にメーカーを探す。見つからなければ None。"""
+    """ブランド欄 → 商品名の順にメーカーを探し、表示名を返す。見つからなければ None。"""
+    nn = _norm(name)
+    if _ACCESSORY.search(nn):
+        return None
     for b in brand_names:
         nb = _norm(b)
         m = _ASCII_RE.search(nb) or _JP_RE.search(nb)
         if m:
-            return m.group(0)
-    nn = _norm(name)
+            return _ALIAS[m.group(0)]
     for rx in (_ASCII_RE, _JP_RE):
         for m in rx.finditer(nn):
             after = nn[m.end():m.end() + 15]
             if _COMPAT.search(after):
                 continue
-            return m.group(0)
+            return _ALIAS[m.group(0)]
     return None
