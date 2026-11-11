@@ -27,6 +27,11 @@ GENRES = {
     "ガジェット": "2502,2504",  # パソコン・周辺機器 / AV機器・カメラ
 }
 
+# 食品はジャンル一覧だと産地もの（カニ・牛タン等）ばかりになるので、
+# スーパーで売っているメーカー名でも探す
+FOOD_QUERIES = ["サントリー", "キリン", "アサヒ", "伊藤園", "コカ・コーラ", "日清", "明治",
+                "カルビー", "味の素", "UCC", "ネスカフェ", "大塚製薬"]
+
 MIN_OFF = 15          # これ未満の値引き率は載せない（%）
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
@@ -39,7 +44,7 @@ FETCH = 100           # APIから1回に取る件数（上限100）
 PAGES = 3             # 1ジャンルあたり何ページ分取るか（有名メーカーで絞ると減るので多めに）
 
 
-def call_api(genre_ids: str, start: int = 1) -> dict:
+def call_api(genre_ids: str, start: int = 1, query: str = "") -> dict:
     params = {
         "appid": os.environ["YAHOO_APPID"],
         "genre_category_id": genre_ids,
@@ -51,6 +56,8 @@ def call_api(genre_ids: str, start: int = 1) -> dict:
         "start": start,
         "image_size": 300,
     }
+    if query:
+        params["query"] = query
     aff = os.environ.get("VC_AFFILIATE_ID")
     if aff:
         params["affiliate_type"] = "vc"
@@ -134,6 +141,10 @@ def main(out_path: str) -> None:
                     if p:
                         time.sleep(1.5)
                     hits += call_api(ids, 1 + p * FETCH).get("hits", [])
+                if genre == "食品":
+                    for q in FOOD_QUERIES:
+                        time.sleep(1.5)
+                        hits += call_api(ids, 1, q).get("hits", [])
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
