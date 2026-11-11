@@ -69,19 +69,15 @@ _JP_RE = re.compile("|".join(re.escape(a) for a in _jp))
 # 「Apple Watch 対応」「iPhone用」のような互換品は、メーカー名が入っていても対象外
 _COMPAT = re.compile(r"(対応|用|互換|適用|専用|交換|兼用|for)")
 # スマホのフィルムやケースなどの小物は、機種名のメーカーで当たってしまうので載せない
-_ACCESSORY = re.compile(r"フィルム|ケース|カバー|強化ガラス|手帳型|バンド|ベルト")
+_ACCESSORY = re.compile(r"フィルム|ケース|カバー|強化ガラス|手帳型|バンド|ベルト|ストラップ|互換|リサイクル|詰め替えインク|ネイル")
 
 
 def find_maker(brand_names, name: str):
-    """ブランド欄 → 商品名の順にメーカーを探し、表示名を返す。見つからなければ None。"""
+    """商品名からメーカーを探し、表示名を返す。見つからなければ None。"""
     nn = _norm(name)
     if _ACCESSORY.search(nn):
         return None
-    for b in brand_names:
-        nb = _norm(b)
-        m = _ASCII_RE.search(nb) or _JP_RE.search(nb)
-        if m:
-            return _ALIAS[m.group(0)]
+    # ブランド欄は当てにならない（他社名が入っていることがある）ので、商品名だけで判断する
     for rx in (_ASCII_RE, _JP_RE):
         for m in rx.finditer(nn):
             after = nn[m.end():m.end() + 15]
