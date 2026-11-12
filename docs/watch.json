@@ -1,23 +1,44 @@
 {
- "updated": "2026-11-13T07:44+09:00",
+ "updated": "2026-11-13T07:50+09:00",
  "items": [
   {
    "name": "サントリー天然水 2L 9本",
    "show": true,
    "target": 900,
-   "found": false
+   "found": true,
+   "title": "サントリー　天然水　２Ｌ　ペットボトル　１ケース（９本）",
+   "price": 1389,
+   "points": 64,
+   "url": "https://store.shopping.yahoo.co.jp/tanomail/2672746.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/tanomail_2672746",
+   "shop": "ぱーそなるたのめーる",
+   "min": 1389
   },
   {
    "name": "ネピア ティッシュ 5箱 12パック",
    "show": true,
    "target": 3000,
-   "found": false
+   "found": true,
+   "title": "ティッシュ ボックスティッシュ 箱ティッシュ 5箱 12パックセット 60個 150組 300枚 ネピネピ ネピア コンパクト かさばらない 541386",
+   "price": 4980,
+   "points": 45,
+   "url": "https://store.shopping.yahoo.co.jp/petkan/7204980.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/petkan_7204980",
+   "shop": "メガストア Yahoo!店",
+   "min": 4980
   },
   {
    "name": "Anker 65W 充電器",
    "show": true,
    "target": null,
-   "found": false
+   "found": true,
+   "title": "WAIYUJP収納ケース互換の Anker 733 Power Bank 65W出力USB充電器 保護 キャリング 収納ケース",
+   "price": 2068,
+   "points": 18,
+   "url": "https://store.shopping.yahoo.co.jp/ebisstore333/eb3009da3449.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ebisstore333_eb3009da3449",
+   "shop": "えびすストア",
+   "min": 2068
   }
  ]
 }
