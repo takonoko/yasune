@@ -15,7 +15,7 @@ MAKERS = {
     "BRAUN": [], "フィリップス": ["PHILIPS"], "山善": ["YAMAZEN"], "ツインバード": ["TWINBIRD"],
     "コイズミ": ["KOIZUMI"], "テスコム": ["TESCOM"], "レコルト": ["recolte"], "コロナ": ["CORONA"], "ダイニチ": ["DAINICHI"],
     "富士通ゼネラル": [], "アラジン": ["Aladdin"], "クイジナート": ["Cuisinart"], "ヤーマン": ["YA-MAN"], "リファ": ["ReFa"],
-    "SwitchBot": ["スイッチボット"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
+    "SwitchBot": ["スイッチボット"], "COSORI": ["コソリ"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
     "ブルーノ": ["BRUNO"], "ラッセルホブス": ["Russell Hobbs"], "ネスレ": ["Nestle", "ネスプレッソ", "Nespresso", "ネスカフェ"],
     # ガジェット・パソコン・カメラ
     "Apple": ["アップル"], "エレコム": ["ELECOM"], "バッファロー": ["BUFFALO"], "サンディスク": ["SanDisk"],
