@@ -165,7 +165,9 @@ function card(d){
     const tot=d.postage>0?`<br>送料込み ${num((d.real??d.now)+d.postage)}円（ポイント引き後）`:"";
     sw=`<div class="shipwarn">⚠ ${fee}${cond}${tot}</div>`;
   }
-  return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
+  // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
+  const href=d.id?`item.html?id=${encodeURIComponent(d.id)}`:d.url;
+  return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
     <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
