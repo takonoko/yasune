@@ -72,6 +72,8 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .info ul{margin:6px 0 0;padding-left:1.2em}
 .info .five{color:var(--accent-ink);font-weight:700;margin:6px 0 0}
 .pm{font-size:.72rem;color:var(--muted)}
+.entry{margin:14px 0 0;background:var(--accent-soft);color:var(--accent-ink);border-radius:14px;padding:10px 14px;font-size:.82rem;line-height:1.7}
+.entry b{font-size:.9rem}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
 .note a{color:inherit}
 .watch{margin:20px 0 4px;display:grid;gap:10px}
@@ -113,12 +115,17 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
       <span id="count"></span>
     </div>
   </div>
+  <div class="entry" id="entry">
+    <b>買う前に毎日エントリー</b><br>
+    Yahoo!ショッピングアプリの<b>カート</b>を開き、「本日のおトク（デイリーボーナス）」の下にある<b>「まとめてエントリー&amp;クーポン獲得」</b>を押してください。エントリーは毎日リセットされるので、買う日ごとに押す必要があります。押さないと上乗せのポイントはもらえません。
+  </div>
   <details class="info" id="info">
     <summary>ポイントと送料について（必ずお読みください）</summary>
     <p class="five" id="five" hidden>今日は「5のつく日」。エントリーするとポイントが上乗せされます（下の実質価格には入っていません）。</p>
     <ul>
       <li><b>実質価格</b>＝セール価格 − 誰でももらえるストアポイント。ポイントは後日、期間限定のPayPayポイントでもらえます。</li>
       <li><b>実質価格に入れていないポイント</b>（人によって違うため）：PayPayで払うと＋0.5%、LYPプレミアム会員は＋2%（月の上限あり）、PayPayカード払い、5のつく日（毎月5・15・25日、エントリー必要）。LYPプレミアム会員の分は、わかる商品だけカードに書いています。</li>
+      <li><b>デイリーボーナス</b>（毎日エントリーが必要）：対象ストアで1回3,000円以上の注文だと、ボーナスストアPlusの上乗せや「本日＋2%」などが付きます（上限あり）。エントリーと同時にクーポンももらえる日があります。内容は日によって変わるので、カートの画面で確認してください。</li>
       <li><b>送料無料</b>：表示価格に送料が入っています。</li>
       <li><b>条件付き送料無料</b>：「◯円以上で無料」などの条件がお店ごとにあり、届かないと送料がかかります。条件の金額はYahoo!のデータに入っていないため、お店のページで確認してください。</li>
       <li><b>送料別</b>：表示価格に送料は入っていません。</li>
