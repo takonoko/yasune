@@ -198,7 +198,7 @@ def to_drink(hit: dict, now_ts: int):
         "unit_price": round(per, 1), "unit": "本" if unit != "缶" else "缶", "count": count, "kind": kind,
         "end": end if off else None, "shop": seller.get("name"), "maker": maker,
         "rating": review.get("rate"), "reviews": review.get("count"),
-        "free_shipping": True, "jan": hit.get("janCode") or None,
+        "free_shipping": True, "ship": 2, "jan": hit.get("janCode") or None,
     }
 
 
@@ -260,6 +260,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         "rating": review.get("rate"),
         "reviews": review.get("count"),
         "free_shipping": (hit.get("shipping") or {}).get("code") == 2,
+        "ship": (hit.get("shipping") or {}).get("code"),  # 1=送料別 2=送料無料 3=条件付き送料無料
         "jan": hit.get("janCode") or None,
     }
 
