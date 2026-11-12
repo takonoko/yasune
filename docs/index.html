@@ -7,6 +7,8 @@
 <meta name="description" content="家電・日用品・食品・ガジェットのセール品を、ポイント還元込みの実質価格で毎日まとめています。">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#e8742c">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
 <style>
 /* 明るく、やわらかく。値札の赤ではなくオレンジ、ポイントは緑で区別する */
@@ -66,6 +68,15 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .empty{color:var(--muted);padding:32px 0}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
 .note a{color:inherit}
+.watch{margin:20px 0 4px;display:grid;gap:10px}
+.watch h2{font:700 1.1rem var(--round);margin:0}
+.wlist{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
+.witem{flex:0 0 200px;background:var(--surface);border-radius:14px;padding:10px;display:grid;grid-template-columns:56px minmax(0,1fr);gap:4px 10px;color:inherit;text-decoration:none;box-shadow:0 1px 2px rgba(30,40,50,.06)}
+.witem>:first-child{width:56px;height:56px;object-fit:contain;background:#fff;border-radius:8px;grid-row:span 3}
+.witem .wn{font-size:.8rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.witem .wp{font:700 1.05rem var(--round);font-variant-numeric:tabular-nums}
+.witem .wm{font-size:.7rem;color:var(--muted)}
+.witem .low{color:var(--point);font-weight:700}
 </style>
 </head>
 <body>
@@ -78,6 +89,10 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
     </div>
     <img class="mascot" src="mascot.webp" alt="買い物袋をたくさん持ったタコ" width="160" height="160">
   </header>
+  <section class="watch" id="watch" hidden>
+    <h2>いつもチェック</h2>
+    <div class="wlist" id="wlist"></div>
+  </section>
   <div class="controls">
     <nav class="tabs" id="tabs" aria-label="ジャンル"></nav>
     <div class="bar">
@@ -132,6 +147,27 @@ function render(){
   $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
 }
 $("sort").onchange=render;
+// スプレッドシートの「載せない商品」に書いた言葉かURLを含む商品は出さない（開くたびに読む）
+const NG_SHEET="18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I";
+let ng=[];
+function parseCsv(t){return t.trim().split(/\r?\n/).map(l=>[...l.matchAll(/"((?:[^"]|"")*)"/g)].map(m=>m[1].replace(/""/g,'"')))}
+const nz=s=>String(s||"").normalize("NFKC").toLowerCase().replace(/\s/g,"");
+function isNg(d){return ng.some(w=>w&&(nz(d.name).includes(w)||String(d.url||"").includes(w)))}
+const origRender=render;
+render=function(){const keep=deals;deals=deals.filter(d=>!isNg(d));origRender();deals=keep};
+fetch(`https://docs.google.com/spreadsheets/d/${NG_SHEET}/gviz/tq?tqx=out:csv`).then(r=>r.text()).then(t=>{ng=parseCsv(t).slice(1).map(r=>nz(r[0])).filter(Boolean);if(deals.length)render()}).catch(()=>{});
+// いつもチェック
+fetch("watch.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
+  const items=(j.items||[]).filter(x=>x.show&&x.found);
+  if(!items.length)return;
+  $("wlist").innerHTML=items.map(x=>`<a class="witem" href="${esc(x.url)}" target="_blank" rel="noopener sponsored">
+    ${x.image?`<img src="${esc(x.image)}" alt="" loading="lazy">`:"<span></span>"}
+    <span class="wn">${esc(x.name)}</span>
+    <span class="wp">${num(x.price)}円</span>
+    <span class="wm">${x.min!=null&&x.price<=x.min?'<span class="low">過去最安</span>':`過去最安 ${num(x.min)}円`}</span>
+  </a>`).join("");
+  $("watch").hidden=false;
+}).catch(()=>{});
 fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
   deals=j.deals||[];
   $("updated").textContent="最終更新 "+new Date(j.updated).toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"});
