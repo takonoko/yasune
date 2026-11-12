@@ -67,6 +67,11 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .meta{color:var(--muted);font-size:.72rem;display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:2px}
 .soon{color:var(--accent-ink)}
 .empty{color:var(--muted);padding:32px 0}
+.info{margin:14px 0 4px;background:var(--surface);border-radius:14px;padding:10px 14px;font-size:.82rem;line-height:1.7}
+.info summary{cursor:pointer;font-weight:700}
+.info ul{margin:6px 0 0;padding-left:1.2em}
+.info .five{color:var(--accent-ink);font-weight:700;margin:6px 0 0}
+.pm{font-size:.72rem;color:var(--muted)}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
 .note a{color:inherit}
 .watch{margin:20px 0 4px;display:grid;gap:10px}
@@ -108,9 +113,22 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
       <span id="count"></span>
     </div>
   </div>
+  <details class="info" id="info">
+    <summary>ポイントと送料について（必ずお読みください）</summary>
+    <p class="five" id="five" hidden>今日は「5のつく日」。エントリーするとポイントが上乗せされます（下の実質価格には入っていません）。</p>
+    <ul>
+      <li><b>実質価格</b>＝セール価格 − 誰でももらえるストアポイント。ポイントは後日、期間限定のPayPayポイントでもらえます。</li>
+      <li><b>実質価格に入れていないポイント</b>（人によって違うため）：PayPayで払うと＋0.5%、LYPプレミアム会員は＋2%（月の上限あり）、PayPayカード払い、5のつく日（毎月5・15・25日、エントリー必要）。LYPプレミアム会員の分は、わかる商品だけカードに書いています。</li>
+      <li><b>送料無料</b>：表示価格に送料が入っています。</li>
+      <li><b>条件付き送料無料</b>：「◯円以上で無料」などの条件がお店ごとにあり、届かないと送料がかかります。条件の金額はYahoo!のデータに入っていないため、お店のページで確認してください。</li>
+      <li><b>送料別</b>：表示価格に送料は入っていません。</li>
+      <li>飲み物の「1本あたり」は、送料無料の商品だけで計算しています。</li>
+      <li>ポイントの率は2026年11月時点の目安です。変わることがあるので、最新の条件はYahoo!ショッピングの公式ページで確認してください。</li>
+    </ul>
+  </details>
   <section class="grid" id="grid"></section>
   <div class="note">
-    <span>実質価格は、セール価格から誰でももらえるストアポイントを引いた金額です。キャンペーンやカードのポイントは含みません。</span>
+    <span>実質価格は、セール価格から誰でももらえるストアポイントを引いた金額です。PayPay払い・LYPプレミアム・カード・5のつく日のポイントと、条件付き送料無料・送料別の送料は含みません。</span>
     <span>価格・在庫・ポイントは更新時点のものです。購入前に販売ページで必ずご確認ください。</span>
     <span>当サイトはアフィリエイト広告を利用しています。</span>
     <span><a href="https://developer.yahoo.co.jp/sitemap/" target="_blank" rel="noopener">Web Services by Yahoo! JAPAN</a></span>
@@ -129,13 +147,15 @@ GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.te
 function card(d){
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
+  const pm=d.premium_points&&d.premium_points>(d.points||0)?`<div class="pm">LYPプレミアム会員なら +${num(d.premium_points)}pt</div>`:"";
+  const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
   return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
     <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
-      ${pt}
-      <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${d.free_shipping?"<span>送料無料</span>":""}<span>${STORE[d.store]||""}</span></div>
+      ${pt}${pm}
+      <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
 }
 function render(){
@@ -148,6 +168,8 @@ function render(){
   $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
 }
 $("sort").onchange=render;
+// 5のつく日（日本時間の5・15・25日）は案内を出す
+{const day=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));if([5,15,25].includes(day))$("five").hidden=false;}
 // スプレッドシートの「載せない商品」に書いた言葉かURLを含む商品は出さない（開くたびに読む）
 const NG_SHEET="18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I";
 let ng=[];
