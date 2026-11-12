@@ -6,6 +6,10 @@ on:
     - cron: "5 22,3,9,13 * * *"
   workflow_dispatch: {}   # 手動でも実行できる
 
+concurrency:
+  group: update   # 同時に2つ動かない
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write   # 値下がり通知に使う
@@ -43,4 +47,5 @@ jobs:
           git config user.email "yasune-bot@users.noreply.github.com"
           git add docs/*.json
           git diff --cached --quiet || git commit -m "セール情報を更新"
+          git pull --rebase origin main   # 途中でほかの変更が入っていても保存できるように
           git push
