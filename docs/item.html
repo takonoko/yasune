@@ -65,6 +65,7 @@ li{margin:3px 0}
 @media (prefers-color-scheme:dark){.go{color:#1c2228}}
 .go:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .empty{text-align:center;padding:40px 0;color:var(--muted)}
+#kaidoki .kd{border:1px solid var(--line);margin:10px 0}
 .foot{font-size:.75rem;color:var(--muted);display:grid;gap:4px;margin-top:20px}
 </style>
 </head>
@@ -151,6 +152,7 @@ function render(d){
       <li>そのあと下の「${STORE[d.store]||"お店"}で見る」から買う</li>
     </ol>
     <p class="small">エントリーは毎日リセットされます。買う日ごとに押してください。${isFive?"5のつく日のキャンペーンは別にエントリーが必要な場合があります。":""}</p>
+    <div id="kaidoki" hidden></div>
     ${under3000?`<p class="small"><b>この商品だけだと${num(real)}円で、デイリーボーナスの条件（1回の注文3,000円以上）に届きません。</b>同じお店でほかの商品と合わせて3,000円以上にすると対象になります（対象ストアのみ）。</p>`:`<p class="small">1回の注文が3,000円以上なので、対象ストアならデイリーボーナスの上乗せが付きます（上限あり）。</p>`}
   </section>
 
@@ -171,6 +173,7 @@ fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
   const d=(j.deals||[]).find(x=>x.id===id);
   if(!d){$("main").innerHTML=`<p class="empty">この商品は掲載が終わりました（セールが終わったか、値段が上がった可能性があります）。<br><a href="./">一覧にもどる</a></p>`;return}
   render(d);
+  const k=document.createElement("script");k.src="kaidoki.js";document.body.append(k);
 }).catch(()=>{$("main").innerHTML=`<p class="empty">データを読み込めませんでした。時間をおいて開き直してください。<br><a href="./">一覧にもどる</a></p>`});
 </script>
 </body>

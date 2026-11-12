@@ -121,6 +121,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
     <b>買う前に毎日エントリー</b><br>
     Yahoo!ショッピングアプリの<b>カート</b>を開き、「本日のおトク（デイリーボーナス）」の下にある<b>「まとめてエントリー&amp;クーポン獲得」</b>を押してください。エントリーは毎日リセットされるので、買う日ごとに押す必要があります。押さないと上乗せのポイントはもらえません。
   </div>
+  <div id="kaidoki" hidden></div>
   <details class="info" id="info">
     <summary>ポイントと送料について（必ずお読みください）</summary>
     <p class="five" id="five" hidden>今日は「5のつく日」。エントリーするとポイントが上乗せされます（下の実質価格には入っていません）。</p>
@@ -215,5 +216,6 @@ fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
   render();
 }).catch(()=>{$("updated").textContent="";$("grid").innerHTML='<p class="empty">データを読み込めませんでした。時間をおいて開き直してください。</p>'});
 </script>
+<script src="kaidoki.js" defer></script>
 </body>
 </html>
