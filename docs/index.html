@@ -72,6 +72,8 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .info ul{margin:6px 0 0;padding-left:1.2em}
 .info .five{color:var(--accent-ink);font-weight:700;margin:6px 0 0}
 .pm{font-size:.72rem;color:var(--muted)}
+.shipwarn{font-size:.75rem;line-height:1.5;color:#b3261e;background:#fdecea;border-radius:8px;padding:4px 8px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .shipwarn{color:#f2b8b5;background:#3b1f1d}}
 .entry{margin:14px 0 0;background:var(--accent-soft);color:var(--accent-ink);border-radius:14px;padding:10px 14px;font-size:.82rem;line-height:1.7}
 .entry b{font-size:.9rem}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
@@ -127,8 +129,8 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
       <li><b>実質価格に入れていないポイント</b>（人によって違うため）：PayPayで払うと＋0.5%、LYPプレミアム会員は＋2%（月の上限あり）、PayPayカード払い、5のつく日（毎月5・15・25日、エントリー必要）。LYPプレミアム会員の分は、わかる商品だけカードに書いています。</li>
       <li><b>デイリーボーナス</b>（毎日エントリーが必要）：対象ストアで1回3,000円以上の注文だと、ボーナスストアPlusの上乗せや「本日＋2%」などが付きます（上限あり）。エントリーと同時にクーポンももらえる日があります。内容は日によって変わるので、カートの画面で確認してください。</li>
       <li><b>送料無料</b>：表示価格に送料が入っています。</li>
-      <li><b>条件付き送料無料</b>：「◯円以上で無料」などの条件がお店ごとにあり、届かないと送料がかかります。条件の金額はYahoo!のデータに入っていないため、お店のページで確認してください。</li>
-      <li><b>送料別</b>：表示価格に送料は入っていません。</li>
+      <li><b>条件付き送料無料</b>：「同一ストア5,000円以上で無料」などの条件がお店ごとにあり、届かないと送料がかかります。送料と条件は、わかる商品だけ赤い枠でカードに書いています。</li>
+      <li><b>送料別</b>：表示価格に送料は入っていません。送料の金額は届け先の都道府県で変わるので、カードの金額は目安です（ページを取得したときの地域の金額）。</li>
       <li>飲み物の「1本あたり」は、送料無料の商品だけで計算しています。</li>
       <li>ポイントの率は2026年11月時点の目安です。変わることがあるので、最新の条件はYahoo!ショッピングの公式ページで確認してください。</li>
     </ul>
@@ -156,12 +158,19 @@ function card(d){
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
   const pm=d.premium_points&&d.premium_points>(d.points||0)?`<div class="pm">LYPプレミアム会員なら +${num(d.premium_points)}pt</div>`:"";
   const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
+  let sw="";
+  if(d.ship!==2&&!(d.ship==null&&d.free_shipping)){
+    const fee=d.postage>0?`送料${num(d.postage)}円${d.postage_pref?`（${esc(d.postage_pref)}あて）`:""}`:"送料がかかります";
+    const cond=d.free_cond?`・${esc(d.free_cond)}送料無料`:d.ship===3?"・条件を満たすと送料無料（条件はお店のページで確認）":"";
+    const tot=d.postage>0?`<br>送料込み ${num((d.real??d.now)+d.postage)}円（ポイント引き後）`:"";
+    sw=`<div class="shipwarn">⚠ ${fee}${cond}${tot}</div>`;
+  }
   return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
     <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
-      ${pt}${pm}
+      ${pt}${pm}${sw}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
 }
