@@ -47,7 +47,7 @@ DRINK_QUERIES = ["綾鷹 24本", "伊藤園 お茶 24本", "十六茶 24本", "�
 NONALC = re.compile(r"ノンアル|アルコールフリー|0\.00%|オールフリー|グリーンズフリー|カラダfree|ゼロイチ|アルコール0")
 BEER = re.compile(r"ビール|スーパードライ|一番搾り|黒ラベル|プレミアムモルツ|プレモル|ヱビス|エビス|ラガー|晴れ風")
 ALC_OTHER = re.compile(r"チューハイ|酎ハイ|サワー|ハイボール|金麦|本麒麟|のどごし|クリアアサヒ|麦とホップ|淡麗|発泡酒|新ジャンル|"
-                       r"氷結|ほろよい|-196|ストロング|檸檬堂|こだわり酒場|ワイン|梅酒|日本酒|焼酎|リキュール")
+                       r"氷結|ほろよい|-196|ストロングゼロ|檸檬堂|こだわり酒場|ワイン|梅酒|日本酒|焼酎|リキュール")
 DRINK_EXCLUDE = re.compile(r"粉末|スティック|ティーバッグ|ドリップ|インスタント|豆|ゼリー|サプリ|プロテイン|空き|空容器|ボトルのみ|ラベル用")
 
 MIN_OFF = 15          # これ未満の値引き率は載せない（%）
@@ -95,6 +95,9 @@ def load_mock(genre: str) -> dict:
         return json.load(f)
 
 
+NEAR = []  # 値段だけが理由で外れた商品（どのくらい惜しいかをログで見る用）
+
+
 def _n(s):
     return unicodedata.normalize("NFKC", s or "").lower()
 
@@ -136,11 +139,15 @@ def drink_limit(name: str, ml: float):
             return 0.47 * ml, "ビール"          # 350ml缶で約165円
         if ALC_OTHER.search(s) or BEER.search(s):
             return 0.29 * ml, "お酒"            # 350ml缶で約100円
+    if re.search(r"水|ウォーター", s) and not re.search(r"炭酸|スパークリング|ソーダ|茶|フレーバー|味", s):
+        return (45 if ml < 1000 else 0.05 * ml), "水"   # 500mlで45円、2Lで100円
+    if re.search(r"炭酸水|タンサン|強炭酸|ソーダ", s) and ml < 1000:
+        return 55, "炭酸水"
     if ml <= 300:
         return 60, "飲み物"
     if ml < 1000:
         return max(65, 0.10 * ml), "飲み物"      # 500〜650mlで65円
-    return 0.08 * ml, "飲み物"                   # 2Lで160円
+    return 0.065 * ml, "飲み物"                  # 2Lで130円
 
 
 def to_drink(hit: dict, now_ts: int):
@@ -176,6 +183,7 @@ def to_drink(hit: dict, now_ts: int):
     per = real / count
     limit, kind = drink_limit(name, ml)
     if per > limit:
+        NEAR.append((round(per / limit, 2), round(per, 1), kind, name[:45]))
         return None
     was = pl.get("defaultPrice")
     off = round((1 - price / was) * 100) if was and was > price else None
@@ -226,7 +234,11 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     real = sale - points                                     # ポイントを引いた実質価格
     extra = {}
     if genre == "食品":
-        _, count, unit = parse_pack(name)
+        ml, count, unit = parse_pack(name)
+        # 食品ジャンルに混ざる飲み物のケースも、1本あたりが安いときだけ載せる
+        if ml and ml >= 150 and count and count >= 6 and unit in ("本", "缶"):
+            if (real / count) > drink_limit(name, ml)[0]:
+                return None
         if count and 2 <= count <= 200 and unit:
             extra = {"unit_price": round(real / count, 1), "unit": unit, "count": count}
     return {**extra,
@@ -311,6 +323,9 @@ def main(out_path: str) -> None:
         print(f"[飲み物] {len(hits)}件取得 → 条件に合う {len(cands)}件 → {len(picked[:PER_GENRE])}件掲載")
         for d in picked[:PER_GENRE]:
             print(f"   {d['unit_price']}円/{d['unit']} ({d['kind']}) {d['name'][:50]}")
+        print("  惜しかったもの（上限の何倍か / 1本あたり）:")
+        for r in sorted(set(NEAR))[:40]:
+            print(f"   x{r[0]} {r[1]}円 ({r[2]}) {r[3]}")
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
