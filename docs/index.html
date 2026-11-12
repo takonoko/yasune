@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ヤスネ帳</title>
-<meta name="description" content="家電・日用品・食品・ガジェットのセール品を、ポイント還元込みの実質価格で毎日まとめています。">
+<meta name="description" content="飲み物・食品・日用品・家電・ガジェットのセール品を、ポイント還元込みの実質価格で毎日まとめています。">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
@@ -61,6 +61,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .now{font:700 1.3rem var(--round)}
 .now small{font-size:.75rem;margin-left:1px}
 .was{color:var(--muted);text-decoration:line-through;font-size:.75rem}
+.unit{font-size:.78rem;color:var(--muted);margin-top:2px}.unit b{color:var(--accent-ink)}
 .pt{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;background:var(--point-soft);color:var(--point);border-radius:8px;padding:5px 8px;font-size:.78rem;font-variant-numeric:tabular-nums}
 .pt b{font-weight:700}
 .meta{color:var(--muted);font-size:.72rem;display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:2px}
@@ -84,7 +85,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
   <header>
     <div class="text">
       <div class="brand"><img class="logo" src="logo.webp" alt="" width="44" height="44"><h1>ヤスネ帳</h1></div>
-      <p class="lead">家電・日用品・食品・ガジェットのセール品を、ポイント込みの実質価格でまとめています。</p>
+      <p class="lead">飲み物・食品・日用品・家電・ガジェットのセール品を、ポイント込みの実質価格でまとめています。飲み物はケース買いで1本あたりが安いものだけ。</p>
       <div class="updated" id="updated">読み込み中…</div>
     </div>
     <img class="mascot" src="mascot.webp" alt="買い物袋をたくさん持ったタコ" width="160" height="160">
@@ -116,7 +117,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
   </div>
 </div>
 <script>
-const GENRES=["すべて","家電","日用品","食品","ガジェット"];
+const GENRES=["すべて","飲み物","食品","日用品","家電","ガジェット"];
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
 let deals=[],genre="すべて";
 const $=id=>document.getElementById(id);
@@ -129,10 +130,10 @@ function card(d){
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
   return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">
-    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}<span class="off">${d.off}%OFF</span></div>
+    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
-      <div class="price"><span class="now">${num(d.now)}<small>円</small></span><span class="was">${num(d.was)}円</span></div>
+      <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${pt}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${d.free_shipping?"<span>送料無料</span>":""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
@@ -141,7 +142,7 @@ function render(){
   const so=$("sort").value;
   let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
   const r=d=>d.real??d.now;
-  const cmp={real_off:(a,b)=>(b.real_off??b.off)-(a.real_off??a.off),off:(a,b)=>b.off-a.off,end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
+  const cmp={real_off:(a,b)=>(b.real_off??b.value??b.off??0)-(a.real_off??a.value??a.off??0),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
   list.sort(cmp);
   $("count").textContent=`${list.length}件`;
   $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
