@@ -261,8 +261,68 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         "reviews": review.get("count"),
         "free_shipping": (hit.get("shipping") or {}).get("code") == 2,
         "ship": (hit.get("shipping") or {}).get("code"),  # 1=送料別 2=送料無料 3=条件付き送料無料
+        "page": page_url(hit),
         "jan": hit.get("janCode") or None,
     }
+
+
+def page_url(hit: dict):
+    """商品ページのURL（アフィリエイトの飛び先ではなく、ストアの元ページ）。"""
+    code = hit.get("code") or ""
+    sid = (hit.get("seller") or {}).get("sellerId")
+    if sid and "_" in code:
+        return f"https://store.shopping.yahoo.co.jp/{sid}/{code.split('_', 1)[1]}.html"
+    u = hit.get("url") or ""
+    return u if u.startswith("https://store.shopping.yahoo.co.jp/") else None
+
+
+def fetch_postage(url: str):
+    """商品ページから送料と「◯円以上で送料無料」の条件を読む。読めなければ None。
+    （検索APIには送料の金額や無料の条件が入っていないため）"""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        h = r.read().decode("utf-8", "replace")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+    if not m:
+        return None
+    pp = json.loads(m.group(1)).get("props", {}).get("pageProps", {})
+    pg = pp.get("postage") or {}
+    label = (pp.get("item") or {}).get("deliveryFeeLabelType")
+    return {
+        "fee": pg.get("fee"),
+        "pref": pg.get("prefecture"),
+        "cond": (pg.get("conditionFreeText") or "").strip(),
+        "free": bool(pg.get("isPostageFree")),
+        "label": label,
+    }
+
+
+def add_postage(deals: list) -> None:
+    """送料無料でない商品だけ、商品ページを見て送料と無料の条件を足す。"""
+    n = 0
+    for d in deals:
+        if d.get("ship") == 2 or not d.get("page"):
+            continue
+        time.sleep(1.5)
+        try:
+            pg = fetch_postage(d["page"])
+        except Exception as e:
+            print(f"[送料] 取得失敗 {d['page']}: {e}", file=sys.stderr)
+            continue
+        if not pg:
+            continue
+        n += 1
+        if pg["free"]:
+            d["ship"] = 2
+            continue
+        if pg["label"] == "ConditionalFree" or pg["cond"]:
+            d["ship"] = 3
+        if isinstance(pg["fee"], int):
+            d["postage"] = pg["fee"]
+            d["postage_pref"] = pg["pref"]
+        if pg["cond"]:
+            d["free_cond"] = pg["cond"]
+    print(f"[送料] {n}件の送料を商品ページで確認")
 
 
 def main(out_path: str) -> None:
@@ -327,6 +387,9 @@ def main(out_path: str) -> None:
         print("  惜しかったもの（上限の何倍か / 1本あたり）:")
         for r in sorted(set(NEAR))[:40]:
             print(f"   x{r[0]} {r[1]}円 ({r[2]}) {r[3]}")
+
+    if not os.environ.get("MOCK_DIR"):
+        add_postage(deals)
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
