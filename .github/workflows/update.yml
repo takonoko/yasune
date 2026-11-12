@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # 値下がり通知に使う
 
 jobs:
   update:
@@ -22,10 +23,24 @@ jobs:
           YAHOO_APPID: ${{ secrets.YAHOO_APPID }}
           VC_AFFILIATE_ID: ${{ secrets.VC_AFFILIATE_ID }}
         run: python fetch_deals.py docs/deals.json
+      - name: いつもチェックの商品を確認
+        env:
+          YAHOO_APPID: ${{ secrets.YAHOO_APPID }}
+          VC_AFFILIATE_ID: ${{ secrets.VC_AFFILIATE_ID }}
+          WATCH_SHEET_ID: 1aGOB0zS0ScsIMEWC4SFFK44JK1-vttJ3MshqpLk6mp8
+        run: python watch.py
+        continue-on-error: true
+      - name: 値下がりがあれば通知（GitHubからメールが届く）
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f alerts.txt ]; then
+            gh issue create --title "値下がり通知 $(TZ=Asia/Tokyo date '+%m/%d %H:%M')" --body-file alerts.txt --assignee "${{ github.repository_owner }}"
+          fi
       - name: 変更があれば保存
         run: |
           git config user.name "yasune-bot"
           git config user.email "yasune-bot@users.noreply.github.com"
-          git add docs/deals.json
+          git add docs/*.json
           git diff --cached --quiet || git commit -m "セール情報を更新"
           git push
