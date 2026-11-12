@@ -1,29 +1,6 @@
 {
- "updated": "2026-11-13T07:19+09:00",
+ "updated": "2026-11-13T07:44+09:00",
  "deals": [
-  {
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "ロボット掃除機＆自動ゴミ収集機 先進のLiDARとIMUを組み合わせたナビ搭載  強力吸引 水拭き両用 Tapo RV30 Max Plus 複数マッピング",
-   "url": "https://store.shopping.yahoo.co.jp/tplink/rv30maxplus.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/tplink_rv30maxplus",
-   "was": 72900,
-   "now": 29800,
-   "off": 59,
-   "points": 270,
-   "premium_points": 270,
-   "real": 29530,
-   "real_off": 59,
-   "end": 1794754740,
-   "shop": "TP-Link公式ダイレクト",
-   "maker": "TP-Link",
-   "rating": 4.69,
-   "reviews": 77,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/tplink/rv30maxplus.html",
-   "jan": null
-  },
   {
    "genre": "家電",
    "store": "yahoo",
@@ -45,7 +22,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/h579639f.html",
-   "jan": "4967576588478"
+   "jan": "4967576588478",
+   "id": "e8e72f5b56"
   },
   {
    "genre": "家電",
@@ -68,7 +46,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/coconial/kdk75230.html",
-   "jan": null
+   "jan": null,
+   "id": "146598f84c"
   },
   {
    "genre": "家電",
@@ -91,7 +70,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/574276.html",
-   "jan": "4967576539937"
+   "jan": "4967576539937",
+   "id": "2d7e0b2193"
   },
   {
    "genre": "家電",
@@ -114,7 +94,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/574274.html",
-   "jan": "4967576539913"
+   "jan": "4967576539913",
+   "id": "a97e71f959"
   },
   {
    "genre": "家電",
@@ -137,7 +118,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b1722.html",
-   "jan": "4571411225666"
+   "jan": "4571411225666",
+   "id": "3999bc88e1"
   },
   {
    "genre": "家電",
@@ -160,7 +142,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/coconial/ksc3500.html",
-   "jan": "4981747083043"
+   "jan": "4981747083043",
+   "id": "fdbcd1f7f1"
   },
   {
    "genre": "家電",
@@ -183,7 +166,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1339.html",
-   "jan": "4571411221835"
+   "jan": "4571411221835",
+   "id": "6bd642fcde"
   },
   {
    "genre": "家電",
@@ -206,7 +190,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1636.html",
-   "jan": "4571411212819"
+   "jan": "4571411212819",
+   "id": "aaedb51ed9"
   },
   {
    "genre": "家電",
@@ -229,7 +214,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/mitsuyoshi/bf3912-k-aladdin.html",
-   "jan": "4962365010321"
+   "jan": "4962365010321",
+   "id": "330d680a5d"
   },
   {
    "genre": "家電",
@@ -252,7 +238,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/komeri/4906128565833.html",
-   "jan": "4906128565833"
+   "jan": "4906128565833",
+   "id": "02c929bb42"
   },
   {
    "genre": "家電",
@@ -275,7 +262,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/mishin-shop/113-ls800.html",
-   "jan": "4977766806848"
+   "jan": "4977766806848",
+   "id": "6eabad56ca"
   },
   {
    "genre": "家電",
@@ -298,7 +286,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/komeri/4550556165136.html",
-   "jan": "4550556165136"
+   "jan": "4550556165136",
+   "id": "2f8e0535c7"
   },
   {
    "genre": "日用品",
@@ -321,7 +310,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html",
-   "jan": "4571411227554"
+   "jan": "4571411227554",
+   "id": "64c15ec9c7"
   },
   {
    "genre": "日用品",
@@ -344,7 +334,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1695.html",
-   "jan": "4571411229121"
+   "jan": "4571411229121",
+   "id": "993c70f43a"
   },
   {
    "genre": "日用品",
@@ -367,7 +358,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/p7250575.html",
-   "jan": null
+   "jan": null,
+   "id": "bf90b9317a"
   },
   {
    "genre": "日用品",
@@ -390,7 +382,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
-   "jan": "4571411223051"
+   "jan": "4571411223051",
+   "id": "7be82c7e53"
   },
   {
    "genre": "日用品",
@@ -413,7 +406,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/petkan/m7250572.html",
-   "jan": "4967576649018"
+   "jan": "4967576649018",
+   "id": "434153b3f1"
   },
   {
    "genre": "日用品",
@@ -436,7 +430,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/530682.html",
-   "jan": "4905009875238"
+   "jan": "4905009875238",
+   "id": "3843e82023"
   },
   {
    "genre": "日用品",
@@ -462,7 +457,8 @@
    "jan": null,
    "postage": 330,
    "postage_pref": "東京都",
-   "free_cond": "同一ストア5,000円以上で"
+   "free_cond": "同一ストア5,000円以上で",
+   "id": "8933e077b1"
   },
   {
    "unit_price": 2863.5,
@@ -488,7 +484,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/7340553.html",
-   "jan": "4562403575913"
+   "jan": "4562403575913",
+   "id": "b131d4df11"
   },
   {
    "genre": "食品",
@@ -511,7 +508,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/7300006.html",
-   "jan": "4562403575579"
+   "jan": "4562403575579",
+   "id": "675321a9a7"
   },
   {
    "genre": "食品",
@@ -534,7 +532,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/7300008.html",
-   "jan": "4562403575593"
+   "jan": "4562403575593",
+   "id": "be5f903f6a"
   },
   {
    "genre": "食品",
@@ -559,7 +558,8 @@
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/7293183.html",
    "jan": "4901330749217",
    "postage": 660,
-   "postage_pref": "東京都"
+   "postage_pref": "東京都",
+   "id": "b7fcc1c799"
   },
   {
    "unit_price": 147.0,
@@ -585,7 +585,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kokokaranet/568392-1.html",
-   "jan": "4901330578992"
+   "jan": "4901330578992",
+   "id": "07099cd3ce"
   },
   {
    "genre": "ガジェット",
@@ -608,7 +609,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
-   "jan": "4571411180347"
+   "jan": "4571411180347",
+   "id": "6b99741fb2"
   },
   {
    "genre": "ガジェット",
@@ -631,7 +633,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8340.html",
-   "jan": null
+   "jan": null,
+   "id": "5d768b01ef"
   },
   {
    "genre": "ガジェット",
@@ -654,7 +657,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a25x1.html",
-   "jan": "4571411222511"
+   "jan": "4571411222511",
+   "id": "21eef8155c"
   },
   {
    "genre": "ガジェット",
@@ -677,7 +681,8 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/jnh/sa3310quar-na.html",
-   "jan": "0619659227432"
+   "jan": "0619659227432",
+   "id": "ceae9dd8a4"
   }
  ]
 }
