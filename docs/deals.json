@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:45+09:00",
+ "updated": "2026-11-13T07:19+09:00",
  "deals": [
   {
    "genre": "家電",
@@ -21,6 +21,7 @@
    "reviews": 77,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/tplink/rv30maxplus.html",
    "jan": null
   },
   {
@@ -43,6 +44,7 @@
    "reviews": 47,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/h579639f.html",
    "jan": "4967576588478"
   },
   {
@@ -65,6 +67,7 @@
    "reviews": 9,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/coconial/kdk75230.html",
    "jan": null
   },
   {
@@ -87,6 +90,7 @@
    "reviews": 40,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/insdenki-y/574276.html",
    "jan": "4967576539937"
   },
   {
@@ -109,6 +113,7 @@
    "reviews": 53,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/insdenki-y/574274.html",
    "jan": "4967576539913"
   },
   {
@@ -131,6 +136,7 @@
    "reviews": 36,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b1722.html",
    "jan": "4571411225666"
   },
   {
@@ -153,6 +159,7 @@
    "reviews": 20,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/coconial/ksc3500.html",
    "jan": "4981747083043"
   },
   {
@@ -175,6 +182,7 @@
    "reviews": 75,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1339.html",
    "jan": "4571411221835"
   },
   {
@@ -197,6 +205,7 @@
    "reviews": 240,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1636.html",
    "jan": "4571411212819"
   },
   {
@@ -219,6 +228,7 @@
    "reviews": 11,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/mitsuyoshi/bf3912-k-aladdin.html",
    "jan": "4962365010321"
   },
   {
@@ -241,6 +251,7 @@
    "reviews": 39,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/komeri/4906128565833.html",
    "jan": "4906128565833"
   },
   {
@@ -263,6 +274,7 @@
    "reviews": 109,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/mishin-shop/113-ls800.html",
    "jan": "4977766806848"
   },
   {
@@ -285,6 +297,7 @@
    "reviews": 15,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/komeri/4550556165136.html",
    "jan": "4550556165136"
   },
   {
@@ -307,6 +320,7 @@
    "reviews": 175,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1638.html",
    "jan": "4571411227554"
   },
   {
@@ -329,6 +343,7 @@
    "reviews": 157,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1695.html",
    "jan": "4571411229121"
   },
   {
@@ -351,6 +366,7 @@
    "reviews": 34,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/insdenki-y/p7250575.html",
    "jan": null
   },
   {
@@ -373,6 +389,7 @@
    "reviews": 515,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
    "jan": "4571411223051"
   },
   {
@@ -395,6 +412,7 @@
    "reviews": 504,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/petkan/m7250572.html",
    "jan": "4967576649018"
   },
   {
@@ -417,6 +435,7 @@
    "reviews": 239,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/insdenki-y/530682.html",
    "jan": "4905009875238"
   },
   {
@@ -438,8 +457,12 @@
    "rating": 4.58,
    "reviews": 81,
    "free_shipping": false,
-   "ship": 1,
-   "jan": null
+   "ship": 3,
+   "page": "https://store.shopping.yahoo.co.jp/sstage/buat0138.html",
+   "jan": null,
+   "postage": 330,
+   "postage_pref": "東京都",
+   "free_cond": "同一ストア5,000円以上で"
   },
   {
    "unit_price": 2863.5,
@@ -464,6 +487,7 @@
    "reviews": 68,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/7340553.html",
    "jan": "4562403575913"
   },
   {
@@ -486,6 +510,7 @@
    "reviews": 17,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/7300006.html",
    "jan": "4562403575579"
   },
   {
@@ -508,6 +533,7 @@
    "reviews": 34,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/7300008.html",
    "jan": "4562403575593"
   },
   {
@@ -529,8 +555,11 @@
    "rating": 5,
    "reviews": 3,
    "free_shipping": false,
-   "ship": 1,
-   "jan": "4901330749217"
+   "ship": 3,
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/7293183.html",
+   "jan": "4901330749217",
+   "postage": 660,
+   "postage_pref": "東京都"
   },
   {
    "unit_price": 147.0,
@@ -555,6 +584,7 @@
    "reviews": 5,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/kokokaranet/568392-1.html",
    "jan": "4901330578992"
   },
   {
@@ -577,6 +607,7 @@
    "reviews": 122,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
    "jan": "4571411180347"
   },
   {
@@ -599,6 +630,7 @@
    "reviews": 9,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8340.html",
    "jan": null
   },
   {
@@ -621,6 +653,7 @@
    "reviews": 122,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a25x1.html",
    "jan": "4571411222511"
   },
   {
@@ -643,6 +676,7 @@
    "reviews": 171,
    "free_shipping": true,
    "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/jnh/sa3310quar-na.html",
    "jan": "0619659227432"
   }
  ]
