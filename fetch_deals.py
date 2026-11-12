@@ -5,6 +5,7 @@
   VC_AFFILIATE_ID … バリューコマースのアフィリエイトID（任意。入れると商品リンクが報酬対象になる）
   MOCK_DIR      … テスト用。指定するとAPIを呼ばずにこのフォルダの <ジャンル>.json を読む
 """
+import hashlib
 import html
 import json
 import os
@@ -53,6 +54,10 @@ DRINK_EXCLUDE = re.compile(r"粉末|スティック|ティーバッグ|ドリッ
 MIN_OFF = 15          # これ未満の値引き率は載せない（%）
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
+# 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
+EXCLUDE_MAKER_ITEMS = [
+    ("TP-Link", r"掃除機|ロボット|クリーナー"),  # TP-Link（Tapo）のロボット掃除機はいらない
+]
 # 柄物・ファッション系のマスクを外すための言葉（普通のマスクは残す）
 MASK_FASHION = re.compile(r"柄|レース|花|水着|カラー|おしゃれ|オシャレ|刺繍|チェック|ドット|デザイン|ファッション|かわいい|可愛い|韓国|血色|くすみ|ラメ")
 MIN_REVIEWS = 3       # レビューがほぼ無い商品は「通常価格」が当てにならないので除外
@@ -227,6 +232,8 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     maker = find_maker([b for b in brands if b], name)
     if not maker:  # 知らないメーカーは載せない
         return None
+    if any(maker == m and re.search(rx, name) for m, rx in EXCLUDE_MAKER_ITEMS):
+        return None
     img = (hit.get("exImage") or {}).get("url") or (hit.get("image") or {}).get("medium")
     pt = hit.get("point") or {}
     points = pt.get("lyLimitedBonusAmount") or 0             # 誰でももらえるストアポイント
@@ -390,6 +397,11 @@ def main(out_path: str) -> None:
 
     if not os.environ.get("MOCK_DIR"):
         add_postage(deals)
+
+    # 詳細ページ（item.html?id=...）用の番号。同じ商品なら更新しても同じ番号になる
+    for d in deals:
+        key = d.get("page") or d.get("jan") or d.get("url") or d["name"]
+        d["id"] = hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
