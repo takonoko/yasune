@@ -5,6 +5,7 @@
   VC_AFFILIATE_ID … バリューコマースのアフィリエイトID（任意。入れると商品リンクが報酬対象になる）
   MOCK_DIR      … テスト用。指定するとAPIを呼ばずにこのフォルダの <ジャンル>.json を読む
 """
+import html
 import json
 import os
 import re
@@ -85,7 +86,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
         return None
-    name = hit.get("name", "").strip()
+    name = html.unescape(hit.get("name", "")).strip()  # 「&amp;」などを普通の文字に戻す
     if "マスク" in name and MASK_FASHION.search(name):
         return None
     end = pl.get("periodEnd")
