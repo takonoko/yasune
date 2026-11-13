@@ -52,6 +52,8 @@ ALC_OTHER = re.compile(r"チューハイ|酎ハイ|サワー|ハイボール|金
 DRINK_EXCLUDE = re.compile(r"粉末|スティック|ティーバッグ|ドリップ|インスタント|豆|ゼリー|サプリ|プロテイン|空き|空容器|ボトルのみ|ラベル用")
 
 MIN_OFF = 15          # これ未満の値引き率は載せない（%）
+POINT_MIN = 10        # 値引きがなくても、ストアポイントがこの%以上なら載せる（ポイント高還元）
+POINT_QUERIES = ["ポイント10倍", "ポイント20倍", "ポイント5倍", "COSORI"]  # 高還元の商品を探す言葉
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -210,11 +212,18 @@ def to_drink(hit: dict, now_ts: int):
 def to_deal(hit: dict, genre: str, now_ts: int):
     pl = hit.get("priceLabel") or {}
     was = pl.get("defaultPrice")
-    sale = pl.get("discountedPrice")
-    if not was or not sale or sale >= was:
+    sale = pl.get("discountedPrice") or hit.get("price")
+    if not sale:
         return None
-    off = round((1 - sale / was) * 100)
-    if off < MIN_OFF or off > MAX_OFF:
+    if not was or was <= sale:
+        was = None
+    off = round((1 - sale / was) * 100) if was else None
+    if off is not None and off > MAX_OFF:  # 「通常価格」が怪しい
+        return None
+    pt0 = hit.get("point") or {}
+    pt_rate = round((pt0.get("lyLimitedBonusAmount") or 0) / sale * 100, 1)
+    # 値引きが十分か、値引きが小さくてもポイントが高ければ載せる
+    if not ((off or 0) >= MIN_OFF or pt_rate >= POINT_MIN):
         return None
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
@@ -260,7 +269,8 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         "points": points,
         "premium_points": premium,
         "real": real,
-        "real_off": round((1 - real / was) * 100),
+        "real_off": round((1 - real / (was or sale)) * 100),
+        "pt_rate": pt_rate,
         "end": end,
         "shop": seller.get("name"),
         "maker": maker,
@@ -351,6 +361,14 @@ def main(out_path: str) -> None:
                     for q in FOOD_QUERIES:
                         time.sleep(1.5)
                         hits += call_api(ids, 1, q).get("hits", [])
+                # 値引きなしでもポイント高還元の商品（「ポイント10倍」など）
+                for q in POINT_QUERIES:
+                    time.sleep(1.5)
+                    ph = call_api(ids, 1, q, discounted=False).get("hits", [])
+                    hits += ph
+                    for h in ph:  # どの項目にポイントが入るか確認する用（COSORIだけ）
+                        if "COSORI" in (h.get("name") or "").upper() and q == "COSORI":
+                            print(f"   [ポイント確認] {h.get('price')}円 point={json.dumps(h.get('point'), ensure_ascii=False)} {h.get('name','')[:40]}")
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
