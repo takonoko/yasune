@@ -117,6 +117,7 @@ function render(d){
   if(d.unit_price) badges.push(`1${esc(d.unit)} ${num(Math.round(d.unit_price))}円`);
   const end=endText(d.end);
   const under3000=real<3000;
+  const camp=d.camp_real&&d.camp_date===new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date());
   document.title=`${d.name.slice(0,40)} | ヤスネ帳`;
   $("main").innerHTML=`
   <section class="box hero">
@@ -129,6 +130,7 @@ function render(d){
       <dl class="rows">
         ${d.points?`<div><dt>ストアポイント（誰でも）</dt><dd>−${num(d.points)}pt</dd></div>`:""}
         <div class="big"><dt>実質価格</dt><dd>${num(real)}円</dd></div>
+        ${camp?`<div><dt>今日のキャンペーン（最大${d.camp_rate}%・要エントリー）</dt><dd>−${num(d.camp_points)}pt</dd></div><div class="big"><dt>キャンペーン込み実質（最大）</dt><dd>約${num(d.camp_real)}円</dd></div>`:""}
         ${d.unit_price?`<div><dt>${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり</dt><dd>${num(d.unit_price)}円</dd></div>`:""}
         ${d.postage>0&&!(d.ship===2)?`<div class="total"><dt>送料込み（目安）</dt><dd>${num(real+d.postage)}円</dd></div>`:""}
         ${d.premium_points&&d.premium_points>(d.points||0)?`<div><dt>LYPプレミアム会員なら</dt><dd>+${num(d.premium_points)}pt</dd></div>`:""}
@@ -165,6 +167,7 @@ function render(d){
     <ul>
       <li><b>実質価格</b>は、セール価格から誰でももらえるストアポイントを引いた金額です。ポイントは後日、期間限定のPayPayポイントでもらえます。</li>
       <li>次のポイントは人によって違うので、実質価格に<b>入れていません</b>：PayPayで払う（＋0.5%）、LYPプレミアム会員（＋2%・月の上限あり）、PayPayカード払い、デイリーボーナス（要エントリー・3,000円以上）、5のつく日（毎月5・15・25日・要エントリー）。</li>
+      <li><b>キャンペーン込み実質（最大）</b>は、もらえるポイントも値引きと考えて、今日の最大付与率（「お得な買い時」の数字）で計算した目安です。最大になるのは、エントリー・対象ストア・1回3,000円以上・PayPayカード払いなどの条件を全部満たしたときです。上限もあるので、実際はこれより高くなることがあります。</li>
       <li>率は2026年11月時点の目安です。最新の条件はアプリのカート画面や公式ページで確認してください。</li>
     </ul>
   </section>`;

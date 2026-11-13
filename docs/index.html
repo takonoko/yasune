@@ -72,6 +72,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .info ul{margin:6px 0 0;padding-left:1.2em}
 .info .five{color:var(--accent-ink);font-weight:700;margin:6px 0 0}
 .pm{font-size:.72rem;color:var(--muted)}
+.cp{font-size:.75rem;color:var(--accent-ink);line-height:1.5}.cp b{font-size:.85rem}
 .shipwarn{font-size:.75rem;line-height:1.5;color:#b3261e;background:#fdecea;border-radius:8px;padding:4px 8px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .shipwarn{color:#f2b8b5;background:#3b1f1d}}
 .entry{margin:14px 0 0;background:var(--accent-soft);color:var(--accent-ink);border-radius:14px;padding:10px 14px;font-size:.82rem;line-height:1.7}
@@ -150,6 +151,7 @@ const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Ama
 let deals=[],genre="すべて";
 const $=id=>document.getElementById(id);
 const num=v=>Number(v).toLocaleString("ja-JP");
+const todayJST=new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date());
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function left(t){if(!t)return null;const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return null;return h<24?{txt:`あと${h}時間`,soon:true}:{txt:`あと${Math.floor(h/24)}日`,soon:false}}
 GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.textContent=g;b.setAttribute("aria-pressed",g===genre);
@@ -157,6 +159,7 @@ GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.te
 function card(d){
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
+  const cp=d.camp_real&&d.camp_date===todayJST?`<div class="cp">今日のキャンペーン込み（最大${d.camp_rate}%）<b>約${num(d.camp_real)}円</b></div>`:"";
   const pm=d.premium_points&&d.premium_points>(d.points||0)?`<div class="pm">LYPプレミアム会員なら +${num(d.premium_points)}pt</div>`:"";
   const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
   let sw="";
@@ -173,7 +176,7 @@ function card(d){
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
-      ${pt}${pm}${sw}
+      ${pt}${cp}${pm}${sw}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
 }
@@ -181,12 +184,14 @@ function render(){
   const so=$("sort").value;
   let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
   const r=d=>d.real??d.now;
-  const cmp={real_off:(a,b)=>(b.real_off??b.value??b.off??0)-(a.real_off??a.value??a.off??0),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
+  const cmp={real_off:(a,b)=>best(b)-best(a),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
   list.sort(cmp);
   $("count").textContent=`${list.length}件`;
   $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
 }
 $("sort").onchange=render;
+// 今日（日本時間）のキャンペーン込みが使えるときは、それも「お得さ」に入れる
+function best(d){const c=d.camp_off!=null&&d.camp_date===todayJST?d.camp_off:-99;return Math.max(d.real_off??d.value??d.off??0,c)}
 // 5のつく日（日本時間の5・15・25日）は案内を出す
 {const day=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));if([5,15,25].includes(day))$("five").hidden=false;}
 // スプレッドシートの「載せない商品」に書いた言葉かURLを含む商品は出さない（開くたびに読む）
