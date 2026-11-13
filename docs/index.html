@@ -169,7 +169,7 @@ function card(d){
   // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
   const href=d.id?`item.html?id=${encodeURIComponent(d.id)}`:d.url;
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
-    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
+    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.pt_rate>=10?`<span class="off">${Math.floor(d.pt_rate)}%還元</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}

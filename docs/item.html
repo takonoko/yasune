@@ -113,6 +113,7 @@ function render(d){
   const real=d.real??d.now;
   const badges=[];
   if(d.off) badges.push(`${d.off}%OFF`);
+  if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
   if(d.unit_price) badges.push(`1${esc(d.unit)} ${num(Math.round(d.unit_price))}円`);
   const end=endText(d.end);
   const under3000=real<3000;
