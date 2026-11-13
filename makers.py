@@ -81,16 +81,27 @@ _COMPAT = re.compile(r"(対応|用|互換|適用|専用|交換|兼用|for)")
 _ACCESSORY = re.compile(r"フィルム|ケース|カバー|強化ガラス|手帳型|バンド|ベルト|ストラップ|互換|リサイクル|詰め替えインク|ネイル")
 
 
+_KATA = re.compile(r"[ァ-ヶー]")
+
+
 def find_maker(brand_names, name: str):
     """商品名からメーカーを探し、表示名を返す。見つからなければ None。"""
     nn = _norm(name)
     if _ACCESSORY.search(nn):
         return None
+    # 「Google TV」「Fire TV」などはOS・機能の名前で、メーカーではない
+    nn = re.sub(r"(google|android|fire)\s*tv|google\s*アシスタント", " ", nn)
     # ブランド欄は当てにならない（他社名が入っていることがある）ので、商品名だけで判断する
     for rx in (_ASCII_RE, _JP_RE):
         for m in rx.finditer(nn):
             after = nn[m.end():m.end() + 15]
             if _COMPAT.search(after):
                 continue
+            # カタカナの名前が、長いカタカナ語の一部なら別の言葉（モ「デル」、ブラック「タイガー」など）
+            if rx is _JP_RE and _KATA.match(m.group(0)):
+                before = nn[m.start() - 1:m.start()]
+                nxt = nn[m.end():m.end() + 1]
+                if (before and _KATA.match(before)) or (len(m.group(0)) <= 2 and nxt and _KATA.match(nxt)):
+                    continue
             return _ALIAS[m.group(0)]
     return None
