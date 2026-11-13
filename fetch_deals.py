@@ -52,6 +52,12 @@ ALC_OTHER = re.compile(r"チューハイ|酎ハイ|サワー|ハイボール|金
 DRINK_EXCLUDE = re.compile(r"粉末|スティック|ティーバッグ|ドリップ|インスタント|豆|ゼリー|サプリ|プロテイン|空き|空容器|ボトルのみ|ラベル用")
 
 MIN_OFF = 15          # これ未満の値引き率は載せない（%）
+# キャンペーン（デイリーボーナス等）の今日の最大付与率は「お得な買い時」シートから読む
+KAIDOKI_SHEET = "1AdcrGOlsK1kkmGUhZemJIdOn1YarvPD0fuUT_uiqb4E"
+CAMP_MIN_ORDER = 3000  # デイリーボーナスの条件（1回の注文3,000円以上）
+CAMP_MIN_OFF = 25      # キャンペーン込みで、この%以上安くなるなら載せる
+CAMP_RATE = None       # 今日の最大付与率（main で読む）
+CAMP_DATE = None
 POINT_MIN = 10        # 値引きがなくても、ストアポイントがこの%以上なら載せる（ポイント高還元）
 POINT_QUERIES = ["ポイント10倍", "ポイント20倍", "ポイント5倍", "COSORI"]  # 高還元の商品を探す言葉
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
@@ -209,6 +215,29 @@ def to_drink(hit: dict, now_ts: int):
     }
 
 
+def read_campaign_rate():
+    """「お得な買い時」シートから、日本時間の今日の最大付与率(%)を読む。無ければ None。"""
+    import csv, io
+    url = f"https://docs.google.com/spreadsheets/d/{KAIDOKI_SHEET}/gviz/tq?tqx=out:csv"
+    req = urllib.request.Request(url, headers={"User-Agent": "yasune-cho/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        rows = list(csv.reader(io.StringIO(r.read().decode("utf-8"))))
+    today = datetime.now(timezone(timedelta(hours=9))).date()
+    for row in rows[1:]:
+        n = [int(x) for x in re.findall(r"\d+", row[0] if row else "")]
+        if len(n) < 3:
+            continue
+        y, m, d = (n[0], n[1], n[2]) if n[0] > 999 else (n[2], n[0], n[1])
+        try:
+            if datetime(y, m, d).date() != today:
+                continue
+        except ValueError:
+            continue
+        v = re.sub(r"[^\d.]", "", row[1] if len(row) > 1 else "")
+        return (float(v) if v else None), today.isoformat()
+    return None, today.isoformat()
+
+
 def to_deal(hit: dict, genre: str, now_ts: int):
     pl = hit.get("priceLabel") or {}
     was = pl.get("defaultPrice")
@@ -222,8 +251,15 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         return None
     pt0 = hit.get("point") or {}
     pt_rate = round((pt0.get("lyLimitedBonusAmount") or 0) / sale * 100, 1)
-    # 値引きが十分か、値引きが小さくてもポイントが高ければ載せる
-    if not ((off or 0) >= MIN_OFF or pt_rate >= POINT_MIN):
+    # キャンペーン込み（今日の最大付与率・3,000円以上の注文のとき）
+    camp = {}
+    if CAMP_RATE and sale >= CAMP_MIN_ORDER:
+        cpts = max(pt0.get("lyLimitedBonusAmount") or 0, int(sale * CAMP_RATE / 100))
+        creal = sale - cpts
+        camp = {"camp_rate": CAMP_RATE, "camp_points": cpts, "camp_real": creal,
+                "camp_off": round((1 - creal / (was or sale)) * 100), "camp_date": CAMP_DATE}
+    # 値引きが十分か、ポイントが高いか、キャンペーン込みで十分安ければ載せる
+    if not ((off or 0) >= MIN_OFF or pt_rate >= POINT_MIN or camp.get("camp_off", 0) >= CAMP_MIN_OFF):
         return None
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
@@ -257,7 +293,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
                 return None
         if count and 2 <= count <= 200 and unit:
             extra = {"unit_price": round(real / count, 1), "unit": unit, "count": count}
-    return {**extra,
+    return {**extra, **camp,
         "genre": genre,
         "store": "yahoo",
         "name": name,
@@ -343,7 +379,14 @@ def add_postage(deals: list) -> None:
 
 
 def main(out_path: str) -> None:
+    global CAMP_RATE, CAMP_DATE
     now_ts = int(time.time())
+    if not os.environ.get("MOCK_DIR"):
+        try:
+            CAMP_RATE, CAMP_DATE = read_campaign_rate()
+        except Exception as e:
+            print(f"[キャンペーン] シートを読めず: {e}", file=sys.stderr)
+    print(f"[キャンペーン] 今日の最大付与率: {CAMP_RATE}%")
     deals, seen = [], set()
     for i, (genre, ids) in enumerate(GENRES.items()):
         if i and not os.environ.get("MOCK_DIR"):
@@ -372,7 +415,7 @@ def main(out_path: str) -> None:
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
-        cands.sort(key=lambda d: d["real_off"], reverse=True)  # お得な順に見て、上から採用する
+        cands.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)  # お得な順に見て、上から採用する
         picked, per_maker = [], {}
         for d in cands:
             keys = {d["name"]} | ({d["jan"]} if d["jan"] else set())  # 同じ商品の重複を除く
