@@ -21,6 +21,7 @@ JST = timezone(timedelta(hours=9))
 OUT = "docs/watch.json"
 HISTORY = "docs/watch_history.json"
 ALERTS = "alerts.txt"
+ACCESSORY_WORDS = ["用紙", "互換", "対応", "専用", "交換用", "替え", "カバー", "ケース", "フィルム", "シート", "トレイ", "パーツ", "部品", "アクセサリ", "ペーパー", "ホルダー", "ポーチ", "収納"]
 
 
 def norm(s):
@@ -76,6 +77,10 @@ def search(item):
         # JANで探したときは全部対象。名前で探したときは、言葉が全部入っている商品だけ
         flat = norm(name).replace(" ", "")  # 「サントリー天然水」と「サントリー 天然水」を同じに扱う
         if not item["jan"] and not all(w in flat for w in words):
+            continue
+        # 本体ではなく付属品・対応品（専用の紙、互換ケースなど）は外す。探す言葉に入っていれば残す
+        acc = [w for w in ACCESSORY_WORDS if w in flat and w not in "".join(words)]
+        if not item["jan"] and acc:
             continue
         price = h.get("price")
         if not price:
