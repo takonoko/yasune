@@ -262,17 +262,27 @@ def is_ng(name, url):
     return any(w in n or w in (url or "") for w in NG_WORDS)
 
 
+from collections import Counter
+REJ = Counter()       # 外れた理由の集計（ログ用）
+UNKNOWN = Counter()   # 値段の条件は満たしたが、知らないメーカーで外れたブランド名（ログ用）
+
+
+def rej(reason):
+    REJ[reason] += 1
+    return None
+
+
 def to_deal(hit: dict, genre: str, now_ts: int):
     pl = hit.get("priceLabel") or {}
     was = pl.get("defaultPrice")
     sale = pl.get("discountedPrice") or hit.get("price")
     if not sale:
-        return None
+        return rej("価格なし")
     if not was or was <= sale:
         was = None
     off = round((1 - sale / was) * 100) if was else None
     if off is not None and off > MAX_OFF:  # 「通常価格」が怪しい
-        return None
+        return rej("通常価格が怪しい(80%超)")
     pt0 = hit.get("point") or {}
     pt_rate = round((pt0.get("lyLimitedBonusAmount") or 0) / sale * 100, 1)
     # キャンペーン込み（今日の最大付与率・3,000円以上の注文のとき）
@@ -284,27 +294,28 @@ def to_deal(hit: dict, genre: str, now_ts: int):
                 "camp_off": round((1 - creal / (was or sale)) * 100), "camp_date": CAMP_DATE}
     # 値引きが十分か、ポイントが高いか、キャンペーン込みで十分安ければ載せる
     if not ((off or 0) >= MIN_OFF or pt_rate >= POINT_MIN or camp.get("camp_off", 0) >= CAMP_MIN_OFF):
-        return None
+        return rej("安くない")
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
-        return None
+        return rej("除外ストア")
     name = html.unescape(hit.get("name", "")).strip()  # 「&amp;」などを普通の文字に戻す
     if is_ng(name, hit.get("url")):
-        return None
+        return rej("載せない商品")
     if "マスク" in name and MASK_FASHION.search(name):
-        return None
+        return rej("柄物マスク")
     end = pl.get("periodEnd")
     if end and end < now_ts:  # すでに終わったセール
-        return None
+        return rej("セール終了")
     review = hit.get("review") or {}
     if (review.get("count") or 0) < MIN_REVIEWS:
-        return None
+        return rej("レビュー少")
     brands = [(hit.get("brand") or {}).get("name") or ""] + [b.get("name") or "" for b in hit.get("parentBrands") or []]
     maker = find_maker([b for b in brands if b], name)
     if not maker:  # 知らないメーカーは載せない
-        return None
+        UNKNOWN[(brands[0] or name.split()[0] if name.split() else "")[:20]] += 1
+        return rej("知らないメーカー")
     if any(maker == m and re.search(rx, name) for m, rx in EXCLUDE_MAKER_ITEMS):
-        return None
+        return rej("除外メーカー品")
     img = (hit.get("exImage") or {}).get("url") or (hit.get("image") or {}).get("medium")
     pt = hit.get("point") or {}
     points = pt.get("lyLimitedBonusAmount") or 0             # 誰でももらえるストアポイント
@@ -316,7 +327,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         # 食品ジャンルに混ざる飲み物のケースも、1本あたりが安いときだけ載せる
         if ml and ml >= 150 and count and count >= 6 and unit in ("本", "缶"):
             if (real / count) > drink_limit(name, ml)[0]:
-                return None
+                return rej("飲み物が割高")
         if count and 2 <= count <= 200 and unit:
             extra = {"unit_price": round(real / count, 1), "unit": unit, "count": count}
     return {**extra, **camp,
@@ -446,20 +457,27 @@ def main(out_path: str) -> None:
                         hits += call_api(ids, 1, q).get("hits", [])
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
+        REJ.clear()
+        UNKNOWN.clear()
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
+        dup = cap = 0
         cands.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)  # お得な順に見て、上から採用する
         picked, per_maker = [], {}
         for d in cands:
             keys = {d["name"]} | ({d["jan"]} if d["jan"] else set())  # 同じ商品の重複を除く
             if keys & seen:
+                dup += 1
                 continue
             if per_maker.get(d["maker"], 0) >= PER_MAKER:
+                cap += 1
                 continue
             per_maker[d["maker"]] = per_maker.get(d["maker"], 0) + 1
             seen |= keys
             picked.append(d)
         deals += picked[:PER_GENRE]
         print(f"[{genre}] {len(hits)}件取得 → {len(picked[:PER_GENRE])}件掲載")
+        print(f"   外れた理由: {dict(REJ.most_common())} / 重複 {dup} / 同じメーカーの上限 {cap}")
+        print(f"   値段は合格だが知らないメーカー（上位）: {UNKNOWN.most_common(25)}")
 
     # 飲み物（ケース買い・1本あたりで判断）
     if not os.environ.get("MOCK_DIR"):
