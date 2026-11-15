@@ -65,6 +65,11 @@ MAKER_QUERIES = ["COSORI", "Ninja"]
 # 「載せない商品」シート。ここに書いた言葉かURLを含む商品は、取得の段階で外す（空いた枠に別の商品が入る）
 NG_SHEET = "18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I"
 NG_WORDS = []
+# 管理ページ（admin.html）のボタンで記録されるシート（Googleフォームの回答）
+ADMIN_SHEET = "1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCLBGTif4--Qs"
+HIDE = set()          # 「隠す」を押した商品のid
+ALLOW = {}            # 「載せる」を押した商品のid → {"genre","jan","name"}
+CANDIDATES = []       # 値段は合格だが載っていない商品（管理ページの候補）
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -81,7 +86,7 @@ PER_MAKER_DRINK = 4   # 飲み物はメーカーが限られるので少し多�
 PAGES = 3             # 1ジャンルあたり何ページ分取るか（有名メーカーで絞ると減るので多めに）
 
 
-def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool = True) -> dict:
+def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool = True, jan: str = "") -> dict:
     params = {
         "appid": os.environ["YAHOO_APPID"],
         "is_discounted": "true",
@@ -98,6 +103,8 @@ def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool =
         params["query"] = query
     if not discounted:
         del params["is_discounted"]
+    if jan:
+        params["jan_code"] = jan
     aff = os.environ.get("VC_AFFILIATE_ID")
     if aff:
         params["affiliate_type"] = "vc"
@@ -257,6 +264,33 @@ def load_ng():
     return [w for w in (_nz(row[0]) for row in rows[1:] if row) if w]
 
 
+def deal_id(page, jan, url, name):
+    key = page or jan or url or name
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
+
+
+def load_admin():
+    """管理シートを読む。同じ商品は最後に押したボタンが有効。"""
+    import csv, io
+    url = f"https://docs.google.com/spreadsheets/d/{ADMIN_SHEET}/gviz/tq?tqx=out:csv"
+    req = urllib.request.Request(url, headers={"User-Agent": "yasune-cho/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        rows = list(csv.reader(io.StringIO(r.read().decode("utf-8"))))
+    last = {}
+    for row in rows[1:]:
+        if len(row) < 3 or not re.fullmatch(r"[0-9a-f]{10}", row[2].strip()):
+            continue
+        last[row[2].strip()] = (row[1].strip(), row[3] if len(row) > 3 else "")
+    hide, allow = set(), {}
+    for i, (op, info) in last.items():
+        if op == "隠す":
+            hide.add(i)
+        elif op == "載せる":
+            g, jan, name = (info.split("|", 2) + ["", "", ""])[:3]
+            allow[i] = {"genre": g, "jan": jan, "name": name}
+    return hide, allow
+
+
 def is_ng(name, url):
     n = _nz(name)
     return any(w in n or w in (url or "") for w in NG_WORDS)
@@ -299,7 +333,11 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     if seller.get("sellerId") in EXCLUDE_SELLERS:
         return rej("除外ストア")
     name = html.unescape(hit.get("name", "")).strip()  # 「&amp;」などを普通の文字に戻す
-    if is_ng(name, hit.get("url")):
+    did = deal_id(page_url(hit), hit.get("janCode") or None, hit.get("url"), name)
+    if did in HIDE:
+        return rej("管理で非表示")
+    allowed = did in ALLOW
+    if is_ng(name, hit.get("url")) and not allowed:
         return rej("載せない商品")
     if "マスク" in name and MASK_FASHION.search(name):
         return rej("柄物マスク")
@@ -311,9 +349,14 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         return rej("レビュー少")
     brands = [(hit.get("brand") or {}).get("name") or ""] + [b.get("name") or "" for b in hit.get("parentBrands") or []]
     maker = find_maker([b for b in brands if b], name)
-    if not maker:  # 知らないメーカーは載せない
-        UNKNOWN[(brands[0] or name.split()[0] if name.split() else "")[:20]] += 1
-        return rej("知らないメーカー")
+    unknown = False
+    if not maker:  # 知らないメーカーは載せない（管理ページで「載せる」を押した物は載せる）
+        guess = (brands[0] or (name.split()[0] if name.split() else ""))[:20]
+        UNKNOWN[guess] += 1
+        maker = guess or "その他"
+        unknown = not allowed
+        if unknown:
+            REJ["知らないメーカー(候補へ)"] += 1
     if any(maker == m and re.search(rx, name) for m, rx in EXCLUDE_MAKER_ITEMS):
         return rej("除外メーカー品")
     img = (hit.get("exImage") or {}).get("url") or (hit.get("image") or {}).get("medium")
@@ -331,6 +374,8 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         if count and 2 <= count <= 200 and unit:
             extra = {"unit_price": round(real / count, 1), "unit": unit, "count": count}
     return {**extra, **camp,
+        "id": did,
+        "_unknown": unknown,
         "genre": genre,
         "store": "yahoo",
         "name": name,
@@ -416,7 +461,7 @@ def add_postage(deals: list) -> None:
 
 
 def main(out_path: str) -> None:
-    global CAMP_RATE, CAMP_DATE, NG_WORDS
+    global CAMP_RATE, CAMP_DATE, NG_WORDS, HIDE, ALLOW
     now_ts = int(time.time())
     if not os.environ.get("MOCK_DIR"):
         try:
@@ -424,6 +469,11 @@ def main(out_path: str) -> None:
             print(f"[載せない商品] {len(NG_WORDS)}語: {' '.join(NG_WORDS)}")
         except Exception as e:
             print(f"[載せない商品] シートを読めず: {e}", file=sys.stderr)
+        try:
+            HIDE, ALLOW = load_admin()
+            print(f"[管理] 隠す {len(HIDE)}件 / 載せる {len(ALLOW)}件")
+        except Exception as e:
+            print(f"[管理] シートを読めず: {e}", file=sys.stderr)
         try:
             CAMP_RATE, CAMP_DATE = read_campaign_rate()
         except Exception as e:
@@ -455,25 +505,39 @@ def main(out_path: str) -> None:
                     for q in MAKER_QUERIES:
                         time.sleep(1.5)
                         hits += call_api(ids, 1, q).get("hits", [])
+                # 管理ページで「載せる」を押した商品は、JAN（なければ商品名）で個別に探す
+                for a in ALLOW.values():
+                    if (a["genre"] or "家電") != genre:
+                        continue
+                    time.sleep(1.5)
+                    if a["jan"]:
+                        hits += call_api("", 1, jan=a["jan"], discounted=False).get("hits", [])[:10]
+                    elif a["name"]:
+                        hits += call_api("", 1, a["name"][:60], discounted=False).get("hits", [])[:10]
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
         REJ.clear()
         UNKNOWN.clear()
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
+        CANDIDATES.extend(d for d in cands if d["_unknown"])
+        cands = [d for d in cands if not d["_unknown"]]
         dup = cap = 0
         cands.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)  # お得な順に見て、上から採用する
+        cands.sort(key=lambda d: d["id"] not in ALLOW)  # 「載せる」を押した物を先に
         picked, per_maker = [], {}
         for d in cands:
             keys = {d["name"]} | ({d["jan"]} if d["jan"] else set())  # 同じ商品の重複を除く
             if keys & seen:
                 dup += 1
                 continue
-            if per_maker.get(d["maker"], 0) >= PER_MAKER:
+            if per_maker.get(d["maker"], 0) >= PER_MAKER and d["id"] not in ALLOW:
                 cap += 1
+                CANDIDATES.append(d)
                 continue
             per_maker[d["maker"]] = per_maker.get(d["maker"], 0) + 1
             seen |= keys
             picked.append(d)
+        CANDIDATES.extend(picked[PER_GENRE:])
         deals += picked[:PER_GENRE]
         print(f"[{genre}] {len(hits)}件取得 → {len(picked[:PER_GENRE])}件掲載")
         print(f"   外れた理由: {dict(REJ.most_common())} / 重複 {dup} / 同じメーカーの上限 {cap}")
@@ -511,8 +575,9 @@ def main(out_path: str) -> None:
 
     # 詳細ページ（item.html?id=...）用の番号。同じ商品なら更新しても同じ番号になる
     for d in deals:
-        key = d.get("page") or d.get("jan") or d.get("url") or d["name"]
-        d["id"] = hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
+        d.setdefault("id", deal_id(d.get("page"), d.get("jan"), d.get("url"), d["name"]))
+        d.pop("_unknown", None)
+    deals = [d for d in deals if d["id"] not in HIDE]
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
@@ -526,6 +591,22 @@ def main(out_path: str) -> None:
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"合計 {len(deals)} 件を {out_path} に書き出しました")
+
+    # 管理ページ用の候補（値段は合格だが、知らないメーカー・上限超えで載っていない物）
+    shown = {d["id"] for d in deals}
+    seen_c, cand_out = set(), []
+    CANDIDATES.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)
+    for d in CANDIDATES:
+        if d["id"] in shown or d["id"] in seen_c:
+            continue
+        seen_c.add(d["id"])
+        cand_out.append({k: d.get(k) for k in ("id", "genre", "name", "image", "was", "now", "off", "points",
+                                                "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews")}
+                        | {"why": "知らないメーカー" if d["_unknown"] else "件数の上限"})
+    cand_path = os.path.join(os.path.dirname(out_path) or ".", "candidates.json")
+    with open(cand_path, "w", encoding="utf-8") as f:
+        json.dump({"updated": out["updated"], "items": cand_out[:200]}, f, ensure_ascii=False, indent=1)
+    print(f"管理ページの候補 {len(cand_out[:200])} 件を {cand_path} に書き出しました")
 
 
 if __name__ == "__main__":
