@@ -200,7 +200,9 @@ const NG_SHEET="18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I";
 let ng=[];
 function parseCsv(t){return t.trim().split(/\r?\n/).map(l=>[...l.matchAll(/"((?:[^"]|"")*)"/g)].map(m=>m[1].replace(/""/g,'"')))}
 const nz=s=>String(s||"").normalize("NFKC").toLowerCase().replace(/\s/g,"");
-function isNg(d){return ng.some(w=>w&&(nz(d.name).includes(w)||String(d.url||"").includes(w)))}
+let hid=new Set();  // 管理ページで「隠す」を押した商品（最後に押したボタンが有効）
+function isNg(d){return hid.has(d.id)||ng.some(w=>w&&(nz(d.name).includes(w)||String(d.url||"").includes(w)))}
+fetch("https://docs.google.com/spreadsheets/d/1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCLBGTif4--Qs/gviz/tq?tqx=out:csv").then(r=>r.text()).then(t=>{const last={};for(const r of parseCsv(t).slice(1))if(/^[0-9a-f]{10}$/.test(r[2]||""))last[r[2]]=r[1];hid=new Set(Object.keys(last).filter(k=>last[k]==="隠す"));if(deals.length)render()}).catch(()=>{});
 const origRender=render;
 render=function(){const keep=deals;deals=deals.filter(d=>!isNg(d));origRender();deals=keep};
 fetch(`https://docs.google.com/spreadsheets/d/${NG_SHEET}/gviz/tq?tqx=out:csv`).then(r=>r.text()).then(t=>{ng=parseCsv(t).slice(1).map(r=>nz(r[0])).filter(Boolean);if(deals.length)render()}).catch(()=>{});
