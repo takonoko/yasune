@@ -26,5 +26,17 @@
  "ninja フライヤー": {
   "min": 9899,
   "alerted": null
+ },
+ "cosori ノンフライヤー 4.7l": {
+  "min": 12480,
+  "alerted": 12480
+ },
+ "ninja 公式 crispi クリスピー fn100j": {
+  "min": 19800,
+  "alerted": null
+ },
+ "スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | トイレットペーパー": {
+  "min": null,
+  "alerted": null
  }
 }
