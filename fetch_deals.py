@@ -59,7 +59,12 @@ CAMP_MIN_OFF = 25      # キャンペーン込みで、この%以上安くなる
 CAMP_RATE = None       # 今日の最大付与率（main で読む）
 CAMP_DATE = None
 POINT_MIN = 10        # 値引きがなくても、ストアポイントがこの%以上なら載せる（ポイント高還元）
-POINT_QUERIES = ["ポイント10倍", "ポイント20倍", "ポイント5倍", "COSORI"]  # 高還元の商品を探す言葉
+POINT_QUERIES = ["ポイント10倍", "ポイント20倍", "ポイント5倍", "COSORI", "Ninja"]  # 高還元の商品・指名メーカーを探す言葉
+# 値引き中の商品も、指名したメーカーは個別に探す（ジャンルの人気順だと漏れるため）
+MAKER_QUERIES = ["COSORI", "Ninja"]
+# 「載せない商品」シート。ここに書いた言葉かURLを含む商品は、取得の段階で外す（空いた枠に別の商品が入る）
+NG_SHEET = "18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I"
+NG_WORDS = []
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -169,7 +174,7 @@ def to_drink(hit: dict, now_ts: int):
     if not price:
         return None
     name = html.unescape(hit.get("name", "")).strip()
-    if DRINK_EXCLUDE.search(name):
+    if DRINK_EXCLUDE.search(name) or is_ng(name, hit.get("url")):
         return None
     ml, count, unit = parse_pack(name)
     if not ml or not count or count < 6 or count > 120 or unit not in ("本", "缶", "個"):
@@ -238,6 +243,25 @@ def read_campaign_rate():
     return None, today.isoformat()
 
 
+def _nz(s):
+    return re.sub(r"\s", "", unicodedata.normalize("NFKC", s or "").lower())
+
+
+def load_ng():
+    """「載せない商品」シートの言葉を読む。"""
+    import csv, io
+    url = f"https://docs.google.com/spreadsheets/d/{NG_SHEET}/gviz/tq?tqx=out:csv"
+    req = urllib.request.Request(url, headers={"User-Agent": "yasune-cho/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        rows = list(csv.reader(io.StringIO(r.read().decode("utf-8"))))
+    return [w for w in (_nz(row[0]) for row in rows[1:] if row) if w]
+
+
+def is_ng(name, url):
+    n = _nz(name)
+    return any(w in n or w in (url or "") for w in NG_WORDS)
+
+
 def to_deal(hit: dict, genre: str, now_ts: int):
     pl = hit.get("priceLabel") or {}
     was = pl.get("defaultPrice")
@@ -265,6 +289,8 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     if seller.get("sellerId") in EXCLUDE_SELLERS:
         return None
     name = html.unescape(hit.get("name", "")).strip()  # 「&amp;」などを普通の文字に戻す
+    if is_ng(name, hit.get("url")):
+        return None
     if "マスク" in name and MASK_FASHION.search(name):
         return None
     end = pl.get("periodEnd")
@@ -379,9 +405,14 @@ def add_postage(deals: list) -> None:
 
 
 def main(out_path: str) -> None:
-    global CAMP_RATE, CAMP_DATE
+    global CAMP_RATE, CAMP_DATE, NG_WORDS
     now_ts = int(time.time())
     if not os.environ.get("MOCK_DIR"):
+        try:
+            NG_WORDS = load_ng()
+            print(f"[載せない商品] {len(NG_WORDS)}語: {' '.join(NG_WORDS)}")
+        except Exception as e:
+            print(f"[載せない商品] シートを読めず: {e}", file=sys.stderr)
         try:
             CAMP_RATE, CAMP_DATE = read_campaign_rate()
         except Exception as e:
@@ -407,11 +438,12 @@ def main(out_path: str) -> None:
                 # 値引きなしでもポイント高還元の商品（「ポイント10倍」など）
                 for q in POINT_QUERIES:
                     time.sleep(1.5)
-                    ph = call_api(ids, 1, q, discounted=False).get("hits", [])
-                    hits += ph
-                    for h in ph:  # どの項目にポイントが入るか確認する用（COSORIだけ）
-                        if "COSORI" in (h.get("name") or "").upper() and q == "COSORI":
-                            print(f"   [ポイント確認] {h.get('price')}円 point={json.dumps(h.get('point'), ensure_ascii=False)} {h.get('name','')[:40]}")
+                    hits += call_api(ids, 1, q, discounted=False).get("hits", [])
+                # 指名したメーカー（COSORI・Ninja）は値引き中の商品も個別に探す
+                if genre == "家電":
+                    for q in MAKER_QUERIES:
+                        time.sleep(1.5)
+                        hits += call_api(ids, 1, q).get("hits", [])
         except Exception as e:  # 途中で失敗しても、取れた分は使う
             print(f"[{genre}] 取得失敗: {e}", file=sys.stderr)
         cands = [d for d in (to_deal(h, genre, now_ts) for h in hits) if d]
