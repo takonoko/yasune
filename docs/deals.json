@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T07:20+09:00",
+ "updated": "2026-11-16T07:43+09:00",
  "deals": [
   {
    "id": "6288f26891",
@@ -879,7 +879,9 @@
    "free_shipping": false,
    "ship": 1,
    "page": "https://store.shopping.yahoo.co.jp/ohsho/246.html",
-   "jan": "4954018523050"
+   "jan": "4954018523050",
+   "postage": 1680,
+   "postage_pref": "東京都"
   },
   {
    "id": "6e1f280455",
