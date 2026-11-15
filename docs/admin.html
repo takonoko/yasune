@@ -50,7 +50,7 @@
     <button data-t="done" aria-pressed="false">操作済み<span class="n" id="n-done"></span></button>
   </div>
   <div class="chips" id="chips"></div>
-  <input id="q" type="search" placeholder="商品名・メーカーでしぼる">
+  <input id="q" type="search" placeholder="商品名・メーカー・店でしぼる（例：BTO）">
   <div id="bulk" hidden><label><input type="checkbox" class="ck" id="all">表示中を全部選ぶ</label><button id="bdel" disabled>選んだ0件を消す</button></div>
   <div id="list"><p class="empty">読み込み中…</p></div>
 </div>
@@ -105,7 +105,7 @@ function render(){
   const gs=["すべて",...new Set(base.map(d=>d.genre).filter(Boolean))];
   if(!gs.includes(genre))genre="すべて";
   $("chips").innerHTML=gs.map(g=>`<button data-g="${esc(g)}" aria-pressed="${g===genre}">${esc(g)}</button>`).join("");
-  const list=base.filter(d=>(genre==="すべて"||d.genre===genre)&&(!q||(d.name+" "+(d.maker||"")).toLowerCase().includes(q)));
+  const list=base.filter(d=>(genre==="すべて"||d.genre===genre)&&(!q||(d.name+" "+(d.maker||"")+" "+(d.why||"")+" "+(d.shop||"")).toLowerCase().includes(q)));
   shown=list;
   for(const id of [...sel])if(!list.some(d=>d.id===id&&ops[id]?.op!=="載せる"))sel.delete(id);
   $("bulk").hidden=tab!=="cand"||!list.length;
