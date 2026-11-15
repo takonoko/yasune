@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T18:48+09:00",
+ "updated": "2026-11-15T22:42+09:00",
  "items": [
   {
    "name": "サントリー天然水 2L 9本",
@@ -39,6 +39,32 @@
    "image": "https://item-shopping.c.yimg.jp/i/j/ebisstore333_eb3009da3449",
    "shop": "えびすストア",
    "min": 2068
+  },
+  {
+   "name": "COSORI ノンフライヤー",
+   "show": true,
+   "target": null,
+   "found": true,
+   "title": "【純正品】 COSORI エアフライヤー用紙 ノンフライヤー用紙 防水性、耐油性、耐熱性に優れ 最高適用温度230℃ 使い捨てお手入れ不要",
+   "price": 2580,
+   "points": 23,
+   "url": "https://store.shopping.yahoo.co.jp/tsuhan-123/tsuhan-123-cookingsito.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/tsuhan-123_tsuhan-123-cookingsito",
+   "shop": "良品生活館",
+   "min": 2580
+  },
+  {
+   "name": "Ninja ノンフライヤー",
+   "show": true,
+   "target": null,
+   "found": true,
+   "title": "Ninja 公式 Mini Air Fryer ミニエアフライヤー AF080J シャークニンジャ 電気 フライヤー 1.9L ノンフライヤー 卓上 エアー フライヤー  一人暮らし 調理家電",
+   "price": 9900,
+   "points": 540,
+   "url": "https://store.shopping.yahoo.co.jp/shark/af080j.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/shark_af080j",
+   "shop": "SharkNinja公式ヤフーショッピング店",
+   "min": 9900
   }
  ]
 }

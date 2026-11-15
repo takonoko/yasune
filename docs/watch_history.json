@@ -10,5 +10,13 @@
  "anker 65w 充電器": {
   "min": 2068,
   "alerted": null
+ },
+ "cosori ノンフライヤー": {
+  "min": 2580,
+  "alerted": null
+ },
+ "ninja ノンフライヤー": {
+  "min": 9900,
+  "alerted": null
  }
 }
