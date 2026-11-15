@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:51+09:00",
+ "updated": "2026-11-15T22:55+09:00",
  "items": [
   {
    "name": "サントリー天然水 2L 9本",
@@ -41,7 +41,7 @@
    "min": 2068
   },
   {
-   "name": "COSORI ノンフライヤー",
+   "name": "COSORI フライヤー",
    "show": true,
    "target": null,
    "found": true,
@@ -54,17 +54,17 @@
    "min": 2580
   },
   {
-   "name": "Ninja ノンフライヤー",
+   "name": "Ninja フライヤー",
    "show": true,
    "target": null,
    "found": true,
-   "title": "Ninja 公式 Mini Air Fryer ミニエアフライヤー AF080J シャークニンジャ 電気 フライヤー 1.9L ノンフライヤー 卓上 エアー フライヤー  一人暮らし 調理家電",
-   "price": 9900,
-   "points": 540,
-   "url": "https://store.shopping.yahoo.co.jp/shark/af080j.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/shark_af080j",
-   "shop": "SharkNinja公式ヤフーショッピング店",
-   "min": 9900
+   "title": "ミニエアフライヤー NINJA AF080J [グレー]",
+   "price": 9899,
+   "points": 90,
+   "url": "https://store.shopping.yahoo.co.jp/archholesale/1313603.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/archholesale_1313603",
+   "shop": "ア-チホ-ルセ-ル",
+   "min": 9899
   }
  ]
 }

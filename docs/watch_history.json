@@ -18,5 +18,13 @@
  "ninja ノンフライヤー": {
   "min": 9900,
   "alerted": null
+ },
+ "cosori フライヤー": {
+  "min": 2580,
+  "alerted": null
+ },
+ "ninja フライヤー": {
+  "min": 9899,
+  "alerted": null
  }
 }
