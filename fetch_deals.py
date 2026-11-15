@@ -70,6 +70,19 @@ ADMIN_SHEET = "1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCLBGTif4--Qs"
 HIDE = set()          # 「隠す」を押した商品のid
 ALLOW = {}            # 「載せる」を押した商品のid → {"genre","jan","name"}
 CANDIDATES = []       # 値段は合格だが載っていない商品（管理ページの候補）
+# BTOパソコン：管理ページで自分で選ぶ方式。ここで探した物は値段に関係なく候補に出し、
+# 「載せる」を押した物だけ、安いときにサイトに出す
+# 種類 → 探す言葉。管理ページの候補に「BTOパソコン」「PCパーツ」として出る
+PICK_QUERIES = {
+    "BTOパソコン": ["ゲーミングPC デスクトップ 新品", "BTO デスクトップ RTX", "BTO パソコン 新品",
+                  "パソコン工房 デスクトップ", "パソコン工房 ゲーミングノート", "ドスパラ GALLERIA", "Mission ゲーミングPC"],
+    "PCパーツ": ["グラフィックボード RTX", "グラフィックボード Radeon", "SSD NVMe 1TB", "SSD NVMe 2TB",
+               "DDR5 メモリ 32GB", "Ryzen CPU BOX", "Core CPU BOX", "電源ユニット 80PLUS", "マザーボード B850", "マザーボード B860"],
+}
+BTO_GENRE_ID = "2502"  # パソコン
+BTO_EXCLUDE = re.compile(r"中古|整備済|再生品|リファービッシュ|訳あり|アウトレット|ジャンク|レンタル")
+BTO_MAX = 80  # 種類ごとの候補の上限
+BTO_MODE = False
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -327,7 +340,8 @@ def to_deal(hit: dict, genre: str, now_ts: int):
         camp = {"camp_rate": CAMP_RATE, "camp_points": cpts, "camp_real": creal,
                 "camp_off": round((1 - creal / (was or sale)) * 100), "camp_date": CAMP_DATE}
     # 値引きが十分か、ポイントが高いか、キャンペーン込みで十分安ければ載せる
-    if not ((off or 0) >= MIN_OFF or pt_rate >= POINT_MIN or camp.get("camp_off", 0) >= CAMP_MIN_OFF):
+    cheap = (off or 0) >= MIN_OFF or pt_rate >= POINT_MIN or camp.get("camp_off", 0) >= CAMP_MIN_OFF
+    if not cheap and not BTO_MODE:
         return rej("安くない")
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
@@ -345,7 +359,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     if end and end < now_ts:  # すでに終わったセール
         return rej("セール終了")
     review = hit.get("review") or {}
-    if (review.get("count") or 0) < MIN_REVIEWS:
+    if (review.get("count") or 0) < MIN_REVIEWS and not BTO_MODE:
         return rej("レビュー少")
     brands = [(hit.get("brand") or {}).get("name") or ""] + [b.get("name") or "" for b in hit.get("parentBrands") or []]
     maker = find_maker([b for b in brands if b], name)
@@ -376,6 +390,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     return {**extra, **camp,
         "id": did,
         "_unknown": unknown,
+        "_cheap": cheap,
         "genre": genre,
         "store": "yahoo",
         "name": name,
@@ -461,7 +476,7 @@ def add_postage(deals: list) -> None:
 
 
 def main(out_path: str) -> None:
-    global CAMP_RATE, CAMP_DATE, NG_WORDS, HIDE, ALLOW
+    global CAMP_RATE, CAMP_DATE, NG_WORDS, HIDE, ALLOW, BTO_MODE
     now_ts = int(time.time())
     if not os.environ.get("MOCK_DIR"):
         try:
@@ -570,6 +585,38 @@ def main(out_path: str) -> None:
         for r in sorted(set(NEAR))[:40]:
             print(f"   x{r[0]} {r[1]}円 ({r[2]}) {r[3]}")
 
+    # BTOパソコン・PCパーツ（候補に出す。「載せる」を押した物は安いときだけ掲載）
+    for kind, queries in ({} if os.environ.get("MOCK_DIR") else PICK_QUERIES).items():
+        hits = []
+        for q in queries:
+            time.sleep(1.5)
+            try:
+                hits += call_api("" if kind == "PCパーツ" else BTO_GENRE_ID, 1, q, discounted=False).get("hits", [])
+            except Exception as e:
+                print(f"[{kind} {q}] 取得失敗: {e}", file=sys.stderr)
+        BTO_MODE = True
+        REJ.clear()
+        bto, added = [], 0
+        for h in hits:
+            if BTO_EXCLUDE.search(html.unescape(h.get("name", ""))):
+                continue
+            d = to_deal(h, "ガジェット", now_ts)
+            if not d or any(d["id"] == x["id"] for x in bto):
+                continue
+            keys = {d["name"]} | ({d["jan"]} if d["jan"] else set())
+            if keys & seen:
+                continue
+            if d["id"] in ALLOW and d["_cheap"]:
+                seen |= keys
+                deals.append(d)
+                added += 1
+            else:
+                d["_why"] = kind
+                bto.append(d)
+        BTO_MODE = False
+        CANDIDATES[:0] = bto[:BTO_MAX]
+        print(f"[{kind}] {len(hits)}件取得 → 候補 {len(bto[:BTO_MAX])}件 / 載せる指定で掲載 {added}件  外れた理由: {dict(REJ)}")
+
     if not os.environ.get("MOCK_DIR"):
         add_postage(deals)
 
@@ -577,6 +624,7 @@ def main(out_path: str) -> None:
     for d in deals:
         d.setdefault("id", deal_id(d.get("page"), d.get("jan"), d.get("url"), d["name"]))
         d.pop("_unknown", None)
+        d.pop("_cheap", None)
     deals = [d for d in deals if d["id"] not in HIDE]
 
     if not deals:
@@ -596,17 +644,19 @@ def main(out_path: str) -> None:
     shown = {d["id"] for d in deals}
     seen_c, cand_out = set(), []
     CANDIDATES.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)
+    # 並び順：BTOパソコン → 有名メーカーで件数の上限 → 知らないメーカー
+    CANDIDATES.sort(key=lambda d: 0 if d.get("_why") else (2 if d["_unknown"] else 1))
     for d in CANDIDATES:
         if d["id"] in shown or d["id"] in seen_c:
             continue
         seen_c.add(d["id"])
         cand_out.append({k: d.get(k) for k in ("id", "genre", "name", "image", "was", "now", "off", "points",
                                                 "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews")}
-                        | {"why": "知らないメーカー" if d["_unknown"] else "件数の上限"})
+                        | {"why": d.get("_why") or ("知らないメーカー" if d["_unknown"] else "件数の上限")})
     cand_path = os.path.join(os.path.dirname(out_path) or ".", "candidates.json")
     with open(cand_path, "w", encoding="utf-8") as f:
-        json.dump({"updated": out["updated"], "items": cand_out[:200]}, f, ensure_ascii=False, indent=1)
-    print(f"管理ページの候補 {len(cand_out[:200])} 件を {cand_path} に書き出しました")
+        json.dump({"updated": out["updated"], "items": cand_out[:280]}, f, ensure_ascii=False, indent=1)
+    print(f"管理ページの候補 {len(cand_out[:280])} 件を {cand_path} に書き出しました")
 
 
 if __name__ == "__main__":
