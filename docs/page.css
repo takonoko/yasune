@@ -1,0 +1,36 @@
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --fg:#2a3138; --muted:#6b7680; --line:#e3e8ec;
+  --accent:#e8742c; --accent-soft:#fdeee3; --accent-ink:#b4521a;
+  --round:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#1c2228; --surface:#252c33; --fg:#e9edf0; --muted:#a3adb5; --line:#343d45;
+  --accent:#f29a5c; --accent-soft:#3a2c22; --accent-ink:#f6b98c; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 var(--body)}
+a{color:var(--accent-ink)}
+img{max-width:100%}
+.wrap{max-width:720px;margin:0 auto;padding-block:16px 56px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.top img{width:36px;height:36px;border-radius:50%}
+.top a{font:700 1.15rem var(--round);text-decoration:none;color:var(--fg)}
+.top .back{margin-left:auto;font:400 .85rem var(--body);color:var(--muted)}
+.box{background:var(--surface);border-radius:16px;padding:16px 18px;margin-bottom:12px;box-shadow:0 1px 2px rgba(30,40,50,.06)}
+.hero{display:flex;gap:14px;align-items:center}
+.hero img{flex:0 0 auto;width:96px;height:96px}
+@media (max-width:480px){.hero{flex-direction:column;text-align:left;align-items:flex-start}}
+h1{font:700 1.3rem/1.4 var(--round);margin:0 0 8px}
+h2{font:700 1.05rem var(--round);margin:0 0 8px}
+p{margin:0 0 8px}
+ul,ol{margin:0;padding-left:1.3em}
+li{margin:4px 0}
+.rows{margin:0}
+.rows div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line);font-size:.92rem;flex-wrap:wrap}
+.rows dt{color:var(--muted)}
+.rows dd{margin:0;overflow-wrap:anywhere}
+.small{font-size:.82rem;color:var(--muted);margin-top:10px}
+.foot{font-size:.78rem;color:var(--muted);display:grid;gap:4px;margin-top:20px}
+.foot a{color:var(--muted)}
