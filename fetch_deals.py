@@ -72,16 +72,19 @@ ALLOW = {}            # 「載せる」を押した商品のid → {"genre","jan
 CANDIDATES = []       # 値段は合格だが載っていない商品（管理ページの候補）
 # BTOパソコン：管理ページで自分で選ぶ方式。ここで探した物は値段に関係なく候補に出し、
 # 「載せる」を押した物だけ、安いときにサイトに出す
-# 種類 → 探す言葉。管理ページの候補に「BTOパソコン」「PCパーツ」として出る
+# 種類 → (お店, 探す言葉)。管理ページの候補に「BTOパソコン」「PCパーツ」として出る
+# お店はYahoo!ショッピングにあるBTOメーカー・PC専門店の公式店（2026/11 に確認）
+BTO_STORES = {"pc-koubou": "パソコン工房", "mousecomputer": "マウスコンピューター", "dospara-y": "ドスパラ",
+              "tsukumo-y": "ツクモ", "buxton-web": "Mission", "pcmax": "PC-MAX", "arkonline-store": "アーク"}
+PARTS_STORES = ["tsukumo-y", "arkonline-store", "pc-koubou", "dospara-y"]
 PICK_QUERIES = {
-    "BTOパソコン": ["ゲーミングPC デスクトップ 新品", "BTO デスクトップ RTX", "BTO パソコン 新品",
-                  "パソコン工房 デスクトップ", "パソコン工房 ゲーミングノート", "ドスパラ GALLERIA", "Mission ゲーミングPC"],
-    "PCパーツ": ["グラフィックボード RTX", "グラフィックボード Radeon", "SSD NVMe 1TB", "SSD NVMe 2TB",
-               "DDR5 メモリ 32GB", "Ryzen CPU BOX", "Core CPU BOX", "電源ユニット 80PLUS", "マザーボード B850", "マザーボード B860"],
+    "BTOパソコン": [(st, q) for st in BTO_STORES for q in ("デスクトップ", "ゲーミングPC", "ノートパソコン")],
+    "PCパーツ": [(st, q) for st in PARTS_STORES for q in ("グラフィックボード", "SSD", "メモリ", "CPU", "電源ユニット")],
 }
+PICK_PER_STORE = {"BTOパソコン": 4, "PCパーツ": 4}  # お店×探す言葉ごとの上限
 BTO_GENRE_ID = "2502"  # パソコン
 BTO_EXCLUDE = re.compile(r"中古|整備済|再生品|リファービッシュ|訳あり|アウトレット|ジャンク|レンタル")
-BTO_MAX = 80  # 種類ごとの候補の上限
+BTO_MAX = 90  # 種類ごとの候補の上限
 BTO_MODE = False
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
@@ -99,7 +102,7 @@ PER_MAKER_DRINK = 4   # 飲み物はメーカーが限られるので少し多�
 PAGES = 3             # 1ジャンルあたり何ページ分取るか（有名メーカーで絞ると減るので多めに）
 
 
-def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool = True, jan: str = "") -> dict:
+def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool = True, jan: str = "", seller: str = "") -> dict:
     params = {
         "appid": os.environ["YAHOO_APPID"],
         "is_discounted": "true",
@@ -118,6 +121,8 @@ def call_api(genre_ids: str, start: int = 1, query: str = "", discounted: bool =
         del params["is_discounted"]
     if jan:
         params["jan_code"] = jan
+    if seller:
+        params["seller_id"] = seller
     aff = os.environ.get("VC_AFFILIATE_ID")
     if aff:
         params["affiliate_type"] = "vc"
@@ -588,15 +593,15 @@ def main(out_path: str) -> None:
     # BTOパソコン・PCパーツ（候補に出す。「載せる」を押した物は安いときだけ掲載）
     for kind, queries in ({} if os.environ.get("MOCK_DIR") else PICK_QUERIES).items():
         hits = []
-        for q in queries:
+        for st, q in queries:
             time.sleep(1.5)
             try:
-                hits += call_api("" if kind == "PCパーツ" else BTO_GENRE_ID, 1, q, discounted=False).get("hits", [])
+                hits += [{**h, "_q": q} for h in call_api("", 1, q, discounted=False, seller=st).get("hits", [])[:40]]
             except Exception as e:
-                print(f"[{kind} {q}] 取得失敗: {e}", file=sys.stderr)
+                print(f"[{kind} {st} {q}] 取得失敗: {e}", file=sys.stderr)
         BTO_MODE = True
         REJ.clear()
-        bto, added = [], 0
+        bto, added, per_store = [], 0, Counter()
         for h in hits:
             if BTO_EXCLUDE.search(html.unescape(h.get("name", ""))):
                 continue
@@ -611,6 +616,10 @@ def main(out_path: str) -> None:
                 deals.append(d)
                 added += 1
             else:
+                st = ((h.get("seller") or {}).get("sellerId"), h.get("_q"))
+                if per_store[st] >= PICK_PER_STORE[kind]:
+                    continue
+                per_store[st] += 1
                 d["_why"] = kind
                 bto.append(d)
         BTO_MODE = False
