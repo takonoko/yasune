@@ -1,7 +1,8 @@
 {
- "updated": "2026-11-16T00:05+09:00",
+ "updated": "2026-11-16T00:21+09:00",
  "deals": [
   {
+   "id": "cf9c5cb58b",
    "genre": "家電",
    "store": "yahoo",
    "name": "冷蔵庫マット Sサイズ 60×70 保護マット 保護シート 冷蔵庫 冷蔵庫下床保護パネルRPD-S アイリスオーヤマ",
@@ -23,10 +24,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insair-y/574276.html",
-   "jan": "4967576539937",
-   "id": "cf9c5cb58b"
+   "jan": "4967576539937"
   },
   {
+   "id": "01d1b31ab6",
    "genre": "家電",
    "store": "yahoo",
    "name": "冷蔵庫マット XSサイズ 透明 傷防止 XS 49×60 保護マット 保護シート 冷蔵庫 傷 汚れ 防止 冷蔵庫下床保護パネルRPD-XS アイリスオーヤマ",
@@ -48,10 +49,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insair-y/574274.html",
-   "jan": "4967576539913",
-   "id": "01d1b31ab6"
+   "jan": "4967576539913"
   },
   {
+   "id": "158921d625",
    "genre": "家電",
    "store": "yahoo",
    "name": "SwitchBot サーキュレーター コードレス 充電式 バッテリー搭載 ~30畳 DCモーター 首振り 無段階風量調整 リモコン付き Alexa 1年保証 梅雨対策",
@@ -73,10 +74,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/switchbot/w3800510.html",
-   "jan": "0850043739852",
-   "id": "158921d625"
+   "jan": "0850043739852"
   },
   {
+   "id": "cd190a96b3",
    "genre": "家電",
    "store": "yahoo",
    "name": "炊飯器 3合 一人暮らし用 IH 3合炊き ジャー炊飯器 おしゃれ RC-IL30 RC-IL30-W RC-IL30-HA アッシュ ブラック ホワイト アイリスオーヤマ",
@@ -98,10 +99,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insair-y/p517437.html",
-   "jan": "4967576506687",
-   "id": "cd190a96b3"
+   "jan": "4967576506687"
   },
   {
+   "id": "7a2ef091cd",
    "genre": "家電",
    "store": "yahoo",
    "name": "冷蔵庫マット SSサイズ 55×65 保護マット 保護シート 冷蔵庫 冷蔵庫下床保護パネルRPD-SS アイリスオーヤマ",
@@ -123,10 +124,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insair-y/574275.html",
-   "jan": "4967576539920",
-   "id": "7a2ef091cd"
+   "jan": "4967576539920"
   },
   {
+   "id": "63b1668246",
    "genre": "家電",
    "store": "yahoo",
    "name": "冷蔵庫 320L ファン式 自動霜取り 二人暮らし 霜取り不要 アイリスオーヤマ 両開き 大凍量 IRSN-32B【設置無料】【日付指定可能】【HS】",
@@ -148,10 +149,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/petkan/m574750.html",
-   "jan": "4967576652261",
-   "id": "63b1668246"
+   "jan": "4967576652261"
   },
   {
+   "id": "1a55e76904",
    "genre": "家電",
    "store": "yahoo",
    "name": "SwitchBot 空気清浄機Tableホワイト ワイヤレス充電 ムードライト付き 花粉ニオイ対策 25畳 静音大風量 360度HEPAフィルター タイマー Alexa Siriに対応 1年保証",
@@ -173,10 +174,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/switchbot/w5302310.html",
-   "jan": "0810150541854",
-   "id": "1a55e76904"
+   "jan": "0810150541854"
   },
   {
+   "id": "4913b1d29e",
    "genre": "家電",
    "store": "yahoo",
    "name": "SwitchBot スマートリモコン ハブ3 赤外線家電を管理 2.4インチモニター付き スイッチボット 温湿度計光センサー付き スケジュール 家電一括操作 1年保証",
@@ -198,10 +199,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/switchbot/w7202100.html",
-   "jan": "0810150544046",
-   "id": "4913b1d29e"
+   "jan": "0810150544046"
   },
   {
+   "id": "02c929bb42",
    "genre": "家電",
    "store": "yahoo",
    "name": "コロナ　石油ファンヒーター　木造９畳　パールホワイト　ＫＣＦ―３２２５Ｙ（Ｗ）",
@@ -223,10 +224,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/komeri/4906128565833.html",
-   "jan": "4906128565833",
-   "id": "02c929bb42"
+   "jan": "4906128565833"
   },
   {
+   "id": "b6bce09560",
    "genre": "家電",
    "store": "yahoo",
    "name": "SwitchBot 空気清浄機 ペット 脱臭 静音 スイッチボット 25畳 省エネ 大風量 360度 浄化 消臭 除菌HEPA 花粉ニオイ抜け毛対策 タイマー機能 Alexaに対応 1年保証",
@@ -248,10 +249,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/switchbot/w5302300.html",
-   "jan": "0810150541793",
-   "id": "b6bce09560"
+   "jan": "0810150541793"
   },
   {
+   "id": "2f8e0535c7",
    "genre": "家電",
    "store": "yahoo",
    "name": "シャープ　プラズマクラスタ―サーキュレータ―　ライトグレー　ＰＫー１８Ｓ０２",
@@ -273,10 +274,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/komeri/4550556165136.html",
-   "jan": "4550556165136",
-   "id": "2f8e0535c7"
+   "jan": "4550556165136"
   },
   {
+   "id": "886c99a5ac",
    "genre": "日用品",
    "store": "yahoo",
    "name": "3M 超強力 両面テープ 27m巻き 幅6mm 粘着 接着 車外 車内 米国3M製 強力 防水 耐熱 防水耐熱",
@@ -298,10 +299,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/parts-com/3m-6mm-27m.html",
-   "jan": null,
-   "id": "886c99a5ac"
+   "jan": null
   },
   {
+   "id": "b6fe2f2813",
    "genre": "日用品",
    "store": "yahoo",
    "name": "SwitchBot スマートロック Ultra 顔認証パッド 指紋認証 スイッチボット 暗証番号 鍵 スマートキー オートロック スマホで操作 交通系ICカード 工事不要 1年保証",
@@ -323,10 +324,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/switchbot/w5600000-w7300500.html",
-   "jan": "0810150543513",
-   "id": "b6fe2f2813"
+   "jan": "0810150543513"
   },
   {
+   "id": "434153b3f1",
    "genre": "日用品",
    "store": "yahoo",
    "name": "＼ランキング1位獲得／ カセットコンロ ガスコンロ 卓上 スリム コンロ アイリスオーヤマ スタイリッシュ 高火力 防災 安全装置付き IGC-E1-H",
@@ -348,10 +349,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/petkan/m7250572.html",
-   "jan": "4967576649018",
-   "id": "434153b3f1"
+   "jan": "4967576649018"
   },
   {
+   "id": "75e7d36399",
    "genre": "日用品",
    "store": "yahoo",
    "name": "3M 超強力 両面テープ 11m巻き 幅12mm 厚さ0.8mm 粘着 接着 車外 車内 米国3M製 強力 防水 耐熱 防水耐熱",
@@ -373,10 +374,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/parts-com/3m-12mm-11m.html",
-   "jan": null,
-   "id": "75e7d36399"
+   "jan": null
   },
   {
+   "id": "0d446e9819",
    "genre": "日用品",
    "store": "yahoo",
    "name": "[ポイント15倍]センサーライト 屋外 led 人感センサー 防水 玄関 人感 センサー ライト 電池式 乾電池式LED防犯センサーライト LSL-B1TN-800 アイリスオーヤマ",
@@ -398,10 +399,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/522502.html",
-   "jan": "4967576440035",
-   "id": "0d446e9819"
+   "jan": "4967576440035"
   },
   {
+   "id": "bb08090380",
    "genre": "日用品",
    "store": "yahoo",
    "name": "[ポイント15倍]センサーライト 屋外 led 人感センサー 防水 玄関 人感 センサー ライト 電池式 乾電池式LED防犯センサーライト LSL-B1SN-400 アイリスオーヤマ",
@@ -423,10 +424,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/insdenki-y/522501.html",
-   "jan": "4967576440028",
-   "id": "bb08090380"
+   "jan": "4967576440028"
   },
   {
+   "id": "e2454bd891",
    "genre": "日用品",
    "store": "yahoo",
    "name": "【ポイント15倍！10/1 11:00-11/30迄】クリネックス 長持ちロール トイレットペーパー ダブル 8ロール×8袋セット(1ロール45m) |  トイレットペーパー ダブル 長",
@@ -448,10 +449,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/beisia/4901750282745-8.html",
-   "jan": "4901750282745",
-   "id": "e2454bd891"
+   "jan": "4901750282745"
   },
   {
+   "id": "7226d8d9ec",
    "genre": "日用品",
    "store": "yahoo",
    "name": "【ポイント15倍！10/1 11:00-11/30迄】クリネックス 1.5倍長持ち プリント フローラルハーブの香り 37.5m ダブル×8個 |  トイレットペーパー ダブル 長持ち 香",
@@ -473,10 +474,10 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/beisia/4901750249014-8.html",
-   "jan": "4901750249014",
-   "id": "7226d8d9ec"
+   "jan": "4901750249014"
   },
   {
+   "id": "a9e242e42f",
    "genre": "日用品",
    "store": "yahoo",
    "name": "【ポイント15倍！11/1 15:00-11/30迄】ライオン NANOXone PRO 替え ウルトラジャンボ 1400g×6個 | 洗濯洗剤 液体洗剤 汚れ落とし 抗菌 衣類用洗剤 時短 節水",
@@ -498,13 +499,13 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/beisia/4903301350811-6.html",
-   "jan": "4903301350811",
-   "id": "a9e242e42f"
+   "jan": "4903301350811"
   },
   {
    "unit_price": 248.0,
    "unit": "袋",
    "count": 2,
+   "id": "a912ffd48a",
    "genre": "食品",
    "store": "yahoo",
    "name": "冷凍大阪王将 カレーチャーハン2袋入 (冷凍 通販 お取り寄せグルメ 炒飯 焼き飯 中華 備蓄食料 レンチングルメ テレワーク) 夏休みレンチン 爆買",
@@ -528,10 +529,10 @@
    "page": "https://store.shopping.yahoo.co.jp/ohsho/246.html",
    "jan": "4954018523050",
    "postage": 1680,
-   "postage_pref": "東京都",
-   "id": "a912ffd48a"
+   "postage_pref": "東京都"
   },
   {
+   "id": "86e16e87d9",
    "genre": "食品",
    "store": "yahoo",
    "name": "大阪王将 エビのチリソース 200g(2人前) (エビチリ 海老チリ えび 中華 お取り寄せグルメ 冷凍食品 食品 通販 湯煎食品 ゆせん) 夏休みレンチン 爆買",
@@ -555,13 +556,13 @@
    "page": "https://store.shopping.yahoo.co.jp/ohsho/263.html",
    "jan": "4954018725010",
    "postage": 1680,
-   "postage_pref": "東京都",
-   "id": "86e16e87d9"
+   "postage_pref": "東京都"
   },
   {
    "unit_price": 411.2,
    "unit": "袋",
    "count": 12,
+   "id": "32f7e89676",
    "genre": "食品",
    "store": "yahoo",
    "name": "冷凍食品 チャーハン 大阪王将 豚カルビチャーハン12袋セット 中華 王将 冷凍 お取り寄せ 夏休みレンチン 定期便 爆買",
@@ -583,13 +584,13 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ohsho/s-1501.html",
-   "jan": "4954018927025",
-   "id": "32f7e89676"
+   "jan": "4954018927025"
   },
   {
    "unit_price": 1308.0,
    "unit": "袋",
    "count": 4,
+   "id": "e06f8fd12d",
    "genre": "食品",
    "store": "yahoo",
    "name": "餃子 大阪王将 餃子 取り寄せ 冷凍餃子 お取り寄せグルメ 肉餃子200個セット(50個入×4袋) たれ×24袋付 中華 冷凍食品 王将 点心セット 食品 定期便 爆買",
@@ -611,13 +612,13 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ohsho/s-674.html",
-   "jan": "4954018185074",
-   "id": "e06f8fd12d"
+   "jan": "4954018185074"
   },
   {
    "unit_price": 31.5,
    "unit": "個",
    "count": 6,
+   "id": "9443dcbf73",
    "genre": "食品",
    "store": "yahoo",
    "name": "大阪王将 たれつき肉焼売 6個 (中華 お取り寄せグルメ 冷凍食品 食品 点心 しゅうまい シュウマイ シューマイ 通販) 夏休みレンチン 爆買",
@@ -641,10 +642,10 @@
    "page": "https://store.shopping.yahoo.co.jp/ohsho/t675.html",
    "jan": "4954018224001",
    "postage": 1680,
-   "postage_pref": "東京都",
-   "id": "9443dcbf73"
+   "postage_pref": "東京都"
   },
   {
+   "id": "b7fcc1c799",
    "genre": "食品",
    "store": "yahoo",
    "name": "マイグラ グラノーラ カルビー 朝食 穀物 アーモンド チョコクランチ",
@@ -668,10 +669,10 @@
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/7293183.html",
    "jan": "4901330749217",
    "postage": 660,
-   "postage_pref": "東京都",
-   "id": "b7fcc1c799"
+   "postage_pref": "東京都"
   },
   {
+   "id": "ceae9dd8a4",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "特価セール マイクロsdカード microSDXC 128GB SanDisk Ultra GO UHS-I U1 A1 R:190MB/s SDSQUGN-128G-GN6MN 並行輸入品 送料無料 SA3310QUGN-128G-GN6MN",
@@ -693,8 +694,7 @@
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/jnh/sa3310quar-na.html",
-   "jan": "0619659227432",
-   "id": "ceae9dd8a4"
+   "jan": "0619659227432"
   }
  ]
 }
