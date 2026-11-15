@@ -15,7 +15,7 @@ MAKERS = {
     "BRAUN": [], "フィリップス": ["PHILIPS"], "山善": ["YAMAZEN"], "ツインバード": ["TWINBIRD"],
     "コイズミ": ["KOIZUMI"], "テスコム": ["TESCOM"], "レコルト": ["recolte"], "コロナ": ["CORONA"], "ダイニチ": ["DAINICHI"],
     "富士通ゼネラル": [], "アラジン": ["Aladdin"], "クイジナート": ["Cuisinart"], "ヤーマン": ["YA-MAN"], "リファ": ["ReFa"],
-    "SwitchBot": ["スイッチボット"], "COSORI": ["コソリ"], "Ninja": ["ニンジャ", "SharkNinja"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
+    "SwitchBot": ["スイッチボット"], "COSORI": ["コソリ"], "サーモス": ["THERMOS"], "ジャノメ": ["JANOME"], "JUKI": ["ジューキ"], "キングジム": ["KING JIM"], "ヴィダルサスーン": ["Vidal Sassoon"], "大阪王将": [], "Ninja": ["ニンジャ", "SharkNinja"], "TP-Link": ["Tapo"], "マキタ": ["makita"], "ドウシシャ": ["DOSHISHA"], "ハイセンス": ["Hisense"],
     "ブルーノ": ["BRUNO"], "ラッセルホブス": ["Russell Hobbs"], "ネスレ": ["Nestle", "ネスプレッソ", "Nespresso", "ネスカフェ"],
     # ガジェット・パソコン・カメラ
     "Apple": ["アップル"], "エレコム": ["ELECOM"], "バッファロー": ["BUFFALO"], "サンディスク": ["SanDisk"],
@@ -104,4 +104,9 @@ def find_maker(brand_names, name: str):
                 if (before and _KATA.match(before)) or (len(m.group(0)) <= 2 and nxt and _KATA.match(nxt)):
                     continue
             return _ALIAS[m.group(0)]
+    # 商品名に無いときだけ、ブランド欄がメーカー名そのもの（例:「IRIS OHYAMA」「日立」）なら使う
+    for b in brand_names or []:
+        nb = re.sub(r"\s+", " ", _norm(b)).strip()
+        if nb in _ALIAS and not _COMPAT.search(nn):
+            return _ALIAS[nb]
     return None
