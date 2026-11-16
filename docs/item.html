@@ -117,6 +117,8 @@ function render(d){
   if(d.save) badges.push(`他店より${num(d.save)}円安い`);
   if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
   if(d.pick) badges.push("爆買いタコおすすめ");
+  else if(d.badge) badges.push(esc(d.badge));
+  if(d.only) badges.push("ヤフショだけで販売");
   if(d.rank) badges.push("人気上位");
   if(d.unit_price) badges.push(`1${esc(d.unit)} ${num(Math.round(d.unit_price))}円`);
   const end=endText(d.end);
@@ -130,8 +132,10 @@ function render(d){
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
+      ${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
       <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
       <dl class="rows">
+        ${d.coupon?`<div><dt>${esc(d.coupon)}${d.coupon_url?`<br><a href="${esc(d.coupon_url)}" target="_blank" rel="noopener" style="font-size:.78rem">クーポンを獲得する</a>`:""}</dt><dd>${num(d.coupon_price)}円</dd></div>`:""}
         ${d.points?`<div><dt>ストアポイント（誰でも）</dt><dd>−${num(d.points)}pt</dd></div>`:""}
         <div class="big"><dt>実質価格</dt><dd>${num(real)}円</dd></div>
         ${camp?`<div><dt>今日のキャンペーン（最大${d.camp_rate}%・要エントリー）</dt><dd>−${num(d.camp_points)}pt</dd></div><div class="big"><dt>キャンペーン込み実質（最大）</dt><dd>約${num(d.camp_real)}円</dd></div>`:""}
