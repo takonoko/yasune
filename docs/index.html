@@ -183,7 +183,7 @@ function card(d){
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
-      ${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
+      ${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${d.pt_max?`<div class="pm">条件をそろえると最大${d.pt_max_rate}%（${num(d.pt_max)}pt） <b>実質${num(d.max_real)}円</b></div>`:pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
 }
