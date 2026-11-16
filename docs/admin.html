@@ -43,10 +43,10 @@
 <body>
 <div class="wrap">
   <div class="top"><img src="logo.webp" alt="" width="36" height="36"><a href="./">ヤスネ帳 管理</a><a class="back" href="./">サイトを見る →</a></div>
-  <p class="note" style="margin-bottom:6px;line-height:1.5">「隠す」はサイトからすぐ消えます。「載せる」は次の更新（7・12・18・22時ごろ）から、安いときにサイトに出ます。間違えたら「操作済み」から戻せます。</p>
+  <p class="note" style="margin-bottom:6px;line-height:1.5">「隠す」はサイトからすぐ消えます。「載せる」は次の更新（7・12・18・22時ごろ）から、安いときにサイトに出ます。間違えたら「操作済み」から戻せます。「確認待ち」は、毎晩クーポンを確かめて「クーポンを使うと他店より安い」と分かった商品です。</p>
   <div class="tabs" id="tabs">
     <button data-t="live" aria-pressed="true">掲載中<span class="n" id="n-live"></span></button>
-    <button data-t="cand" aria-pressed="false">候補<span class="n" id="n-cand"></span></button>
+    <button data-t="cand" aria-pressed="false">確認待ち<span class="n" id="n-cand"></span></button>
     <button data-t="done" aria-pressed="false">操作済み<span class="n" id="n-done"></span></button>
   </div>
   <div class="chips" id="chips"></div>
@@ -140,7 +140,7 @@ $("list").onclick=e=>{
 };
 Promise.all([
   fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>live=j.deals||[]).catch(()=>{}),
-  fetch("candidates.json",{cache:"no-store"}).then(r=>r.json()).then(j=>cand=j.items||[]).catch(()=>{}),
+  fetch("review.json",{cache:"no-store"}).then(r=>r.json()).then(j=>cand=(j.items||[]).map(x=>({...x,real:x.total,why:`${x.coupon_text||"クーポン"}で他店（${num(x.target)}円）より${num(x.save)}円安い`}))).catch(()=>{}),
   fetch(SHEET).then(r=>r.text()).then(t=>{for(const r of parseCsv(t).slice(1))if(/^[0-9a-f]{10}$/.test(r[2]||""))ops[r[2]]={op:r[1],info:r[3]||""}}).catch(()=>{})
 ]).then(render);
 </script>
