@@ -114,7 +114,7 @@ function shipBox(d){
 function render(d){
   const real=d.real??d.now;
   const badges=[];
-  if(d.off) badges.push(`${d.off}%OFF`);
+  if(d.save) badges.push(`他店より${num(d.save)}円安い`);
   if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
   if(d.pick) badges.push("爆買いタコおすすめ");
   if(d.rank) badges.push("人気上位");
@@ -130,7 +130,7 @@ function render(d){
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
-      <div><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>
+      <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
       <dl class="rows">
         ${d.points?`<div><dt>ストアポイント（誰でも）</dt><dd>−${num(d.points)}pt</dd></div>`:""}
         <div class="big"><dt>実質価格</dt><dd>${num(real)}円</dd></div>
