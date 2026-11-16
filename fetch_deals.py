@@ -86,6 +86,11 @@ BTO_GENRE_ID = "2502"  # パソコン
 BTO_EXCLUDE = re.compile(r"中古|整備済|再生品|リファービッシュ|訳あり|アウトレット|ジャンク|レンタル")
 BTO_MAX = 90  # 種類ごとの候補の上限
 BTO_MODE = False
+# 人気上位チェック：価格比較サイトの人気ランキング上位の商品と、調べた時点の他店最安（非公開シート）。
+# ポイント込みの実質価格（送料がかかるなら送料込み）がそれより安いときだけ載せる。他店の数字はサイトに出さない
+RANK_SHEET = "19mhEJe7FnnRvOw-BDtFSS_kS9MlqSrVmIkXdsYVXHIE"
+RANK_MAX = 80
+RANK_NG = re.compile(r"中古|訳あり|アウトレット|展示|開封|ジャンク|互換|交換用|替え|ケース|カバー|フィルム|フィルター|ホルダー|スタンド|保護|パーツ|部品|レンタル|整備済")
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -285,6 +290,40 @@ def load_ng():
 def deal_id(page, jan, url, name):
     key = page or jan or url or name
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:10]
+
+
+def load_rank():
+    """人気上位チェックのシートを読む。[{genre, query, model, target, memo}]"""
+    import csv, io
+    url = f"https://docs.google.com/spreadsheets/d/{RANK_SHEET}/gviz/tq?tqx=out:csv"
+    req = urllib.request.Request(url, headers={"User-Agent": "yasune-cho/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        rows = list(csv.reader(io.StringIO(r.read().decode("utf-8"))))
+    out = []
+    for row in rows[1:]:
+        row = (row + [""] * 6)[:6]
+        genre, query, model, target, _, memo = [c.strip() for c in row]
+        digits = re.sub(r"\D", "", target)
+        if query and digits:
+            out.append({"genre": genre or "家電", "query": query, "model": model or query,
+                        "target": int(digits), "memo": memo})
+    return out[:RANK_MAX]
+
+
+def _key(s):
+    return re.sub(r"[\s\-‐_/]", "", unicodedata.normalize("NFKC", s or "").upper())
+
+
+def _rank_ok(d):
+    """人気上位の商品が、送料込みでも他店最安より安いか。"""
+    t = d.get("_rank_target")
+    if not t:
+        return True
+    if d.get("ship") == 2:
+        return d["real"] < t
+    if d.get("postage") is None:
+        return d.get("ship") == 3 and d["real"] < t  # 条件付き送料無料は本体だけで判定
+    return d["real"] + d["postage"] < t
 
 
 def load_admin():
@@ -590,6 +629,54 @@ def main(out_path: str) -> None:
         for r in sorted(set(NEAR))[:40]:
             print(f"   x{r[0]} {r[1]}円 ({r[2]}) {r[3]}")
 
+    # 人気上位チェック（他店最安よりポイント込みで安いときだけ載せる）
+    if not os.environ.get("MOCK_DIR"):
+        try:
+            ranks = load_rank()
+        except Exception as e:
+            ranks = []
+            print(f"[人気上位] シートを読めず: {e}", file=sys.stderr)
+        BTO_MODE = True
+        added = 0
+        for rk in ranks:
+            time.sleep(1.5)
+            try:
+                hits = call_api("", 1, rk["query"], discounted=False).get("hits", [])[:30]
+            except Exception as e:
+                print(f"[人気上位 {rk['query']}] 取得失敗: {e}", file=sys.stderr)
+                continue
+            # 型番の欄はスペース区切りで「全部含む」。先頭が - の語は「含まない」
+            words = rk["model"].split()
+            need = [_key(w) for w in words if not w.startswith("-")]
+            avoid = [_key(w[1:]) for w in words if w.startswith("-") and len(w) > 1]
+            pick = rk["memo"].startswith("おすすめ")
+            best = None
+            for h in hits:
+                nm = html.unescape(h.get("name", ""))
+                k = _key(nm)
+                if any(w not in k for w in need) or any(w in k for w in avoid) or RANK_NG.search(nm) \
+                        or (h.get("price") or 0) < rk["target"] * 0.4:
+                    continue
+                d = to_deal(h, rk["genre"], now_ts)
+                if d and (best is None or d["real"] < best["real"]):
+                    best = d
+            if not best or best["real"] >= rk["target"]:
+                continue
+            flag = "pick" if pick else "rank"
+            same = [x for x in deals if x["id"] == best["id"]]
+            if same:
+                same[0][flag], same[0]["_rank_target"] = True, rk["target"]
+                continue
+            keys = {best["name"]} | ({best["jan"]} if best["jan"] else set())
+            if keys & seen:
+                continue
+            seen |= keys
+            best[flag], best["_rank_target"], best["_rank_only"] = True, rk["target"], True
+            deals.append(best)
+            added += 1
+        BTO_MODE = False
+        print(f"[人気上位] {len(ranks)}商品を確認 → 他店より安くて新しく載せた {added}件")
+
     # BTOパソコン・PCパーツ（候補に出す。「載せる」を押した物は安いときだけ掲載）
     for kind, queries in ({} if os.environ.get("MOCK_DIR") else PICK_QUERIES).items():
         hits = []
@@ -628,12 +715,24 @@ def main(out_path: str) -> None:
 
     if not os.environ.get("MOCK_DIR"):
         add_postage(deals)
+    # 送料を足すと他店最安より高くなる人気上位の商品：人気上位だけで載った物は外し、元から載っていた物は印だけ外す
+    keep = []
+    for d in deals:
+        if not _rank_ok(d):
+            if d.get("_rank_only"):
+                continue
+            d.pop("rank", None)
+            d.pop("pick", None)
+        d.pop("_rank_target", None)
+        keep.append(d)
+    deals = keep
 
     # 詳細ページ（item.html?id=...）用の番号。同じ商品なら更新しても同じ番号になる
     for d in deals:
         d.setdefault("id", deal_id(d.get("page"), d.get("jan"), d.get("url"), d["name"]))
         d.pop("_unknown", None)
         d.pop("_cheap", None)
+        d.pop("_rank_only", None)
     deals = [d for d in deals if d["id"] not in HIDE]
 
     if not deals:
