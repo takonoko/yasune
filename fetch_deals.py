@@ -498,6 +498,111 @@ def fetch_postage(url: str):
     }
 
 
+SPECIAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "special.json")
+
+
+def _page_props(url: str):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        h = r.read().decode("utf-8", "replace")
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
+    return json.loads(m.group(1)).get("props", {}).get("pageProps", {}) if m else {}
+
+
+def load_special(now_ts: int) -> list:
+    """special.json に書いた商品（リュウジおすすめ・爆買いタコおすすめなど）を読む。
+    other（他店最安）があれば送料込みで比べて安い時だけ、無ければ「他で売っていない」扱いで載せる。
+    クーポンは自動で取れないので、special.json に書いた内容で計算する。"""
+    global BTO_MODE
+    try:
+        with open(SPECIAL_PATH, encoding="utf-8") as f:
+            conf = json.load(f)
+    except FileNotFoundError:
+        return []
+    out = []
+    for g in conf.get("groups", []):
+        cp = g.get("coupon") or {}
+        cp_ok = bool(cp) and datetime.fromisoformat(cp["end"]).timestamp() > now_ts
+        for it in g.get("items", []):
+            if isinstance(it, str):
+                it = {"code": it}
+            seller, srid = it["code"].split("/", 1)
+            page = f"https://store.shopping.yahoo.co.jp/{seller}/{srid}.html"
+            time.sleep(1.5)
+            try:
+                pp = _page_props(page)
+            except Exception as e:
+                print(f"[特集] 取得失敗 {page}: {e}", file=sys.stderr)
+                continue
+            item = pp.get("item") or {}
+            name = html.unescape(item.get("name") or "").strip()
+            price = item.get("applicablePrice")
+            if not name or not price or (item.get("stock") or {}).get("isSoldOut"):
+                continue
+            d = None
+            for q in (name[:60], " ".join(name.split()[:3])):
+                try:
+                    hits = call_api("", 1, q, discounted=False, seller=seller).get("hits", [])
+                except Exception:
+                    hits = []
+                h = next((x for x in hits if x.get("code") == f"{seller}_{srid}"), None)
+                if h:
+                    BTO_MODE = True
+                    d = to_deal(h, g.get("genre", "食品"), now_ts)
+                    BTO_MODE = False
+                    break
+            if not d:
+                aff = os.environ.get("VC_AFFILIATE_ID") or ""
+                d = {"genre": g.get("genre", "食品"), "store": "yahoo", "name": name,
+                     "url": aff + urllib.parse.quote(page, safe="") if aff else page,
+                     "image": f"https://item-shopping.c.yimg.jp/i/j/{seller}_{srid}",
+                     "now": price, "points": 0, "premium_points": 0, "real": price,
+                     "shop": item.get("shopName") or (pp.get("seller") or {}).get("name"),
+                     "maker": "", "page": page, "jan": item.get("janCode") or None}
+            for k in ("_unknown", "_cheap", "was", "off", "real_off", "camp_rate", "camp_points",
+                      "camp_real", "camp_off", "camp_date"):
+                d.pop(k, None)
+            d["now"] = price
+            pg = pp.get("postage") or {}
+            if pg.get("isPostageFree"):
+                d["ship"], d["free_shipping"] = 2, True
+            else:
+                d["ship"] = 3 if (pg.get("conditionFreeText") or "").strip() else 1
+                d["free_shipping"] = False
+                if isinstance(pg.get("fee"), int):
+                    d["postage"] = pg["fee"]
+                if (pg.get("conditionFreeText") or "").strip():
+                    d["free_cond"] = pg["conditionFreeText"].strip()
+            if cp_ok and price >= cp.get("min", 0):
+                disc = int(price * cp["pct"] / 100) if cp.get("pct") else cp.get("yen", 0)
+                if cp.get("max"):
+                    disc = min(disc, cp["max"])
+                rate = (d.get("points") or 0) / price
+                d["coupon"] = cp["text"]
+                d["coupon_url"] = cp.get("url")
+                d["coupon_price"] = price - disc
+                d["real"] = price - disc - int((price - disc) * rate)
+            other = it.get("other")
+            total = d["real"] + (d.get("postage") or 0 if d.get("ship") != 2 else 0)
+            if other:
+                if not (total <= other * (1 - RANK_MARGIN) and other - total >= RANK_MIN_YEN):
+                    print(f"[特集] 他店より安くないので載せない: {name[:30]} {total} / {other}")
+                    continue
+                d["other"], d["save"] = other, other - total
+                d["save_pct"] = round((other - total) * 100 / other)
+            else:
+                d["only"] = True  # 他の通販サイトでは売っていない
+            d["badge"] = g.get("label")
+            if g.get("label") == "爆買いタコおすすめ":
+                d["pick"] = True
+            if it.get("comment"):
+                d["comment"] = it["comment"]
+            d["id"] = deal_id(page, d.get("jan"), d.get("url"), name)
+            out.append(d)
+    print(f"[特集] {len(out)}件")
+    return out
+
+
 def add_postage(deals: list) -> None:
     """送料無料でない商品だけ、商品ページを見て送料と無料の条件を足す。"""
     n = 0
@@ -748,6 +853,13 @@ def main(out_path: str) -> None:
         d.pop("real_off", None)
         keep.append(d)
     deals = keep
+    try:
+        sp = load_special(now_ts) if not os.environ.get("MOCK_DIR") else []
+    except Exception as e:
+        print(f"[特集] 読めず: {e}", file=sys.stderr)
+        sp = []
+    have = {d.get("page") for d in sp}
+    deals = sp + [d for d in deals if d.get("page") not in have]  # 特集を先頭に。同じ商品は特集の方を使う
 
     # 詳細ページ（item.html?id=...）用の番号。同じ商品なら更新しても同じ番号になる
     for d in deals:
