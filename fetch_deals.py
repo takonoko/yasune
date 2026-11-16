@@ -90,7 +90,7 @@ BTO_MODE = False
 # ポイント込みの実質価格（送料がかかるなら送料込み）がそれより安いときだけ載せる。他店の数字はサイトに出さない
 RANK_SHEET = "19mhEJe7FnnRvOw-BDtFSS_kS9MlqSrVmIkXdsYVXHIE"
 RANK_MAX = 80
-RANK_NG = re.compile(r"中古|訳あり|アウトレット|展示|開封|ジャンク|互換|交換用|替え|ケース|カバー|フィルム|フィルター|ホルダー|スタンド|保護|パーツ|部品|レンタル|整備済")
+RANK_NG = re.compile(r"中古|訳あり|アウトレット|展示|開封|ジャンク|互換|交換用|替え|ケース|カバー|フィルム|フィルター|ホルダー|スタンド|保護|パーツ|部品|レンタル|整備済|右耳|左耳|片耳|片側")
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
 # 載せないメーカー×商品の組み合わせ（メーカー表示名, 商品名に含まれる言葉の正規表現）
@@ -646,7 +646,14 @@ def main(out_path: str) -> None:
                 print(f"[人気上位 {rk['query']}] 取得失敗: {e}", file=sys.stderr)
                 continue
             # 型番の欄はスペース区切りで「全部含む」。先頭が - の語は「含まない」
-            words = rk["model"].split()
+            words = []
+            for w in rk["model"].split():
+                # 「Liberty 5」のように英字の後ろの短い数字はくっつけて1語にする（5だけで当たらないように）
+                if words and re.fullmatch(r"\d{1,2}", w) and re.search(r"[A-Za-z]$", words[-1]) \
+                        and not words[-1].startswith("-"):
+                    words[-1] += w
+                else:
+                    words.append(w)
             need = [_key(w) for w in words if not w.startswith("-")]
             avoid = [_key(w[1:]) for w in words if w.startswith("-") and len(w) > 1]
             pick = rk["memo"].startswith("おすすめ")
