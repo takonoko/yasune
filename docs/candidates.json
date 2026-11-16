@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:19+09:00",
+ "updated": "2026-11-17T02:30+09:00",
  "items": [
   {
    "id": "116f8a5f54",
@@ -2719,6 +2719,26 @@
    "page": "https://store.shopping.yahoo.co.jp/ohsho/s-144.html",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fohsho%2Fs-144.html",
    "reviews": 146,
+   "why": "件数の上限"
+  },
+  {
+   "id": "434153b3f1",
+   "genre": "家電",
+   "name": "＼ランキング1位獲得／ カセットコンロ ガスコンロ 卓上 スリム コンロ アイリスオーヤマ スタイリッシュ 高火力 防災 安全装置付き IGC-E1-H",
+   "image": "https://item-shopping.c.yimg.jp/i/j/petkan_m7250572",
+   "was": 3610,
+   "now": 2970,
+   "off": 18,
+   "points": 27,
+   "real": 2943,
+   "real_off": 18,
+   "pt_rate": 0.9,
+   "maker": "アイリスオーヤマ",
+   "shop": "メガストア Yahoo!店",
+   "jan": "4967576649018",
+   "page": "https://store.shopping.yahoo.co.jp/petkan/m7250572.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpetkan%2Fm7250572.html",
+   "reviews": 511,
    "why": "件数の上限"
   },
   {
@@ -5579,26 +5599,6 @@
    "page": "https://store.shopping.yahoo.co.jp/gyy-shop/70961-ar-fum-ball-type-100p.html",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgyy-shop%2F70961-ar-fum-ball-type-100p.html",
    "reviews": 11,
-   "why": "知らないメーカー"
-  },
-  {
-   "id": "b1171d325a",
-   "genre": "日用品",
-   "name": "arFUM アフューム エターナル ジェルマジックボール 衣料用洗濯洗剤 100個入り",
-   "image": "https://item-shopping.c.yimg.jp/i/j/gyy-shop_77127-arfum-eternal-gel-magic-ball-100ct",
-   "was": 4550,
-   "now": 3626,
-   "off": 20,
-   "points": 33,
-   "real": 3593,
-   "real_off": 21,
-   "pt_rate": 0.9,
-   "maker": "arFUM",
-   "shop": "GYY",
-   "jan": "4580536762963",
-   "page": "https://store.shopping.yahoo.co.jp/gyy-shop/77127-arfum-eternal-gel-magic-ball-100ct.html",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgyy-shop%2F77127-arfum-eternal-gel-magic-ball-100ct.html",
-   "reviews": 9,
    "why": "知らないメーカー"
   }
  ]
