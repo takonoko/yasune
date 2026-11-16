@@ -603,6 +603,39 @@ def load_special(now_ts: int) -> list:
     return out
 
 
+def add_points(deals: list) -> None:
+    """商品ページ（ログインなしで見える内容）から、ポイントの内訳を読む。
+    「毎日5%」（支払い方法・LINE連携）や「ボーナスストアPlus」「LYPプレミアム」など、
+    条件をそろえると付くポイントも入る。クーポンはログインしないと見えないので入らない。"""
+    n = 0
+    for d in deals[:90]:
+        if not d.get("page"):
+            continue
+        time.sleep(1.2)
+        try:
+            pt = (_page_props(d["page"]).get("point") or {})
+        except Exception as e:
+            print(f"[ポイント] 取得失敗 {d['page']}: {e}", file=sys.stderr)
+            continue
+        parts = []
+        for key, cond in (("currentCampaignList", False), ("conditionalCampaignList", True)):
+            for c in pt.get(key) or []:
+                for x in c.get("partsCampaignList") or []:
+                    if x.get("ratio") or x.get("point"):
+                        parts.append({"t": x.get("title") or "", "r": x.get("ratio") or 0,
+                                      "p": x.get("point") or 0, "c": cond})
+        if not parts:
+            continue
+        n += 1
+        tot = sum(x["p"] for x in parts)
+        base = d.get("coupon_price") or d["now"]
+        d["pt_parts"] = parts
+        d["pt_max"] = int(tot * base / d["now"]) if d.get("now") else tot
+        d["pt_max_rate"] = round(sum(x["r"] for x in parts), 1)
+        d["max_real"] = base - d["pt_max"]
+    print(f"[ポイント] {n}件の内訳を商品ページで確認")
+
+
 def add_postage(deals: list) -> None:
     """送料無料でない商品だけ、商品ページを見て送料と無料の条件を足す。"""
     n = 0
@@ -869,6 +902,8 @@ def main(out_path: str) -> None:
         d.pop("_cheap", None)
         d.pop("_rank_only", None)
     deals = [d for d in deals if d["id"] not in HIDE]
+    if not os.environ.get("MOCK_DIR"):
+        add_points(deals)
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
