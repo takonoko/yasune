@@ -70,6 +70,15 @@ ADMIN_SHEET = "1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCLBGTif4--Qs"
 HIDE = set()          # 「隠す」を押した商品のid
 ALLOW = {}            # 「載せる」を押した商品のid → {"genre","jan","name"}
 CANDIDATES = []       # 値段は合格だが載っていない商品（管理ページの候補）
+CHECK = []            # 他店より少し高い商品。クーポンがあれば安くなるかも（毎晩ログインして確認する）
+
+
+def add_check(d: dict, target: int, memo: str = "") -> None:
+    if not d.get("page") or any(x["page"] == d["page"] for x in CHECK):
+        return
+    CHECK.append({k: d.get(k) for k in ("genre", "name", "image", "url", "page", "now", "real",
+                                         "free_real", "postage", "ship", "shop")}
+                 | {"id": deal_id(d.get("page"), None, None, d["name"]), "target": target, "memo": memo})
 # BTOパソコン：管理ページで自分で選ぶ方式。ここで探した物は値段に関係なく候補に出し、
 # 「載せる」を押した物だけ、安いときにサイトに出す
 # 種類 → (お店, 探す言葉)。管理ページの候補に「BTOパソコン」「PCパーツ」として出る
@@ -520,13 +529,29 @@ def load_special(now_ts: int) -> list:
             conf = json.load(f)
     except FileNotFoundError:
         return []
+    # 毎晩の確認（docs/review.json）で、管理ページの「載せる」を押した物
+    try:
+        with open(os.path.join(os.path.dirname(SPECIAL_PATH), "docs", "review.json"), encoding="utf-8") as f:
+            rv = json.load(f).get("items", [])
+    except Exception:
+        rv = []
+    ok = []
+    for x in rv:
+        if x.get("id") in ALLOW and x.get("id") not in HIDE and x.get("coupon_yen") and x.get("page"):
+            code = x["page"].split("store.shopping.yahoo.co.jp/", 1)[-1].removesuffix(".html")
+            ok.append({"code": code, "other": x.get("target"), "genre": x.get("genre"),
+                       "coupon": {"yen": x["coupon_yen"], "min": x.get("coupon_min", 0),
+                                  "end": x.get("coupon_end") or "2000-01-01T00:00:00+09:00",
+                                  "text": x.get("coupon_text") or "クーポン"}})
+    if ok:
+        conf = {"groups": list(conf.get("groups", [])) + [{"label": "クーポンで安い", "genre": "", "items": ok}]}
     out = []
     for g in conf.get("groups", []):
-        cp = g.get("coupon") or {}
-        cp_ok = bool(cp) and datetime.fromisoformat(cp["end"]).timestamp() > now_ts
         for it in g.get("items", []):
             if isinstance(it, str):
                 it = {"code": it}
+            cp = it.get("coupon") or g.get("coupon") or {}
+            cp_ok = bool(cp) and datetime.fromisoformat(cp["end"]).timestamp() > now_ts
             seller, srid = it["code"].split("/", 1)
             page = f"https://store.shopping.yahoo.co.jp/{seller}/{srid}.html"
             time.sleep(1.5)
@@ -549,12 +574,12 @@ def load_special(now_ts: int) -> list:
                 h = next((x for x in hits if x.get("code") == f"{seller}_{srid}"), None)
                 if h:
                     BTO_MODE = True
-                    d = to_deal(h, g.get("genre", "食品"), now_ts)
+                    d = to_deal(h, it.get("genre") or g.get("genre") or "食品", now_ts)
                     BTO_MODE = False
                     break
             if not d:
                 aff = os.environ.get("VC_AFFILIATE_ID") or ""
-                d = {"genre": g.get("genre", "食品"), "store": "yahoo", "name": name,
+                d = {"genre": it.get("genre") or g.get("genre") or "食品", "store": "yahoo", "name": name,
                      "url": aff + urllib.parse.quote(page, safe="") if aff else page,
                      "image": f"https://item-shopping.c.yimg.jp/i/j/{seller}_{srid}",
                      "now": price, "points": 0, "premium_points": 0, "real": price,
@@ -839,7 +864,11 @@ def main(out_path: str) -> None:
                 d = to_deal(h, rk["genre"], now_ts)
                 if d and (best is None or d["real"] < best["real"]):
                     best = d
-            if not best or best["real"] >= rk["target"]:
+            if not best:
+                continue
+            if best["real"] >= rk["target"]:
+                if best["real"] < rk["target"] * 1.4:
+                    add_check(best, rk["target"], rk["memo"])
                 continue
             flag = "pick" if pick else "rank"
             same = [x for x in deals if x["id"] == best["id"]]
@@ -906,6 +935,7 @@ def main(out_path: str) -> None:
             continue
         set_free_real(d)
         if not _rank_ok(d):
+            add_check(d, t)
             continue
         d.pop("_rank_target", None)
         total = (d.get("free_real") or d["real"]) + (d["postage"] if d.get("ship") != 2 and isinstance(d.get("postage"), int) else 0)
@@ -961,6 +991,9 @@ def main(out_path: str) -> None:
         cand_out.append({k: d.get(k) for k in ("id", "genre", "name", "image", "was", "now", "off", "points",
                                                 "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews")}
                         | {"why": d.get("_why") or ("知らないメーカー" if d["_unknown"] else "件数の上限")})
+    with open(os.path.join(os.path.dirname(out_path) or ".", "check.json"), "w", encoding="utf-8") as f:
+        json.dump({"updated": out["updated"], "items": CHECK[:60]}, f, ensure_ascii=False, indent=1)
+    print(f"[クーポン確認用] {len(CHECK)}件を check.json に書き出し")
     cand_path = os.path.join(os.path.dirname(out_path) or ".", "candidates.json")
     with open(cand_path, "w", encoding="utf-8") as f:
         json.dump({"updated": out["updated"], "items": cand_out[:280]}, f, ensure_ascii=False, indent=1)
