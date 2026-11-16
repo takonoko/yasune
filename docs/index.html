@@ -71,7 +71,11 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .info summary{cursor:pointer;font-weight:700}
 .info ul{margin:6px 0 0;padding-left:1.2em}
 .info .five{color:var(--accent-ink);font-weight:700;margin:6px 0 0}
-.pm{font-size:.72rem;color:var(--muted)}
+.pm{font-size:.74rem;color:var(--muted)}.pm b{color:var(--fg)}
+.pick{position:absolute;top:8px;right:8px;font:700 .72rem var(--round);background:#c2410c;color:#fff;padding:3px 8px;border-radius:999px}
+.rank{position:absolute;top:8px;right:8px;font:700 .72rem var(--round);background:#2a6fdb;color:#fff;padding:3px 8px;border-radius:999px}
+.lyp{margin:8px 0 0;border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:.8rem;line-height:1.6;background:var(--surface)}
+.lyp .tag{display:inline-block;font-size:.66rem;font-weight:700;padding:0 6px;border-radius:4px;background:var(--line);color:var(--muted);margin-right:6px}
 .cp{font-size:.75rem;color:var(--accent-ink);line-height:1.5}.cp b{font-size:.85rem}
 .shipwarn{font-size:.75rem;line-height:1.5;color:#b3261e;background:#fdecea;border-radius:8px;padding:4px 8px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .shipwarn{color:#f2b8b5;background:#3b1f1d}}
@@ -122,6 +126,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
     <b>買う前に毎日エントリー</b><br>
     Yahoo!ショッピングアプリの<b>カート</b>を開き、「本日のおトク（デイリーボーナス）」の下にある<b>「まとめてエントリー&amp;クーポン獲得」</b>を押してください。エントリーは毎日リセットされるので、買う日ごとに押す必要があります。押さないと上乗せのポイントはもらえません。
   </div>
+  <div class="lyp"><span class="tag">PR</span><b>LYPプレミアム会員</b>はYahoo!ショッピングのポイントが＋2%（PayPay払いなど支払い方法の指定・上限あり）。各商品の「LYPプレミアム会員なら」の値段で買えます。月額508円なので、1回の買い物が約2万8千円以上なら1回で元が取れます。<b>ソフトバンク・ワイモバイル・PayPayカード ゴールドの人は追加料金なしで会員</b>になれます（設定が必要な場合あり）。対象の人は最大2カ月無料。<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener">特典を見る</a><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3788353&pid=892749777" height="1" width="1" alt="" style="border:0"></div>
   <div id="kaidoki" hidden></div>
   <details class="info" id="info">
     <summary>ポイントと送料について（必ずお読みください）</summary>
@@ -136,7 +141,6 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
       <li>飲み物の「1本あたり」は、送料無料の商品だけで計算しています。</li>
       <li>ポイントの率は2026年11月時点の目安です。変わることがあるので、最新の条件はYahoo!ショッピングの公式ページで確認してください。</li>
     </ul>
-    <div style="margin-top:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.86rem;line-height:1.6"><span style="display:inline-block;font-size:.68rem;font-weight:700;padding:0 6px;border-radius:4px;background:var(--line);color:var(--muted);margin-right:6px">PR</span><b>LYPプレミアム会員</b>だと、Yahoo!ショッピングのポイントが＋2%（月の上限あり）。月額508円なので、Yahoo!ショッピングで毎月だいたい2万5千円以上買う人は元が取れる目安です。対象の人は最大2カ月無料（登録のしかたで変わります）。<br><a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener">LYPプレミアムの特典を見る</a><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3788353&pid=892749777" height="1" width="1" alt="" style="border:0"></div>
   </details>
   <section class="grid" id="grid"></section>
   <div class="note">
@@ -153,6 +157,8 @@ const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Ama
 let deals=[],genre="すべて";
 const $=id=>document.getElementById(id);
 const num=v=>Number(v).toLocaleString("ja-JP");
+// LYPプレミアム会員の上乗せ（＋2%。ポイントは税抜価格にかかるので÷1.1）
+const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const todayJST=new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date());
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function left(t){if(!t)return null;const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return null;return h<24?{txt:`あと${h}時間`,soon:true}:{txt:`あと${Math.floor(h/24)}日`,soon:false}}
@@ -162,7 +168,7 @@ function card(d){
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
   const cp=d.camp_real&&d.camp_date===todayJST?`<div class="cp">今日のキャンペーン込み（最大${d.camp_rate}%）<b>約${num(d.camp_real)}円</b></div>`:"";
-  const pm=d.premium_points&&d.premium_points>(d.points||0)?`<div class="pm">LYPプレミアム会員なら +${num(d.premium_points)}pt</div>`:"";
+  const pm=d.store==="yahoo"||!d.store?`<div class="pm">LYPプレミアム会員なら <b>実質${num(real-prem(d))}円</b>${prem(d)>=508?"（この1回で月額分の元が取れる）":""}</div>`:"";
   const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
   let sw="";
   if(d.ship!==2&&!(d.ship==null&&d.free_shipping)){
@@ -174,7 +180,7 @@ function card(d){
   // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
   const href=d.id?`item.html?id=${encodeURIComponent(d.id)}`:d.url;
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
-    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.pt_rate>=10?`<span class="off">${Math.floor(d.pt_rate)}%還元</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
+    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.pt_rate>=10?`<span class="off">${Math.floor(d.pt_rate)}%還元</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
       <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}

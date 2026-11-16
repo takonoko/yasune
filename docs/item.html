@@ -83,6 +83,7 @@ li{margin:3px 0}
 <script>
 const $=id=>document.getElementById(id);
 const num=v=>Number(v).toLocaleString("ja-JP");
+const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
 const id=new URLSearchParams(location.search).get("id");
@@ -115,6 +116,8 @@ function render(d){
   const badges=[];
   if(d.off) badges.push(`${d.off}%OFF`);
   if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
+  if(d.pick) badges.push("爆買いタコおすすめ");
+  if(d.rank) badges.push("人気上位");
   if(d.unit_price) badges.push(`1${esc(d.unit)} ${num(Math.round(d.unit_price))}円`);
   const end=endText(d.end);
   const under3000=real<3000;
@@ -134,9 +137,11 @@ function render(d){
         ${camp?`<div><dt>今日のキャンペーン（最大${d.camp_rate}%・要エントリー）</dt><dd>−${num(d.camp_points)}pt</dd></div><div class="big"><dt>キャンペーン込み実質（最大）</dt><dd>約${num(d.camp_real)}円</dd></div>`:""}
         ${d.unit_price?`<div><dt>${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり</dt><dd>${num(d.unit_price)}円</dd></div>`:""}
         ${d.postage>0&&!(d.ship===2)?`<div class="total"><dt>送料込み（目安）</dt><dd>${num(real+d.postage)}円</dd></div>`:""}
-        ${d.premium_points&&d.premium_points>(d.points||0)?`<div><dt>LYPプレミアム会員なら</dt><dd>+${num(d.premium_points)}pt</dd></div>`:""}
+        ${d.store==="yahoo"||!d.store?`<div><dt>LYPプレミアム会員なら（＋${num(prem(d))}pt）<br><a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener" style="font-size:.78rem">LYPプレミアムとは（PR）</a></dt><dd style="white-space:nowrap">実質${num(real-prem(d))}円</dd></div>${prem(d)>=508?`<div><dt colspan="2" style="color:#c2410c">この1回の購入で、LYPプレミアム1か月分（508円）の元が取れます</dt><dd></dd></div>`:""}`:""}
         ${d.reviews?`<div><dt>レビュー</dt><dd>★${d.rating??"-"}（${num(d.reviews)}件）</dd></div>`:""}
       </dl>
+      ${d.pick?`<p class="small" style="background:#fdeee3;color:#9a3412;border-radius:8px;padding:6px 10px"><b>爆買いタコおすすめ</b>：運営者の爆買いタコが実際にYahoo!ショッピングで買って「この値段なら買い」と思った商品です。ポイント込みの実質価格が、当サイトが調べた時点のネット通販の最安値より安くなっています。</p>`:""}
+      ${d.rank?`<p class="small" style="background:#e8f0fd;color:#1d4fa3;border-radius:8px;padding:6px 10px"><b>人気上位</b>：価格比較サイトの人気ランキングで上位の商品です。ポイント込みの実質価格が、当サイトが調べた時点のネット通販の最安値より安くなっています。</p>`:""}
       <p class="small">お店へのボタンは、下の「送料」と「買う前に」のあとにあります。</p>
     </div>
   </section>
@@ -171,7 +176,7 @@ function render(d){
       <li><b>キャンペーン込み実質（最大）</b>は、もらえるポイントも値引きと考えて、今日の最大付与率（「お得な買い時」の数字）で計算した目安です。最大になるのは、エントリー・対象ストア・1回3,000円以上・PayPayカード払いなどの条件を全部満たしたときです。上限もあるので、実際はこれより高くなることがあります。</li>
       <li>率は2026年11月時点の目安です。最新の条件はアプリのカート画面や公式ページで確認してください。</li>
     </ul>
-    <div style="margin-top:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.86rem;line-height:1.6"><span style="display:inline-block;font-size:.68rem;font-weight:700;padding:0 6px;border-radius:4px;background:var(--line);color:var(--muted);margin-right:6px">PR</span><b>LYPプレミアム会員</b>だと、Yahoo!ショッピングのポイントが＋2%（月の上限あり）。${(()=>{const x=(d.premium_points&&d.premium_points>(d.points||0))?d.premium_points-(d.points||0):Math.floor((d.now||0)*0.02);return x>0?`この商品なら約${num(x)}pt多くもらえます。`:""})()}月額508円なので、Yahoo!ショッピングで毎月だいたい2万5千円以上買う人は元が取れる目安です。対象の人は最大2カ月無料（登録のしかたで変わります）。<br><a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener">LYPプレミアムの特典を見る</a><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3788353&pid=892749777" height="1" width="1" alt="" style="border:0"></div>
+    <div style="margin-top:12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.86rem;line-height:1.6"><span style="display:inline-block;font-size:.68rem;font-weight:700;padding:0 6px;border-radius:4px;background:var(--line);color:var(--muted);margin-right:6px">PR</span><b>LYPプレミアム会員</b>だと、Yahoo!ショッピングのポイントが＋2%（支払い方法の指定・上限あり）。${prem(d)>0?`この商品なら約${num(prem(d))}pt多くもらえます。`:""}月額508円なので、Yahoo!ショッピングで毎月だいたい2万8千円以上買う人は元が取れる目安です。ソフトバンク・ワイモバイル・PayPayカード ゴールドの人は追加料金なしで会員になれます（設定が必要な場合あり）。対象の人は最大2カ月無料（登録のしかたで変わります）。<br><a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener">LYPプレミアムの特典を見る</a><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3788353&pid=892749777" height="1" width="1" alt="" style="border:0"></div>
   </section>`;
 }
 
