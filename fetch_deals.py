@@ -841,9 +841,10 @@ def main(out_path: str) -> None:
         if d.get("ship") != 2 and isinstance(d.get("postage"), int) and d["postage"] >= d["now"]:
             continue
         # 他店の最安値と比べて安いと確かめられた物だけ載せる（お店が付けた値引き率は使わない）
-        t = d.pop("_rank_target", None)
+        t = d.get("_rank_target")
         if not t or not _rank_ok(d):
             continue
+        d.pop("_rank_target", None)
         total = d["real"] + (d["postage"] if d.get("ship") != 2 and isinstance(d.get("postage"), int) else 0)
         d["other"] = t                  # 他店最安（送料込みで比べる前の値段）
         d["save"] = t - total           # 送料込みで何円安いか
