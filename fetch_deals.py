@@ -90,6 +90,8 @@ BTO_MODE = False
 # ポイント込みの実質価格（送料がかかるなら送料込み）がそれより安いときだけ載せる。他店の数字はサイトに出さない
 RANK_SHEET = "19mhEJe7FnnRvOw-BDtFSS_kS9MlqSrVmIkXdsYVXHIE"
 RANK_MAX = 80
+RANK_MARGIN = 0.03     # 人気上位・おすすめは他店最安よりこの割合以上安い時だけ載せる
+RANK_MIN_YEN = 300     # かつ、この金額以上安い時だけ
 RANK_NG = re.compile(r"中古|訳あり|アウトレット|展示|開封|ジャンク|互換|交換用|替え|ケース|カバー|フィルム|フィルター|ホルダー|スタンド|保護|パーツ|部品|レンタル|整備済|右耳|左耳|片耳|片側")
 MAX_OFF = 80          # これを超える値引き率は「通常価格」が怪しいので載せない（%）
 EXCLUDE_SELLERS = {"zozo"}  # ファッション系のお店
@@ -320,10 +322,15 @@ def _rank_ok(d):
     if not t:
         return True
     if d.get("ship") == 2:
-        return d["real"] < t
-    if d.get("postage") is None:
-        return d.get("ship") == 3 and d["real"] < t  # 条件付き送料無料は本体だけで判定
-    return d["real"] + d["postage"] < t
+        total = d["real"]
+    elif d.get("postage") is None:
+        if d.get("ship") != 3:
+            return False
+        total = d["real"]  # 条件付き送料無料は本体だけで判定
+    else:
+        total = d["real"] + d["postage"]
+    # 1円安いだけでは載せない：他店最安より3%以上、かつ300円以上安い時だけ
+    return total <= t * (1 - RANK_MARGIN) and t - total >= RANK_MIN_YEN
 
 
 def load_admin():
@@ -725,6 +732,9 @@ def main(out_path: str) -> None:
     # 送料を足すと他店最安より高くなる人気上位の商品：人気上位だけで載った物は外し、元から載っていた物は印だけ外す
     keep = []
     for d in deals:
+        # 送料が商品の値段以上かかる物（数百円の冷凍食品など）は載せない
+        if d.get("ship") != 2 and isinstance(d.get("postage"), int) and d["postage"] >= d["now"]:
+            continue
         if not _rank_ok(d):
             if d.get("_rank_only"):
                 continue
