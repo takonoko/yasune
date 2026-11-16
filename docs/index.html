@@ -113,8 +113,7 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
     <div class="bar">
       <label for="sort">並び順</label>
       <select id="sort">
-        <option value="real_off">実質のお得さ順</option>
-        <option value="off">値引き率順</option>
+        <option value="real_off">他店より安い順</option>
         <option value="end">セール終了が近い順</option>
         <option value="price">実質価格が安い順</option>
         <option value="reviews">レビューが多い順</option>
@@ -180,10 +179,10 @@ function card(d){
   // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
   const href=d.id?`item.html?id=${encodeURIComponent(d.id)}`:d.url;
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
-    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.off?`<span class="off">${d.off}%OFF</span>`:d.pt_rate>=10?`<span class="off">${Math.floor(d.pt_rate)}%還元</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
+    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       <p class="name">${esc(d.name)}</p>
-      <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.was?`<span class="was">${num(d.was)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
+      <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${pt}${cp}${pm}${sw}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
@@ -195,11 +194,11 @@ function render(){
   const cmp={real_off:(a,b)=>best(b)-best(a),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
   list.sort(cmp);
   $("count").textContent=`${list.length}件`;
-  $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルに載せられるセール品はありません。次の更新をお待ちください。</p>`;
+  $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルで他店より安い商品はありません。次の更新をお待ちください。</p>`;
 }
 $("sort").onchange=render;
 // 今日（日本時間）のキャンペーン込みが使えるときは、それも「お得さ」に入れる
-function best(d){const c=d.camp_off!=null&&d.camp_date===todayJST?d.camp_off:-99;return Math.max(d.real_off??d.value??d.off??0,c)}
+function best(d){const c=d.camp_off!=null&&d.camp_date===todayJST?d.camp_off:-99;return d.save_pct??Math.max(d.real_off??d.value??d.off??0,c)}
 // 5のつく日（日本時間の5・15・25日）は案内を出す
 {const day=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));if([5,15,25].includes(day))$("five").hidden=false;}
 // スプレッドシートの「載せない商品」に書いた言葉かURLを含む商品は出さない（開くたびに読む）
