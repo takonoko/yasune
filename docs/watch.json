@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T07:43+09:00",
+ "updated": "2026-11-16T13:13+09:00",
  "items": [
   {
    "name": "サントリー天然水 2L 9本",
@@ -70,7 +70,14 @@
    "name": "スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | トイレットペーパー",
    "show": true,
    "target": 5200,
-   "found": false
+   "found": true,
+   "title": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 |  トイレットペーパー 3倍巻き まとめ買い 備蓄",
+   "price": 6480,
+   "points": 589,
+   "url": "https://store.shopping.yahoo.co.jp/beisia/4901750227401-4.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/beisia_4901750227401-4",
+   "shop": "ベイシア ヤフーショップ",
+   "min": 6480
   }
  ]
 }
