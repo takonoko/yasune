@@ -134,6 +134,7 @@ function render(d){
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
       ${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
       <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
+      ${d.other?`<p class="small" style="margin:.3em 0">他店との比較は、PayPay払い・LINE連携・ボーナスストアPlusのエントリーをした場合の値段（送料込み）です。有料のLYPプレミアム分は入れていません。</p>`:""}
       <dl class="rows">
         ${d.coupon?`<div><dt>${esc(d.coupon)}${d.coupon_url?`<br><a href="${esc(d.coupon_url)}" target="_blank" rel="noopener" style="font-size:.78rem">クーポンを獲得する</a>`:""}</dt><dd>${num(d.coupon_price)}円</dd></div>`:""}
         ${d.points?`<div><dt>ストアポイント（誰でも）</dt><dd>−${num(d.points)}pt</dd></div>`:""}
