@@ -321,14 +321,15 @@ def _rank_ok(d):
     t = d.get("_rank_target")
     if not t:
         return True
+    base = d.get("free_real") or d["real"]  # 無料でそろえられる条件（支払い方法・LINE連携・エントリー）込み
     if d.get("ship") == 2:
-        total = d["real"]
+        total = base
     elif d.get("postage") is None:
         if d.get("ship") != 3:
             return False
-        total = d["real"]  # 条件付き送料無料は本体だけで判定
+        total = base  # 条件付き送料無料は本体だけで判定
     else:
-        total = d["real"] + d["postage"]
+        total = base + d["postage"]
     # 1円安いだけでは載せない：他店最安より3%以上、かつ300円以上安い時だけ
     return total <= t * (1 - RANK_MARGIN) and t - total >= RANK_MIN_YEN
 
@@ -583,7 +584,9 @@ def load_special(now_ts: int) -> list:
                 d["coupon_price"] = price - disc
                 d["real"] = price - disc - int((price - disc) * rate)
             other = it.get("other")
-            total = d["real"] + (d.get("postage") or 0 if d.get("ship") != 2 else 0)
+            if other:
+                set_free_real(d)
+            total = (d.get("free_real") or d["real"]) + (d.get("postage") or 0 if d.get("ship") != 2 else 0)
             if other:
                 if not (total <= other * (1 - RANK_MARGIN) and other - total >= RANK_MIN_YEN):
                     print(f"[特集] 他店より安くないので載せない: {name[:30]} {total} / {other}")
@@ -603,6 +606,42 @@ def load_special(now_ts: int) -> list:
     return out
 
 
+_PT_CACHE = {}
+
+
+def point_parts(page: str) -> list:
+    """商品ページ（ログインなし）に出るポイントの内訳。同じページは1回だけ読む。"""
+    if page in _PT_CACHE:
+        return _PT_CACHE[page]
+    time.sleep(1.2)
+    parts = []
+    try:
+        pt = _page_props(page).get("point") or {}
+    except Exception as e:
+        print(f"[ポイント] 取得失敗 {page}: {e}", file=sys.stderr)
+        pt = {}
+    for key, cond in (("currentCampaignList", False), ("conditionalCampaignList", True)):
+        for c in pt.get(key) or []:
+            for x in c.get("partsCampaignList") or []:
+                if x.get("ratio") or x.get("point"):
+                    parts.append({"t": x.get("title") or "", "r": x.get("ratio") or 0,
+                                  "p": x.get("point") or 0, "c": cond})
+    _PT_CACHE[page] = parts
+    return parts
+
+
+def set_free_real(d: dict) -> None:
+    """LYPプレミアム（有料）以外の、無料でそろえられる条件を全部そろえた実質価格。"""
+    if not d.get("page") or not d.get("now"):
+        return
+    parts = point_parts(d["page"])
+    if not parts:
+        return
+    base = d.get("coupon_price") or d["now"]
+    free = sum(x["p"] for x in parts if "LYP" not in x["t"])
+    d["free_real"] = base - int(free * base / d["now"])
+
+
 def add_points(deals: list) -> None:
     """商品ページ（ログインなしで見える内容）から、ポイントの内訳を読む。
     「毎日5%」（支払い方法・LINE連携）や「ボーナスストアPlus」「LYPプレミアム」など、
@@ -611,19 +650,7 @@ def add_points(deals: list) -> None:
     for d in deals[:90]:
         if not d.get("page"):
             continue
-        time.sleep(1.2)
-        try:
-            pt = (_page_props(d["page"]).get("point") or {})
-        except Exception as e:
-            print(f"[ポイント] 取得失敗 {d['page']}: {e}", file=sys.stderr)
-            continue
-        parts = []
-        for key, cond in (("currentCampaignList", False), ("conditionalCampaignList", True)):
-            for c in pt.get(key) or []:
-                for x in c.get("partsCampaignList") or []:
-                    if x.get("ratio") or x.get("point"):
-                        parts.append({"t": x.get("title") or "", "r": x.get("ratio") or 0,
-                                      "p": x.get("point") or 0, "c": cond})
+        parts = point_parts(d["page"])
         if not parts:
             continue
         n += 1
@@ -875,10 +902,13 @@ def main(out_path: str) -> None:
             continue
         # 他店の最安値と比べて安いと確かめられた物だけ載せる（お店が付けた値引き率は使わない）
         t = d.get("_rank_target")
-        if not t or not _rank_ok(d):
+        if not t:
+            continue
+        set_free_real(d)
+        if not _rank_ok(d):
             continue
         d.pop("_rank_target", None)
-        total = d["real"] + (d["postage"] if d.get("ship") != 2 and isinstance(d.get("postage"), int) else 0)
+        total = (d.get("free_real") or d["real"]) + (d["postage"] if d.get("ship") != 2 and isinstance(d.get("postage"), int) else 0)
         d["other"] = t                  # 他店最安（送料込みで比べる前の値段）
         d["save"] = t - total           # 送料込みで何円安いか
         d["save_pct"] = round((t - total) * 100 / t)
