@@ -1,0 +1,70 @@
+{
+ "groups": [
+  {
+   "label": "リュウジおすすめ",
+   "genre": "食品",
+   "coupon": {
+    "pct": 20,
+    "max": 1000,
+    "end": "2026-11-22T00:00:00+09:00",
+    "text": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
+    "url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/"
+   },
+   "items": [
+    "kouragumi/210018",
+    "kouragumi/201175",
+    "kouragumi/100010",
+    "kouragumi/200530",
+    "maedaya/zaku-uma-siok-1",
+    "maedaya/zaku-uma-mix-1",
+    "maedaya/zaku-uma-nori-1",
+    "maedaya/zaku-uma-8nuts-1",
+    "maedaya/zaku-uma-konp1",
+    "maedaya/zaku-uma-kinako1",
+    "maedaya/zaku-uma-pepper1",
+    "maedaya/potatosnack-400",
+    "syabumaru/set026-082-1",
+    "syabumaru/t26003-003-1",
+    "oidayamen/ta001k",
+    "oidayamen/na002",
+    "gyu-kokodake/mala-korikori-set",
+    "gyu-kokodake/mala-sai",
+    "gyu-kokodake/korikori-fire",
+    "gyu-kokodake/ikemen-menma-900g",
+    "iwasaki-honpo/hmu1-5",
+    "iwasaki-honpo/1-5"
+   ]
+  },
+  {
+   "label": "認定グルメ",
+   "genre": "食品",
+   "coupon": {
+    "pct": 20,
+    "max": 1000,
+    "end": "2026-11-22T00:00:00+09:00",
+    "text": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
+    "url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/"
+   },
+   "items": [
+    "gururi-japan/167167018"
+   ]
+  },
+  {
+   "label": "爆買いタコおすすめ",
+   "genre": "日用品",
+   "coupon": {
+    "pct": 5,
+    "min": 3000,
+    "end": "2026-11-18T00:00:00+09:00",
+    "text": "ベイシアのストアクーポン5%OFF（3,000円以上・11/18 0:00まで・先着順）"
+   },
+   "items": [
+    {
+     "code": "beisia/4901750227401-4",
+     "other": 6218,
+     "comment": "48ロールで量はすごいけど、置き場所さえあれば家まで運んでくれるから楽。3倍長持ちで交換の手間が少なく、やわらかくて香り付き。"
+    }
+   ]
+  }
+ ]
+}
