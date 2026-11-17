@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T13:03+09:00",
+ "updated": "2026-11-17T19:10+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -8,7 +8,7 @@
    "id": "b064cec7e4",
    "genre": "食品",
    "store": "yahoo",
-   "name": "【11/17以降発送】かにファクトリー甲羅組 かにみそバター 120g×3個セット リュウジさんも大絶賛！ 至高グルメ ヤフショ限定 カニ 蟹 かに かにみそ 蟹味噌",
+   "name": "かにファクトリー甲羅組 かにみそバター 120g×3個セット リュウジさんも大絶賛！ 至高グルメ ヤフショ限定 カニ 蟹 かに かにみそ 蟹味噌",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F210018.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_210018",
    "now": 3980,
@@ -914,7 +914,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1504,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 43,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 69,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 34,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 34,
+     "c": true
+    }
+   ],
+   "pt_max": 164,
+   "pt_max_rate": 12.0,
+   "max_real": 1340
   },
   {
    "unit_price": 344.8,
@@ -944,7 +985,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2784,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 80,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 128,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    }
+   ],
+   "pt_max": 308,
+   "pt_max_rate": 12.0,
+   "max_real": 2476
   },
   {
    "id": "3a343b620e",
@@ -971,7 +1053,54 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2296,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 26,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 66,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 106,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus 優良ストアでさらに+3%【対象ストア限定】",
+     "r": 3,
+     "p": 79,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 53,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 53,
+     "c": true
+    }
+   ],
+   "pt_max": 317,
+   "pt_max_rate": 15.0,
+   "max_real": 1979
   },
   {
    "id": "e85e4e17fc",
@@ -1024,33 +1153,6 @@
    "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1168,
-   "only": true,
-   "badge": "リュウジおすすめ"
-  },
-  {
-   "id": "43c8dd09ae",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "いけメン いけてるメンマ 味付メンマ 900g リュウジ おすすめ 惣菜 メンマ いけめん イケメン つまみ めんま 大容量 太堀 ポイント消化 爆買 「いけメンマ」 JC",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgyu-kokodake%2Fikemen-menma-900g.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/gyu-kokodake_ikemen-menma-900g",
-   "now": 1438,
-   "points": 13,
-   "premium_points": 13,
-   "real": 1141,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "美味しさギュ!ここだけ",
-   "maker": "ブランド登録なし",
-   "rating": 4.62,
-   "reviews": 873,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/ikemen-menma-900g.html",
-   "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 1151,
    "only": true,
    "badge": "リュウジおすすめ"
   },
@@ -1130,7 +1232,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1783,
+   "reviews": 1784,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1215,6 +1317,62 @@
    "max_real": 5486
   },
   {
+   "id": "1ac3fdc31d",
+   "genre": "日用品",
+   "store": "yahoo",
+   "name": "☆ Gillette ジレット フュージョン マニュアル 替刃 12個入 カミソリ 髭剃り 男性用 メンズ 極薄５枚刃 深剃り 長持ち 大容量パック 送料無料",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvaluemarket2%2Frt1-4987176032638.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/valuemarket2_rt1-4987176032638",
+   "now": 4176,
+   "points": 37,
+   "premium_points": 37,
+   "real": 4139,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "ハッピーライフスタイルショップ",
+   "maker": "P&G",
+   "rating": 5,
+   "reviews": 7,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
+   "jan": "4987176032638",
+   "pick": true,
+   "free_real": 4025,
+   "other": 4579,
+   "save": 554,
+   "save_pct": 12,
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 37,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 94,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 75,
+     "c": true
+    }
+   ],
+   "pt_max": 226,
+   "pt_max_rate": 6.0,
+   "max_real": 3950
+  },
+  {
    "id": "3ea7e99f1e",
    "genre": "日用品",
    "store": "yahoo",
@@ -1289,25 +1447,25 @@
    "max_real": 6030
   },
   {
-   "id": "23c5f5fccb",
+   "id": "cb8ea35075",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj30%2F21392770.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj30_21392770",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392770.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392770",
    "now": 3604,
    "points": 32,
    "premium_points": 32,
    "real": 3572,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "エクセレントショップ",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21392770.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392770.html",
    "jan": "4550668292003",
    "pick": true,
    "postage": 539,
@@ -1625,120 +1783,6 @@
    "pt_max": 2242,
    "pt_max_rate": 6.0,
    "max_real": 38558
-  },
-  {
-   "id": "a99a0d38ac",
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "玄人志向 電源ユニット 750W ATX 80PLUS GOLD ブラック フラットケーブル＆フルプラグイン ATX電源 KRPW-GA750W/90+/REV2.0 国内正規代理店品",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshop-ys%2Fparts026.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/shop-ys_parts026",
-   "now": 8480,
-   "points": 77,
-   "premium_points": 77,
-   "real": 8403,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "Shop-Ys",
-   "maker": "玄人志向",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/shop-ys/parts026.html",
-   "jan": "4988755074186",
-   "rank": true,
-   "free_real": 8169,
-   "other": 8473,
-   "save": 304,
-   "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 42,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 77,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 192,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 154,
-     "c": true
-    }
-   ],
-   "pt_max": 465,
-   "pt_max_rate": 6.0,
-   "max_real": 8015
-  },
-  {
-   "id": "5089dd17cb",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "クランベリーとりんご入りラッキーミックスナッツ ( 600g )/ 美味しさは元気の源(自然の館)",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F4946763051483.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/soukai_4946763051483",
-   "now": 2413,
-   "points": 22,
-   "premium_points": 22,
-   "real": 2391,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "爽快ドラッグ",
-   "maker": "クランベリーとりんご入りラッキーミックス",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": false,
-   "ship": 3,
-   "page": "https://store.shopping.yahoo.co.jp/soukai/4946763051483.html",
-   "jan": "4946763051483",
-   "pick": true,
-   "postage": 770,
-   "postage_pref": "東京都",
-   "free_real": 2324,
-   "other": 3700,
-   "save": 606,
-   "save_pct": 16,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 12,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 22,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 55,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 44,
-     "c": true
-    }
-   ],
-   "pt_max": 133,
-   "pt_max_rate": 6.0,
-   "max_real": 2280
   }
  ]
 }
