@@ -1,28 +1,35 @@
 {
- "updated": "2026-11-18T08:04+09:00",
+ "updated": "2026-11-18T13:03+09:00",
  "deals": [
   {
+   "unit_price": 1314.7,
+   "unit": "個",
+   "count": 3,
+   "id": "b064cec7e4",
    "genre": "食品",
    "store": "yahoo",
-   "name": "かにファクトリー甲羅組 かにみそバター 120g×3個セット リュウジさんも大絶賛！ 至高グルメ ヤフショ限定 カニ 蟹 かに かにみそ 蟹味噌",
+   "name": "【入荷次第発送】かにファクトリー甲羅組 かにみそバター 120g×3個セット リュウジさんも大絶賛！ 至高グルメ ヤフショ限定 カニ 蟹 かに かにみそ 蟹味噌",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F210018.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_210018",
    "now": 3980,
-   "points": 0,
-   "premium_points": 0,
-   "real": 3184,
+   "points": 36,
+   "premium_points": 36,
+   "real": 3156,
+   "pt_rate": 0.9,
+   "end": null,
    "shop": "越前かに職人 甲羅組",
-   "maker": "",
+   "maker": "甲羅組",
+   "rating": 0,
+   "reviews": 1,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/210018.html",
    "jan": null,
-   "ship": 2,
-   "free_shipping": true,
    "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 3184,
    "only": true,
    "badge": "リュウジおすすめ",
-   "id": "b064cec7e4",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1082,7 +1089,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2296,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 26,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 66,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 106,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 106,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 53,
+     "c": true
+    }
+   ],
+   "pt_max": 296,
+   "pt_max_rate": 14.0,
+   "max_real": 2000
   },
   {
    "id": "e85e4e17fc",
@@ -1109,7 +1157,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1168,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 7,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 33,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    }
+   ],
+   "pt_max": 150,
+   "pt_max_rate": 14.0,
+   "max_real": 1018
   },
   {
    "id": "b047424a70",
@@ -1136,7 +1225,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1168,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 7,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 33,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    }
+   ],
+   "pt_max": 150,
+   "pt_max_rate": 14.0,
+   "max_real": 1018
   },
   {
    "unit_price": 693.6,
@@ -1166,7 +1296,54 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2800,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 81,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 129,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 129,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 4,
+     "p": 129,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    }
+   ],
+   "pt_max": 464,
+   "pt_max_rate": 18.0,
+   "max_real": 2336
   },
   {
    "unit_price": 792.6,
@@ -1196,7 +1373,54 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 3200,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 37,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 92,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 148,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 148,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 4,
+     "p": 148,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 74,
+     "c": true
+    }
+   ],
+   "pt_max": 533,
+   "pt_max_rate": 18.0,
+   "max_real": 2667
   },
   {
    "id": "a880510313",
@@ -1214,7 +1438,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1784,
+   "reviews": 1787,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1223,7 +1447,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 800,
    "only": true,
-   "badge": "認定グルメ"
+   "badge": "認定グルメ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    }
+   ],
+   "pt_max": 103,
+   "pt_max_rate": 14.0,
+   "max_real": 697
   },
   {
    "id": "6ea71d486c",
@@ -1294,698 +1559,6 @@
    "pt_max": 824,
    "pt_max_rate": 14.0,
    "max_real": 5656
-  },
-  {
-   "id": "1ac3fdc31d",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "☆ Gillette ジレット フュージョン マニュアル 替刃 12個入 カミソリ 髭剃り 男性用 メンズ 極薄５枚刃 深剃り 長持ち 大容量パック 送料無料",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvaluemarket2%2Frt1-4987176032638.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/valuemarket2_rt1-4987176032638",
-   "now": 4176,
-   "points": 37,
-   "premium_points": 37,
-   "real": 4139,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ハッピーライフスタイルショップ",
-   "maker": "P&G",
-   "rating": 5,
-   "reviews": 7,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
-   "jan": "4987176032638",
-   "pick": true,
-   "free_real": 3874,
-   "other": 4579,
-   "save": 705,
-   "save_pct": 15,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 20,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 37,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 94,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 151,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 75,
-     "c": true
-    }
-   ],
-   "pt_max": 377,
-   "pt_max_rate": 10.0,
-   "max_real": 3799
-  },
-  {
-   "id": "3ea7e99f1e",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "ニュートロ　ワイルド　レシピ　超小型犬〜小型犬用　成犬用　サーモン　４ｋｇ＋パウチ　１袋　おまけ付",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchanet%2F262577.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/chanet_262577",
-   "now": 6980,
-   "points": 63,
-   "premium_points": 63,
-   "real": 6917,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "チャーム charm ヤフー店",
-   "maker": "WILD RECIPE",
-   "rating": 4.73,
-   "reviews": 96,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/chanet/262577.html",
-   "jan": "2250002625772",
-   "pick": true,
-   "free_real": 6219,
-   "other": 6980,
-   "save": 761,
-   "save_pct": 11,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 34,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 63,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 158,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 126,
-     "c": true
-    }
-   ],
-   "pt_max": 887,
-   "pt_max_rate": 14.0,
-   "max_real": 6093
-  },
-  {
-   "id": "f7d7c3c81c",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392770.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392770",
-   "now": 3604,
-   "points": 32,
-   "premium_points": 32,
-   "real": 3572,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ECJOY!",
-   "maker": "ドウシシャ",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": false,
-   "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392770.html",
-   "jan": "4550668292003",
-   "pick": true,
-   "postage": 539,
-   "postage_pref": "東京都",
-   "free_real": 3342,
-   "other": 5480,
-   "save": 1599,
-   "save_pct": 29,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 18,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 32,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 81,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 131,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 65,
-     "c": true
-    }
-   ],
-   "pt_max": 327,
-   "pt_max_rate": 10.0,
-   "max_real": 3277
-  },
-  {
-   "id": "47da7e196b",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "ドウシシャ ゴリラのゴリ霧中 GRK-2601 スチーム式加湿器 2.8L 熱帯雨林モード ハイパワー加湿 上部給水",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-goods%2Fry1105917.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/e-goods_ry1105917",
-   "now": 13200,
-   "points": 1200,
-   "premium_points": 1200,
-   "real": 12000,
-   "pt_rate": 9.1,
-   "end": null,
-   "shop": "インテリアショップe-goods",
-   "maker": "ドウシシャ",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/e-goods/ry1105917.html",
-   "jan": "4550767144791",
-   "pick": true,
-   "free_real": 12234,
-   "other": 12800,
-   "save": 566,
-   "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 66,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 120,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 300,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 480,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 240,
-     "c": true
-    }
-   ],
-   "pt_max": 1206,
-   "pt_max_rate": 10.0,
-   "max_real": 11994
-  },
-  {
-   "id": "693a61b736",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "ダイニチ HD-RXT725T ショコラブラウン 加湿器 プレハブ洋室19畳/木造和室 12畳 加湿量 700mL/h",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftokka%2F4951272036050.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/tokka_4951272036050",
-   "now": 22760,
-   "points": 206,
-   "premium_points": 206,
-   "real": 22554,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "特価COM",
-   "maker": "ダイニチ",
-   "rating": 0,
-   "reviews": 1,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/tokka/4951272036050.html",
-   "jan": "4951272036050",
-   "rank": true,
-   "free_real": 21097,
-   "other": 24799,
-   "save": 3702,
-   "save_pct": 15,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 113,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 206,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 517,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 827,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 413,
-     "c": true
-    }
-   ],
-   "pt_max": 2076,
-   "pt_max_rate": 10.0,
-   "max_real": 20684
-  },
-  {
-   "id": "aa7c26216a",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "シャープ プラズマクラスター7000 加湿空気清浄機 空気清浄適用床面積（目安）:〜23畳 最大加湿量:500mL/h ホワイト系  KC-T50-W",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsanrex%2Fkc-t50-w.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/sanrex_kc-t50-w",
-   "now": 20700,
-   "points": 188,
-   "premium_points": 188,
-   "real": 20512,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "サンサン マーケット",
-   "maker": "シャープ",
-   "rating": 4.73,
-   "reviews": 11,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/sanrex/kc-t50-w.html",
-   "jan": "4550556135856",
-   "rank": true,
-   "free_real": 19187,
-   "other": 20970,
-   "save": 1783,
-   "save_pct": 9,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 103,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 188,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 470,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 752,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 376,
-     "c": true
-    }
-   ],
-   "pt_max": 1889,
-   "pt_max_rate": 10.0,
-   "max_real": 18811
-  },
-  {
-   "id": "bc67fd9fc3",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "SHARP シャープ 空気清浄機 プラズマクラスター 7000 スタンダードタイプ 薄型 ~23畳 ホワイト(FU-S50の旧型番) FU-R50-W",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhikaritv%2F2010124027.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/hikaritv_2010124027",
-   "now": 18580,
-   "points": 168,
-   "premium_points": 168,
-   "real": 18412,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ひかりTVショッピングYahoo!店",
-   "maker": "シャープ",
-   "rating": 4.65,
-   "reviews": 20,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/hikaritv/2010124027.html",
-   "jan": "4974019182605",
-   "rank": true,
-   "free_real": 17223,
-   "other": 19402,
-   "save": 2179,
-   "save_pct": 11,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 92,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 168,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 422,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 675,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 337,
-     "c": true
-    }
-   ],
-   "pt_max": 1694,
-   "pt_max_rate": 10.0,
-   "max_real": 16886
-  },
-  {
-   "id": "f0f195863c",
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "PNY VCG5070T16TFXXPB1-O (GeForce RTX 5070 Ti 16GB)",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic634895.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic634895",
-   "now": 229800,
-   "points": 2089,
-   "premium_points": 2089,
-   "real": 227711,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ドスパラYahoo!店",
-   "maker": "PNY",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic634895.html",
-   "jan": null,
-   "rank": true,
-   "free_real": 219562,
-   "other": 229800,
-   "save": 10238,
-   "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 1149,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 2089,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 5000,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 2000,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 4178,
-     "c": true
-    }
-   ],
-   "pt_max": 14416,
-   "pt_max_rate": 10.0,
-   "max_real": 215384
-  },
-  {
-   "id": "db6815f3cd",
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "GIGABYTE｜ギガバイト GIGABYTE B850 AORUS ELITE-P ICE マザーボード 『神鷹凛モデル』 B850AORUSELITE-P-ICE 返品種別B",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F4719331882488-44-72878.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/joshin_4719331882488-44-72878",
-   "now": 40800,
-   "points": 370,
-   "premium_points": 370,
-   "real": 40430,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "Joshin web",
-   "maker": "GIGA-BYTE",
-   "rating": 0,
-   "reviews": 1,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/joshin/4719331882488-44-72878.html",
-   "jan": "4719331882488",
-   "rank": true,
-   "free_real": 37816,
-   "other": 40800,
-   "save": 2984,
-   "save_pct": 7,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 204,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 370,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 927,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 1483,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 741,
-     "c": true
-    }
-   ],
-   "pt_max": 3725,
-   "pt_max_rate": 10.0,
-   "max_real": 37075
-  },
-  {
-   "id": "a99a0d38ac",
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "玄人志向 電源ユニット 750W ATX 80PLUS GOLD ブラック フラットケーブル＆フルプラグイン ATX電源 KRPW-GA750W/90+/REV2.0 国内正規代理店品",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshop-ys%2Fparts026.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/shop-ys_parts026",
-   "now": 8480,
-   "points": 77,
-   "premium_points": 77,
-   "real": 8403,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "Shop-Ys",
-   "maker": "玄人志向",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/shop-ys/parts026.html",
-   "jan": "4988755074186",
-   "rank": true,
-   "free_real": 7861,
-   "other": 8473,
-   "save": 612,
-   "save_pct": 7,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 42,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 77,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 192,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 308,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 154,
-     "c": true
-    }
-   ],
-   "pt_max": 773,
-   "pt_max_rate": 10.0,
-   "max_real": 7707
-  },
-  {
-   "id": "5089dd17cb",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "クランベリーとりんご入りラッキーミックスナッツ ( 600g )/ 美味しさは元気の源(自然の館)",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F4946763051483.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/soukai_4946763051483",
-   "now": 2413,
-   "points": 22,
-   "premium_points": 22,
-   "real": 2391,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "爽快ドラッグ",
-   "maker": "クランベリーとりんご入りラッキーミックス",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": false,
-   "ship": 3,
-   "page": "https://store.shopping.yahoo.co.jp/soukai/4946763051483.html",
-   "jan": "4946763051483",
-   "pick": true,
-   "postage": 770,
-   "postage_pref": "東京都",
-   "free_real": 2235,
-   "other": 3700,
-   "save": 695,
-   "save_pct": 19,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 12,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 22,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 55,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 89,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 44,
-     "c": true
-    }
-   ],
-   "pt_max": 222,
-   "pt_max_rate": 10.0,
-   "max_real": 2191
   }
  ]
 }
