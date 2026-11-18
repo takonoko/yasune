@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:29+09:00",
+ "updated": "2026-11-19T08:02+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -19,8 +19,8 @@
    "end": null,
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
-   "rating": 4.67,
-   "reviews": 3,
+   "rating": 4.75,
+   "reviews": 4,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/210018.html",
@@ -50,21 +50,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 147,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 73,
      "c": true
     }
    ],
-   "pt_max": 293,
-   "pt_max_rate": 10.0,
-   "max_real": 2891
+   "pt_max": 176,
+   "pt_max_rate": 6.0,
+   "max_real": 3008
   },
   {
    "unit_price": 2749.5,
@@ -115,21 +109,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 205,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 102,
      "c": true
     }
    ],
-   "pt_max": 420,
-   "pt_max_rate": 10.0,
-   "max_real": 4130
+   "pt_max": 252,
+   "pt_max_rate": 6.0,
+   "max_real": 4298
   },
   {
    "id": "569c031339",
@@ -177,21 +165,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 481,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 240,
      "c": true
     }
    ],
-   "pt_max": 1112,
-   "pt_max_rate": 10.0,
-   "max_real": 10887
+   "pt_max": 668,
+   "pt_max_rate": 6.0,
+   "max_real": 11331
   },
   {
    "id": "7e90aa4b3f",
@@ -239,21 +221,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 81,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 40,
      "c": true
     }
    ],
-   "pt_max": 161,
-   "pt_max_rate": 10.0,
-   "max_real": 1599
+   "pt_max": 96,
+   "pt_max_rate": 6.0,
+   "max_real": 1664
   },
   {
    "id": "634e279076",
@@ -301,12 +277,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -319,9 +289,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "id": "44281c1a9d",
@@ -369,16 +339,10 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
+     "t": "ボーナスセレクション+10%【対象商品限定】",
+     "r": 10,
+     "p": 92,
+     "c": false
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
@@ -387,9 +351,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 117,
+   "pt_max_rate": 16.0,
+   "max_real": 683
   },
   {
    "id": "1ff5f1e352",
@@ -437,12 +401,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -455,9 +413,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "id": "660a5689bb",
@@ -505,12 +463,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -523,9 +475,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "unit_price": 123.9,
@@ -576,12 +528,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -594,9 +540,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "id": "74f06f1092",
@@ -644,12 +590,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -662,9 +602,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "id": "7700557850",
@@ -712,12 +652,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 37,
@@ -730,9 +664,9 @@
      "c": true
     }
    ],
-   "pt_max": 103,
-   "pt_max_rate": 14.0,
-   "max_real": 697
+   "pt_max": 73,
+   "pt_max_rate": 10.0,
+   "max_real": 727
   },
   {
    "id": "3adf3133a5",
@@ -759,48 +693,7 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 944,
    "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 5,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 10,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 27,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 43,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 43,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 21,
-     "c": true
-    }
-   ],
-   "pt_max": 119,
-   "pt_max_rate": 14.0,
-   "max_real": 825
+   "badge": "リュウジおすすめ"
   },
   {
    "id": "325e5332be",
@@ -827,42 +720,7 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 3200,
    "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 20,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 36,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 90,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 145,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 72,
-     "c": true
-    }
-   ],
-   "pt_max": 290,
-   "pt_max_rate": 10.0,
-   "max_real": 2910
+   "badge": "リュウジおすすめ"
   },
   {
    "genre": "食品",
@@ -962,8 +820,8 @@
    "end": null,
    "shop": "美味しさギュ!ここだけ",
    "maker": "ブランド登録なし",
-   "rating": 3.67,
-   "reviews": 3,
+   "rating": 4,
+   "reviews": 4,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-korikori-set.html",
@@ -1116,33 +974,34 @@
    "badge": "認定グルメ"
   },
   {
-   "id": "6ea71d486c",
-   "genre": "日用品",
+   "id": "8a5fe77e91",
+   "genre": "ガジェット",
    "store": "yahoo",
-   "name": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 |  トイレットペーパー 3倍巻き まとめ買い 備蓄",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4901750227401-4.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/beisia_4901750227401-4",
-   "now": 6480,
-   "points": 589,
-   "premium_points": 589,
-   "real": 5891,
-   "pt_rate": 9.1,
+   "name": "SOUNDPEATS Air6HS ワイヤレスイヤホン 2026VGP金賞 AI通話ノイズリダクション LDAC 空間オーディオ BlueTooth6.0 イヤホン探し 高音質 最大45時間再生",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgintoshop%2Fair3deluxehs.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/gintoshop_air3deluxehs",
+   "now": 6580,
+   "points": 59,
+   "premium_points": 59,
+   "real": 5543,
+   "pt_rate": 0.9,
    "end": null,
-   "shop": "ベイシア ヤフーショップ",
-   "maker": "クリネックス",
-   "rating": 4.89,
-   "reviews": 18,
+   "shop": "Ginto Shop",
+   "maker": "SOUNDPEATS",
+   "rating": 4.65,
+   "reviews": 714,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/beisia/4901750227401-4.html",
-   "jan": "4901750227401",
-   "free_real": 5773,
-   "other": 6218,
-   "save": 445,
-   "save_pct": 7,
-   "badge": "爆買いタコおすすめ",
-   "pick": true,
-   "comment": "48ロールで量はすごいけど、置き場所さえあれば家まで運んでくれるから楽。3倍長持ちで交換の手間が少なく、やわらかくて香り付き。",
+   "page": "https://store.shopping.yahoo.co.jp/gintoshop/air3deluxehs.html",
+   "jan": "4582660316203",
+   "coupon": "15%OFFクーポン（11/21 0:00まで）",
+   "coupon_url": null,
+   "coupon_price": 5593,
+   "free_real": 5186,
+   "other": 5980,
+   "save": 794,
+   "save_pct": 13,
+   "badge": "クーポンで安い",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1153,37 +1012,31 @@
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 58,
+     "p": 59,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 147,
+     "p": 149,
      "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 235,
-     "c": true
     },
     {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
-     "p": 235,
+     "p": 239,
      "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 117,
+     "p": 119,
      "c": true
     }
    ],
-   "pt_max": 824,
-   "pt_max_rate": 14.0,
-   "max_real": 5656
+   "pt_max": 508,
+   "pt_max_rate": 10.0,
+   "max_real": 5085
   },
   {
    "id": "1ac3fdc31d",
@@ -1207,10 +1060,10 @@
    "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
    "jan": "4987176032638",
    "pick": true,
-   "free_real": 3874,
+   "free_real": 4025,
    "other": 4579,
-   "save": 705,
-   "save_pct": 15,
+   "save": 554,
+   "save_pct": 12,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1231,21 +1084,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 151,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 75,
      "c": true
     }
    ],
-   "pt_max": 377,
-   "pt_max_rate": 10.0,
-   "max_real": 3799
+   "pt_max": 226,
+   "pt_max_rate": 6.0,
+   "max_real": 3950
   },
   {
    "id": "3ea7e99f1e",
@@ -1269,10 +1116,10 @@
    "page": "https://store.shopping.yahoo.co.jp/chanet/262577.html",
    "jan": "2250002625772",
    "pick": true,
-   "free_real": 6219,
+   "free_real": 6472,
    "other": 6980,
-   "save": 761,
-   "save_pct": 11,
+   "save": 508,
+   "save_pct": 7,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1293,12 +1140,6 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 253,
@@ -1311,9 +1152,9 @@
      "c": true
     }
    ],
-   "pt_max": 887,
-   "pt_max_rate": 14.0,
-   "max_real": 6093
+   "pt_max": 634,
+   "pt_max_rate": 10.0,
+   "max_real": 6346
   },
   {
    "id": "f26bd61cb9",
@@ -1339,10 +1180,10 @@
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
-   "free_real": 3282,
+   "free_real": 3410,
    "other": 5480,
-   "save": 1659,
-   "save_pct": 30,
+   "save": 1531,
+   "save_pct": 28,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1363,83 +1204,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 128,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 64,
      "c": true
     }
    ],
-   "pt_max": 321,
-   "pt_max_rate": 10.0,
-   "max_real": 3218
-  },
-  {
-   "id": "47da7e196b",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "ドウシシャ ゴリラのゴリ霧中 GRK-2601 スチーム式加湿器 2.8L 熱帯雨林モード ハイパワー加湿 上部給水 【 ブラックフライデー 】",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-goods%2Fry1105917.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/e-goods_ry1105917",
-   "now": 13200,
-   "points": 1200,
-   "premium_points": 1200,
-   "real": 12000,
-   "pt_rate": 9.1,
-   "end": null,
-   "shop": "インテリアショップe-goods",
-   "maker": "ドウシシャ",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/e-goods/ry1105917.html",
-   "jan": "4550767144791",
-   "pick": true,
-   "free_real": 12234,
-   "other": 12800,
-   "save": 566,
-   "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 66,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 120,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 300,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 480,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 240,
-     "c": true
-    }
-   ],
-   "pt_max": 1206,
-   "pt_max_rate": 10.0,
-   "max_real": 11994
+   "pt_max": 193,
+   "pt_max_rate": 6.0,
+   "max_real": 3346
   },
   {
    "id": "693a61b736",
@@ -1463,10 +1236,10 @@
    "page": "https://store.shopping.yahoo.co.jp/tokka/4951272036050.html",
    "jan": "4951272036050",
    "rank": true,
-   "free_real": 21097,
+   "free_real": 21924,
    "other": 24799,
-   "save": 3702,
-   "save_pct": 15,
+   "save": 2875,
+   "save_pct": 12,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1487,83 +1260,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 827,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 413,
      "c": true
     }
    ],
-   "pt_max": 2076,
-   "pt_max_rate": 10.0,
-   "max_real": 20684
-  },
-  {
-   "id": "bb5425227a",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "炊飯器 3合炊き 一人暮らし用 象印 極め炊き 圧力IH NP-RU05-BZ スレートブラック 圧力IH炊飯ジャー ZOJIRUSHI 新生活",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F4974305227980.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_4974305227980",
-   "now": 23380,
-   "points": 1062,
-   "premium_points": 1062,
-   "real": 22318,
-   "pt_rate": 4.5,
-   "end": null,
-   "shop": "XPRICE Yahoo!店",
-   "maker": "象印",
-   "rating": 4.29,
-   "reviews": 7,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/aprice/4974305227980.html",
-   "jan": "4974305227980",
-   "rank": true,
-   "free_real": 21671,
-   "other": 22580,
-   "save": 909,
-   "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 116,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 212,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 531,
-     "c": false
-    },
-    {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 850,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 425,
-     "c": true
-    }
-   ],
-   "pt_max": 2134,
-   "pt_max_rate": 10.0,
-   "max_real": 21246
+   "pt_max": 1249,
+   "pt_max_rate": 6.0,
+   "max_real": 21511
   },
   {
    "id": "aa7c26216a",
@@ -1587,10 +1292,10 @@
    "page": "https://store.shopping.yahoo.co.jp/sanrex/kc-t50-w.html",
    "jan": "4550556135856",
    "rank": true,
-   "free_real": 19187,
+   "free_real": 19939,
    "other": 20970,
-   "save": 1783,
-   "save_pct": 9,
+   "save": 1031,
+   "save_pct": 5,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1611,21 +1316,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 752,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 376,
      "c": true
     }
    ],
-   "pt_max": 1889,
-   "pt_max_rate": 10.0,
-   "max_real": 18811
+   "pt_max": 1137,
+   "pt_max_rate": 6.0,
+   "max_real": 19563
   },
   {
    "id": "bc67fd9fc3",
@@ -1649,10 +1348,10 @@
    "page": "https://store.shopping.yahoo.co.jp/hikaritv/2010124027.html",
    "jan": "4974019182605",
    "rank": true,
-   "free_real": 17223,
+   "free_real": 17898,
    "other": 19402,
-   "save": 2179,
-   "save_pct": 11,
+   "save": 1504,
+   "save_pct": 8,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1673,21 +1372,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 675,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 337,
      "c": true
     }
    ],
-   "pt_max": 1694,
-   "pt_max_rate": 10.0,
-   "max_real": 16886
+   "pt_max": 1019,
+   "pt_max_rate": 6.0,
+   "max_real": 17561
   },
   {
    "id": "f0f195863c",
@@ -1711,9 +1404,9 @@
    "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic634895.html",
    "jan": null,
    "rank": true,
-   "free_real": 219562,
+   "free_real": 221562,
    "other": 229800,
-   "save": 10238,
+   "save": 8238,
    "save_pct": 4,
    "pt_parts": [
     {
@@ -1735,21 +1428,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 2000,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 4178,
      "c": true
     }
    ],
-   "pt_max": 14416,
-   "pt_max_rate": 10.0,
-   "max_real": 215384
+   "pt_max": 12416,
+   "pt_max_rate": 6.0,
+   "max_real": 217384
   },
   {
    "id": "db6815f3cd",
@@ -1773,10 +1460,10 @@
    "page": "https://store.shopping.yahoo.co.jp/joshin/4719331882488-44-72878.html",
    "jan": "4719331882488",
    "rank": true,
-   "free_real": 37816,
+   "free_real": 39299,
    "other": 40800,
-   "save": 2984,
-   "save_pct": 7,
+   "save": 1501,
+   "save_pct": 4,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1797,21 +1484,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 1483,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 741,
      "c": true
     }
    ],
-   "pt_max": 3725,
-   "pt_max_rate": 10.0,
-   "max_real": 37075
+   "pt_max": 2242,
+   "pt_max_rate": 6.0,
+   "max_real": 38558
   },
   {
    "id": "a99a0d38ac",
@@ -1835,10 +1516,10 @@
    "page": "https://store.shopping.yahoo.co.jp/shop-ys/parts026.html",
    "jan": "4988755074186",
    "rank": true,
-   "free_real": 7861,
+   "free_real": 8169,
    "other": 8473,
-   "save": 612,
-   "save_pct": 7,
+   "save": 304,
+   "save_pct": 4,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1859,21 +1540,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 308,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 154,
      "c": true
     }
    ],
-   "pt_max": 773,
-   "pt_max_rate": 10.0,
-   "max_real": 7707
+   "pt_max": 465,
+   "pt_max_rate": 6.0,
+   "max_real": 8015
   },
   {
    "id": "5089dd17cb",
@@ -1899,10 +1574,10 @@
    "pick": true,
    "postage": 770,
    "postage_pref": "東京都",
-   "free_real": 2235,
+   "free_real": 2324,
    "other": 3700,
-   "save": 695,
-   "save_pct": 19,
+   "save": 606,
+   "save_pct": 16,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1923,21 +1598,15 @@
      "c": false
     },
     {
-     "t": "＜23:59まで＞ハッピー24アワー　＋4％",
-     "r": 4,
-     "p": 89,
-     "c": true
-    },
-    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 44,
      "c": true
     }
    ],
-   "pt_max": 222,
-   "pt_max_rate": 10.0,
-   "max_real": 2191
+   "pt_max": 133,
+   "pt_max_rate": 6.0,
+   "max_real": 2280
   }
  ]
 }
