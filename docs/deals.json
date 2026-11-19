@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T08:02+09:00",
+ "updated": "2026-11-19T13:08+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -191,7 +191,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.51,
-   "reviews": 1879,
+   "reviews": 1880,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/200530.html",
@@ -962,7 +962,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1787,
+   "reviews": 1789,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1093,68 +1093,6 @@
    "pt_max": 226,
    "pt_max_rate": 6.0,
    "max_real": 3950
-  },
-  {
-   "id": "3ea7e99f1e",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "ニュートロ　ワイルド　レシピ　超小型犬〜小型犬用　成犬用　サーモン　４ｋｇ＋パウチ　１袋　おまけ付",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchanet%2F262577.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/chanet_262577",
-   "now": 6980,
-   "points": 63,
-   "premium_points": 63,
-   "real": 6917,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "チャーム charm ヤフー店",
-   "maker": "WILD RECIPE",
-   "rating": 4.73,
-   "reviews": 96,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/chanet/262577.html",
-   "jan": "2250002625772",
-   "pick": true,
-   "free_real": 6472,
-   "other": 6980,
-   "save": 508,
-   "save_pct": 7,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 34,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 63,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 158,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 126,
-     "c": true
-    }
-   ],
-   "pt_max": 634,
-   "pt_max_rate": 10.0,
-   "max_real": 6346
   },
   {
    "id": "f26bd61cb9",
