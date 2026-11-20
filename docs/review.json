@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T02:37:10+09:00",
+ "checked": "2026-11-21T04:04:38+09:00",
  "items": [
   {
    "id": "8a5fe77e91",
@@ -10,13 +10,13 @@
    "image": "https://item-shopping.c.yimg.jp/i/j/gintoshop_air3deluxehs",
    "now": 6580,
    "target": 5980,
-   "coupon_yen": 987,
+   "coupon_yen": 937,
    "coupon_min": 1000,
-   "coupon_end": "2026-11-21T00:00:00+09:00",
-   "coupon_text": "15%OFFクーポン（11/21 0:00まで）",
-   "total": 5534,
-   "save": 446,
-   "checked": "2026-11-20"
+   "coupon_end": "2026-11-22T00:00:00+09:00",
+   "coupon_text": "15%OFFクーポン（11/22 0:00まで）",
+   "total": 5584,
+   "save": 396,
+   "checked": "2026-11-21"
   }
  ]
 }
