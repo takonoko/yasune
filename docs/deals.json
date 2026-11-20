@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:11+09:00",
+ "updated": "2026-11-20T23:29+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -985,7 +985,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2784,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 80,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 128,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    }
+   ],
+   "pt_max": 308,
+   "pt_max_rate": 12.0,
+   "max_real": 2476
   },
   {
    "id": "3a343b620e",
@@ -1303,82 +1344,26 @@
    "max_real": 4832
   },
   {
-   "id": "1ac3fdc31d",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "☆ Gillette ジレット フュージョン マニュアル 替刃 12個入 カミソリ 髭剃り 男性用 メンズ 極薄５枚刃 深剃り 長持ち 大容量パック 送料無料",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvaluemarket2%2Frt1-4987176032638.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/valuemarket2_rt1-4987176032638",
-   "now": 4176,
-   "points": 37,
-   "premium_points": 37,
-   "real": 4139,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ハッピーライフスタイルショップ",
-   "maker": "P&G",
-   "rating": 4.88,
-   "reviews": 8,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
-   "jan": "4987176032638",
-   "pick": true,
-   "free_real": 4025,
-   "other": 4579,
-   "save": 554,
-   "save_pct": 12,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 20,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 37,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 94,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 75,
-     "c": true
-    }
-   ],
-   "pt_max": 226,
-   "pt_max_rate": 6.0,
-   "max_real": 3950
-  },
-  {
-   "id": "5c5f1dcc80",
+   "id": "cb8ea35075",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392770.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392770",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ECJOY!",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
-   "jan": "4550668292010",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392770.html",
+   "jan": "4550668292003",
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
