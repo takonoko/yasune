@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:00+09:00",
+ "updated": "2026-11-20T13:05+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -79,7 +79,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.6,
-   "reviews": 3497,
+   "reviews": 3498,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/201175.html",
@@ -191,7 +191,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.51,
-   "reviews": 1880,
+   "reviews": 1881,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/200530.html",
@@ -985,7 +985,48 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2784,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 80,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 128,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    }
+   ],
+   "pt_max": 308,
+   "pt_max_rate": 12.0,
+   "max_real": 2476
   },
   {
    "id": "3a343b620e",
@@ -1317,8 +1358,8 @@
    "end": null,
    "shop": "ハッピーライフスタイルショップ",
    "maker": "P&G",
-   "rating": 5,
-   "reviews": 7,
+   "rating": 4.88,
+   "reviews": 8,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
@@ -1359,12 +1400,12 @@
    "max_real": 3950
   },
   {
-   "id": "f26bd61cb9",
+   "id": "cb8ea35075",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392770.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392770",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
@@ -1377,8 +1418,8 @@
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
-   "jan": "4550668292010",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392770.html",
+   "jan": "4550668292003",
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
