@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:05+09:00",
+ "updated": "2026-11-20T19:11+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -985,48 +985,7 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 2784,
    "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 17,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 32,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 80,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 128,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 64,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 64,
-     "c": true
-    }
-   ],
-   "pt_max": 308,
-   "pt_max_rate": 12.0,
-   "max_real": 2476
+   "badge": "リュウジおすすめ"
   },
   {
    "id": "3a343b620e",
@@ -1070,8 +1029,8 @@
    "end": null,
    "shop": "美味しさギュ!ここだけ",
    "maker": "ブランド登録なし",
-   "rating": 4.67,
-   "reviews": 3,
+   "rating": 4,
+   "reviews": 5,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-sai.html",
@@ -1098,7 +1057,7 @@
    "shop": "美味しさギュ!ここだけ",
    "maker": "ブランド登録なし",
    "rating": 0,
-   "reviews": 1,
+   "reviews": 2,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/korikori-fire.html",
@@ -1185,7 +1144,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1790,
+   "reviews": 1791,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1400,26 +1359,26 @@
    "max_real": 3950
   },
   {
-   "id": "cb8ea35075",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392770.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392770",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392770.html",
-   "jan": "4550668292003",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
+   "jan": "4550668292010",
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
@@ -1570,60 +1529,116 @@
    "max_real": 19563
   },
   {
-   "id": "bc67fd9fc3",
+   "id": "23d6c84dd0",
    "genre": "家電",
    "store": "yahoo",
-   "name": "SHARP シャープ 空気清浄機 プラズマクラスター 7000 スタンダードタイプ 薄型 ~23畳 ホワイト(FU-S50の旧型番) FU-R50-W",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhikaritv%2F2010124027.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/hikaritv_2010124027",
-   "now": 18580,
-   "points": 168,
-   "premium_points": 168,
-   "real": 18412,
+   "name": "空気清浄機 シャープ FU-S50-W プラズマクラスター7000 SHARP 〜23畳まで ホワイト系 脱臭 集じん PM2.5対応 花粉 リビング 寝室 新生活 薄型 fus50 FUS50",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F2980000205750.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_2980000205750",
+   "now": 19350,
+   "points": 175,
+   "premium_points": 175,
+   "real": 19175,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ひかりTVショッピングYahoo!店",
+   "shop": "XPRICE Yahoo!店",
    "maker": "シャープ",
-   "rating": 4.65,
-   "reviews": 20,
+   "rating": 4.64,
+   "reviews": 463,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/hikaritv/2010124027.html",
-   "jan": "4974019182605",
+   "page": "https://store.shopping.yahoo.co.jp/aprice/2980000205750.html",
+   "jan": "4550556111393",
    "rank": true,
-   "free_real": 17898,
+   "free_real": 18640,
    "other": 19402,
-   "save": 1504,
-   "save_pct": 8,
+   "save": 762,
+   "save_pct": 4,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
      "r": 0.5,
-     "p": 92,
+     "p": 96,
      "c": false
     },
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 168,
+     "p": 175,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 422,
+     "p": 439,
      "c": false
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 337,
+     "p": 351,
      "c": true
     }
    ],
-   "pt_max": 1019,
+   "pt_max": 1061,
    "pt_max_rate": 6.0,
-   "max_real": 17561
+   "max_real": 18289
+  },
+  {
+   "id": "6e7a258545",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "AMD エーエムディー Ryzen 7 5700X BOX 【国内正規品】",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic479652.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic479652",
+   "now": 29800,
+   "points": 270,
+   "premium_points": 270,
+   "real": 29530,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "ドスパラYahoo!店",
+   "maker": "AMD",
+   "rating": 4.95,
+   "reviews": 44,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic479652.html",
+   "jan": null,
+   "rank": true,
+   "free_real": 28704,
+   "other": 31980,
+   "save": 3276,
+   "save_pct": 10,
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 149,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 270,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 677,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 541,
+     "c": true
+    }
+   ],
+   "pt_max": 1637,
+   "pt_max_rate": 6.0,
+   "max_real": 28163
   },
   {
    "id": "f0f195863c",
