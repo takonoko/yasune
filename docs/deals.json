@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:09+09:00",
+ "updated": "2026-11-22T07:50+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -14,7 +14,7 @@
    "now": 3980,
    "points": 36,
    "premium_points": 36,
-   "real": 3156,
+   "real": 3944,
    "pt_rate": 0.9,
    "end": null,
    "shop": "越前かに職人 甲羅組",
@@ -25,9 +25,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/210018.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 3184,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -50,15 +47,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 147,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 73,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 73,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 147,
+     "c": true
     }
    ],
-   "pt_max": 176,
-   "pt_max_rate": 6.0,
-   "max_real": 3008
+   "pt_max": 587,
+   "pt_max_rate": 16.0,
+   "max_real": 3393
   },
   {
    "unit_price": 2749.5,
@@ -73,7 +88,7 @@
    "now": 5550,
    "points": 51,
    "premium_points": 51,
-   "real": 4509,
+   "real": 5499,
    "pt_rate": 0.9,
    "end": null,
    "shop": "越前かに職人 甲羅組",
@@ -84,9 +99,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/201175.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 4550,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -109,15 +121,33 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 205,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 205,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 102,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 102,
      "c": true
     }
    ],
-   "pt_max": 252,
-   "pt_max_rate": 6.0,
-   "max_real": 4298
+   "pt_max": 820,
+   "pt_max_rate": 16.0,
+   "max_real": 4730
   },
   {
    "id": "569c031339",
@@ -129,7 +159,7 @@
    "now": 12999,
    "points": 120,
    "premium_points": 120,
-   "real": 11889,
+   "real": 12879,
    "pt_rate": 0.9,
    "end": null,
    "shop": "越前かに職人 甲羅組",
@@ -140,9 +170,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100010.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 11999,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -165,15 +192,33 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 481,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 481,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 240,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 240,
      "c": true
     }
    ],
-   "pt_max": 668,
-   "pt_max_rate": 6.0,
-   "max_real": 11331
+   "pt_max": 1926,
+   "pt_max_rate": 16.0,
+   "max_real": 11073
   },
   {
    "id": "7e90aa4b3f",
@@ -185,7 +230,7 @@
    "now": 2200,
    "points": 20,
    "premium_points": 20,
-   "real": 1744,
+   "real": 2180,
    "pt_rate": 0.9,
    "end": null,
    "shop": "越前かに職人 甲羅組",
@@ -196,9 +241,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/200530.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 1760,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -221,15 +263,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 81,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 40,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 40,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 81,
+     "c": true
     }
    ],
-   "pt_max": 96,
-   "pt_max_rate": 6.0,
-   "max_real": 1664
+   "pt_max": 323,
+   "pt_max_rate": 16.0,
+   "max_real": 1877
   },
   {
    "id": "634e279076",
@@ -241,7 +301,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -252,9 +312,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-siok-1.html",
    "jan": "4589875653161",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -277,15 +334,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "id": "44281c1a9d",
@@ -297,7 +372,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -308,9 +383,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-mix-1.html",
    "jan": "4589875652904",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -339,15 +411,27 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 117,
-   "pt_max_rate": 16.0,
-   "max_real": 683
+   "pt_max": 202,
+   "pt_max_rate": 22.0,
+   "max_real": 798
   },
   {
    "id": "1ff5f1e352",
@@ -359,7 +443,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -370,9 +454,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-nori-1.html",
    "jan": "4589875653178",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -395,15 +476,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "id": "660a5689bb",
@@ -415,7 +514,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -426,9 +525,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-8nuts-1.html",
    "jan": "4589875653185",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -451,15 +547,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "unit_price": 123.9,
@@ -474,7 +588,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -485,9 +599,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-konp1.html",
    "jan": "4589875653192",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -510,15 +621,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "id": "74f06f1092",
@@ -530,7 +659,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -541,9 +670,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-kinako1.html",
    "jan": "4589875653208",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -566,15 +692,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "id": "7700557850",
@@ -586,7 +730,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -597,9 +741,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-pepper1.html",
    "jan": "4589875653215",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -622,15 +763,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 18,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
     }
    ],
-   "pt_max": 44,
-   "pt_max_rate": 6.0,
-   "max_real": 756
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "id": "3adf3133a5",
@@ -642,7 +801,7 @@
    "now": 1180,
    "points": 10,
    "premium_points": 10,
-   "real": 936,
+   "real": 1170,
    "pt_rate": 0.8,
    "end": null,
    "shop": "MAEDAYA 前田家",
@@ -653,9 +812,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/potatosnack-400.html",
    "jan": "4589875642509",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 944,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -684,15 +840,27 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 21,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 21,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 43,
+     "c": true
     }
    ],
-   "pt_max": 137,
-   "pt_max_rate": 16.0,
-   "max_real": 807
+   "pt_max": 236,
+   "pt_max_rate": 22.0,
+   "max_real": 944
   },
   {
    "id": "325e5332be",
@@ -704,7 +872,7 @@
    "now": 4000,
    "points": 36,
    "premium_points": 36,
-   "real": 3172,
+   "real": 3964,
    "pt_rate": 0.9,
    "end": null,
    "shop": "お肉のしゃぶまる",
@@ -715,9 +883,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/syabumaru/set026-082-1.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 3200,
    "only": true,
    "badge": "リュウジおすすめ",
    "pt_parts": [
@@ -740,15 +905,33 @@
      "c": false
     },
     {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 145,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 72,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 72,
      "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 145,
+     "c": true
     }
    ],
-   "pt_max": 174,
-   "pt_max_rate": 6.0,
-   "max_real": 3026
+   "pt_max": 580,
+   "pt_max_rate": 16.0,
+   "max_real": 3420
   },
   {
    "genre": "食品",
@@ -759,19 +942,63 @@
    "now": 4200,
    "points": 0,
    "premium_points": 0,
-   "real": 3360,
+   "real": 4200,
    "shop": "お肉のしゃぶまる",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/syabumaru/t26003-003-1.html",
    "jan": null,
    "ship": 2,
    "free_shipping": true,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 3360,
    "only": true,
    "badge": "リュウジおすすめ",
-   "id": "488ef37ca9"
+   "id": "488ef37ca9",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 21,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 38,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 97,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 155,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 77,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 77,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 155,
+     "c": true
+    }
+   ],
+   "pt_max": 620,
+   "pt_max_rate": 16.0,
+   "max_real": 3580
   },
   {
    "unit_price": 621.0,
@@ -786,7 +1013,7 @@
    "now": 1880,
    "points": 17,
    "premium_points": 17,
-   "real": 1491,
+   "real": 1863,
    "pt_rate": 0.9,
    "end": null,
    "shop": "元祖飛騨高山ラーメン老田屋",
@@ -797,11 +1024,55 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/oidayamen/ta001k.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 1504,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 43,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 69,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 34,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 34,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 69,
+     "c": true
+    }
+   ],
+   "pt_max": 275,
+   "pt_max_rate": 16.0,
+   "max_real": 1605
   },
   {
    "unit_price": 344.8,
@@ -816,7 +1087,7 @@
    "now": 3480,
    "points": 32,
    "premium_points": 32,
-   "real": 2759,
+   "real": 3448,
    "pt_rate": 0.9,
    "end": null,
    "shop": "元祖飛騨高山ラーメン老田屋",
@@ -827,11 +1098,55 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/oidayamen/na002.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 2784,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 80,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 128,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 128,
+     "c": true
+    }
+   ],
+   "pt_max": 513,
+   "pt_max_rate": 16.0,
+   "max_real": 2967
   },
   {
    "id": "3a343b620e",
@@ -843,7 +1158,7 @@
    "now": 2870,
    "points": 26,
    "premium_points": 26,
-   "real": 2276,
+   "real": 2844,
    "pt_rate": 0.9,
    "end": null,
    "shop": "美味しさギュ!ここだけ",
@@ -854,11 +1169,55 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-korikori-set.html",
    "jan": "4901250118452",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 2296,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 26,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 66,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 106,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 53,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 53,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 106,
+     "c": true
+    }
+   ],
+   "pt_max": 424,
+   "pt_max_rate": 16.0,
+   "max_real": 2446
   },
   {
    "id": "e85e4e17fc",
@@ -870,7 +1229,7 @@
    "now": 1460,
    "points": 13,
    "premium_points": 13,
-   "real": 1158,
+   "real": 1447,
    "pt_rate": 0.9,
    "end": null,
    "shop": "美味しさギュ!ここだけ",
@@ -881,11 +1240,55 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-sai.html",
    "jan": "4901250118452",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 1168,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 7,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 33,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    }
+   ],
+   "pt_max": 215,
+   "pt_max_rate": 16.0,
+   "max_real": 1245
   },
   {
    "id": "b047424a70",
@@ -897,7 +1300,7 @@
    "now": 1460,
    "points": 13,
    "premium_points": 13,
-   "real": 1158,
+   "real": 1447,
    "pt_rate": 0.9,
    "end": null,
    "shop": "美味しさギュ!ここだけ",
@@ -908,9 +1311,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/korikori-fire.html",
    "jan": "4901250118469",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 1168,
    "only": true,
    "badge": "リュウジおすすめ"
   },
@@ -927,7 +1327,7 @@
    "now": 3500,
    "points": 32,
    "premium_points": 32,
-   "real": 2775,
+   "real": 3468,
    "pt_rate": 0.9,
    "end": null,
    "shop": "岩崎本舗Yahoo!店",
@@ -938,14 +1338,11 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/iwasaki-honpo/hmu1-5.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 2800,
    "only": true,
    "badge": "リュウジおすすめ"
   },
   {
-   "unit_price": 792.6,
+   "unit_price": 634.2,
    "unit": "個",
    "count": 5,
    "id": "f21d3ed12d",
@@ -954,12 +1351,12 @@
    "name": "爆買 【 至高グルメ 】 岩崎本舗 長崎角煮まんじゅう  5個入 送料込み お取り寄せ グルメ 肉まん ギフト ラフテー 点心",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fiwasaki-honpo%2F1-5.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/iwasaki-honpo_1-5",
-   "now": 4000,
-   "points": 37,
-   "premium_points": 37,
+   "now": 3200,
+   "points": 29,
+   "premium_points": 29,
    "real": 3171,
    "pt_rate": 0.9,
-   "end": null,
+   "end": 1795971599,
    "shop": "岩崎本舗Yahoo!店",
    "maker": "岩崎本舗",
    "rating": 4.6,
@@ -968,9 +1365,6 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/iwasaki-honpo/1-5.html",
    "jan": "4571217751055",
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 3200,
    "only": true,
    "badge": "リュウジおすすめ"
   },
@@ -984,7 +1378,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 793,
+   "real": 991,
    "pt_rate": 0.9,
    "end": null,
    "shop": "かごしまぐるり公式ストア Yahoo!店",
@@ -995,41 +1389,33 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
    "jan": null,
-   "coupon": "認定グルメ20%OFFクーポン（要獲得・値引き1,000円まで・11/22 0:00まで・先着順）",
-   "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
-   "coupon_price": 800,
    "only": true,
    "badge": "認定グルメ"
   },
   {
-   "id": "8a5fe77e91",
-   "genre": "ガジェット",
+   "genre": "日用品",
    "store": "yahoo",
-   "name": "SOUNDPEATS Air6HS ワイヤレスイヤホン 2026VGP金賞 AI通話ノイズリダクション LDAC 空間オーディオ BlueTooth6.0 イヤホン探し 高音質 最大45時間再生",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgintoshop%2Fair3deluxehs.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/gintoshop_air3deluxehs",
-   "now": 6580,
-   "points": 59,
-   "premium_points": 59,
-   "real": 5593,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "Ginto Shop",
-   "maker": "SOUNDPEATS",
-   "rating": 4.65,
-   "reviews": 714,
-   "free_shipping": true,
+   "name": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | ブラックフライデー トイレットペーパー 3倍巻",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4901750227401-4.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/beisia_4901750227401-4",
+   "now": 6480,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6480,
+   "shop": "ベイシア ヤフーショップ",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/beisia/4901750227401-4.html",
+   "jan": "4901750227401",
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/gintoshop/air3deluxehs.html",
-   "jan": "4582660316203",
-   "coupon": "対象商品15%OFFクーポン（11/22 0:00まで）",
-   "coupon_url": null,
-   "coupon_price": 5643,
-   "free_real": 5438,
-   "other": 5980,
-   "save": 542,
+   "free_shipping": true,
+   "free_real": 5656,
+   "other": 6218,
+   "save": 562,
    "save_pct": 9,
-   "badge": "クーポンで安い",
+   "badge": "爆買いタコおすすめ",
+   "pick": true,
+   "comment": "48ロールで量はすごいけど、置き場所さえあれば家まで運んでくれるから楽。3倍長持ちで交換の手間が少なく、やわらかくて香り付き。",
+   "id": "6ea71d486c",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1040,33 +1426,214 @@
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 59,
+     "p": 58,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 149,
+     "p": 147,
      "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 235,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 235,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 117,
+     "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 119,
+     "p": 117,
      "c": true
     }
    ],
-   "pt_max": 307,
-   "pt_max_rate": 6.0,
-   "max_real": 5336
+   "pt_max": 941,
+   "pt_max_rate": 16.0,
+   "max_real": 5539
   },
   {
-   "id": "e30e4ae017",
+   "camp_rate": 23.0,
+   "camp_points": 1135,
+   "camp_real": 3800,
+   "camp_off": 42,
+   "camp_date": "2026-11-22",
+   "id": "83131abdaf",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "SOUNDPEATS Air6HS ワイヤレスイヤホン 2026VGP金賞 AI通話ノイズリダクション LDAC 空間オーディオ BlueTooth6.0 イヤホン探し 高音質 最大45時間再生",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgintoshop%2Fair6hs-bk-sp-yh-jp.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/gintoshop_air6hs-bk-sp-yh-jp",
+   "now": 4935,
+   "points": 44,
+   "premium_points": 44,
+   "real": 4891,
+   "pt_rate": 0.9,
+   "end": 1795971599,
+   "shop": "Ginto Shop",
+   "maker": "SOUNDPEATS",
+   "rating": 4.51,
+   "reviews": 83,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/gintoshop/air6hs-bk-sp-yh-jp.html",
+   "jan": null,
+   "pick": true,
+   "free_real": 4308,
+   "other": 5980,
+   "save": 1672,
+   "save_pct": 28,
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 24,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 44,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 112,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 179,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 89,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 89,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 179,
+     "c": true
+    }
+   ],
+   "pt_max": 716,
+   "pt_max_rate": 16.0,
+   "max_real": 4219
+  },
+  {
+   "camp_rate": 23.0,
+   "camp_points": 1605,
+   "camp_real": 5374,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
+   "id": "1423f700ae",
+   "genre": "日用品",
+   "store": "yahoo",
+   "name": "◇ニュートロ　ワイルドレシピ　超小型犬〜小型犬用　成犬用　サーモン　4kg",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpetforestvalor%2Fpf-4562358788574.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/petforestvalor_pf-4562358788574",
+   "now": 6979,
+   "points": 63,
+   "premium_points": 63,
+   "real": 6916,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "ペットフォレストヤフー店",
+   "maker": "WILD RECIPE",
+   "rating": 0,
+   "reviews": 1,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/petforestvalor/pf-4562358788574.html",
+   "jan": "4562358788574",
+   "pick": true,
+   "free_real": 6092,
+   "other": 6980,
+   "save": 888,
+   "save_pct": 13,
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 34,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 63,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 158,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 253,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 253,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 126,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 126,
+     "c": true
+    }
+   ],
+   "pt_max": 1013,
+   "pt_max_rate": 16.0,
+   "max_real": 5966
+  },
+  {
+   "camp_rate": 23.0,
+   "camp_points": 782,
+   "camp_real": 2618,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
+   "id": "51716323e4",
    "genre": "家電",
    "store": "yahoo",
-   "name": "ゴリラの握手 電動 手ケア タイマー5分 自動OFF 3段階調節（強・中・弱） 簡単装着 左手右手兼用 グレー ドウシシャ GRT-2501GY",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonne-shop%2Fb0dwdgkf25.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/sonne-shop_b0dwdgkf25",
+   "name": "ゴリラの握手 電動 手ケア タイマー5分 自動OFF 3段階調節（強・中・弱） 簡単装着 左手右手兼用 ピンク ドウシシャ GRT-2501PK",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonne-shop%2Fb0dwcyg57q.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sonne-shop_b0dwcyg57q",
    "now": 3400,
    "points": 30,
    "premium_points": 30,
@@ -1079,8 +1646,8 @@
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/sonne-shop/b0dwdgkf25.html",
-   "jan": "4550668291990",
+   "page": "https://store.shopping.yahoo.co.jp/sonne-shop/b0dwcyg57q.html",
+   "jan": "4550668292003",
    "pick": true,
    "free_real": 3276,
    "other": 5480,
@@ -1117,6 +1684,11 @@
    "max_real": 3215
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 3036,
+   "camp_real": 10164,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "47da7e196b",
    "genre": "家電",
    "store": "yahoo",
@@ -1138,10 +1710,10 @@
    "page": "https://store.shopping.yahoo.co.jp/e-goods/ry1105917.html",
    "jan": "4550767144791",
    "pick": true,
-   "free_real": 12234,
+   "free_real": 11514,
    "other": 12800,
-   "save": 566,
-   "save_pct": 4,
+   "save": 1286,
+   "save_pct": 10,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1162,9 +1734,21 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 480,
+     "c": true
+    },
+    {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
      "p": 480,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 240,
      "c": true
     },
     {
@@ -1174,11 +1758,16 @@
      "c": true
     }
    ],
-   "pt_max": 1206,
-   "pt_max_rate": 10.0,
-   "max_real": 11994
+   "pt_max": 1926,
+   "pt_max_rate": 16.0,
+   "max_real": 11274
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 5234,
+   "camp_real": 17526,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "693a61b736",
    "genre": "家電",
    "store": "yahoo",
@@ -1235,6 +1824,11 @@
    "max_real": 21511
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 4761,
+   "camp_real": 15939,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "aa7c26216a",
    "genre": "家電",
    "store": "yahoo",
@@ -1291,6 +1885,11 @@
    "max_real": 19563
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 4450,
+   "camp_real": 14900,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "23d6c84dd0",
    "genre": "家電",
    "store": "yahoo",
@@ -1347,6 +1946,11 @@
    "max_real": 18289
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 6854,
+   "camp_real": 22946,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "6e7a258545",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -1368,10 +1972,10 @@
    "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic479652.html",
    "jan": null,
    "rank": true,
-   "free_real": 28704,
+   "free_real": 26808,
    "other": 31980,
-   "save": 3276,
-   "save_pct": 10,
+   "save": 5172,
+   "save_pct": 16,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1392,17 +1996,28 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1896,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 541,
      "c": true
     }
    ],
-   "pt_max": 1637,
-   "pt_max_rate": 6.0,
-   "max_real": 28163
+   "pt_max": 3533,
+   "pt_max_rate": 13.0,
+   "max_real": 26267
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 52854,
+   "camp_real": 176946,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "f0f195863c",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -1418,16 +2033,16 @@
    "shop": "ドスパラYahoo!店",
    "maker": "PNY",
    "rating": 0,
-   "reviews": 0,
+   "reviews": 1,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic634895.html",
    "jan": null,
    "rank": true,
-   "free_real": 221562,
+   "free_real": 214562,
    "other": 229800,
-   "save": 8238,
-   "save_pct": 4,
+   "save": 15238,
+   "save_pct": 7,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1448,36 +2063,47 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 4178,
      "c": true
     }
    ],
-   "pt_max": 12416,
-   "pt_max_rate": 6.0,
-   "max_real": 217384
+   "pt_max": 19416,
+   "pt_max_rate": 13.0,
+   "max_real": 210384
   },
   {
-   "id": "db6815f3cd",
+   "camp_rate": 23.0,
+   "camp_points": 9384,
+   "camp_real": 31416,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
+   "id": "3e455851e5",
    "genre": "ガジェット",
    "store": "yahoo",
-   "name": "GIGABYTE｜ギガバイト GIGABYTE B850 AORUS ELITE-P ICE マザーボード 『神鷹凛モデル』 B850AORUSELITE-P-ICE 返品種別B",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F4719331882488-44-72878.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/joshin_4719331882488-44-72878",
+   "name": "GIGABYTE B850 AORUS ELITE-P ICE ATXマザーボード メーカー直送",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F4719331882488.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_4719331882488",
    "now": 40800,
-   "points": 370,
-   "premium_points": 370,
-   "real": 40430,
-   "pt_rate": 0.9,
+   "points": 1854,
+   "premium_points": 1854,
+   "real": 38946,
+   "pt_rate": 4.5,
    "end": null,
-   "shop": "Joshin web",
+   "shop": "XPRICE Yahoo!店",
    "maker": "GIGA-BYTE",
    "rating": 0,
-   "reviews": 1,
+   "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/joshin/4719331882488-44-72878.html",
+   "page": "https://store.shopping.yahoo.co.jp/aprice/4719331882488.html",
    "jan": "4719331882488",
    "rank": true,
    "free_real": 39299,
@@ -1515,6 +2141,11 @@
    "max_real": 38558
   },
   {
+   "camp_rate": 23.0,
+   "camp_points": 1950,
+   "camp_real": 6530,
+   "camp_off": 23,
+   "camp_date": "2026-11-22",
    "id": "a99a0d38ac",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -1536,10 +2167,10 @@
    "page": "https://store.shopping.yahoo.co.jp/shop-ys/parts026.html",
    "jan": "4988755074186",
    "rank": true,
-   "free_real": 8169,
+   "free_real": 7861,
    "other": 8473,
-   "save": 304,
-   "save_pct": 4,
+   "save": 612,
+   "save_pct": 7,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1560,73 +2191,95 @@
      "c": false
     },
     {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 308,
+     "c": true
+    },
+    {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
      "p": 154,
      "c": true
     }
    ],
-   "pt_max": 465,
-   "pt_max_rate": 6.0,
-   "max_real": 8015
+   "pt_max": 773,
+   "pt_max_rate": 10.0,
+   "max_real": 7707
   },
   {
-   "id": "5089dd17cb",
+   "id": "6c43f6310b",
    "genre": "食品",
    "store": "yahoo",
-   "name": "クランベリーとりんご入りラッキーミックスナッツ ( 600g )/ 美味しさは元気の源(自然の館)",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsoukai%2F4946763051483.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/soukai_4946763051483",
-   "now": 2413,
-   "points": 22,
-   "premium_points": 22,
-   "real": 2391,
+   "name": "ミックスナッツ クランベリーとりんご入りミックスナッツ 600g ナッツ くるみ カシューナッツ アーモンド クランベリー  爆買",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshizennoyakata%2Fca-mixnuts.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/shizennoyakata_ca-mixnuts",
+   "now": 1574,
+   "points": 14,
+   "premium_points": 14,
+   "real": 1560,
    "pt_rate": 0.9,
-   "end": null,
-   "shop": "爽快ドラッグ",
-   "maker": "クランベリーとりんご入りラッキーミックス",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": false,
-   "ship": 3,
-   "page": "https://store.shopping.yahoo.co.jp/soukai/4946763051483.html",
-   "jan": "4946763051483",
+   "end": 1795971599,
+   "shop": "美味しさは元気の源 自然の館",
+   "maker": "美味しさは元気の源 自然の館",
+   "rating": 4.6,
+   "reviews": 1578,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/ca-mixnuts.html",
+   "jan": "4946763051315",
    "pick": true,
-   "postage": 770,
-   "postage_pref": "東京都",
-   "free_real": 2324,
+   "free_real": 1372,
    "other": 3700,
-   "save": 606,
-   "save_pct": 16,
+   "save": 2328,
+   "save_pct": 63,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
      "r": 0.5,
-     "p": 12,
+     "p": 7,
      "c": false
     },
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 22,
+     "p": 14,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 55,
+     "p": 36,
      "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 58,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 29,
+     "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 44,
+     "p": 29,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 58,
      "c": true
     }
    ],
-   "pt_max": 133,
-   "pt_max_rate": 6.0,
-   "max_real": 2280
+   "pt_max": 231,
+   "pt_max_rate": 16.0,
+   "max_real": 1343
   }
  ]
 }
