@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:04+09:00",
+ "updated": "2026-11-21T18:58+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -19,8 +19,8 @@
    "end": null,
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
-   "rating": 4.8,
-   "reviews": 5,
+   "rating": 4.83,
+   "reviews": 6,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/210018.html",
@@ -648,7 +648,7 @@
    "shop": "MAEDAYA 前田家",
    "maker": "MAEDAYA 前田家",
    "rating": 4.58,
-   "reviews": 2091,
+   "reviews": 2093,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/maedaya/potatosnack-400.html",
@@ -771,36 +771,7 @@
    "coupon_price": 3360,
    "only": true,
    "badge": "リュウジおすすめ",
-   "id": "488ef37ca9",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 21,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 38,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 97,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 77,
-     "c": true
-    }
-   ],
-   "pt_max": 186,
-   "pt_max_rate": 6.0,
-   "max_real": 3174
+   "id": "488ef37ca9"
   },
   {
    "unit_price": 621.0,
@@ -830,36 +801,7 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1504,
    "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 9,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 17,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 43,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 34,
-     "c": true
-    }
-   ],
-   "pt_max": 82,
-   "pt_max_rate": 6.0,
-   "max_real": 1422
+   "badge": "リュウジおすすめ"
   },
   {
    "unit_price": 344.8,
@@ -906,8 +848,8 @@
    "end": null,
    "shop": "美味しさギュ!ここだけ",
    "maker": "ブランド登録なし",
-   "rating": 4,
-   "reviews": 4,
+   "rating": 3.8,
+   "reviews": 5,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-korikori-set.html",
@@ -933,8 +875,8 @@
    "end": null,
    "shop": "美味しさギュ!ここだけ",
    "maker": "ブランド登録なし",
-   "rating": 4,
-   "reviews": 5,
+   "rating": 4.29,
+   "reviews": 7,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/mala-sai.html",
@@ -1048,7 +990,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1792,
+   "reviews": 1794,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
