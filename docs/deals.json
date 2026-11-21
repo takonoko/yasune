@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:58+09:00",
+ "updated": "2026-11-21T13:04+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -191,7 +191,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.51,
-   "reviews": 1882,
+   "reviews": 1883,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/200530.html",
@@ -771,7 +771,36 @@
    "coupon_price": 3360,
    "only": true,
    "badge": "リュウジおすすめ",
-   "id": "488ef37ca9"
+   "id": "488ef37ca9",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 21,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 38,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 97,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 77,
+     "c": true
+    }
+   ],
+   "pt_max": 186,
+   "pt_max_rate": 6.0,
+   "max_real": 3174
   },
   {
    "unit_price": 621.0,
@@ -801,7 +830,36 @@
    "coupon_url": "https://shopping.yahoo.co.jp/promotion/event/gourmet/certified/",
    "coupon_price": 1504,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 43,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 34,
+     "c": true
+    }
+   ],
+   "pt_max": 82,
+   "pt_max_rate": 6.0,
+   "max_real": 1422
   },
   {
    "unit_price": 344.8,
@@ -990,7 +1048,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1791,
+   "reviews": 1792,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1061,33 +1119,31 @@
    "max_real": 5336
   },
   {
-   "id": "cf5a87b588",
+   "id": "e30e4ae017",
    "genre": "家電",
    "store": "yahoo",
-   "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj30%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj30_21392771",
-   "now": 3539,
-   "points": 32,
-   "premium_points": 32,
-   "real": 3507,
+   "name": "ゴリラの握手 電動 手ケア タイマー5分 自動OFF 3段階調節（強・中・弱） 簡単装着 左手右手兼用 グレー ドウシシャ GRT-2501GY",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonne-shop%2Fb0dwdgkf25.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sonne-shop_b0dwdgkf25",
+   "now": 3400,
+   "points": 30,
+   "premium_points": 30,
+   "real": 3370,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "エクセレントショップ",
+   "shop": "ゾンネショップ",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
-   "free_shipping": false,
-   "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21392771.html",
-   "jan": "4550668292010",
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/sonne-shop/b0dwdgkf25.html",
+   "jan": "4550668291990",
    "pick": true,
-   "postage": 539,
-   "postage_pref": "東京都",
-   "free_real": 3410,
+   "free_real": 3276,
    "other": 5480,
-   "save": 1531,
-   "save_pct": 28,
+   "save": 2204,
+   "save_pct": 40,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1098,25 +1154,25 @@
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 32,
+     "p": 30,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 80,
+     "p": 77,
      "c": false
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 64,
+     "p": 61,
      "c": true
     }
    ],
-   "pt_max": 193,
+   "pt_max": 185,
    "pt_max_rate": 6.0,
-   "max_real": 3346
+   "max_real": 3215
   },
   {
    "id": "47da7e196b",
