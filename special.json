@@ -65,6 +65,316 @@
      "comment": "48ロールで量はすごいけど、置き場所さえあれば家まで運んでくれるから楽。3倍長持ちで交換の手間が少なく、やわらかくて香り付き。"
     }
    ]
+  },
+  {
+   "label": "爆買いタコの注目",
+   "genre": "",
+   "items": [
+    {
+     "code": "irisplaza/113158",
+     "feat": "1fd668d414"
+    },
+    {
+     "code": "gururi-japan/167167018",
+     "feat": "a880510313"
+    },
+    {
+     "code": "shark/fn100j",
+     "feat": "c7c6831b7b"
+    },
+    {
+     "code": "gintoshop/pearlclippro-sp-yh-jp",
+     "feat": "6276ba8d99"
+    },
+    {
+     "code": "komiya/818127-52",
+     "feat": "a2c7b0c18a"
+    },
+    {
+     "code": "y-kojima/4974305232328",
+     "feat": "43b0a0c256"
+    },
+    {
+     "code": "letao/f808",
+     "feat": "ce20f48ced"
+    },
+    {
+     "code": "tsukumo-y/4988755071277",
+     "feat": "079b178d50"
+    },
+    {
+     "code": "as-y/nbj-lam35689-gr",
+     "feat": "10f6f99250"
+    },
+    {
+     "code": "best-denki/1393148010",
+     "feat": "98ef19d36b"
+    }
+   ]
+  },
+  {
+   "label": "超目玉商品",
+   "genre": "",
+   "items": [
+    {
+     "code": "delonghi/0108776315",
+     "feat": "90ade4478a"
+    },
+    {
+     "code": "okamoto-official/b329992",
+     "feat": "d6413afc8d"
+    },
+    {
+     "code": "irisplaza/1928032",
+     "feat": "8b8729b8ef"
+    },
+    {
+     "code": "kouragumi/100007",
+     "feat": "40cd5a8db7"
+    },
+    {
+     "code": "vtcosmetics-official/vtpd36344",
+     "feat": "a8a1be0489"
+    },
+    {
+     "code": "hisamatsu/2009071401",
+     "feat": "c80ec8cbab"
+    },
+    {
+     "code": "s-pln/mt-rx2-24",
+     "feat": "5a07657544"
+    },
+    {
+     "code": "dyson/586364-01",
+     "feat": "0ccf8b5a35"
+    },
+    {
+     "code": "ci-labo-official/18250227-00",
+     "feat": "52ebf05333"
+    },
+    {
+     "code": "queensshop/sal027",
+     "feat": "98c928a9d4"
+    },
+    {
+     "code": "tiger-online/JPI-S10NK",
+     "feat": "b3d4b46bcc"
+    },
+    {
+     "code": "ecovacsjapan/ddx47",
+     "feat": "201c770b7e"
+    },
+    {
+     "code": "koalasleepjapan/101-0035",
+     "feat": "90023851b9"
+    },
+    {
+     "code": "ankerdirect/d2425",
+     "feat": "566675977b"
+    },
+    {
+     "code": "xiaomijapanofficial/743000",
+     "feat": "d60c0cc162"
+    },
+    {
+     "code": "queensshop/sal060",
+     "feat": "bd690421c4"
+    },
+    {
+     "code": "dyson/485228-01",
+     "feat": "abbdbe9d90"
+    }
+   ]
+  },
+  {
+   "label": "Ankerブラックフライデー",
+   "genre": "",
+   "items": [
+    {
+     "code": "ankerdirect/a1257",
+     "feat": "b8397458a8"
+    },
+    {
+     "code": "ankerdirect/t2253",
+     "feat": "651e7a9981"
+    },
+    {
+     "code": "ankerdirect/d1202",
+     "feat": "c9f72c95e5"
+    },
+    {
+     "code": "ankerdirect/a1763-1",
+     "feat": "98c0b6d773"
+    },
+    {
+     "code": "ankerdirect/a1653",
+     "feat": "c137863f5b"
+    },
+    {
+     "code": "ankerdirect/a1664",
+     "feat": "7be82c7e53"
+    },
+    {
+     "code": "ankerdirect/a1384",
+     "feat": "82016855f7"
+    },
+    {
+     "code": "ankerdirect/A1636",
+     "feat": "a36d3ee150"
+    },
+    {
+     "code": "ankerdirect/a121e",
+     "feat": "88377048b6"
+    },
+    {
+     "code": "ankerdirect/a121c",
+     "feat": "ec56deb9b5"
+    },
+    {
+     "code": "ankerdirect/A2039",
+     "feat": "7bfbe0c616"
+    },
+    {
+     "code": "ankerdirect/a2147",
+     "feat": "62ab46f2ef"
+    },
+    {
+     "code": "ankerdirect/A855",
+     "feat": "daa13583c5"
+    },
+    {
+     "code": "ankerdirect/b8553",
+     "feat": "5102790a7f"
+    },
+    {
+     "code": "ankerdirect/a82e2",
+     "feat": "6b99741fb2"
+    },
+    {
+     "code": "ankerdirect/A8436",
+     "feat": "eca1b135fe"
+    },
+    {
+     "code": "ankerdirect/A8355",
+     "feat": "102195951f"
+    },
+    {
+     "code": "ankerdirect/a8357",
+     "feat": "33dd7ff48a"
+    },
+    {
+     "code": "ankerdirect/A7516",
+     "feat": "b00660bf44"
+    },
+    {
+     "code": "ankerdirect/a8376",
+     "feat": "70ad43acf2"
+    },
+    {
+     "code": "ankerdirect/A9231",
+     "feat": "e3b4a167fd"
+    },
+    {
+     "code": "ankerdirect/a91c8",
+     "feat": "7ec230aa2f"
+    },
+    {
+     "code": "ankerdirect/a91f2",
+     "feat": "fe032ef8d1"
+    },
+    {
+     "code": "ankerdirect/A9129",
+     "feat": "9326c490b1"
+    },
+    {
+     "code": "ankerdirect/d1301",
+     "feat": "92a7edf12a"
+    },
+    {
+     "code": "ankerdirect/d1205",
+     "feat": "64c49e9686"
+    },
+    {
+     "code": "ankerdirect/a3004",
+     "feat": "3be3128db4"
+    },
+    {
+     "code": "ankerdirect/a3876",
+     "feat": "b24a301f99"
+    },
+    {
+     "code": "ankerdirect/A3117",
+     "feat": "c87c1ff489"
+    },
+    {
+     "code": "ankerdirect/a31x1",
+     "feat": "ebf0e91f28"
+    },
+    {
+     "code": "ankerdirect/A3105",
+     "feat": "a6c09b4390"
+    },
+    {
+     "code": "ankerdirect/d5103",
+     "feat": "11cee24bbb"
+    },
+    {
+     "code": "ankerdirect/d2200",
+     "feat": "5940f98d50"
+    },
+    {
+     "code": "ankerdirect/D2325",
+     "feat": "f04803a987"
+    },
+    {
+     "code": "ankerdirect/d2431",
+     "feat": "3f40ea7195"
+    },
+    {
+     "code": "ankerdirect/b1763-1",
+     "feat": "e3b96f5df9"
+    },
+    {
+     "code": "ankerdirect/a1763-2",
+     "feat": "ae462c42a0"
+    },
+    {
+     "code": "ankerdirect/a1783",
+     "feat": "8e464623b4"
+    },
+    {
+     "code": "ankerdirect/a2426",
+     "feat": "bc75ef7735"
+    },
+    {
+     "code": "ankerdirect/t211A",
+     "feat": "03d84050fa"
+    },
+    {
+     "code": "ankerdirect/t2353",
+     "feat": "8237d42c6a"
+    },
+    {
+     "code": "ankerdirect/t2081",
+     "feat": "b07c90e152"
+    },
+    {
+     "code": "ankerdirect/e6310",
+     "feat": "ae8290b216"
+    },
+    {
+     "code": "ankerdirect/t87b3",
+     "feat": "dc91db58a6"
+    },
+    {
+     "code": "ankerdirect/t8110",
+     "feat": "122aae144f"
+    },
+    {
+     "code": "ankerdirect/t87b4",
+     "feat": "5aef2adfcb"
+    }
+   ]
   }
  ]
 }
