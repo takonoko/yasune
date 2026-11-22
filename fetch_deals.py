@@ -829,6 +829,8 @@ def load_special(now_ts: int) -> list:
                 d["pick"] = True
             if it.get("comment"):
                 d["comment"] = it["comment"]
+            if it.get("note"):
+                d["note"] = it["note"]   # クーポンの条件など（ページで確認した内容）
             d["id"] = deal_id(page, d.get("jan"), d.get("url"), name)
             out.append(d)
     if feat:
