@@ -89,7 +89,7 @@ function card(d,mode){
   return `<div class="it${done?" done":""}${ck?" c":""}" data-id="${esc(d.id)}">${ck?(o==="載せる"?"<span></span>":`<input type="checkbox" class="ck" data-ck${sel.has(d.id)?" checked":""}>`):""}
     ${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:"<span></span>"}
     <div><a class="nm" href="${esc(d.page||d.url||"#")}" target="_blank" rel="noopener">${esc(d.name)}</a>
-    <div class="meta">${d.genre?`<span class="tag">${esc(d.genre)}</span>`:""}${d.why?`<span class="tag">${esc(d.why)}</span>`:""}${esc(d.maker||"")}</div>${AI[d.id]&&mode==="cand"?`<div class="meta"><span class="tag" style="background:${AI[d.id].ok?"#d3f9d8":"#eee"}">${AI[d.id].ok?"AIおすすめ":"AI見送り"}</span>${esc(AI[d.id].why)}</div>`:""}
+    <div class="meta">${d.genre?`<span class="tag">${esc(d.genre)}</span>`:""}${d.why?`<span class="tag">${esc(d.why)}</span>`:""}${esc(d.maker||"")}</div>${d.rel?`<div class="meta" style="color:#c2410c">${esc(d.rel)}</div>`:""}${AI[d.id]&&mode==="cand"?`<div class="meta"><span class="tag" style="background:${AI[d.id].ok?"#d3f9d8":"#eee"}">${AI[d.id].ok?"AIおすすめ":"AI見送り"}</span>${esc(AI[d.id].why)}</div>`:""}
     <div class="meta">${price}</div></div>
     <div class="act">${btn}</div></div>`;
 }
