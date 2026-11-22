@@ -354,6 +354,8 @@ def load_admin():
     for row in rows[1:]:
         if len(row) < 3 or not re.fullmatch(r"[0-9a-f]{10}", row[2].strip()):
             continue
+        if row[1].strip().startswith("AI"):  # ローカルAIの下見（おすすめ・見送り）は人の操作ではないので使わない
+            continue
         last[row[2].strip()] = (row[1].strip(), row[3] if len(row) > 3 else "")
     hide, allow = set(), {}
     for i, (op, info) in last.items():
