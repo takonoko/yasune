@@ -514,6 +514,85 @@ def fetch_postage(url: str):
 
 SPECIAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "special.json")
 
+# 目玉商品：Yahoo!ショッピングのトップから行けるセール会場に並んでいる商品を集め、管理ページの候補に出す。
+# 本人が「載せる」を押した物だけ、値段がその時より上がらず在庫があるあいだサイトに出す
+FEATURE_TOP = "https://shopping.yahoo.co.jp/"
+FEATURE_EXTRA = ["https://shopping.yahoo.co.jp/promotion/campaign/blackfriday/sale/"]
+FEATURE_MAX = 100     # 1回に詳しく調べる上限（お店のページを1件ずつ見るため）
+FEATURE_MIN_OFF = 15  # これ未満の値引きは候補にしない（%）
+FEAT_OK_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "featured_ok.json")
+GENRE_BY_ID = {"2505": "家電", "2508": "日用品", "2498": "食品", "2502": "ガジェット", "2504": "ガジェット",
+               "2499": "飲み物"}
+
+
+def _html(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def load_featured() -> list:
+    """トップとセール会場から目玉商品を集める。[{code, page, name, now, was, off, image}]"""
+    pages = list(FEATURE_EXTRA)
+    try:
+        top = _html(FEATURE_TOP)
+        pages += re.findall(r"https://shopping\.yahoo\.co\.jp/promotion/campaign/[a-z0-9_\-]+/sale/", top)
+    except Exception as e:
+        print(f"[目玉] トップを読めず: {e}", file=sys.stderr)
+    items = {}
+    for url in list(dict.fromkeys(pages))[:4]:
+        time.sleep(1.5)
+        try:
+            h = _html(url)
+        except Exception as e:
+            print(f"[目玉] 読めず {url}: {e}", file=sys.stderr)
+            continue
+        h = h.replace('\\"', '"').replace("\\/", "/").replace("\\n", "\n")
+        for blk in re.findall(r'<li class="elItem">(.*?)</li>', h, re.S):
+            m = re.search(r'href="https://store\.shopping\.yahoo\.co\.jp/([a-z0-9\-]+)/([A-Za-z0-9\-_]+)\.html', blk)
+            nm = re.search(r'class="elItemName">([^<]+)<', blk)
+            pr = re.search(r'class="elPrice">([\d,]+)', blk)
+            if not (m and nm and pr):
+                continue
+            code = f"{m.group(1)}/{m.group(2)}"
+            was = re.search(r'class="elOriginalPrice">([\d,]+)', blk)
+            img = re.search(r'class="elImage" src="([^"]+)"', blk)
+            now = int(pr.group(1).replace(",", ""))
+            was = int(was.group(1).replace(",", "")) if was else None
+            items.setdefault(code, {"code": code, "page": f"https://store.shopping.yahoo.co.jp/{code}.html",
+                                    "name": html.unescape(nm.group(1)).strip(), "now": now, "was": was,
+                                    "off": round((1 - now / was) * 100) if was and was > now else None,
+                                    "image": img.group(1) if img else None})
+    print(f"[目玉] セール会場 {len(pages)}か所から {len(items)}件")
+    return list(items.values())
+
+
+def featured_candidates(shown: set) -> None:
+    """目玉商品のうち、値引きが大きい物を詳しく調べて管理ページの候補に入れる。"""
+    aff = os.environ.get("VC_AFFILIATE_ID") or ""
+    items = [x for x in load_featured() if (x["off"] or 0) >= FEATURE_MIN_OFF]
+    items.sort(key=lambda x: x["off"] or 0, reverse=True)
+    n = 0
+    for x in items[:FEATURE_MAX]:
+        did = deal_id(x["page"], None, None, x["name"])
+        if did in shown or did in HIDE or did in ALLOW or "マスク" in x["name"] and MASK_FASHION.search(x["name"]):
+            continue
+        d = {"id": did, "genre": "目玉", "name": x["name"], "image": x["image"], "was": x["was"], "now": x["now"],
+             "off": x["off"], "points": 0, "real": x["now"], "real_off": x["off"] or 0, "pt_rate": 0,
+             "maker": find_maker([], x["name"]) or "", "shop": x["code"].split("/")[0], "jan": x["code"],
+             "page": x["page"], "url": aff + urllib.parse.quote(x["page"], safe="") if aff else x["page"],
+             "reviews": None, "_unknown": False, "_why": "目玉商品"}
+        parts = point_parts(x["page"])
+        if x["page"] in SOLD_OUT:
+            continue
+        if parts:
+            free = sum(p["p"] for p in parts if "LYP" not in p["t"])
+            d["real"] = x["now"] - free
+            d["real_off"] = round((1 - d["real"] / (x["was"] or x["now"])) * 100)
+        CANDIDATES.append(d)
+        n += 1
+    print(f"[目玉] 候補に {n}件")
+
 
 def _page_props(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
@@ -549,6 +628,17 @@ def load_special(now_ts: int) -> list:
                                   "text": x.get("coupon_text") or "クーポン"}})
     if ok:
         conf = {"groups": list(conf.get("groups", [])) + [{"label": "クーポンで安い", "genre": "", "items": ok}]}
+    try:
+        with open(FEAT_OK_PATH, encoding="utf-8") as f:
+            feat_ok = json.load(f)
+    except Exception:
+        feat_ok = {}
+    feat = []
+    for i, a in ALLOW.items():
+        if a.get("genre") == "目玉" and "/" in (a.get("jan") or "") and i not in HIDE:
+            feat.append({"code": a["jan"], "feat": i})
+    if feat:
+        conf = {"groups": list(conf.get("groups", [])) + [{"label": "目玉商品", "genre": "", "items": feat}]}
     out = []
     for g in conf.get("groups", []):
         for it in g.get("items", []):
@@ -569,6 +659,13 @@ def load_special(now_ts: int) -> list:
             item = pp.get("item") or {}
             name = html.unescape(item.get("name") or "").strip()
             price = item.get("applicablePrice")
+            if it.get("feat") and price:
+                first = feat_ok.setdefault(it["feat"], price)   # 「載せる」を押したあと最初に見た値段
+                if price > first:
+                    print(f"[目玉] 値段が上がったので出さない: {name[:30]} {price} > {first}")
+                    continue
+            if not (it.get("genre") or g.get("genre")):
+                it["genre"] = next((v for k, v in GENRE_BY_ID.items() if k in [str(x) for x in (item.get("genreCategoryIds") or [])]), "その他")
             if not name or not price or (item.get("stock") or {}).get("isSoldOut") or (item.get("stock") or {}).get("isAvailable") is False:
                 continue
             d = None
@@ -624,6 +721,10 @@ def load_special(now_ts: int) -> list:
                     continue
                 d["other"], d["save"] = other, other - total
                 d["save_pct"] = round((other - total) * 100 / other)
+            elif it.get("feat"):
+                if item.get("originalPrice") and item["originalPrice"] > price:
+                    d["was"] = item["originalPrice"]
+                    d["off"] = round((1 - price / item["originalPrice"]) * 100)
             else:
                 d["only"] = True  # 他の通販サイトでは売っていない
             d["badge"] = g.get("label")
@@ -633,6 +734,9 @@ def load_special(now_ts: int) -> list:
                 d["comment"] = it["comment"]
             d["id"] = deal_id(page, d.get("jan"), d.get("url"), name)
             out.append(d)
+    if feat:
+        with open(FEAT_OK_PATH, "w", encoding="utf-8") as f:
+            json.dump(feat_ok, f, ensure_ascii=False, indent=1)
     print(f"[特集] {len(out)}件")
     return out
 
@@ -1059,6 +1163,11 @@ def main(out_path: str) -> None:
 
     # 管理ページ用の候補（値段は合格だが、知らないメーカー・上限超えで載っていない物）
     shown = {d["id"] for d in deals}
+    if not os.environ.get("MOCK_DIR"):
+        try:
+            featured_candidates(shown)
+        except Exception as e:
+            print(f"[目玉] 失敗: {e}", file=sys.stderr)
     seen_c, cand_out = set(), []
     CANDIDATES.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)
     # 並び順：BTOパソコン → 有名メーカーで件数の上限 → 知らないメーカー
