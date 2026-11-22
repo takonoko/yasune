@@ -63,7 +63,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const num=v=>v==null?"":Number(v).toLocaleString("ja-JP");
 function parseCsv(t){return t.trim().split(/\r?\n/).map(l=>[...l.matchAll(/"((?:[^"]|"")*)"/g)].map(m=>m[1].replace(/""/g,'"')))}
-let live=[],cand=[],ops={},tab="live",genre="すべて",sel=new Set(),shown=[];
+let AI={},live=[],cand=[],ops={},tab="live",genre="すべて",sel=new Set(),shown=[];
 // ops[id] = {op, info, name}  最後に押したボタン
 
 function toast(t){const e=$("toast");e.textContent=t;e.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove("on"),1800)}
@@ -89,13 +89,13 @@ function card(d,mode){
   return `<div class="it${done?" done":""}${ck?" c":""}" data-id="${esc(d.id)}">${ck?(o==="載せる"?"<span></span>":`<input type="checkbox" class="ck" data-ck${sel.has(d.id)?" checked":""}>`):""}
     ${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:"<span></span>"}
     <div><a class="nm" href="${esc(d.page||d.url||"#")}" target="_blank" rel="noopener">${esc(d.name)}</a>
-    <div class="meta">${d.genre?`<span class="tag">${esc(d.genre)}</span>`:""}${d.why?`<span class="tag">${esc(d.why)}</span>`:""}${esc(d.maker||"")}</div>
+    <div class="meta">${d.genre?`<span class="tag">${esc(d.genre)}</span>`:""}${d.why?`<span class="tag">${esc(d.why)}</span>`:""}${esc(d.maker||"")}</div>${AI[d.id]&&mode==="cand"?`<div class="meta"><span class="tag" style="background:${AI[d.id].ok?"#d3f9d8":"#eee"}">${AI[d.id].ok?"AIおすすめ":"AI見送り"}</span>${esc(AI[d.id].why)}</div>`:""}
     <div class="meta">${price}</div></div>
     <div class="act">${btn}</div></div>`;
 }
 function items(){
   if(tab==="live") return live;
-  if(tab==="cand") return cand.filter(d=>ops[d.id]?.op!=="隠す");
+  if(tab==="cand") return cand.filter(d=>ops[d.id]?.op!=="隠す").map((d,i)=>[d,i]).sort((a,b)=>((AI[b[0].id]?.ok?1:0)-(AI[a[0].id]?.ok?1:0))||a[1]-b[1]).map(x=>x[0]);
   const all=Object.fromEntries([...cand,...live].map(d=>[d.id,d]));
   return Object.entries(ops).filter(([,v])=>v.op==="隠す"||v.op==="載せる").map(([id,v])=>({...(all[id]||{}),id,name:all[id]?.name||v.info.split("|")[2]||id,genre:all[id]?.genre||v.info.split("|")[0],info:v.info,why:v.op}));
 }
@@ -141,7 +141,7 @@ $("list").onclick=e=>{
 Promise.all([
   fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>live=j.deals||[]).catch(()=>{}),
   fetch("review.json",{cache:"no-store"}).then(r=>r.json()).then(j=>cand=(j.items||[]).map(x=>({...x,real:x.total,why:`${x.coupon_text||"クーポン"}で他店（${num(x.target)}円）より${num(x.save)}円安い`}))).catch(()=>{}),
-  fetch(SHEET).then(r=>r.text()).then(t=>{for(const r of parseCsv(t).slice(1))if(/^[0-9a-f]{10}$/.test(r[2]||""))ops[r[2]]={op:r[1],info:r[3]||""}}).catch(()=>{})
+  fetch(SHEET).then(r=>r.text()).then(t=>{for(const r of parseCsv(t).slice(1))if(/^[0-9a-f]{10}$/.test(r[2]||"")){if((r[1]||"").startsWith("AI"))AI[r[2]]={ok:r[1]==="AIおすすめ",why:r[3]||""};else ops[r[2]]={op:r[1],info:r[3]||""}}}).catch(()=>{})
 ]).then(render);
 </script>
 </body>
