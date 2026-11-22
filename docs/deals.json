@@ -1,12 +1,7 @@
 {
- "updated": "2026-11-23T03:28+09:00",
+ "updated": "2026-11-23T04:56+09:00",
  "deals": [
   {
-   "camp_rate": 23.0,
-   "camp_points": 1135,
-   "camp_real": 3800,
-   "camp_off": 42,
-   "camp_date": "2026-11-23",
    "id": "83131abdaf",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -82,11 +77,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 1605,
-   "camp_real": 5375,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "3ea7e99f1e",
    "genre": "日用品",
    "store": "yahoo",
@@ -162,11 +152,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 813,
-   "camp_real": 2726,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "cb8ea35075",
    "genre": "家電",
    "store": "yahoo",
@@ -226,11 +211,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 5234,
-   "camp_real": 17526,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "693a61b736",
    "genre": "家電",
    "store": "yahoo",
@@ -288,11 +268,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 4761,
-   "camp_real": 15939,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "aa7c26216a",
    "genre": "家電",
    "store": "yahoo",
@@ -350,11 +325,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 4450,
-   "camp_real": 14900,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "23d6c84dd0",
    "genre": "家電",
    "store": "yahoo",
@@ -412,11 +382,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 6854,
-   "camp_real": 22946,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "6e7a258545",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -480,11 +445,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 52854,
-   "camp_real": 176946,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "f0f195863c",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -548,11 +508,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 9384,
-   "camp_real": 31416,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "3e455851e5",
    "genre": "ガジェット",
    "store": "yahoo",
@@ -610,11 +565,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "camp_rate": 23.0,
-   "camp_points": 1950,
-   "camp_real": 6530,
-   "camp_off": 23,
-   "camp_date": "2026-11-23",
    "id": "a99a0d38ac",
    "genre": "ガジェット",
    "store": "yahoo",
