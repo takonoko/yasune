@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:04+09:00",
+ "updated": "2026-11-22T18:59+09:00",
  "deals": [
   {
    "unit_price": 1314.7,
@@ -94,7 +94,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.6,
-   "reviews": 3500,
+   "reviews": 3501,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/201175.html",
@@ -1312,7 +1312,54 @@
    "page": "https://store.shopping.yahoo.co.jp/gyu-kokodake/korikori-fire.html",
    "jan": "4901250118469",
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 7,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 33,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 54,
+     "c": true
+    }
+   ],
+   "pt_max": 215,
+   "pt_max_rate": 16.0,
+   "max_real": 1245
   },
   {
    "unit_price": 693.6,
@@ -1384,7 +1431,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1796,
+   "reviews": 1797,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1546,33 +1593,33 @@
   {
    "camp_rate": 23.0,
    "camp_points": 1605,
-   "camp_real": 5374,
+   "camp_real": 5375,
    "camp_off": 23,
    "camp_date": "2026-11-22",
-   "id": "1423f700ae",
+   "id": "3ea7e99f1e",
    "genre": "日用品",
    "store": "yahoo",
-   "name": "◇ニュートロ　ワイルドレシピ　超小型犬〜小型犬用　成犬用　サーモン　4kg",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpetforestvalor%2Fpf-4562358788574.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/petforestvalor_pf-4562358788574",
-   "now": 6979,
+   "name": "ニュートロ　ワイルド　レシピ　超小型犬〜小型犬用　成犬用　サーモン　４ｋｇ＋パウチ　１袋　おまけ付",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchanet%2F262577.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/chanet_262577",
+   "now": 6980,
    "points": 63,
    "premium_points": 63,
-   "real": 6916,
+   "real": 6917,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ペットフォレストヤフー店",
+   "shop": "チャーム charm ヤフー店",
    "maker": "WILD RECIPE",
-   "rating": 0,
-   "reviews": 1,
+   "rating": 4.73,
+   "reviews": 96,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/petforestvalor/pf-4562358788574.html",
-   "jan": "4562358788574",
+   "page": "https://store.shopping.yahoo.co.jp/chanet/262577.html",
+   "jan": "2250002625772",
    "pick": true,
-   "free_real": 6092,
+   "free_real": 6093,
    "other": 6980,
-   "save": 888,
+   "save": 887,
    "save_pct": 13,
    "pt_parts": [
     {
@@ -1620,7 +1667,7 @@
    ],
    "pt_max": 1013,
    "pt_max_rate": 16.0,
-   "max_real": 5966
+   "max_real": 5967
   },
   {
    "camp_rate": 23.0,
@@ -2081,64 +2128,70 @@
   },
   {
    "camp_rate": 23.0,
-   "camp_points": 9384,
-   "camp_real": 31416,
+   "camp_points": 9531,
+   "camp_real": 31909,
    "camp_off": 23,
    "camp_date": "2026-11-22",
-   "id": "3e455851e5",
+   "id": "3cec5655e0",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "GIGABYTE B850 AORUS ELITE-P ICE ATXマザーボード メーカー直送",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F4719331882488.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_4719331882488",
-   "now": 40800,
-   "points": 1854,
-   "premium_points": 1854,
-   "real": 38946,
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsake-premoa%2F4719331882488.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sake-premoa_4719331882488",
+   "now": 41440,
+   "points": 1883,
+   "premium_points": 1883,
+   "real": 39557,
    "pt_rate": 4.5,
    "end": null,
-   "shop": "XPRICE Yahoo!店",
+   "shop": "総合通販PREMOA Yahoo!店",
    "maker": "GIGA-BYTE",
    "rating": 0,
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/aprice/4719331882488.html",
+   "page": "https://store.shopping.yahoo.co.jp/sake-premoa/4719331882488.html",
    "jan": "4719331882488",
    "rank": true,
-   "free_real": 39299,
+   "free_real": 37279,
    "other": 40800,
-   "save": 1501,
-   "save_pct": 4,
+   "save": 3521,
+   "save_pct": 9,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
      "r": 0.5,
-     "p": 204,
+     "p": 207,
      "c": false
     },
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 370,
+     "p": 376,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 927,
+     "p": 941,
      "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2637,
+     "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 741,
+     "p": 753,
      "c": true
     }
    ],
-   "pt_max": 2242,
-   "pt_max_rate": 6.0,
-   "max_real": 38558
+   "pt_max": 4914,
+   "pt_max_rate": 13.0,
+   "max_real": 36526
   },
   {
    "camp_rate": 23.0,
@@ -2223,7 +2276,7 @@
    "shop": "美味しさは元気の源 自然の館",
    "maker": "美味しさは元気の源 自然の館",
    "rating": 4.6,
-   "reviews": 1578,
+   "reviews": 1579,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/ca-mixnuts.html",
