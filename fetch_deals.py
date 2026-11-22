@@ -569,7 +569,7 @@ def load_special(now_ts: int) -> list:
             item = pp.get("item") or {}
             name = html.unescape(item.get("name") or "").strip()
             price = item.get("applicablePrice")
-            if not name or not price or (item.get("stock") or {}).get("isSoldOut"):
+            if not name or not price or (item.get("stock") or {}).get("isSoldOut") or (item.get("stock") or {}).get("isAvailable") is False:
                 continue
             d = None
             for q in (name[:60], " ".join(name.split()[:3])):
@@ -638,6 +638,7 @@ def load_special(now_ts: int) -> list:
 
 
 _PT_CACHE = {}
+SOLD_OUT = set()   # 商品ページで「在庫なし」だった物
 
 
 def point_parts(page: str) -> list:
@@ -647,7 +648,10 @@ def point_parts(page: str) -> list:
     time.sleep(1.2)
     parts = []
     try:
-        pt = _page_props(page).get("point") or {}
+        pp = _page_props(page)
+        if ((pp.get("item") or {}).get("stock") or {}).get("isAvailable") is False:
+            SOLD_OUT.add(page)
+        pt = pp.get("point") or {}
     except Exception as e:
         print(f"[ポイント] 取得失敗 {page}: {e}", file=sys.stderr)
         pt = {}
@@ -691,6 +695,8 @@ def add_points(deals: list) -> None:
         d["pt_max"] = int(tot * base / d["now"]) if d.get("now") else tot
         d["pt_max_rate"] = round(sum(x["r"] for x in parts), 1)
         d["max_real"] = base - d["pt_max"]
+        free = sum(x["p"] for x in parts if "LYP" not in x["t"])   # 有料のLYPプレミアム以外の条件をそろえた分
+        d["free_real"] = base - int(free * base / d["now"]) if d.get("now") else d.get("real")
     print(f"[ポイント] {n}件の内訳を商品ページで確認")
 
 
@@ -1031,6 +1037,9 @@ def main(out_path: str) -> None:
     deals = [d for d in deals if d["id"] not in HIDE]
     if not os.environ.get("MOCK_DIR"):
         add_points(deals)
+        if SOLD_OUT:
+            print(f"[在庫なし] {len(SOLD_OUT)}件を外す: " + " ".join(SOLD_OUT))
+        deals = [d for d in deals if d.get("page") not in SOLD_OUT]
     mark_new(deals)
     with open(HIST_PATH, "w", encoding="utf-8") as f:
         json.dump(PRICE_HIST, f, ensure_ascii=False)
