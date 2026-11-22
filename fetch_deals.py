@@ -397,7 +397,7 @@ def to_deal(hit: dict, genre: str, now_ts: int):
     pt_rate = round((pt0.get("lyLimitedBonusAmount") or 0) / sale * 100, 1)
     # キャンペーン込み（今日の最大付与率・3,000円以上の注文のとき）
     camp = {}
-    if CAMP_RATE and sale >= CAMP_MIN_ORDER:
+    if False and CAMP_RATE and sale >= CAMP_MIN_ORDER:  # 付与率×値段は上限を無視するので使わない（商品ページの内訳を使う）
         cpts = max(pt0.get("lyLimitedBonusAmount") or 0, int(sale * CAMP_RATE / 100))
         creal = sale - cpts
         camp = {"camp_rate": CAMP_RATE, "camp_points": cpts, "camp_real": creal,
