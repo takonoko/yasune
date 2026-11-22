@@ -567,6 +567,94 @@ def load_featured() -> list:
     return list(items.values())
 
 
+RELATED_BASE = []   # 量違いを探す元の商品（品切れになった特集もここに入る）
+RELATED_MAX = 15     # 量違いを探す元の商品の上限（1件につき検索1回）
+RELATED_RATE = 0.95  # 1個あたりが元より5%以上安い物だけ候補にする
+UNIT_WORDS = "ロール|本|缶|個|袋|食|枚|包|箱|パック|錠|粒"
+
+
+def pack_units(name: str):
+    """商品名から「全部で何個（何ロール・何本…）入りか」を読む。(数, 単位) か (None, None)"""
+    s = _n(name).replace("×", "x").replace("*", "x").replace("✕", "x")
+    m = re.search(rf"(\d+)\s*({UNIT_WORDS})\s*(?:入り?)?\s*x\s*(\d+)\s*(?:個|パック|袋|箱|セット|ケース|p)?", s)
+    if m:
+        return int(m.group(1)) * int(m.group(3)), m.group(2)
+    m = re.search(rf"(\d+)\s*({UNIT_WORDS})(?![a-z])", s)
+    if m and 2 <= int(m.group(1)) <= 500:
+        return int(m.group(1)), m.group(2)
+    return None, None
+
+
+def _key_words(name: str) -> list:
+    s = re.sub(r"【[^】]*】|\[[^\]]*\]|（[^）]*）|\([^)]*\)|＼[^／]*／", " ", _n(name))
+    s = re.sub(rf"\d+\s*(?:{UNIT_WORDS}|m|ml|l|g|kg|入り?|セット|ケース|個|x)", " ", s)
+    return [w for w in re.split(r"[\s/|・,、!！?？]+", s) if len(w) >= 2 and not w.isdigit()][:6]
+
+
+def related_candidates(deals: list, shown: set) -> None:
+    """載っている商品・登録商品・品切れになった特集と同じメーカー・同じシリーズで、量が違って
+    1個あたりが安い物を探し、管理ページの候補に「関連商品」として入れる。"""
+    aff = os.environ.get("VC_AFFILIATE_ID") or ""
+    base = [{"name": d["name"], "real": d.get("free_real") or d.get("real") or d["now"], "page": d.get("page")}
+            for d in deals if d.get("genre") not in ("BTOパソコン", "PCパーツ")]
+    base += [{"name": a["name"], "real": None, "page": None} for a in ALLOW.values() if a.get("name") and a.get("genre") not in ("目玉", "関連")]
+    base += RELATED_BASE
+    n = 0
+    seen_q = set()
+    for b in base[:RELATED_MAX]:
+        cnt, unit = pack_units(b["name"])
+        maker = find_maker([], b["name"])
+        words = _key_words(b["name"])
+        if not cnt or not maker or len(words) < 2:
+            continue
+        q = " ".join(words[:3])
+        if q in seen_q:
+            continue
+        seen_q.add(q)
+        if not b["real"]:
+            continue
+        per0 = b["real"] / cnt
+        time.sleep(1.5)
+        try:
+            hits = call_api("", 1, q, discounted=False).get("hits", [])
+        except Exception as e:
+            print(f"[関連] 検索失敗 {q}: {e}", file=sys.stderr)
+            continue
+        for h in hits:
+            nm = html.unescape(h.get("name", "")).strip()
+            page = page_url(h)
+            if not page or page == b["page"]:
+                continue
+            c2, u2 = pack_units(nm)
+            if not c2 or u2 != unit or c2 == cnt:
+                continue
+            if find_maker([(h.get("brand") or {}).get("name") or ""], nm) != maker:
+                continue
+            if sum(w in _n(nm) for w in words[:4]) < 2:   # 同じシリーズらしい言葉が2つ以上入っている物だけ
+                continue
+            price = h.get("price")
+            pts = (h.get("point") or {}).get("lyLimitedBonusAmount") or 0
+            if not price:
+                continue
+            per = (price - pts) / c2
+            if per > per0 * RELATED_RATE:
+                continue
+            did = deal_id(page, h.get("janCode") or None, h.get("url"), nm)
+            if did in shown or did in HIDE or did in ALLOW:
+                continue
+            code = page.split("store.shopping.yahoo.co.jp/", 1)[-1].removesuffix(".html")
+            CANDIDATES.append({"id": did, "genre": "関連", "name": nm,
+                               "image": (h.get("exImage") or {}).get("url") or (h.get("image") or {}).get("medium"),
+                               "was": None, "now": price, "off": None, "points": pts, "real": price - pts,
+                               "real_off": round((1 - per / per0) * 100), "pt_rate": 0, "maker": maker,
+                               "shop": (h.get("seller") or {}).get("name"), "jan": code, "page": page,
+                               "url": h.get("url") or (aff + urllib.parse.quote(page, safe="") if aff else page),
+                               "reviews": (h.get("review") or {}).get("count"), "_unknown": False, "_why": "関連商品",
+                               "rel": f"「{b['name'][:30]}」の量違い：1{unit} {per:.0f}円（元の商品は1{unit} {per0:.0f}円）"})
+            n += 1
+    print(f"[関連] 元の商品 {len(base[:RELATED_MAX])}件 → 候補に {n}件")
+
+
 def featured_candidates(shown: set) -> None:
     """目玉商品のうち、値引きが大きい物を詳しく調べて管理ページの候補に入れる。"""
     aff = os.environ.get("VC_AFFILIATE_ID") or ""
@@ -635,10 +723,12 @@ def load_special(now_ts: int) -> list:
         feat_ok = {}
     feat = []
     for i, a in ALLOW.items():
-        if a.get("genre") == "目玉" and "/" in (a.get("jan") or "") and i not in HIDE:
-            feat.append({"code": a["jan"], "feat": i})
+        if a.get("genre") in ("目玉", "関連") and "/" in (a.get("jan") or "") and i not in HIDE:
+            feat.append({"code": a["jan"], "feat": i, "kind": a["genre"]})
     if feat:
-        conf = {"groups": list(conf.get("groups", [])) + [{"label": "目玉商品", "genre": "", "items": feat}]}
+        conf = {"groups": list(conf.get("groups", []))
+                + [{"label": "目玉商品", "genre": "", "items": [x for x in feat if x["kind"] == "目玉"]},
+                   {"label": "量違いがお得", "genre": "", "items": [x for x in feat if x["kind"] == "関連"]}]}
     out = []
     for g in conf.get("groups", []):
         for it in g.get("items", []):
@@ -667,6 +757,8 @@ def load_special(now_ts: int) -> list:
             if not (it.get("genre") or g.get("genre")):
                 it["genre"] = next((v for k, v in GENRE_BY_ID.items() if k in [str(x) for x in (item.get("genreCategoryIds") or [])]), "その他")
             if not name or not price or (item.get("stock") or {}).get("isSoldOut") or (item.get("stock") or {}).get("isAvailable") is False:
+                if name and price:   # 品切れ：同じシリーズの量違いを探す元にする
+                    RELATED_BASE.append({"name": name, "real": price, "page": page})
                 continue
             d = None
             for q in (name[:60], " ".join(name.split()[:3])):
@@ -1168,6 +1260,10 @@ def main(out_path: str) -> None:
             featured_candidates(shown)
         except Exception as e:
             print(f"[目玉] 失敗: {e}", file=sys.stderr)
+        try:
+            related_candidates(deals, shown)
+        except Exception as e:
+            print(f"[関連] 失敗: {e}", file=sys.stderr)
     seen_c, cand_out = set(), []
     CANDIDATES.sort(key=lambda d: max(d["real_off"], d.get("camp_off") or 0), reverse=True)
     # 並び順：BTOパソコン → 有名メーカーで件数の上限 → 知らないメーカー
@@ -1177,7 +1273,7 @@ def main(out_path: str) -> None:
             continue
         seen_c.add(d["id"])
         cand_out.append({k: d.get(k) for k in ("id", "genre", "name", "image", "was", "now", "off", "points",
-                                                "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews")}
+                                                "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews", "rel")}
                         | {"why": d.get("_why") or ("知らないメーカー" if d["_unknown"] else "件数の上限")})
     with open(os.path.join(os.path.dirname(out_path) or ".", "check.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": out["updated"], "items": CHECK[:60]}, f, ensure_ascii=False, indent=1)
