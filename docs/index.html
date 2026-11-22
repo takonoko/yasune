@@ -58,7 +58,9 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .body{padding:12px 12px 14px;display:grid;gap:6px;flex:1;align-content:start}
 .name{margin:0;font-size:.85rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
 .price{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;font-variant-numeric:tabular-nums}
-.now{font:700 1.3rem var(--round)}
+.now{font:500 .85rem var(--round);color:#666}
+.realtop{color:#d6336c;font:700 .9rem var(--round);margin:2px 0 0}
+.realtop b{font-size:1.5rem;margin:0 2px}
 .now small{font-size:.75rem;margin-left:1px}
 .was{color:var(--muted);text-decoration:line-through;font-size:.75rem}
 .unit{font-size:.78rem;color:var(--muted);margin-top:2px}.unit b{color:var(--accent-ink)}
@@ -83,6 +85,8 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .entry b{font-size:.9rem}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
 .note a{color:inherit}
+.new{display:inline-block;background:#e8742c;color:#fff;font:700 .7rem/1 var(--round,sans-serif);padding:3px 6px;border-radius:4px;margin:0 4px 4px 0}
+.usual{display:inline-block;background:#fff3e8;color:#b5541a;font:700 .72rem/1 sans-serif;padding:3px 6px;border-radius:4px;margin:0 0 4px}
 .watch{margin:20px 0 4px;display:grid;gap:10px}
 .watch h2{font:700 1.1rem var(--round);margin:0}
 .wlist{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
@@ -104,15 +108,12 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
     </div>
     <img class="mascot" src="mascot.webp" alt="買い物袋をたくさん持ったタコ" width="160" height="160">
   </header>
-  <section class="watch" id="watch" hidden>
-    <h2>いつもチェック</h2>
-    <div class="wlist" id="wlist"></div>
-  </section>
   <div class="controls">
     <nav class="tabs" id="tabs" aria-label="ジャンル"></nav>
     <div class="bar">
       <label for="sort">並び順</label>
       <select id="sort">
+        <option value="new">新着順</option>
         <option value="real_off">他店より安い順</option>
         <option value="end">セール終了が近い順</option>
         <option value="price">実質価格が安い順</option>
@@ -165,7 +166,7 @@ GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.te
   b.onclick=()=>{genre=g;[...$("tabs").children].forEach(x=>x.setAttribute("aria-pressed",x===b));render()};$("tabs").append(b)});
 function card(d){
   const real=d.real??d.now, l=left(d.end);
-  const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span><span>実質 <b>${num(real)}円</b></span></div>`:"";
+  const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span></div>`:"";
   const cp=d.camp_real&&d.camp_date===todayJST?`<div class="cp">今日のキャンペーン込み（最大${d.camp_rate}%）<b>約${num(d.camp_real)}円</b></div>`:"";
   const pm=d.store==="yahoo"||!d.store?`<div class="pm">LYPプレミアム会員なら <b>実質${num(real-prem(d))}円</b>${prem(d)>=508?"（この1回で月額分の元が取れる）":""}</div>`:"";
   const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
@@ -181,8 +182,9 @@ function card(d){
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
     <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
-      <p class="name">${esc(d.name)}</p>
-      <div class="price"><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
+      ${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.usual_save?`<span class="usual">いつもより${num(d.usual_save)}円安い</span>`:""}<p class="name">${esc(d.name)}</p>
+      <div class="realtop">実質<b>${num(real)}</b>円</div>
+      <div class="price"><span class="now">販売価格 ${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${d.pt_max?`<div class="pm">条件をそろえると最大${d.pt_max_rate}%（${num(d.pt_max)}pt） <b>実質${num(d.max_real)}円</b></div>`:pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
@@ -191,7 +193,7 @@ function render(){
   const so=$("sort").value;
   let list=deals.filter(d=>genre==="すべて"||d.genre===genre).filter(d=>!d.end||d.end*1000>Date.now());
   const r=d=>d.real??d.now;
-  const cmp={real_off:(a,b)=>best(b)-best(a),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
+  const cmp={new:(a,b)=>(b.since||"").localeCompare(a.since||""),real_off:(a,b)=>best(b)-best(a),off:(a,b)=>(b.off??0)-(a.off??0),end:(a,b)=>(a.end||9e9)-(b.end||9e9),price:(a,b)=>r(a)-r(b),reviews:(a,b)=>(b.reviews||0)-(a.reviews||0)}[so];
   list.sort(cmp);
   $("count").textContent=`${list.length}件`;
   $("grid").innerHTML=list.map(card).join("")||`<p class="empty">いまこのジャンルで他店より安い商品はありません。次の更新をお待ちください。</p>`;
@@ -212,18 +214,6 @@ fetch("https://docs.google.com/spreadsheets/d/1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCL
 const origRender=render;
 render=function(){const keep=deals;deals=deals.filter(d=>!isNg(d));origRender();deals=keep};
 fetch(`https://docs.google.com/spreadsheets/d/${NG_SHEET}/gviz/tq?tqx=out:csv`).then(r=>r.text()).then(t=>{ng=parseCsv(t).slice(1).map(r=>nz(r[0])).filter(Boolean);if(deals.length)render()}).catch(()=>{});
-// いつもチェック
-fetch("watch.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
-  const items=(j.items||[]).filter(x=>x.show&&x.found);
-  if(!items.length)return;
-  $("wlist").innerHTML=items.map(x=>`<a class="witem" href="${esc(x.url)}" target="_blank" rel="noopener sponsored">
-    ${x.image?`<img src="${esc(x.image)}" alt="" loading="lazy">`:"<span></span>"}
-    <span class="wn">${esc(x.name)}</span>
-    <span class="wp">${num(x.price)}円</span>
-    <span class="wm">${x.min!=null&&x.price<=x.min?'<span class="low">過去最安</span>':`過去最安 ${num(x.min)}円`}</span>
-  </a>`).join("");
-  $("watch").hidden=false;
-}).catch(()=>{});
 fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
   deals=j.deals||[];
   $("updated").textContent="最終更新 "+new Date(j.updated).toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"});
