@@ -27,7 +27,7 @@
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 var(--body)}
 img{max-width:100%}
 a{color:inherit}
-.wrap{max-width:720px;margin:0 auto;padding-block:16px 56px;
+.wrap{max-width:1040px;margin:0 auto;padding-block:16px 56px;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
 .top img{width:36px;height:36px;border-radius:50%}
@@ -35,7 +35,14 @@ a{color:inherit}
 .back{margin-left:auto;font-size:.85rem;color:var(--muted)}
 .box{background:var(--surface);border-radius:16px;padding:16px;margin-bottom:12px;box-shadow:0 1px 2px rgba(30,40,50,.06)}
 .hero{display:grid;gap:14px}
-@media (min-width:600px){.hero{grid-template-columns:240px minmax(0,1fr);align-items:start}}
+@media (min-width:600px){.hero{grid-template-columns:260px minmax(0,1fr);align-items:start}}
+@media (min-width:900px){.hero{grid-template-columns:340px minmax(0,1fr);gap:24px}.side{position:sticky;top:12px}}
+.side{display:grid;gap:10px;align-content:start}
+.sum{text-align:center;padding:10px;border-radius:12px;background:var(--bg)}
+.sum .lab{font-size:.8rem;color:var(--muted)}
+.sum .yen{font:700 2rem/1.2 var(--round);color:#d6336c;font-variant-numeric:tabular-nums}
+.sum .yen small{font-size:1rem}
+.side .go{margin:0}
 .photo{background:#fff;border-radius:12px;aspect-ratio:1;display:grid;place-items:center;padding:10px}
 .photo img{width:100%;height:100%;object-fit:contain}
 .maker{font-size:.8rem;color:var(--muted)}
@@ -127,7 +134,11 @@ function render(d){
   document.title=`${d.name.slice(0,40)} | ヤスネ帳`;
   $("main").innerHTML=`
   <section class="box hero">
-    <div class="photo">${d.image?`<img src="${esc(d.image)}" alt="">`:""}</div>
+    <div class="side">
+      <div class="photo">${d.image?`<img src="${esc(d.image)}" alt="">`:""}</div>
+      ${(()=>{const c=[[real,"ストアポイント込み"],[d.free_real,"条件をそろえた場合（LYPプレミアム除く）"],[d.max_real,"条件をすべてそろえた場合"],[camp?d.camp_real:null,"今日のキャンペーン込み・条件あり"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="sum"><div class="lab">いちばん安い実質</div><div class="yen">${c[1].startsWith("今日")?"約":""}${num(c[0])}<small>円</small></div><div class="lab">${c[1]}・販売価格 ${num(d.now)}円</div></div>`})()}
+      <a class="go" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${STORE[d.store]||"お店"}で見る</a>
+    </div>
     <div>
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
