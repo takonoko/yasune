@@ -598,7 +598,8 @@ def related_candidates(deals: list, shown: set) -> None:
     base = [{"name": d["name"], "real": d.get("free_real") or d.get("real") or d["now"], "page": d.get("page")}
             for d in deals if d.get("genre") not in ("BTOパソコン", "PCパーツ")]
     base += [{"name": a["name"], "real": None, "page": None} for a in ALLOW.values() if a.get("name") and a.get("genre") not in ("目玉", "関連")]
-    base += RELATED_BASE
+    base = RELATED_BASE + base   # 品切れになった特集を先に
+    base = [x for x in base if x["real"] and pack_units(x["name"])[0]]   # 量（何ロール・何本など）と値段が分かる物だけ
     n = 0
     seen_q = set()
     for b in base[:RELATED_MAX]:
