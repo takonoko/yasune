@@ -130,13 +130,13 @@ function render(d){
   if(d.unit_price) badges.push(`1${esc(d.unit)} ${num(Math.round(d.unit_price))}円`);
   const end=endText(d.end);
   const under3000=real<3000;
-  const camp=d.camp_real&&d.camp_date===new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date());
+  const camp=false;  // 付与率×値段の自前計算は上限を無視してしまうので使わない
   document.title=`${d.name.slice(0,40)} | ヤスネ帳`;
   $("main").innerHTML=`
   <section class="box hero">
     <div class="side">
       <div class="photo">${d.image?`<img src="${esc(d.image)}" alt="">`:""}</div>
-      ${(()=>{const c=[[real,"ストアポイント込み"],[d.free_real,"条件をそろえた場合（LYPプレミアム除く）"],[d.max_real,"条件をすべてそろえた場合"],[camp?d.camp_real:null,"今日のキャンペーン込み・条件あり"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="sum"><div class="lab">いちばん安い実質</div><div class="yen">${c[1].startsWith("今日")?"約":""}${num(c[0])}<small>円</small></div><div class="lab">${c[1]}・販売価格 ${num(d.now)}円</div></div>`})()}
+      ${(()=>{const c=[[real,"ストアポイント込み"],[d.free_real,"条件をそろえた場合（LYPプレミアム除く）"],[d.max_real,"条件をすべてそろえた場合（各キャンペーンの上限込み）"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="sum"><div class="lab">いちばん安い実質</div><div class="yen">${num(c[0])}<small>円</small></div><div class="lab">${c[1]}・販売価格 ${num(d.now)}円</div></div>`})()}
       <a class="go" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${STORE[d.store]||"お店"}で見る</a>
     </div>
     <div>

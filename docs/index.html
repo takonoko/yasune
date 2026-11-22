@@ -168,7 +168,7 @@ GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.te
 function card(d){
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span></div>`:"";
-  const cp=d.camp_real&&d.camp_date===todayJST?`<div class="cp">今日のキャンペーン込み（最大${d.camp_rate}%）<b>約${num(d.camp_real)}円</b></div>`:"";
+  const cp="";  // 付与率×値段の自前計算は上限を無視してしまうので出さない（商品ページの内訳だけを使う）
   const pm=d.store==="yahoo"||!d.store?`<div class="pm">LYPプレミアム会員なら <b>実質${num(real-prem(d))}円</b>${prem(d)>=508?"（この1回で月額分の元が取れる）":""}</div>`:"";
   const ship=d.ship===2||(d.ship==null&&d.free_shipping)?"送料無料":d.ship===3?"条件付き送料無料":d.ship===1?"送料別":"";
   let sw="";
@@ -184,7 +184,7 @@ function card(d){
     <div class="thumb">${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       ${d.usual_save?`<span class="usual">いつもより${num(d.usual_save)}円安い</span>`:""}<p class="name">${esc(d.name)}</p>
-      ${(()=>{const c=[[real,""],[d.free_real,"条件をそろえた場合"],[d.max_real,"条件をすべてそろえた場合"],[d.camp_real&&d.camp_date===todayJST?d.camp_real:null,"今日のキャンペーン込み・条件あり"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="realtop">実質<b>${c[1].startsWith("今日")?"約":""}${num(c[0])}</b>円${c[1]?`<small style="font-weight:500;color:var(--muted,#888)">（${c[1]}）</small>`:""}</div>`})()}
+      ${(()=>{const c=[[real,""],[d.free_real,"条件をそろえた場合"],[d.max_real,"条件をすべてそろえた場合"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="realtop">実質<b>${num(c[0])}</b>円${c[1]?`<small style="font-weight:500;color:var(--muted,#888)">（${c[1]}）</small>`:""}</div>`})()}
       <div class="price"><span class="now">販売価格 ${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${d.pt_max?`<div class="pm">条件をそろえると最大${d.pt_max_rate}%（${num(d.pt_max)}pt） <b>実質${num(d.max_real)}円</b></div>`:pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
@@ -201,7 +201,7 @@ function render(){
 }
 $("sort").onchange=render;
 // 今日（日本時間）のキャンペーン込みが使えるときは、それも「お得さ」に入れる
-function best(d){const c=d.camp_off!=null&&d.camp_date===todayJST?d.camp_off:-99;return d.save_pct??Math.max(d.real_off??d.value??d.off??0,c)}
+function best(d){const c=-99;return d.save_pct??Math.max(d.real_off??d.value??d.off??0,c)}
 // 5のつく日（日本時間の5・15・25日）は案内を出す
 {const day=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));if([5,15,25].includes(day))$("five").hidden=false;}
 // スプレッドシートの「載せない商品」に書いた言葉かURLを含む商品は出さない（開くたびに読む）
