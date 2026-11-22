@@ -494,13 +494,9 @@ def page_url(hit: dict):
 def fetch_postage(url: str):
     """商品ページから送料と「◯円以上で送料無料」の条件を読む。読めなければ None。
     （検索APIには送料の金額や無料の条件が入っていないため）"""
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        h = r.read().decode("utf-8", "replace")
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', h, re.S)
-    if not m:
+    pp = _page_props(url)
+    if not pp:
         return None
-    pp = json.loads(m.group(1)).get("props", {}).get("pageProps", {})
     pg = pp.get("postage") or {}
     label = (pp.get("item") or {}).get("deliveryFeeLabelType")
     return {
@@ -683,7 +679,24 @@ def featured_candidates(shown: set) -> None:
     print(f"[目玉] 候補に {n}件")
 
 
+PAGE_DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "page_data.json")
+PAGE_DATA = {}
+try:  # 家のPCが読んだ商品ページ（8時間以内の物だけ使う）
+    with open(PAGE_DATA_PATH, encoding="utf-8") as _f:
+        _pd = json.load(_f)
+    if (datetime.now(JST) - datetime.fromisoformat(_pd["updated"])).total_seconds() < 8 * 3600:
+        PAGE_DATA = _pd.get("pages") or {}
+except Exception:
+    pass
+PAGE_HIT = [0, 0]   # [家のPCの記録を使った数, 自分で読んだ数]
+
+
 def _page_props(url: str):
+    key = (url or "").split("?")[0]
+    if key in PAGE_DATA:
+        PAGE_HIT[0] += 1
+        return PAGE_DATA[key]
+    PAGE_HIT[1] += 1
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (yasune-cho/1.0)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         h = r.read().decode("utf-8", "replace")
@@ -743,7 +756,7 @@ def load_special(now_ts: int) -> list:
             page = f"https://store.shopping.yahoo.co.jp/{seller}/{srid}.html"
             pp = None
             for wait in (2.5, 15, 45):   # 続けて読むと混雑エラーになるので、失敗したら待ってやり直す
-                time.sleep(wait)
+                time.sleep(0 if page in PAGE_DATA else wait)
                 try:
                     pp = _page_props(page)
                     break
@@ -848,7 +861,8 @@ def point_parts(page: str) -> list:
     """商品ページ（ログインなし）に出るポイントの内訳。同じページは1回だけ読む。"""
     if page in _PT_CACHE:
         return _PT_CACHE[page]
-    time.sleep(1.2)
+    if (page or "").split("?")[0] not in PAGE_DATA:
+        time.sleep(1.2)
     parts = []
     try:
         pp = _page_props(page)
@@ -900,7 +914,7 @@ def add_points(deals: list) -> None:
         d["max_real"] = base - d["pt_max"]
         free = sum(x["p"] for x in parts if "LYP" not in x["t"])   # 有料のLYPプレミアム以外の条件をそろえた分
         d["free_real"] = base - int(free * base / d["now"]) if d.get("now") else d.get("real")
-    print(f"[ポイント] {n}件の内訳を商品ページで確認")
+    print(f"[ポイント] {n}件の内訳を商品ページで確認（家のPCの記録 {PAGE_HIT[0]}回・自分で読んだ {PAGE_HIT[1]}回）")
 
 
 def add_postage(deals: list) -> None:
@@ -909,7 +923,7 @@ def add_postage(deals: list) -> None:
     for d in deals:
         if d.get("ship") == 2 or not d.get("page"):
             continue
-        time.sleep(1.5)
+        time.sleep(0 if d["page"].split("?")[0] in PAGE_DATA else 1.5)
         try:
             pg = fetch_postage(d["page"])
         except Exception as e:
