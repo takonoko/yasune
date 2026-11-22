@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:30+09:00",
+ "updated": "2026-11-23T08:32+09:00",
  "deals": [
   {
    "id": "1fd668d414",
@@ -35,7 +35,7 @@
    "now": 1000,
    "points": 9,
    "premium_points": 9,
-   "real": 991,
+   "real": 496,
    "pt_rate": 0.9,
    "end": null,
    "shop": "かごしまぐるり公式ストア Yahoo!店",
@@ -46,6 +46,9 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
    "jan": null,
+   "coupon": "認定グルメのブラックフライデー50%OFFクーポン（要獲得・値引き5,000円まで・11/30 2:00まで・先着30,000枚・1人10回まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/mall/OWEwOGMwNzEwYWI0NzM3YmNhN2E4OGY5ZWE4",
+   "coupon_price": 500,
    "badge": "爆買いタコの注目",
    "since": "2026-11-23T06:34+09:00"
   },
@@ -71,6 +74,7 @@
    "page": "https://store.shopping.yahoo.co.jp/shark/fn100j.html",
    "jan": "0622356435147",
    "badge": "爆買いタコの注目",
+   "note": "お店のLINEを友だち追加すると500円OFFクーポン（11/23に商品ページで確認）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -119,6 +123,7 @@
    "page": "https://store.shopping.yahoo.co.jp/komiya/818127-52.html",
    "jan": null,
    "badge": "爆買いタコの注目",
+   "comment": "軽い！デカい！強い！",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -167,6 +172,7 @@
    "page": "https://store.shopping.yahoo.co.jp/letao/f808.html",
    "jan": null,
    "badge": "爆買いタコの注目",
+   "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -215,6 +221,7 @@
    "page": "https://store.shopping.yahoo.co.jp/as-y/nbj-lam35689-gr.html",
    "jan": "4550362858994",
    "badge": "爆買いタコの注目",
+   "note": "お店のLINEを友だち追加すると200円OFFクーポン（11/23に商品ページで確認）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -395,7 +402,7 @@
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
    "maker": "MYTREX",
    "rating": 4.75,
-   "reviews": 1900,
+   "reviews": 1901,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
@@ -1046,26 +1053,26 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "cb8ea35075",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392770.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392770",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392770.html",
-   "jan": "4550668292003",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
+   "jan": "4550668292010",
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
@@ -1102,7 +1109,7 @@
    "pt_max": 193,
    "pt_max_rate": 6.0,
    "max_real": 3346,
-   "since": "2026-11-23T03:01+09:00"
+   "since": "2026-11-23T08:32+09:00"
   },
   {
    "id": "693a61b736",
