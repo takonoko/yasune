@@ -402,7 +402,9 @@ def to_deal(hit: dict, genre: str, now_ts: int):
                 "camp_off": round((1 - creal / (was or sale)) * 100), "camp_date": CAMP_DATE}
     # 値引きが十分か、ポイントが高いか、キャンペーン込みで十分安ければ載せる
     cheap = (off or 0) >= MIN_OFF or pt_rate >= POINT_MIN or camp.get("camp_off", 0) >= CAMP_MIN_OFF
-    if not cheap and not BTO_MODE:
+    _nm = html.unescape(hit.get("name", "")).strip()
+    _reg = deal_id(page_url(hit), hit.get("janCode") or None, hit.get("url"), _nm) in ALLOW
+    if not cheap and not BTO_MODE and not _reg:
         return rej("安くない")
     seller = hit.get("seller") or {}
     if seller.get("sellerId") in EXCLUDE_SELLERS:
@@ -552,6 +554,8 @@ def load_special(now_ts: int) -> list:
                 it = {"code": it}
             cp = it.get("coupon") or g.get("coupon") or {}
             cp_ok = bool(cp) and datetime.fromisoformat(cp["end"]).timestamp() > now_ts
+            if cp and not cp_ok and not it.get("other"):
+                continue  # クーポンが終わった：他店と比べていない特集は、安い理由が無くなったので外す
             seller, srid = it["code"].split("/", 1)
             page = f"https://store.shopping.yahoo.co.jp/{seller}/{srid}.html"
             time.sleep(1.5)
@@ -714,6 +718,65 @@ def add_postage(deals: list) -> None:
         if pg["cond"]:
             d["free_cond"] = pg["cond"]
     print(f"[送料] {n}件の送料を商品ページで確認")
+
+
+HIST_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "price_history.json")
+try:
+    with open(HIST_PATH, encoding="utf-8") as _f:
+        PRICE_HIST = json.load(_f)
+except Exception:
+    PRICE_HIST = {}
+USUAL_DAYS = 30      # 「いつもの値段」を見る期間（日）
+USUAL_MIN_DAYS = 3   # 記録がこの日数分たまるまでは判定しない
+USUAL_RATE = 0.90    # いつもの値段（期間内の真ん中の値段）より10%以上安い時だけ載せる
+
+
+def record_price(d: dict) -> None:
+    """登録商品の実質価格を1日1件（その日の最安）記録する。"""
+    if not d.get("id") or not d.get("real"):
+        return
+    day = datetime.now(JST).strftime("%Y-%m-%d")
+    h = PRICE_HIST.setdefault(d["id"], {})
+    h[day] = min(h.get(day, d["real"]), d["real"])
+    cut = (datetime.now(JST) - timedelta(days=USUAL_DAYS)).strftime("%Y-%m-%d")
+    for k in [k for k in h if k < cut]:
+        del h[k]
+
+
+def usual_cheap(d: dict) -> bool:
+    """登録商品が、いつもの値段（過去30日の真ん中の値段）より10%以上安いか。"""
+    record_price(d)
+    h = PRICE_HIST.get(d.get("id"), {})
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    past = sorted(v for k, v in h.items() if k != today)
+    if len(past) < USUAL_MIN_DAYS:
+        return False
+    usual = past[len(past) // 2]
+    if d["real"] <= usual * USUAL_RATE:
+        d["usual"] = usual
+        d["usual_save"] = usual - d["real"]
+        d["badge"] = d.get("badge") or "いつもより安い"
+        return True
+    return False
+
+
+SEEN_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs", "seen.json")
+
+
+def mark_new(deals: list) -> None:
+    """いつから載っているかを付ける（新着順に並べるため）。載らなくなった物は記録から消す。"""
+    try:
+        with open(SEEN_PATH, encoding="utf-8") as f:
+            seen = json.load(f)
+    except Exception:
+        seen = {}
+    now = datetime.now(JST).isoformat(timespec="minutes")
+    out = {}
+    for d in deals:
+        out[d["id"]] = seen.get(d["id"], now)
+        d["since"] = out[d["id"]]
+    with open(SEEN_PATH, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
 
 
 def main(out_path: str) -> None:
@@ -932,6 +995,8 @@ def main(out_path: str) -> None:
         # 他店の最安値と比べて安いと確かめられた物だけ載せる（お店が付けた値引き率は使わない）
         t = d.get("_rank_target")
         if not t:
+            if d.get("id") in ALLOW and usual_cheap(d):
+                keep.append(d)
             continue
         set_free_real(d)
         if not _rank_ok(d):
@@ -964,6 +1029,9 @@ def main(out_path: str) -> None:
     deals = [d for d in deals if d["id"] not in HIDE]
     if not os.environ.get("MOCK_DIR"):
         add_points(deals)
+    mark_new(deals)
+    with open(HIST_PATH, "w", encoding="utf-8") as f:
+        json.dump(PRICE_HIST, f, ensure_ascii=False)
 
     if not deals:
         # 全部失敗したときは前回のデータを残す（空のサイトにしない）
