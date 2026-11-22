@@ -132,24 +132,25 @@ function render(d){
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
-      ${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
+      ${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;color:#3b2a1f;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
       <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
       ${d.other?`<p class="small" style="margin:.3em 0">他店との比較は、PayPay払い・LINE連携・ボーナスストアPlusのエントリーをした場合の値段（送料込み）です。有料のLYPプレミアム分は入れていません。</p>`:""}
       <dl class="rows">
         ${d.coupon?`<div><dt>${esc(d.coupon)}${d.coupon_url?`<br><a href="${esc(d.coupon_url)}" target="_blank" rel="noopener" style="font-size:.78rem">クーポンを獲得する</a>`:""}</dt><dd>${num(d.coupon_price)}円</dd></div>`:""}
         ${d.points?`<div><dt>ストアポイント（誰でも）</dt><dd>−${num(d.points)}pt</dd></div>`:""}
         <div class="big"><dt>実質価格</dt><dd>${num(real)}円</dd></div>
+        ${d.free_real!=null&&d.free_real<real?`<div class="big"><dt>条件をそろえた実質（PayPay払い・LINE連携・エントリー等。LYPプレミアムは除く）</dt><dd>${num(d.free_real)}円</dd></div>`:""}
         ${camp?`<div><dt>今日のキャンペーン（最大${d.camp_rate}%・要エントリー）</dt><dd>−${num(d.camp_points)}pt</dd></div><div class="big"><dt>キャンペーン込み実質（最大）</dt><dd>約${num(d.camp_real)}円</dd></div>`:""}
         ${d.unit_price?`<div><dt>${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり</dt><dd>${num(d.unit_price)}円</dd></div>`:""}
         ${d.postage>0&&!(d.ship===2)?`<div class="total"><dt>送料込み（目安）</dt><dd>${num(real+d.postage)}円</dd></div>`:""}
         ${d.store==="yahoo"||!d.store?`<div><dt>LYPプレミアム会員なら（＋${num(prem(d))}pt）<br><a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749777" target="_blank" rel="nofollow sponsored noopener" style="font-size:.78rem">LYPプレミアムとは（PR）</a></dt><dd style="white-space:nowrap">実質${num(real-prem(d))}円</dd></div>${prem(d)>=508?`<div><dt colspan="2" style="color:#c2410c">この1回の購入で、LYPプレミアム1か月分（508円）の元が取れます</dt><dd></dd></div>`:""}`:""}
         ${d.reviews?`<div><dt>レビュー</dt><dd>★${d.rating??"-"}（${num(d.reviews)}件）</dd></div>`:""}
       </dl>
-      ${d.pt_parts?`<div style="margin:.8em 0;padding:.7em .9em;border:1px solid #f3c9a8;border-radius:10px;background:#fffaf5">
+      ${d.pt_parts?`<div style="margin:.8em 0;padding:.7em .9em;border:1px solid #f3c9a8;border-radius:10px;background:#fffaf5;color:#3b2a1f">
         <b>ポイントの内訳（条件をそろえた場合 最大${d.pt_max_rate}%・${num(d.pt_max)}pt）</b>
         <ul style="margin:.4em 0 0;padding-left:1.2em;font-size:.86rem;line-height:1.7">${d.pt_parts.map(x=>`<li>${esc(x.t)}　<b>${x.r}%</b>（${num(x.p)}pt）${x.c?"":""}</li>`).join("")}</ul>
         <div style="margin-top:.4em">全部そろえると <b style="font-size:1.1rem">実質${num(d.max_real)}円</b></div>
-        <p class="small" style="margin:.4em 0 0">「毎日5%」は支払い方法の指定とLINE連携、「ボーナスストアPlus」は当日のエントリー、「LYPプレミアム」は会員登録が必要です。上限・対象外の条件があるので、カートの画面で最終確認してください。ポイントはログインしていない状態で見える数字です（PayPayカード払いだと少し増えることがあります）。クーポンはここに入っていません。</p>
+        <p class="small" style="margin:.4em 0 0;color:#6b5a4a">「毎日5%」は支払い方法の指定とLINE連携、「ボーナスストアPlus」は当日のエントリー、「LYPプレミアム」は会員登録が必要です。上限・対象外の条件があるので、カートの画面で最終確認してください。ポイントはログインしていない状態で見える数字です（PayPayカード払いだと少し増えることがあります）。クーポンはここに入っていません。</p>
       </div>`:""}
       ${d.pick?`<p class="small" style="background:#fdeee3;color:#9a3412;border-radius:8px;padding:6px 10px"><b>爆買いタコおすすめ</b>：運営者の爆買いタコが実際にYahoo!ショッピングで買って「この値段なら買い」と思った商品です。ポイント込みの実質価格が、当サイトが調べた時点のネット通販の最安値より安くなっています。</p>`:""}
       ${d.rank?`<p class="small" style="background:#e8f0fd;color:#1d4fa3;border-radius:8px;padding:6px 10px"><b>人気上位</b>：価格比較サイトの人気ランキングで上位の商品です。ポイント込みの実質価格が、当サイトが調べた時点のネット通販の最安値より安くなっています。</p>`:""}
