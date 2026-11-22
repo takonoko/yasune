@@ -1,509 +1,6 @@
 {
- "updated": "2026-11-22T18:59+09:00",
+ "updated": "2026-11-22T23:07+09:00",
  "deals": [
-  {
-   "unit_price": 1314.7,
-   "unit": "個",
-   "count": 3,
-   "id": "b064cec7e4",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "【入荷次第発送】かにファクトリー甲羅組 かにみそバター 120g×3個セット リュウジさんも大絶賛！ 至高グルメ ヤフショ限定 カニ 蟹 かに かにみそ 蟹味噌",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F210018.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_210018",
-   "now": 3980,
-   "points": 36,
-   "premium_points": 36,
-   "real": 3944,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "越前かに職人 甲羅組",
-   "maker": "甲羅組",
-   "rating": 4.71,
-   "reviews": 7,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/kouragumi/210018.html",
-   "jan": null,
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 19,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 36,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 92,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 147,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 73,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 73,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 147,
-     "c": true
-    }
-   ],
-   "pt_max": 587,
-   "pt_max_rate": 16.0,
-   "max_real": 3393
-  },
-  {
-   "unit_price": 2749.5,
-   "unit": "袋",
-   "count": 2,
-   "id": "0132f327e1",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "骨取り トロさば 切身 or フィーレ 業務用 2kg前後（1kg×2袋） 訳あり 無塩 or 有塩 骨なし サバ 鯖 弁当 朝食 至高グルメ ポイント利用 爆買",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F201175.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_201175",
-   "now": 5550,
-   "points": 51,
-   "premium_points": 51,
-   "real": 5499,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "越前かに職人 甲羅組",
-   "maker": "甲羅組",
-   "rating": 4.6,
-   "reviews": 3501,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/kouragumi/201175.html",
-   "jan": null,
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 27,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 51,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 128,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 205,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 205,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 102,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 102,
-     "c": true
-    }
-   ],
-   "pt_max": 820,
-   "pt_max_rate": 16.0,
-   "max_real": 4730
-  },
-  {
-   "id": "569c031339",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "カニ かに 蟹 ズワイガニ ギフト 特大 姿 ずわいがに 750g前後×2ハイ 急速冷凍 ギフト 贈り物 誕生日 FF ポイント利用 爆買 お歳暮",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F100010.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_100010",
-   "now": 12999,
-   "points": 120,
-   "premium_points": 120,
-   "real": 12879,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "越前かに職人 甲羅組",
-   "maker": "甲羅組",
-   "rating": 4.39,
-   "reviews": 986,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/kouragumi/100010.html",
-   "jan": null,
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 64,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 120,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 300,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 481,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 481,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 240,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 240,
-     "c": true
-    }
-   ],
-   "pt_max": 1926,
-   "pt_max_rate": 16.0,
-   "max_real": 11073
-  },
-  {
-   "id": "7e90aa4b3f",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "干物 ホッケ ほっけ 縞ホッケ 一夜干し 特大 2尾セット さかなまち 人気商品 誕生日 2F ポイント利用 爆買",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F200530.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_200530",
-   "now": 2200,
-   "points": 20,
-   "premium_points": 20,
-   "real": 2180,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "越前かに職人 甲羅組",
-   "maker": "甲羅組",
-   "rating": 4.51,
-   "reviews": 1883,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/kouragumi/200530.html",
-   "jan": null,
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 11,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 20,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 50,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 81,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 40,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 40,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 81,
-     "c": true
-    }
-   ],
-   "pt_max": 323,
-   "pt_max_rate": 16.0,
-   "max_real": 1877
-  },
-  {
-   "id": "634e279076",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "【ヤフショ限定｜特選グルメ認定】おつまみ 塩昆布 ポテトスナック ザク旨 塩昆布仕立て 200g じゃがいも スナック菓子 日本酒 晩酌 チャック付き 和風 前田家",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaedaya%2Fzaku-uma-siok-1.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/maedaya_zaku-uma-siok-1",
-   "now": 1000,
-   "points": 9,
-   "premium_points": 9,
-   "real": 991,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "MAEDAYA 前田家",
-   "maker": "MAEDAYA 前田家",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-siok-1.html",
-   "jan": "4589875653161",
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 5,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 9,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 23,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
-    }
-   ],
-   "pt_max": 147,
-   "pt_max_rate": 16.0,
-   "max_real": 853
-  },
-  {
-   "id": "44281c1a9d",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "【ヤフショ限定｜特選グルメ認定】おつまみ 辛い ミックス ザク旨スパイシーミックス 200g 柿の種 バタピー 麻辣青豆 ポテトスナック 黒胡椒 ピリ辛 前田家",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaedaya%2Fzaku-uma-mix-1.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/maedaya_zaku-uma-mix-1",
-   "now": 1000,
-   "points": 9,
-   "premium_points": 9,
-   "real": 991,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "MAEDAYA 前田家",
-   "maker": "MAEDAYA 前田家",
-   "rating": 0,
-   "reviews": 1,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-mix-1.html",
-   "jan": "4589875652904",
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 5,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 9,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 23,
-     "c": false
-    },
-    {
-     "t": "ボーナスセレクション+10%【対象商品限定】",
-     "r": 10,
-     "p": 92,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
-    }
-   ],
-   "pt_max": 202,
-   "pt_max_rate": 22.0,
-   "max_real": 798
-  },
-  {
-   "id": "1ff5f1e352",
-   "genre": "食品",
-   "store": "yahoo",
-   "name": "【ヤフショ限定｜特選グルメ認定】おつまみ ポテトスナック ザク旨 黒トリュフと芳醇チーズ 200g チーズ トリュフ風味 のり天 焼きチーズ バタピー 前田家",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaedaya%2Fzaku-uma-nori-1.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/maedaya_zaku-uma-nori-1",
-   "now": 1000,
-   "points": 9,
-   "premium_points": 9,
-   "real": 991,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "MAEDAYA 前田家",
-   "maker": "MAEDAYA 前田家",
-   "rating": 0,
-   "reviews": 1,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/maedaya/zaku-uma-nori-1.html",
-   "jan": "4589875653178",
-   "only": true,
-   "badge": "リュウジおすすめ",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 5,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 9,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 23,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 18,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 37,
-     "c": true
-    }
-   ],
-   "pt_max": 147,
-   "pt_max_rate": 16.0,
-   "max_real": 853
-  },
   {
    "id": "660a5689bb",
    "genre": "食品",
@@ -1386,7 +883,60 @@
    "page": "https://store.shopping.yahoo.co.jp/iwasaki-honpo/hmu1-5.html",
    "jan": null,
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 81,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 291,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 4,
+     "p": 129,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 129,
+     "c": true
+    }
+   ],
+   "pt_max": 807,
+   "pt_max_rate": 25.0,
+   "max_real": 2693
   },
   {
    "unit_price": 634.2,
@@ -1413,7 +963,60 @@
    "page": "https://store.shopping.yahoo.co.jp/iwasaki-honpo/1-5.html",
    "jan": "4571217751055",
    "only": true,
-   "badge": "リュウジおすすめ"
+   "badge": "リュウジおすすめ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 16,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 29,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 74,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 266,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 59,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 4,
+     "p": 118,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 59,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 118,
+     "c": true
+    }
+   ],
+   "pt_max": 739,
+   "pt_max_rate": 25.0,
+   "max_real": 2461
   },
   {
    "id": "a880510313",
@@ -1431,13 +1034,60 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1797,
+   "reviews": 1798,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
    "jan": null,
    "only": true,
-   "badge": "認定グルメ"
+   "badge": "認定グルメ",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    }
+   ],
+   "pt_max": 147,
+   "pt_max_rate": 16.0,
+   "max_real": 853
   },
   {
    "genre": "日用品",
@@ -1675,12 +1325,12 @@
    "camp_real": 2618,
    "camp_off": 23,
    "camp_date": "2026-11-22",
-   "id": "51716323e4",
+   "id": "e30e4ae017",
    "genre": "家電",
    "store": "yahoo",
-   "name": "ゴリラの握手 電動 手ケア タイマー5分 自動OFF 3段階調節（強・中・弱） 簡単装着 左手右手兼用 ピンク ドウシシャ GRT-2501PK",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonne-shop%2Fb0dwcyg57q.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/sonne-shop_b0dwcyg57q",
+   "name": "ゴリラの握手 電動 手ケア タイマー5分 自動OFF 3段階調節（強・中・弱） 簡単装着 左手右手兼用 グレー ドウシシャ GRT-2501GY",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsonne-shop%2Fb0dwdgkf25.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sonne-shop_b0dwdgkf25",
    "now": 3400,
    "points": 30,
    "premium_points": 30,
@@ -1693,8 +1343,8 @@
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/sonne-shop/b0dwcyg57q.html",
-   "jan": "4550668292003",
+   "page": "https://store.shopping.yahoo.co.jp/sonne-shop/b0dwdgkf25.html",
+   "jan": "4550668291990",
    "pick": true,
    "free_real": 3276,
    "other": 5480,
