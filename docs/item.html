@@ -143,7 +143,7 @@ function render(d){
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
-      ${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;color:#3b2a1f;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
+      ${d.note?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff8e1;color:#5c4400;border-radius:10px;font-size:.9rem;line-height:1.6"><b>🎫 クーポン：</b>${esc(d.note)}</p>`:""}${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;color:#3b2a1f;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
       <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
       ${d.other?`<p class="small" style="margin:.3em 0">他店との比較は、PayPay払い・LINE連携・ボーナスストアPlusのエントリーをした場合の値段（送料込み）です。有料のLYPプレミアム分は入れていません。</p>`:""}
       <dl class="rows">
