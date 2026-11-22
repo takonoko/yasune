@@ -85,7 +85,8 @@ select{font:inherit;font-size:.9rem;padding:6px 10px;border:1px solid var(--line
 .entry b{font-size:.9rem}
 .note{margin-top:32px;color:var(--muted);font-size:.78rem;display:grid;gap:4px;max-width:65ch}
 .note a{color:inherit}
-.new{display:inline-block;background:#e8742c;color:#fff;font:700 .7rem/1 var(--round,sans-serif);padding:3px 6px;border-radius:4px;margin:0 4px 4px 0}
+.new{position:absolute;top:6px;left:6px;z-index:2;background:linear-gradient(135deg,#ff3d77,#ff9a00 45%,#ffe600 70%,#00d4a0);color:#fff;font:900 .95rem/1 var(--round,sans-serif);letter-spacing:.06em;padding:6px 10px;border-radius:8px;transform:rotate(-8deg);box-shadow:0 2px 6px rgba(0,0,0,.35);text-shadow:0 1px 2px rgba(0,0,0,.45);animation:newpop 1.6s ease-in-out infinite}
+@keyframes newpop{0%,100%{transform:rotate(-8deg) scale(1)}50%{transform:rotate(-8deg) scale(1.08)}}
 .usual{display:inline-block;background:#fff3e8;color:#b5541a;font:700 .72rem/1 sans-serif;padding:3px 6px;border-radius:4px;margin:0 0 4px}
 .watch{margin:20px 0 4px;display:grid;gap:10px}
 .watch h2{font:700 1.1rem var(--round);margin:0}
@@ -180,10 +181,10 @@ function card(d){
   // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
   const href=d.id?`item.html?id=${encodeURIComponent(d.id)}`:d.url;
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
-    <div class="thumb">${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
+    <div class="thumb">${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
-      ${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.usual_save?`<span class="usual">いつもより${num(d.usual_save)}円安い</span>`:""}<p class="name">${esc(d.name)}</p>
-      <div class="realtop">実質<b>${num(d.free_real??real)}</b>円${d.free_real!=null&&d.free_real<real?'<small style="font-weight:500;color:var(--muted,#888)">（条件をそろえた場合）</small>':""}</div>
+      ${d.usual_save?`<span class="usual">いつもより${num(d.usual_save)}円安い</span>`:""}<p class="name">${esc(d.name)}</p>
+      ${(()=>{const c=[[real,""],[d.free_real,"条件をそろえた場合"],[d.max_real,"条件をすべてそろえた場合"],[d.camp_real&&d.camp_date===todayJST?d.camp_real:null,"今日のキャンペーン込み・条件あり"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="realtop">実質<b>${c[1].startsWith("今日")?"約":""}${num(c[0])}</b>円${c[1]?`<small style="font-weight:500;color:var(--muted,#888)">（${c[1]}）</small>`:""}</div>`})()}
       <div class="price"><span class="now">販売価格 ${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${d.pt_max?`<div class="pm">条件をそろえると最大${d.pt_max_rate}%（${num(d.pt_max)}pt） <b>実質${num(d.max_real)}円</b></div>`:pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
