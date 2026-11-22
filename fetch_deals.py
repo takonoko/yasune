@@ -741,11 +741,15 @@ def load_special(now_ts: int) -> list:
                 continue  # クーポンが終わった：他店と比べていない特集は、安い理由が無くなったので外す
             seller, srid = it["code"].split("/", 1)
             page = f"https://store.shopping.yahoo.co.jp/{seller}/{srid}.html"
-            time.sleep(1.5)
-            try:
-                pp = _page_props(page)
-            except Exception as e:
-                print(f"[特集] 取得失敗 {page}: {e}", file=sys.stderr)
+            pp = None
+            for wait in (2.5, 15, 45):   # 続けて読むと混雑エラーになるので、失敗したら待ってやり直す
+                time.sleep(wait)
+                try:
+                    pp = _page_props(page)
+                    break
+                except Exception as e:
+                    print(f"[特集] 取得失敗 {page}: {e}", file=sys.stderr)
+            if pp is None:
                 continue
             item = pp.get("item") or {}
             name = html.unescape(item.get("name") or "").strip()
