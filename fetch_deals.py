@@ -727,9 +727,31 @@ def apply_page_coupons(deals: list) -> None:
                 disc = min(disc, c["max"])
             if disc > best_disc and disc < price:
                 best, best_disc = c, disc
+        # 最大：対象者限定（獲得済み）やLINE友だち追加のクーポンまで入れたときの値引き（「最大で」の目安だけに使う）
+        mx, mx_disc = None, 0
+        for c in cps:
+            if c.get("status") not in ("get", "have", "line"):
+                continue
+            try:
+                if c.get("end") and datetime.fromisoformat(c["end"]) <= now:
+                    continue
+            except Exception:
+                continue
+            if price < c.get("min", 0):
+                continue
+            disc = int(price * c["pct"] / 100) if c.get("pct") else c.get("yen", 0)
+            if c.get("max"):
+                disc = min(disc, c["max"])
+            if disc > mx_disc and disc < price:
+                mx, mx_disc = c, disc
         line = next((c for c in cps if c.get("status") == "line"), None)
         if line and not d.get("note"):
             d["note"] = f"お店のLINEを友だち追加すると{line['text']}（{line.get('min') and format(line['min'], ',') + '円以上・' or ''}値段には入れていません）"
+        base_disc = (price - d["coupon_price"]) if d.get("coupon_price") else best_disc
+        if mx and mx_disc > base_disc:
+            how = {"have": "対象者限定", "line": "LINE友だち追加で", "get": "要獲得"}[mx["status"]]
+            d["max_coupon"] = f"{mx['text']}（{how}）"
+            d["_max_extra"] = mx_disc - base_disc
         if not best or d.get("coupon_price"):
             continue
         end = datetime.fromisoformat(best["end"]).strftime("%-m/%-d %-H:%M") if best.get("end") else ""
@@ -1315,6 +1337,13 @@ def main(out_path: str) -> None:
     if not os.environ.get("MOCK_DIR"):
         apply_page_coupons(deals)
         add_points(deals)
+        for d in deals:   # 最大の目安には、対象者限定・LINEのクーポンも入れる
+            ex = d.pop("_max_extra", 0)
+            if ex and d.get("now"):
+                base = d.get("max_real") or d.get("real") or d["now"]
+                d["max_real"] = base - ex
+                d["max_note"] = f"最大の実質は「{d['max_coupon']}」も使ったときの目安です（使える人だけ）"
+                d["note"] = (d["note"] + " ／ " if d.get("note") else "") + f"最大で「{d['max_coupon']}」も使えると実質{d['max_real']:,}円（使える人だけ）"
         if SOLD_OUT:
             print(f"[在庫なし] {len(SOLD_OUT)}件を外す: " + " ".join(SOLD_OUT))
         deals = [d for d in deals if d.get("page") not in SOLD_OUT]
