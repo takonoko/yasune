@@ -26,11 +26,14 @@ jobs:
           YAHOO_APPID: ${{ secrets.YAHOO_APPID }}
           VC_AFFILIATE_ID: ${{ secrets.VC_AFFILIATE_ID }}
         run: python fetch_deals.py docs/deals.json
+      - name: 検索用の商品ページとサイトマップを作る
+        run: python gen_pages.py
       - name: 変更があれば保存
         run: |
           git config user.name "yasune-bot"
           git config user.email "yasune-bot@users.noreply.github.com"
-          git add docs/*.json
+          git add docs/*.json docs/item-*.html docs/index.html docs/sitemap.xml
+          git add -u docs
           git diff --cached --quiet || git commit -m "セール情報を更新"
           # 途中でほかの変更（家のPCの記録など）が入っていても保存できるように。ぶつかったらこの更新の結果を優先
           for i in 1 2 3; do
