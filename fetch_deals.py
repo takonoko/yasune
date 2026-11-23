@@ -690,6 +690,66 @@ except Exception:
     pass
 PAGE_HIT = [0, 0]   # [家のPCの記録を使った数, 自分で読んだ数]
 
+COUPONS = {}
+try:  # 家のPCがログインして読んだクーポン一覧（14時間以内の物だけ使う）
+    with open(os.path.join(os.path.dirname(PAGE_DATA_PATH), "coupons.json"), encoding="utf-8") as _f:
+        _cp = json.load(_f)
+    if (datetime.now(JST) - datetime.fromisoformat(_cp["updated"])).total_seconds() < 14 * 3600:
+        COUPONS = _cp.get("pages") or {}
+except Exception:
+    pass
+
+
+def apply_page_coupons(deals: list) -> None:
+    """家のPCが読んだクーポンのうち、だれでも「獲得する」で取れて、条件なしで使える物を値段に入れる。
+    LINE友だち追加などの条件付きは値段に入れず、注意書きだけにする。"""
+    now = datetime.now(JST)
+    n = 0
+    for d in deals:
+        page = (d.get("page") or "").split("?")[0]
+        cps = COUPONS.get(page)
+        price = d.get("now")
+        if not cps or not price:
+            continue
+        best, best_disc = None, 0
+        for c in cps:
+            if c.get("status") != "get" or c.get("cond"):
+                continue
+            try:
+                if c.get("end") and datetime.fromisoformat(c["end"]) <= now:
+                    continue
+            except Exception:
+                continue
+            if price < c.get("min", 0):
+                continue
+            disc = int(price * c["pct"] / 100) if c.get("pct") else c.get("yen", 0)
+            if c.get("max"):
+                disc = min(disc, c["max"])
+            if disc > best_disc and disc < price:
+                best, best_disc = c, disc
+        line = next((c for c in cps if c.get("status") == "line"), None)
+        if line and not d.get("note"):
+            d["note"] = f"お店のLINEを友だち追加すると{line['text']}（{line.get('min') and format(line['min'], ',') + '円以上・' or ''}値段には入れていません）"
+        if not best or d.get("coupon_price"):
+            continue
+        end = datetime.fromisoformat(best["end"]).strftime("%-m/%-d %-H:%M") if best.get("end") else ""
+        bits = ["要獲得"]
+        if best.get("min"):
+            bits.append(f"{best['min']:,}円以上")
+        if best.get("max"):
+            bits.append(f"値引き{best['max']:,}円まで")
+        if end:
+            bits.append(f"{end}まで")
+        if best.get("first"):
+            bits.append("先着順")
+        rate = (d.get("points") or 0) / price
+        d["coupon"] = f"{best['text']}（{'・'.join(bits)}）"
+        d["coupon_url"] = page
+        d["coupon_price"] = price - best_disc
+        d["real"] = d["coupon_price"] - int(d["coupon_price"] * rate)
+        n += 1
+    print(f"[クーポン] 家のPCの確認から {n}件に値引きを入れた（記録 {len(COUPONS)}ページ）")
+
 
 def _page_props(url: str):
     key = (url or "").split("?")[0]
@@ -1253,6 +1313,7 @@ def main(out_path: str) -> None:
         d.pop("_rank_only", None)
     deals = [d for d in deals if d["id"] not in HIDE]
     if not os.environ.get("MOCK_DIR"):
+        apply_page_coupons(deals)
         add_points(deals)
         if SOLD_OUT:
             print(f"[在庫なし] {len(SOLD_OUT)}件を外す: " + " ".join(SOLD_OUT))
