@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:32+09:00",
+ "updated": "2026-11-23T09:24+09:00",
  "deals": [
   {
    "id": "1fd668d414",
@@ -23,6 +23,54 @@
    "page": "https://store.shopping.yahoo.co.jp/irisplaza/113158.html",
    "jan": "4967576809078",
    "badge": "爆買いタコの注目",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 99,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 180,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 450,
+     "c": false
+    },
+    {
+     "t": "ボーナスセレクション+40%【対象商品限定】",
+     "r": 39,
+     "p": 7020,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 720,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 360,
+     "c": true
+    }
+   ],
+   "pt_max": 9189,
+   "pt_max_rate": 51.0,
+   "max_real": 10611,
+   "free_real": 10971,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -50,6 +98,54 @@
    "coupon_url": "https://shopping.yahoo.co.jp/coupon/mall/OWEwOGMwNzEwYWI0NzM3YmNhN2E4OGY5ZWE4",
    "coupon_price": 500,
    "badge": "爆買いタコの注目",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    }
+   ],
+   "pt_max": 73,
+   "pt_max_rate": 16.0,
+   "max_real": 427,
+   "free_real": 436,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -75,6 +171,54 @@
    "jan": "0622356435147",
    "badge": "爆買いタコの注目",
    "note": "お店のLINEを友だち追加すると500円OFFクーポン（11/23に商品ページで確認）",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 99,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 180,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 450,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 720,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 720,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 360,
+     "c": true
+    }
+   ],
+   "pt_max": 2889,
+   "pt_max_rate": 16.0,
+   "max_real": 16911,
+   "free_real": 17271,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -99,6 +243,54 @@
    "page": "https://store.shopping.yahoo.co.jp/gintoshop/pearlclippro-sp-yh-jp.html",
    "jan": "4582660313417",
    "badge": "爆買いタコの注目",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 29,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 53,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 134,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 214,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 214,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 107,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 107,
+     "c": true
+    }
+   ],
+   "pt_max": 858,
+   "pt_max_rate": 16.0,
+   "max_real": 5052,
+   "free_real": 5159,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -124,6 +316,42 @@
    "jan": null,
    "badge": "爆買いタコの注目",
    "comment": "軽い！デカい！強い！",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 50,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 125,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 200,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 100,
+     "c": true
+    }
+   ],
+   "pt_max": 502,
+   "pt_max_rate": 10.0,
+   "max_real": 4998,
+   "free_real": 5098,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -148,6 +376,61 @@
    "page": "https://store.shopping.yahoo.co.jp/y-kojima/4974305232328.html",
    "jan": "4974305232328",
    "badge": "爆買いタコの注目",
+   "note": "対象者限定の4,300円OFFクーポンあり（もらえる人だけ・11/28 0:00まで）。値段には入れていません",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 207,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 378,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 945,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2646,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1512,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 756,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 756,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 0.5,
+     "p": 189,
+     "c": true
+    }
+   ],
+   "pt_max": 7389,
+   "pt_max_rate": 19.5,
+   "max_real": 34191,
+   "free_real": 34947,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -173,6 +456,54 @@
    "jan": null,
    "badge": "爆買いタコの注目",
    "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認）",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 51,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 129,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 206,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 465,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 103,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 103,
+     "c": true
+    }
+   ],
+   "pt_max": 1084,
+   "pt_max_rate": 21.0,
+   "max_real": 4496,
+   "free_real": 4599,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -197,6 +528,55 @@
    "page": "https://store.shopping.yahoo.co.jp/tsukumo-y/4988755071277.html",
    "jan": "4988755071277",
    "badge": "爆買いタコの注目",
+   "note": "対象者限定の2,000円OFFクーポンあり（もらえる人だけ・合計40,000円以上・11/25 0:00まで）。値段には入れていません",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 804,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1462,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 3655,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 5000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 2924,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2924,
+     "c": true
+    }
+   ],
+   "pt_max": 23769,
+   "pt_max_rate": 19.0,
+   "max_real": 137074,
+   "free_real": 139998,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -222,6 +602,54 @@
    "jan": "4550362858994",
    "badge": "爆買いタコの注目",
    "note": "お店のLINEを友だち追加すると200円OFFクーポン（11/23に商品ページで確認）",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 10,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 19,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 79,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 39,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 39,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 79,
+     "c": true
+    }
+   ],
+   "pt_max": 314,
+   "pt_max_rate": 16.0,
+   "max_real": 1876,
+   "free_real": 1915,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -246,6 +674,55 @@
    "page": "https://store.shopping.yahoo.co.jp/best-denki/1393148010.html",
    "jan": "4974305221896",
    "badge": "爆買いタコの注目",
+   "note": "対象者限定の500円OFFクーポンあり（もらえる人だけ・11/24 23:00まで）。値段には入れていません",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 81,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 147,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 369,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 590,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 590,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 295,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 295,
+     "c": true
+    }
+   ],
+   "pt_max": 2367,
+   "pt_max_rate": 16.0,
+   "max_real": 13873,
+   "free_real": 14168,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -270,6 +747,54 @@
    "page": "https://store.shopping.yahoo.co.jp/delonghi/0108776315.html",
    "jan": "4988371012623",
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 104,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 190,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 476,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1334,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 1716,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 381,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 381,
+     "c": true
+    }
+   ],
+   "pt_max": 4582,
+   "pt_max_rate": 24.0,
+   "max_real": 16393,
+   "free_real": 16774,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -294,6 +819,54 @@
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
    "jan": "4550311357288",
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 17,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 81,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 129,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 64,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 129,
+     "c": true
+    }
+   ],
+   "pt_max": 516,
+   "pt_max_rate": 16.0,
+   "max_real": 3048,
+   "free_real": 3112,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -314,6 +887,42 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "8b8729b8ef",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 41,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 103,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 165,
+     "c": true
+    }
+   ],
+   "pt_max": 413,
+   "pt_max_rate": 10.0,
+   "max_real": 4067,
+   "free_real": 4149,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -338,6 +947,54 @@
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
    "jan": null,
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 48,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 225,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 180,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 180,
+     "c": true
+    }
+   ],
+   "pt_max": 1443,
+   "pt_max_rate": 16.0,
+   "max_real": 8277,
+   "free_real": 8457,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -360,6 +1017,54 @@
    "free_cond": "同一ストア3,000円以上で",
    "badge": "超目玉商品",
    "id": "a8a1be0489",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 16,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 42,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 67,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 33,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 33,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 67,
+     "c": true
+    }
+   ],
+   "pt_max": 267,
+   "pt_max_rate": 16.0,
+   "max_real": 1596,
+   "free_real": 1629,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -384,6 +1089,54 @@
    "page": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html",
    "jan": null,
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 70,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 129,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 324,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 519,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 519,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 259,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 259,
+     "c": true
+    }
+   ],
+   "pt_max": 2079,
+   "pt_max_rate": 16.0,
+   "max_real": 11946,
+   "free_real": 12205,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -408,6 +1161,54 @@
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
    "jan": "4580058722018",
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 63,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 115,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 289,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 462,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 1040,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 231,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 231,
+     "c": true
+    }
+   ],
+   "pt_max": 2431,
+   "pt_max_rate": 21.0,
+   "max_real": 10285,
+   "free_real": 10516,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -432,6 +1233,54 @@
    "page": "https://store.shopping.yahoo.co.jp/dyson/586364-01.html",
    "jan": "5025155112533",
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 200,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 363,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 909,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2545,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1454,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    }
+   ],
+   "pt_max": 6925,
+   "pt_max_rate": 19.0,
+   "max_real": 33075,
+   "free_real": 33802,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -456,6 +1305,54 @@
    "page": "https://store.shopping.yahoo.co.jp/ci-labo-official/18250227-00.html",
    "jan": null,
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 36,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 65,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 163,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 261,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 261,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 130,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 130,
+     "c": true
+    }
+   ],
+   "pt_max": 1046,
+   "pt_max_rate": 16.0,
+   "max_real": 6154,
+   "free_real": 6284,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -480,6 +1377,54 @@
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html",
    "jan": "4571607694238",
    "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 74,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 135,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 337,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 540,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 540,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 270,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 270,
+     "c": true
+    }
+   ],
+   "pt_max": 2166,
+   "pt_max_rate": 16.0,
+   "max_real": 12684,
+   "free_real": 12954,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -500,294 +1445,846 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "b3d4b46bcc",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 194,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 352,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 881,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2469,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1410,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 705,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 705,
+     "c": true
+    }
+   ],
+   "pt_max": 6716,
+   "pt_max_rate": 19.0,
+   "max_real": 32084,
+   "free_real": 32789,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "201c770b7e",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 水拭き両用 25,000pa 薄型 エコバックス DEEBOT T50S OMNI 高性能 自動掃除機 メーカー保証最大24ヶ月",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecovacsjapan%2Fddx47.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ecovacsjapan_ddx47",
    "now": 44800,
-   "points": 4072,
-   "premium_points": 4072,
-   "real": 40728,
-   "pt_rate": 9.1,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 44800,
    "shop": "エコバックス公式ストア",
-   "maker": "エコバックス",
-   "rating": 4.6,
-   "reviews": 88,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ddx47.html",
    "jan": "6979463770536",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "201c770b7e",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 224,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 407,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1018,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2850,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 814,
+     "c": true
+    }
+   ],
+   "pt_max": 5313,
+   "pt_max_rate": 13.0,
+   "max_real": 39487,
+   "free_real": 40301,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "90023851b9",
    "genre": "その他",
    "store": "yahoo",
    "name": "マットレス シングル オリジナルコアラマットレス 低反発 高反発 厚み21cm 硬め 快適 寝心地 寝姿勢 腰痛 120日間返品可能 koala",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkoalasleepjapan%2F101-0035.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/koalasleepjapan_101-0035",
    "now": 55920,
-   "points": 508,
-   "premium_points": 508,
-   "real": 55412,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 55920,
    "shop": "コアラスリープジャパン ヤフーショッピング店",
-   "maker": "コアラマットレス",
-   "rating": 4.72,
-   "reviews": 137,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/koalasleepjapan/101-0035.html",
    "jan": "9358955003043",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "90023851b9",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 279,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 508,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1270,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 3558,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1016,
+     "c": true
+    }
+   ],
+   "pt_max": 6631,
+   "pt_max_rate": 13.0,
+   "max_real": 49289,
+   "free_real": 50305,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "566675977b",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "プロジェクター Anker Nebula Capsule 3",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd2425.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d2425",
    "now": 62990,
-   "points": 572,
-   "premium_points": 572,
-   "real": 62418,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 62990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.8,
-   "reviews": 98,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
    "jan": null,
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "566675977b",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 314,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 572,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1431,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 4008,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 5153,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1145,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1145,
+     "c": true
+    }
+   ],
+   "pt_max": 13768,
+   "pt_max_rate": 24.0,
+   "max_real": 49222,
+   "free_real": 50367,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "d60c0cc162",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "POCO X8 Pro 8+256GB",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fxiaomijapanofficial%2F743000.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/xiaomijapanofficial_743000",
    "now": 54980,
-   "points": 499,
-   "premium_points": 499,
-   "real": 54481,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 54980,
    "shop": "Xiaomi公式ストア",
-   "maker": "Xiaomi",
-   "rating": 4.23,
-   "reviews": 13,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/743000.html",
    "jan": null,
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "d60c0cc162",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 274,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 499,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1249,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 3498,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1999,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 999,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 999,
+     "c": true
+    }
+   ],
+   "pt_max": 9517,
+   "pt_max_rate": 19.0,
+   "max_real": 45463,
+   "free_real": 46462,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "bd690421c4",
    "genre": "その他",
    "store": "yahoo",
    "name": "【新色登場】 SALONIAフェイスカレントポインター",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fqueensshop%2Fsal060.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/queensshop_sal060",
    "now": 9900,
-   "points": 90,
-   "premium_points": 90,
-   "real": 9810,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9900,
    "shop": "アンドハビット",
-   "maker": "SALONIA",
-   "rating": 4.31,
-   "reviews": 194,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
    "jan": "4571607694184",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "bd690421c4",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 225,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 360,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 180,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 180,
+     "c": true
+    }
+   ],
+   "pt_max": 1444,
+   "pt_max_rate": 16.0,
+   "max_real": 8456,
+   "free_real": 8636,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "b8397458a8",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "モバイルバッテリー Anker Power Bank (10000mAh, 22.5W)アップグレード版10000mAh 最大22.5W出力 ディスプレイ搭載 PD/PowerIQ搭載/PSE技術基準適合 / アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1257.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1257",
    "now": 3990,
-   "points": 36,
-   "premium_points": 36,
-   "real": 3954,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 3990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.67,
-   "reviews": 1794,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1257.html",
    "jan": "4571411219498",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "b8397458a8",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 19,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 36,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 326,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 72,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 72,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 145,
+     "c": true
+    }
+   ],
+   "pt_max": 760,
+   "pt_max_rate": 21.0,
+   "max_real": 3230,
+   "free_real": 3302,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "651e7a9981",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 Anker Eufy (ユーフィ) RoboVac G30 Hybrid スマート・ダイナミック・ナビゲーション 2.0 /2-in-1 吸引・水拭き クーポン対象",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2253.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2253",
    "now": 39990,
-   "points": 363,
-   "premium_points": 363,
-   "real": 39627,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 39990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.74,
-   "reviews": 27,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "jan": "4571411214707",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "651e7a9981",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 199,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 363,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 908,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2544,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 3271,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    }
+   ],
+   "pt_max": 8739,
+   "pt_max_rate": 24.0,
+   "max_real": 31251,
+   "free_real": 31978,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "c9f72c95e5",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "ワイヤレスイヤホン Anker Soundcore P31i / ノイズキャンセリング / かわいい / 通学 / IP55 防塵・防水規格 / マルチポイント接続 / 最大50時間再生 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd1202.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d1202",
    "now": 5490,
-   "points": 49,
-   "premium_points": 49,
-   "real": 5441,
-   "pt_rate": 0.9,
-   "end": 1795971540,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5490,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.7,
-   "reviews": 659,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
    "jan": "4571651009590",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "c9f72c95e5",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 124,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 199,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 449,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    }
+   ],
+   "pt_max": 1046,
+   "pt_max_rate": 21.0,
+   "max_real": 4444,
+   "free_real": 4543,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "98c0b6d773",
    "genre": "その他",
    "store": "yahoo",
    "name": "ポータブル電源 Anker Solix C1000 Gen 2",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1763-1.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1763-1",
    "now": 77000,
-   "points": 700,
-   "premium_points": 700,
-   "real": 76300,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 77000,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.69,
-   "reviews": 59,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-1.html",
    "jan": "4571651001341",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "98c0b6d773",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 385,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 700,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1750,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 4900,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 6300,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1400,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1400,
+     "c": true
+    }
+   ],
+   "pt_max": 16835,
+   "pt_max_rate": 24.0,
+   "max_real": 60165,
+   "free_real": 61565,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "c137863f5b",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "モバイルバッテリー Anker Nano Power Bank (22.5W, Built-In USB-C Connector)5000mAh 軽量 小型 コンパクトPowerIQ搭載/USB-C一体型 iPhone 18 / 17 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1653.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1653",
    "now": 3990,
-   "points": 36,
-   "premium_points": 36,
-   "real": 3954,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 3990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.62,
-   "reviews": 1665,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1653.html",
    "jan": "4571411213045",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "c137863f5b",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 19,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 36,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 326,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 72,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 72,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 145,
+     "c": true
+    }
+   ],
+   "pt_max": 760,
+   "pt_max_rate": 21.0,
+   "max_real": 3230,
+   "free_real": 3302,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "7be82c7e53",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "モバイルバッテリー Anker MagGo Power Bank (10000mAh, Slim)10000mAh Qi2認証 ワイヤレス充電 最大出力15W マグセーフ対応 コンパクト 薄型 小型 18 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1664.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1664",
    "now": 9990,
-   "points": 90,
-   "premium_points": 90,
-   "real": 9900,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.62,
-   "reviews": 521,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
    "jan": "4571411223051",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "7be82c7e53",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 227,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 363,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 817,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 181,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 181,
+     "c": true
+    }
+   ],
+   "pt_max": 1908,
+   "pt_max_rate": 21.0,
+   "max_real": 8082,
+   "free_real": 8263,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "82016855f7",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "モバイルバッテリー Anker Power Bank (20000mAh, 30W)20000mAh 大容量 最大30W出力 USB-C付属 ディスプレイ搭載PD/PowerIQ搭載/PSE技術基準適合iPhone アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1384.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1384",
    "now": 6990,
-   "points": 63,
-   "premium_points": 63,
-   "real": 6927,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.56,
-   "reviews": 178,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1384.html",
    "jan": "4571411217777",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "82016855f7",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 34,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 63,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 158,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 254,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 571,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 127,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 127,
+     "c": true
+    }
+   ],
+   "pt_max": 1334,
+   "pt_max_rate": 21.0,
+   "max_real": 5656,
+   "free_real": 5783,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -808,54 +2305,190 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "a36d3ee150",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 34,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 63,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 158,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 254,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 571,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 127,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 127,
+     "c": true
+    }
+   ],
+   "pt_max": 1334,
+   "pt_max_rate": 21.0,
+   "max_real": 5656,
+   "free_real": 5783,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "88377048b6",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker Zolo Charger (50W, 4 Ports)最大70Wの高出力と4ポートをコンパクトな1台に。スマホからノートPCまでまとめて充電。USB-C 充電器 70W PD アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa121e.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a121e",
    "now": 1990,
-   "points": 18,
-   "premium_points": 18,
-   "real": 1972,
-   "pt_rate": 0.9,
-   "end": 1795971540,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1990,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.68,
-   "reviews": 165,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121e.html",
    "jan": "4571651010084",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "88377048b6",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 18,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 45,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 162,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 72,
+     "c": true
+    }
+   ],
+   "pt_max": 378,
+   "pt_max_rate": 21.0,
+   "max_real": 1612,
+   "free_real": 1648,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "ec56deb9b5",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker Zolo Charger (70W, 4 Ports)70W USB-C急速充電器 Pro MacBook Air iPhone iPad Galaxy対応 PSE技術基準適合 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa121c.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a121c",
    "now": 4490,
-   "points": 40,
-   "premium_points": 40,
-   "real": 4450,
-   "pt_rate": 0.9,
-   "end": 1795971540,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4490,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.89,
-   "reviews": 89,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121c.html",
    "jan": "4571651007817",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "ec56deb9b5",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 40,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 102,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 367,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 81,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 81,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 163,
+     "c": true
+    }
+   ],
+   "pt_max": 856,
+   "pt_max_rate": 21.0,
+   "max_real": 3634,
+   "free_real": 3715,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -876,31 +2509,2435 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "7bfbe0c616",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 67,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 244,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 108,
+     "c": true
+    }
+   ],
+   "pt_max": 568,
+   "pt_max_rate": 21.0,
+   "max_real": 2422,
+   "free_real": 2476,
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "62ab46f2ef",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker 511 Charger (Nano 3, 30W)30W USB-C 急速充電器 ノートPC GaN採用 折りたたみ式 プラグ搭載 PD PPS対応 Air アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa2147.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a2147",
    "now": 2240,
-   "points": 20,
-   "premium_points": 20,
-   "real": 2220,
-   "pt_rate": 0.9,
-   "end": 1795971540,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2240,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.77,
-   "reviews": 499,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a2147.html",
    "jan": "4571411200151",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "62ab46f2ef",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 11,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 50,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 183,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 40,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 40,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 81,
+     "c": true
+    }
+   ],
+   "pt_max": 425,
+   "pt_max_rate": 21.0,
+   "max_real": 1815,
+   "free_real": 1855,
    "since": "2026-11-23T06:34+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ケーブル Anker PowerLine III Flow USB-C & USB-C ケーブル Anker絡まないケーブル PD対応 シリコン素材採用 240W アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA855.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A855",
+   "now": 1390,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1390,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A855.html",
+   "jan": "4571411185823",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "daa13583c5",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 12,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 31,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 113,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 50,
+     "c": true
+    }
+   ],
+   "pt_max": 262,
+   "pt_max_rate": 21.0,
+   "max_real": 1128,
+   "free_real": 1153,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ケーブル Anker PowerLine III Flow USB-C & USB-C ケーブル 1.8m 2本セット 絡まない 240W 結束バンド付き USB PD対応 iPhone 18 / 17 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fb8553.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_b8553",
+   "now": 2990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b8553.html",
+   "jan": "4571411226359",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "5102790a7f",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 67,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 244,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 108,
+     "c": true
+    }
+   ],
+   "pt_max": 568,
+   "pt_max_rate": 21.0,
+   "max_real": 2422,
+   "free_real": 2476,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ケーブル Anker USB-C & USB-C ケーブル (240W, 高耐久ナイロン) type-c タイプC / USB PD対応 MacBook Pro iPhone 18 / 17 / 16 Galaxy アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa82e2.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a82e2",
+   "now": 1690,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1690,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
+   "jan": "4571411180347",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "6b99741fb2",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 8,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 15,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 38,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 138,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 30,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 30,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 61,
+     "c": true
+    }
+   ],
+   "pt_max": 320,
+   "pt_max_rate": 21.0,
+   "max_real": 1370,
+   "free_real": 1400,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "アンカー ケーブル Anker PowerLine II 3-in-1 ケーブル ライトニング/USB-C/Micro USB端子対応ケーブル Apple MFi認証取得 iPhone XS/XS Max/XR 0.9m",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA8436.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A8436",
+   "now": 2290,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2290,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A8436.html",
+   "jan": "4571411189081",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "eca1b135fe",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 11,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 52,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 187,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 41,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 41,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 83,
+     "c": true
+    }
+   ],
+   "pt_max": 435,
+   "pt_max_rate": 21.0,
+   "max_real": 1855,
+   "free_real": 1896,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "USBハブ Anker 332 USB-C ハブ (5-in-1) MacBook Windows専用100W PD対応 4K 30Hz HDMI 5Gbps USB-C USB-A 簡単接続 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA8355.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A8355",
+   "now": 2690,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2690,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A8355.html",
+   "jan": "4571411207631",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "102195951f",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 24,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 61,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 220,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 48,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 48,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 97,
+     "c": true
+    }
+   ],
+   "pt_max": 511,
+   "pt_max_rate": 21.0,
+   "max_real": 2179,
+   "free_real": 2227,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "USBハブ Anker USB-C ハブ (5-in-1, 4K, HDMI) グレー100W USB PD対応 4K HDMIポート5Gbps 高速データ転送 USB-C/USB-Aポート搭載 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa8357.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a8357",
+   "now": 2090,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2090,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8357.html",
+   "jan": "4571411227196",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "33dd7ff48a",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 10,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 19,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 47,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 171,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 38,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 38,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 76,
+     "c": true
+    }
+   ],
+   "pt_max": 399,
+   "pt_max_rate": 21.0,
+   "max_real": 1691,
+   "free_real": 1729,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "USBハブ Anker USB3.0 ウルトラスリム 4ポートハブ5Gbps高速転送 バスパワー 軽量 コンパクト MacBook/iMac/Surface Pro 等 ノートPC 他対応 リモート アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA7516.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A7516",
+   "now": 1090,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1090,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A7516.html",
+   "jan": "4571411183218",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "b00660bf44",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 24,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 89,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 19,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 19,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 39,
+     "c": true
+    }
+   ],
+   "pt_max": 204,
+   "pt_max_rate": 21.0,
+   "max_real": 886,
+   "free_real": 905,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "USBハブ Anker USB-C ハブ (10-in-1, Monitor Stand)モニタースタンド ドッキングステーション USB PD100W 対応 5Gbps USB-Cポート USB-Aポート4K アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa8376.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a8376",
+   "now": 18990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 18990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8376.html",
+   "jan": "4571411218941",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "70ad43acf2",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 94,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 172,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 431,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 690,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 1553,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 345,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 345,
+     "c": true
+    }
+   ],
+   "pt_max": 3630,
+   "pt_max_rate": 21.0,
+   "max_real": 15360,
+   "free_real": 15705,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "電源タップ Anker PowerExtend (6-in-1)USBタップ AC差込口 USB-Cポート USB-Aポート PSE技術基準適合/USB Power Delivery対応 iPad iPhone Galaxy アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA9231.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A9231",
+   "now": 1990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A9231.html",
+   "jan": "4571411208430",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "e3b4a167fd",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 18,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 45,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 162,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 72,
+     "c": true
+    }
+   ],
+   "pt_max": 378,
+   "pt_max_rate": 21.0,
+   "max_real": 1612,
+   "free_real": 1648,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "電源タップ Anker Nano Charging Station (7-in-1, 100W, 巻取り式 USB-Cケーブル)USBタップ PSE技術基準適合MacBook iPad iPhone Galaxy Android アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa91c8.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a91c8",
+   "now": 7990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 7990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a91c8.html",
+   "jan": "4571411227912",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "7ec230aa2f",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 39,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 72,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 181,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 290,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 653,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 145,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 145,
+     "c": true
+    }
+   ],
+   "pt_max": 1525,
+   "pt_max_rate": 21.0,
+   "max_real": 6465,
+   "free_real": 6610,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "電源タップ Anker USB Power Strip (10-in-1, 20W)USB付き 6個口 延長コード アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa91f2.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a91f2",
+   "now": 2490,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2490,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a91f2.html",
+   "jan": "4571411216350",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "fe032ef8d1",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 12,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 56,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 203,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 45,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 45,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 90,
+     "c": true
+    }
+   ],
+   "pt_max": 473,
+   "pt_max_rate": 21.0,
+   "max_real": 2017,
+   "free_real": 2062,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "電源タップ Anker Nano Charging Station (6-in-1, 67W)USBタップ AC差込口 2口 USB-C 2ポート USB-A 2ポート 延長コード 1.5m PSE技術基準適合MacBook アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA9129.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A9129",
+   "now": 5490,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5490,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A9129.html",
+   "jan": "4571411211355",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "9326c490b1",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 124,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 199,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 449,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    }
+   ],
+   "pt_max": 1046,
+   "pt_max_rate": 21.0,
+   "max_real": 4444,
+   "free_real": 4543,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "睡眠用イヤホン Anker Soundcore Sleep A30 Bluetooth 5.3 睡眠用 / IPX4防水規格 / 最大50時間音楽再生 / アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd1301.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d1301",
+   "now": 27990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 27990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1301.html",
+   "jan": "4571651004038",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "92a7edf12a",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 139,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 254,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 636,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1781,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 2290,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 508,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 508,
+     "c": true
+    }
+   ],
+   "pt_max": 6116,
+   "pt_max_rate": 24.0,
+   "max_real": 21874,
+   "free_real": 22382,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ワイヤレスイヤホン Soundcore P42i / ノイズキャンセリング / ノイキャン / コンパクト / 小型 / かわいい / 通学 / 最大40H再生 / IP55 防塵・防水 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd1205.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d1205",
+   "now": 8990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 8990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1205.html",
+   "jan": "4571651019155",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "64c49e9686",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 44,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 81,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 204,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 326,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 735,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 163,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 163,
+     "c": true
+    }
+   ],
+   "pt_max": 1716,
+   "pt_max_rate": 21.0,
+   "max_real": 7274,
+   "free_real": 7437,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ヘッドホン Anker Soundcore Q20i Bluetooth 5.3 ワイヤレス アクティブノイズキャンセリング / ハイレゾ対応有線 / 外音取り込みモード / 重低音 / アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa3004.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a3004",
+   "now": 6490,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6490,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a3004.html",
+   "jan": "4571411185342",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "3be3128db4",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 32,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 59,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 147,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 236,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 531,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 118,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 118,
+     "c": true
+    }
+   ],
+   "pt_max": 1241,
+   "pt_max_rate": 21.0,
+   "max_real": 5249,
+   "free_real": 5367,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "オープンイヤー Anker Soundcore V20i / ワイヤレス / フック型 / ながら聴き / IP55防塵・防水規格/ 最大36時間再生 / マルチポイント接続 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa3876.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a3876",
+   "now": 5490,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5490,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a3876.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "b24a301f99",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 124,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 199,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 449,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 99,
+     "c": true
+    }
+   ],
+   "pt_max": 1046,
+   "pt_max_rate": 21.0,
+   "max_real": 4444,
+   "free_real": 4543,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "スピーカー Bluetooth Anker Soundcore 3 IPX7 防水規格 24時間連続再生 USB-C接続 アンカー サウンドコア",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA3117.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A3117",
+   "now": 6290,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6290,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A3117.html",
+   "jan": "4571411193170",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "c87c1ff489",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 31,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 57,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 142,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 228,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 514,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 114,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 114,
+     "c": true
+    }
+   ],
+   "pt_max": 1200,
+   "pt_max_rate": 21.0,
+   "max_real": 5090,
+   "free_real": 5204,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "スピーカー Anker Soundcore Select 4 Go【コンパクトBluetoothスピーカー】20時間連続再生 5W出力 パッシブラジエーター搭載 IP67防塵・防水規格 小型 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa31x1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a31x1",
+   "now": 3290,
+   "points": 0,
+   "premium_points": 0,
+   "real": 3290,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a31x1.html",
+   "jan": "4571411221774",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "ebf0e91f28",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 16,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 29,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 74,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 269,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 59,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 59,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 119,
+     "c": true
+    }
+   ],
+   "pt_max": 625,
+   "pt_max_rate": 21.0,
+   "max_real": 2665,
+   "free_real": 2724,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "スピーカー Anker SoundCore 2 USB Type-C充電 小型Bluetoothスピーカー 12W 24時間連続再生 完全ワイヤレスステレオ対応 低音 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA3105.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A3105",
+   "now": 4790,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4790,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A3105.html",
+   "jan": "4571411186158",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "a6c09b4390",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 43,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 108,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 391,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 87,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 87,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 174,
+     "c": true
+    }
+   ],
+   "pt_max": 913,
+   "pt_max_rate": 21.0,
+   "max_real": 3877,
+   "free_real": 3964,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "スピーカー Anker Soundcore Boom Go 3i【コンパクトBluetoothスピーカー】最大40時間再生 15W出力 IP68防塵・防水規格 小型 ストラップ付属 機能 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd5103.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d5103",
+   "now": 7390,
+   "points": 0,
+   "premium_points": 0,
+   "real": 7390,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d5103.html",
+   "jan": "4571651015096",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "11cee24bbb",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 36,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 67,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 167,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 268,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 604,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 134,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 134,
+     "c": true
+    }
+   ],
+   "pt_max": 1410,
+   "pt_max_rate": 21.0,
+   "max_real": 5980,
+   "free_real": 6114,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "プロジェクター Anker Soundcore Nebula P1i フリップ式スピーカー搭載ホームプロジェクター ホームシアター フルHD 380ANSIルーメン ステレオ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd2200.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d2200",
+   "now": 44990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 44990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2200.html",
+   "jan": "4571651009040",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "5940f98d50",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 224,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 409,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1022,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2863,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 3681,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 818,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 818,
+     "c": true
+    }
+   ],
+   "pt_max": 9835,
+   "pt_max_rate": 24.0,
+   "max_real": 35155,
+   "free_real": 35973,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "プロジェクター Anker Nebula Mars 3 Air 【Google TV搭載 高輝度なモバイルプロジェクター】1080pフルHD 400ANSI ルーメン 最大150インチ 16W 8W×2 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FD2325.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_D2325",
+   "now": 84990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 84990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/D2325.html",
+   "jan": "4571411215162",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "f04803a987",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 424,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 772,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1931,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 5408,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 6953,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1545,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1545,
+     "c": true
+    }
+   ],
+   "pt_max": 18578,
+   "pt_max_rate": 24.0,
+   "max_real": 66412,
+   "free_real": 67957,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "プロジェクター Anker Soundcore Nebula P1【着脱式デュアルスピーカー搭載プロジェクター】ホームシアター 家庭用 Netflix対応 Bluetooth Dolby Audio アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd2431.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d2431",
+   "now": 114900,
+   "points": 0,
+   "premium_points": 0,
+   "real": 114900,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2431.html",
+   "jan": "4571651008876",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "3f40ea7195",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 574,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1044,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 2611,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 9400,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 2089,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2089,
+     "c": true
+    }
+   ],
+   "pt_max": 24807,
+   "pt_max_rate": 24.0,
+   "max_real": 90093,
+   "free_real": 92182,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ポータブル電源 Anker Solix C1000 Gen 2 Portable Power Station with Anker Solix PS100 Compact Portable Solar Panel ダークグレー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fb1763-1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_b1763-1",
+   "now": 100100,
+   "points": 0,
+   "premium_points": 0,
+   "real": 100100,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b1763-1.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "e3b96f5df9",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 500,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 910,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 2275,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 6370,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 8190,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1820,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1820,
+     "c": true
+    }
+   ],
+   "pt_max": 21885,
+   "pt_max_rate": 24.0,
+   "max_real": 78215,
+   "free_real": 80035,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ポータブル電源 Anker 1024Wh Solix C1000 Gen 2 高出力1550W リン酸鉄 最速充電54分 最小クラス (オフホワイト)防災 キャンプ 車中泊 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1763-2.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1763-2",
+   "now": 77000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 77000,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-2.html",
+   "jan": "4571651001358",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "ae462c42a0",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 385,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 700,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1750,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 4900,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 6300,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1400,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1400,
+     "c": true
+    }
+   ],
+   "pt_max": 16835,
+   "pt_max_rate": 24.0,
+   "max_real": 60165,
+   "free_real": 61565,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ポータブル電源 Anker Solix C2000 Gen 2 Portable Power Station ダークグレー 2048Wh 世界最小クラスの大容量 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1783.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1783",
+   "now": 151700,
+   "points": 0,
+   "premium_points": 0,
+   "real": 151700,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1783.html",
+   "jan": "4571651010121",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "8e464623b4",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 758,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1379,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 3447,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 10000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 2758,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2758,
+     "c": true
+    }
+   ],
+   "pt_max": 28100,
+   "pt_max_rate": 24.0,
+   "max_real": 123600,
+   "free_real": 126358,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ソーラーパネル Anker Solix PS30 Portable Solar Panel太陽光パネル USB対応 2ポート スマホ充電用 防塵防水IP65 アンカー",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa2426.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a2426",
+   "now": 6600,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6600,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a2426.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "bc75ef7735",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 33,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 60,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 150,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 240,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 540,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 120,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 120,
+     "c": true
+    }
+   ],
+   "pt_max": 1263,
+   "pt_max_rate": 21.0,
+   "max_real": 5337,
+   "free_real": 5457,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "ロボット掃除機 Anker Eufy (ユーフィ) Robot Vacuum Omni C28 ローラーモップ/全自動クリーニングステーション クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft211A.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t211A",
+   "now": 99990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 99990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t211A.html",
+   "jan": "4571651010916",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "03d84050fa",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 499,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 909,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 2272,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 6363,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 8181,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 1818,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1818,
+     "c": true
+    }
+   ],
+   "pt_max": 21860,
+   "pt_max_rate": 24.0,
+   "max_real": 78130,
+   "free_real": 79948,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "ロボット掃除機 Anker Eufy (ユーフィ) Robot Vacuum Omni E25 ローラーモップ 20000Pa吸引力/洗剤投入/水拭き 高性能 アンカー クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2353.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2353",
+   "now": 149900,
+   "points": 0,
+   "premium_points": 0,
+   "real": 149900,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2353.html",
+   "jan": "4571651004564",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "8237d42c6a",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 749,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1362,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 3406,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 10000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 2725,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2725,
+     "c": true
+    }
+   ],
+   "pt_max": 27967,
+   "pt_max_rate": 24.0,
+   "max_real": 121933,
+   "free_real": 124658,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "ロボット掃除機 Anker Eufy (ユーフィ) Robot Vacuum Omni S2 伸縮式ローラーモップ 30000Pa 吸引力 モップ温水洗浄 サイクロン式 アンカー クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2081.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2081",
+   "now": 249900,
+   "points": 0,
+   "premium_points": 0,
+   "real": 249900,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2081.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "b07c90e152",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 1249,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 2271,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 5000,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 10000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 4543,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 4543,
+     "c": true
+    }
+   ],
+   "pt_max": 34606,
+   "pt_max_rate": 24.0,
+   "max_real": 215294,
+   "free_real": 219837,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "日用品",
+   "store": "yahoo",
+   "name": "防犯カメラ Anker Eufy (ユーフィ) Baby Monitor C10 ベビーモニター 見守りカメラ 赤ちゃん 約300万画素 2K アンカー ベビーカメラ 高画質 屋内 クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fe6310.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_e6310",
+   "now": 19990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 19990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/e6310.html",
+   "jan": "4571651009460",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "ae8290b216",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 99,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 181,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 454,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 726,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 1635,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 363,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 363,
+     "c": true
+    }
+   ],
+   "pt_max": 3821,
+   "pt_max_rate": 21.0,
+   "max_real": 16169,
+   "free_real": 16532,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "紛失防止トラッカー Anker Eufy (ユーフィ) SmartTrack Card E40 紛失防止 スマートタグ カード 薄型 軽量 防塵防水 Apple Android 月額不要 クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft87b3.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t87b3",
+   "now": 5990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b3.html",
+   "jan": "4571651016505",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "dc91db58a6",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 29,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 54,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 136,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 217,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 490,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 108,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 108,
+     "c": true
+    }
+   ],
+   "pt_max": 1142,
+   "pt_max_rate": 21.0,
+   "max_real": 4848,
+   "free_real": 4956,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "日用品",
+   "store": "yahoo",
+   "name": "防犯カメラ Anker Eufy (ユーフィ) eufyCam C35 （屋外用防犯カメラ）【マグネットカメラ / 約200万画素 / フルHD / バッテリー搭載】 クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft8110.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t8110",
+   "now": 9990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t8110.html",
+   "jan": "4571651006070",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "122aae144f",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 49,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 90,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 227,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 363,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 817,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 181,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 181,
+     "c": true
+    }
+   ],
+   "pt_max": 1908,
+   "pt_max_rate": 21.0,
+   "max_real": 8082,
+   "free_real": 8263,
+   "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "紛失防止トラッカー Anker Eufy (ユーフィ) SmartTrack Link 紛失防止タグ スマートタグ Googleの「Find Hub」に対応 Android端末のみ 小型 軽量 クーポン対象",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft87b4.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t87b4",
+   "now": 2990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2990,
+   "shop": "Anker 公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b4.html",
+   "jan": "4571411225291",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "Ankerブラックフライデー",
+   "id": "5aef2adfcb",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 14,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 67,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 244,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 54,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 108,
+     "c": true
+    }
+   ],
+   "pt_max": 568,
+   "pt_max_rate": 21.0,
+   "max_real": 2422,
+   "free_real": 2476,
+   "since": "2026-11-23T09:24+09:00"
   },
   {
    "id": "83131abdaf",
@@ -978,30 +5015,30 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "3ea7e99f1e",
+   "id": "1423f700ae",
    "genre": "日用品",
    "store": "yahoo",
-   "name": "ニュートロ　ワイルド　レシピ　超小型犬〜小型犬用　成犬用　サーモン　４ｋｇ＋パウチ　１袋　おまけ付",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fchanet%2F262577.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/chanet_262577",
-   "now": 6980,
+   "name": "◇ニュートロ　ワイルドレシピ　超小型犬〜小型犬用　成犬用　サーモン　4kg",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fpetforestvalor%2Fpf-4562358788574.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/petforestvalor_pf-4562358788574",
+   "now": 6979,
    "points": 63,
    "premium_points": 63,
-   "real": 6917,
+   "real": 6916,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "チャーム charm ヤフー店",
+   "shop": "ペットフォレストヤフー店",
    "maker": "WILD RECIPE",
-   "rating": 4.73,
-   "reviews": 96,
+   "rating": 0,
+   "reviews": 1,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/chanet/262577.html",
-   "jan": "2250002625772",
+   "page": "https://store.shopping.yahoo.co.jp/petforestvalor/pf-4562358788574.html",
+   "jan": "4562358788574",
    "pick": true,
-   "free_real": 6093,
+   "free_real": 6092,
    "other": 6980,
-   "save": 887,
+   "save": 888,
    "save_pct": 13,
    "pt_parts": [
     {
@@ -1049,8 +5086,8 @@
    ],
    "pt_max": 1013,
    "pt_max_rate": 16.0,
-   "max_real": 5967,
-   "since": "2026-11-23T03:01+09:00"
+   "max_real": 5966,
+   "since": "2026-11-23T09:24+09:00"
   },
   {
    "id": "5c5f1dcc80",
