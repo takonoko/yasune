@@ -92,7 +92,14 @@
     },
     {
      "code": "gintoshop/pearlclippro-sp-yh-jp",
-     "feat": "6276ba8d99"
+     "feat": "6276ba8d99",
+     "coupon": {
+      "pct": 10,
+      "min": 3000,
+      "end": "2026-12-29T00:00:00+09:00",
+      "text": "ストア内全品10%OFFクーポン（要獲得・3,000円以上・12/29 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/gintoshop/pearlclippro-sp-yh-jp.html"
+     }
     },
     {
      "code": "komiya/818127-52",
@@ -144,7 +151,14 @@
     },
     {
      "code": "kouragumi/100007",
-     "feat": "40cd5a8db7"
+     "feat": "40cd5a8db7",
+     "coupon": {
+      "yen": 200,
+      "min": 7300,
+      "end": "2026-12-01T00:00:00+09:00",
+      "text": "ストア内全品200円OFFクーポン（要獲得・7,300円以上・12/1 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html"
+     }
     },
     {
      "code": "vtcosmetics-official/vtpd36344",
@@ -156,7 +170,15 @@
     },
     {
      "code": "s-pln/mt-rx2-24",
-     "feat": "5a07657544"
+     "feat": "5a07657544",
+     "coupon": {
+      "pct": 5,
+      "max": 5000,
+      "min": 1000,
+      "end": "2026-11-30T02:00:00+09:00",
+      "text": "ストア内全品5%OFFクーポン（要獲得・値引き5,000円まで・11/30 2:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html"
+     }
     },
     {
      "code": "dyson/586364-01",
@@ -168,7 +190,13 @@
     },
     {
      "code": "queensshop/sal027",
-     "feat": "98c928a9d4"
+     "feat": "98c928a9d4",
+     "coupon": {
+      "yen": 500,
+      "end": "2027-01-28T00:00:00+09:00",
+      "text": "ストア内全品500円OFFクーポン（要獲得・1/28 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html"
+     }
     },
     {
      "code": "tiger-online/JPI-S10NK",
@@ -205,12 +233,14 @@
    "genre": "",
    "items": [
     {
-     "code": "ankerdirect/a1257",
-     "feat": "b8397458a8"
-    },
-    {
      "code": "ankerdirect/t2253",
-     "feat": "651e7a9981"
+     "feat": "651e7a9981",
+     "coupon": {
+      "pct": 45,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品45%OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html"
+     }
     },
     {
      "code": "ankerdirect/d1202",
@@ -219,22 +249,6 @@
     {
      "code": "ankerdirect/a1763-1",
      "feat": "98c0b6d773"
-    },
-    {
-     "code": "ankerdirect/a1653",
-     "feat": "c137863f5b"
-    },
-    {
-     "code": "ankerdirect/a1664",
-     "feat": "7be82c7e53"
-    },
-    {
-     "code": "ankerdirect/a1384",
-     "feat": "82016855f7"
-    },
-    {
-     "code": "ankerdirect/A1636",
-     "feat": "a36d3ee150"
     },
     {
      "code": "ankerdirect/a121e",
@@ -255,10 +269,6 @@
     {
      "code": "ankerdirect/A855",
      "feat": "daa13583c5"
-    },
-    {
-     "code": "ankerdirect/b8553",
-     "feat": "5102790a7f"
     },
     {
      "code": "ankerdirect/a82e2",
@@ -362,31 +372,73 @@
     },
     {
      "code": "ankerdirect/t211A",
-     "feat": "03d84050fa"
+     "feat": "03d84050fa",
+     "coupon": {
+      "yen": 30000,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品30,000円OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t211A.html"
+     }
     },
     {
      "code": "ankerdirect/t2353",
-     "feat": "8237d42c6a"
+     "feat": "8237d42c6a",
+     "coupon": {
+      "yen": 62000,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品62,000円OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2353.html"
+     }
     },
     {
      "code": "ankerdirect/t2081",
-     "feat": "b07c90e152"
+     "feat": "b07c90e152",
+     "coupon": {
+      "yen": 70000,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品70,000円OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2081.html"
+     }
     },
     {
      "code": "ankerdirect/e6310",
-     "feat": "ae8290b216"
+     "feat": "ae8290b216",
+     "coupon": {
+      "pct": 6,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品6%OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/e6310.html"
+     }
     },
     {
      "code": "ankerdirect/t87b3",
-     "feat": "dc91db58a6"
+     "feat": "dc91db58a6",
+     "coupon": {
+      "yen": 400,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品400円OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b3.html"
+     }
     },
     {
      "code": "ankerdirect/t8110",
-     "feat": "122aae144f"
+     "feat": "122aae144f",
+     "coupon": {
+      "pct": 6,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品6%OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t8110.html"
+     }
     },
     {
      "code": "ankerdirect/t87b4",
-     "feat": "5aef2adfcb"
+     "feat": "5aef2adfcb",
+     "coupon": {
+      "yen": 700,
+      "end": "2026-11-30T00:00:00+09:00",
+      "text": "対象商品700円OFFクーポン（要獲得・11/30 0:00まで）",
+      "url": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b4.html"
+     }
     }
    ]
   }
