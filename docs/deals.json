@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:24+09:00",
+ "updated": "2026-11-23T11:36+09:00",
  "deals": [
   {
    "id": "1fd668d414",
@@ -88,8 +88,8 @@
    "end": null,
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
-   "rating": 4.58,
-   "reviews": 1798,
+   "rating": 4.59,
+   "reviews": 1800,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -231,7 +231,7 @@
    "now": 5910,
    "points": 53,
    "premium_points": 53,
-   "real": 5857,
+   "real": 5272,
    "pt_rate": 0.9,
    "end": 1795971599,
    "shop": "Ginto Shop",
@@ -242,6 +242,9 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gintoshop/pearlclippro-sp-yh-jp.html",
    "jan": "4582660313417",
+   "coupon": "ストア内全品10%OFFクーポン（要獲得・3,000円以上・12/29 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/gintoshop/pearlclippro-sp-yh-jp.html",
+   "coupon_price": 5319,
    "badge": "爆買いタコの注目",
    "pt_parts": [
     {
@@ -287,10 +290,10 @@
      "c": true
     }
    ],
-   "pt_max": 858,
+   "pt_max": 772,
    "pt_max_rate": 16.0,
-   "max_real": 5052,
-   "free_real": 5159,
+   "max_real": 4547,
+   "free_real": 4644,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -514,9 +517,9 @@
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftsukumo-y%2F4988755071277.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/tsukumo-y_4988755071277",
    "now": 160843,
-   "points": 1462,
-   "premium_points": 1462,
-   "real": 159381,
+   "points": 1481,
+   "premium_points": 1481,
+   "real": 161466,
    "pt_rate": 0.9,
    "end": null,
    "shop": "ツクモ パソコン Yahoo!店",
@@ -935,17 +938,20 @@
    "now": 9720,
    "points": 90,
    "premium_points": 90,
-   "real": 9630,
+   "real": 9432,
    "pt_rate": 0.9,
    "end": 1795971599,
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.4,
-   "reviews": 11149,
+   "reviews": 11150,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
    "jan": null,
+   "coupon": "ストア内全品200円OFFクーポン（要獲得・7,300円以上・12/1 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
+   "coupon_price": 9520,
    "badge": "超目玉商品",
    "pt_parts": [
     {
@@ -991,10 +997,10 @@
      "c": true
     }
    ],
-   "pt_max": 1443,
+   "pt_max": 1413,
    "pt_max_rate": 16.0,
-   "max_real": 8277,
-   "free_real": 8457,
+   "max_real": 8107,
+   "free_real": 8283,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1149,7 +1155,7 @@
    "now": 12716,
    "points": 115,
    "premium_points": 115,
-   "real": 12601,
+   "real": 11972,
    "pt_rate": 0.9,
    "end": 1795971599,
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
@@ -1160,6 +1166,9 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
    "jan": "4580058722018",
+   "coupon": "ストア内全品5%OFFクーポン（要獲得・値引き5,000円まで・11/30 2:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
+   "coupon_price": 12081,
    "badge": "超目玉商品",
    "pt_parts": [
     {
@@ -1205,10 +1214,10 @@
      "c": true
     }
    ],
-   "pt_max": 2431,
+   "pt_max": 2309,
    "pt_max_rate": 21.0,
-   "max_real": 10285,
-   "free_real": 10516,
+   "max_real": 9772,
+   "free_real": 9991,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1365,7 +1374,7 @@
    "now": 14850,
    "points": 135,
    "premium_points": 135,
-   "real": 14715,
+   "real": 14220,
    "pt_rate": 0.9,
    "end": 1795971599,
    "shop": "アンドハビット",
@@ -1376,6 +1385,9 @@
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html",
    "jan": "4571607694238",
+   "coupon": "ストア内全品500円OFFクーポン（要獲得・1/28 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html",
+   "coupon_price": 14350,
    "badge": "超目玉商品",
    "pt_parts": [
     {
@@ -1421,10 +1433,10 @@
      "c": true
     }
    ],
-   "pt_max": 2166,
+   "pt_max": 2093,
    "pt_max_rate": 16.0,
-   "max_real": 12684,
-   "free_real": 12954,
+   "max_real": 12257,
+   "free_real": 12518,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1496,23 +1508,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "201c770b7e",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 水拭き両用 25,000pa 薄型 エコバックス DEEBOT T50S OMNI 高性能 自動掃除機 メーカー保証最大24ヶ月",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecovacsjapan%2Fddx47.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ecovacsjapan_ddx47",
    "now": 44800,
-   "points": 0,
-   "premium_points": 0,
-   "real": 44800,
+   "points": 4072,
+   "premium_points": 4072,
+   "real": 40728,
+   "pt_rate": 9.1,
+   "end": 1795971599,
    "shop": "エコバックス公式ストア",
-   "maker": "",
+   "maker": "エコバックス",
+   "rating": 4.6,
+   "reviews": 88,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ddx47.html",
    "jan": "6979463770536",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "201c770b7e",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1552,23 +1568,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "90023851b9",
    "genre": "その他",
    "store": "yahoo",
    "name": "マットレス シングル オリジナルコアラマットレス 低反発 高反発 厚み21cm 硬め 快適 寝心地 寝姿勢 腰痛 120日間返品可能 koala",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkoalasleepjapan%2F101-0035.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/koalasleepjapan_101-0035",
    "now": 55920,
-   "points": 0,
-   "premium_points": 0,
-   "real": 55920,
+   "points": 508,
+   "premium_points": 508,
+   "real": 55412,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "コアラスリープジャパン ヤフーショッピング店",
-   "maker": "",
+   "maker": "コアラマットレス",
+   "rating": 4.72,
+   "reviews": 137,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/koalasleepjapan/101-0035.html",
    "jan": "9358955003043",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "90023851b9",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1608,23 +1628,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "566675977b",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "プロジェクター Anker Nebula Capsule 3",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd2425.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d2425",
    "now": 62990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 62990,
+   "points": 572,
+   "premium_points": 572,
+   "real": 62418,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.8,
+   "reviews": 98,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
    "jan": null,
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "566675977b",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1676,23 +1700,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "d60c0cc162",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "POCO X8 Pro 8+256GB",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fxiaomijapanofficial%2F743000.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/xiaomijapanofficial_743000",
    "now": 54980,
-   "points": 0,
-   "premium_points": 0,
-   "real": 54980,
+   "points": 499,
+   "premium_points": 499,
+   "real": 54481,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "Xiaomi公式ストア",
-   "maker": "",
+   "maker": "Xiaomi",
+   "rating": 4.23,
+   "reviews": 13,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/743000.html",
    "jan": null,
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "d60c0cc162",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1812,74 +1840,6 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "モバイルバッテリー Anker Power Bank (10000mAh, 22.5W)アップグレード版10000mAh 最大22.5W出力 ディスプレイ搭載 PD/PowerIQ搭載/PSE技術基準適合 / アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1257.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1257",
-   "now": 3990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 3990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1257.html",
-   "jan": "4571411219498",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "b8397458a8",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 19,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 36,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 90,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 326,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 72,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 72,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 145,
-     "c": true
-    }
-   ],
-   "pt_max": 760,
-   "pt_max_rate": 21.0,
-   "max_real": 3230,
-   "free_real": 3302,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 Anker Eufy (ユーフィ) RoboVac G30 Hybrid スマート・ダイナミック・ナビゲーション 2.0 /2-in-1 吸引・水拭き クーポン対象",
@@ -1888,13 +1848,16 @@
    "now": 39990,
    "points": 0,
    "premium_points": 0,
-   "real": 39990,
+   "real": 21995,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "jan": "4571411214707",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品45%OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
+   "coupon_price": 21995,
    "badge": "Ankerブラックフライデー",
    "id": "651e7a9981",
    "pt_parts": [
@@ -1941,10 +1904,10 @@
      "c": true
     }
    ],
-   "pt_max": 8739,
+   "pt_max": 4806,
    "pt_max_rate": 24.0,
-   "max_real": 31251,
-   "free_real": 31978,
+   "max_real": 17189,
+   "free_real": 17589,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2081,278 +2044,6 @@
    "pt_max_rate": 24.0,
    "max_real": 60165,
    "free_real": 61565,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "モバイルバッテリー Anker Nano Power Bank (22.5W, Built-In USB-C Connector)5000mAh 軽量 小型 コンパクトPowerIQ搭載/USB-C一体型 iPhone 18 / 17 アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1653.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1653",
-   "now": 3990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 3990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1653.html",
-   "jan": "4571411213045",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "c137863f5b",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 19,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 36,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 90,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 326,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 72,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 72,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 145,
-     "c": true
-    }
-   ],
-   "pt_max": 760,
-   "pt_max_rate": 21.0,
-   "max_real": 3230,
-   "free_real": 3302,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "モバイルバッテリー Anker MagGo Power Bank (10000mAh, Slim)10000mAh Qi2認証 ワイヤレス充電 最大出力15W マグセーフ対応 コンパクト 薄型 小型 18 アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1664.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1664",
-   "now": 9990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 9990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1664.html",
-   "jan": "4571411223051",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "7be82c7e53",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 49,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 90,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 227,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 363,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 817,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 181,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 181,
-     "c": true
-    }
-   ],
-   "pt_max": 1908,
-   "pt_max_rate": 21.0,
-   "max_real": 8082,
-   "free_real": 8263,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "モバイルバッテリー Anker Power Bank (20000mAh, 30W)20000mAh 大容量 最大30W出力 USB-C付属 ディスプレイ搭載PD/PowerIQ搭載/PSE技術基準適合iPhone アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1384.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1384",
-   "now": 6990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 6990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1384.html",
-   "jan": "4571411217777",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "82016855f7",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 34,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 63,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 158,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 254,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 571,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 127,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 127,
-     "c": true
-    }
-   ],
-   "pt_max": 1334,
-   "pt_max_rate": 21.0,
-   "max_real": 5656,
-   "free_real": 5783,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "モバイルバッテリー Anker Power Bank (30W, Fusion, Built-In USB-C ケーブル Lightningケーブル)5K 22.5W出力搭載 30W出力USB充電器 / 1台3役 / 18 / アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA1636.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_A1636",
-   "now": 6990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 6990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A1636.html",
-   "jan": "4571411212819",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "a36d3ee150",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 34,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 63,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 158,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 254,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 571,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 127,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 127,
-     "c": true
-    }
-   ],
-   "pt_max": 1334,
-   "pt_max_rate": 21.0,
-   "max_real": 5656,
-   "free_real": 5783,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2693,74 +2384,6 @@
    "pt_max_rate": 21.0,
    "max_real": 1128,
    "free_real": 1153,
-   "since": "2026-11-23T09:24+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "ケーブル Anker PowerLine III Flow USB-C & USB-C ケーブル 1.8m 2本セット 絡まない 240W 結束バンド付き USB PD対応 iPhone 18 / 17 アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fb8553.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_b8553",
-   "now": 2990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 2990,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b8553.html",
-   "jan": "4571411226359",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "5102790a7f",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 14,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 27,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 67,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 244,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 54,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 54,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 108,
-     "c": true
-    }
-   ],
-   "pt_max": 568,
-   "pt_max_rate": 21.0,
-   "max_real": 2422,
-   "free_real": 2476,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4472,13 +4095,16 @@
    "now": 99990,
    "points": 0,
    "premium_points": 0,
-   "real": 99990,
+   "real": 69990,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t211A.html",
    "jan": "4571651010916",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品30,000円OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t211A.html",
+   "coupon_price": 69990,
    "badge": "Ankerブラックフライデー",
    "id": "03d84050fa",
    "pt_parts": [
@@ -4525,10 +4151,10 @@
      "c": true
     }
    ],
-   "pt_max": 21860,
+   "pt_max": 15301,
    "pt_max_rate": 24.0,
-   "max_real": 78130,
-   "free_real": 79948,
+   "max_real": 54689,
+   "free_real": 55962,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4540,13 +4166,16 @@
    "now": 149900,
    "points": 0,
    "premium_points": 0,
-   "real": 149900,
+   "real": 87900,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2353.html",
    "jan": "4571651004564",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品62,000円OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2353.html",
+   "coupon_price": 87900,
    "badge": "Ankerブラックフライデー",
    "id": "8237d42c6a",
    "pt_parts": [
@@ -4593,10 +4222,10 @@
      "c": true
     }
    ],
-   "pt_max": 27967,
+   "pt_max": 16399,
    "pt_max_rate": 24.0,
-   "max_real": 121933,
-   "free_real": 124658,
+   "max_real": 71501,
+   "free_real": 73099,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4608,13 +4237,16 @@
    "now": 249900,
    "points": 0,
    "premium_points": 0,
-   "real": 249900,
+   "real": 179900,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2081.html",
    "jan": null,
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品70,000円OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2081.html",
+   "coupon_price": 179900,
    "badge": "Ankerブラックフライデー",
    "id": "b07c90e152",
    "pt_parts": [
@@ -4661,10 +4293,10 @@
      "c": true
     }
    ],
-   "pt_max": 34606,
+   "pt_max": 24912,
    "pt_max_rate": 24.0,
-   "max_real": 215294,
-   "free_real": 219837,
+   "max_real": 154988,
+   "free_real": 158259,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4676,13 +4308,16 @@
    "now": 19990,
    "points": 0,
    "premium_points": 0,
-   "real": 19990,
+   "real": 18791,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/e6310.html",
    "jan": "4571651009460",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品6%OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/e6310.html",
+   "coupon_price": 18791,
    "badge": "Ankerブラックフライデー",
    "id": "ae8290b216",
    "pt_parts": [
@@ -4729,10 +4364,10 @@
      "c": true
     }
    ],
-   "pt_max": 3821,
+   "pt_max": 3591,
    "pt_max_rate": 21.0,
-   "max_real": 16169,
-   "free_real": 16532,
+   "max_real": 15200,
+   "free_real": 15541,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4744,13 +4379,16 @@
    "now": 5990,
    "points": 0,
    "premium_points": 0,
-   "real": 5990,
+   "real": 5590,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b3.html",
    "jan": "4571651016505",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品400円OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b3.html",
+   "coupon_price": 5590,
    "badge": "Ankerブラックフライデー",
    "id": "dc91db58a6",
    "pt_parts": [
@@ -4797,10 +4435,10 @@
      "c": true
     }
    ],
-   "pt_max": 1142,
+   "pt_max": 1065,
    "pt_max_rate": 21.0,
-   "max_real": 4848,
-   "free_real": 4956,
+   "max_real": 4525,
+   "free_real": 4626,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4812,13 +4450,16 @@
    "now": 9990,
    "points": 0,
    "premium_points": 0,
-   "real": 9990,
+   "real": 9391,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t8110.html",
    "jan": "4571651006070",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品6%OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t8110.html",
+   "coupon_price": 9391,
    "badge": "Ankerブラックフライデー",
    "id": "122aae144f",
    "pt_parts": [
@@ -4865,10 +4506,10 @@
      "c": true
     }
    ],
-   "pt_max": 1908,
+   "pt_max": 1793,
    "pt_max_rate": 21.0,
-   "max_real": 8082,
-   "free_real": 8263,
+   "max_real": 7598,
+   "free_real": 7768,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4880,13 +4521,16 @@
    "now": 2990,
    "points": 0,
    "premium_points": 0,
-   "real": 2990,
+   "real": 2290,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b4.html",
    "jan": "4571411225291",
    "ship": 2,
    "free_shipping": true,
+   "coupon": "対象商品700円OFFクーポン（要獲得・11/30 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t87b4.html",
+   "coupon_price": 2290,
    "badge": "Ankerブラックフライデー",
    "id": "5aef2adfcb",
    "pt_parts": [
@@ -4933,11 +4577,1753 @@
      "c": true
     }
    ],
-   "pt_max": 568,
+   "pt_max": 435,
    "pt_max_rate": 21.0,
-   "max_real": 2422,
-   "free_real": 2476,
+   "max_real": 1855,
+   "free_real": 1897,
    "since": "2026-11-23T09:24+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "AMD エーエムディー Ryzen 7 9800X3D BOX 【国内正規品】",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic516296.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic516296",
+   "now": 62800,
+   "points": 0,
+   "premium_points": 0,
+   "real": 58800,
+   "shop": "ドスパラYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic516296.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで）",
+   "coupon_url": null,
+   "coupon_price": 58800,
+   "free_real": 52895,
+   "other": 60260,
+   "save": 7365,
+   "save_pct": 12,
+   "badge": "クーポンで安い",
+   "id": "b4d40ad3c9",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 314,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 570,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1427,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 3996,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1141,
+     "c": true
+    }
+   ],
+   "pt_max": 6973,
+   "pt_max_rate": 13.0,
+   "max_real": 51827,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "AMD エーエムディー Ryzen 7 9700X BOX【国内正規品】",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic509913.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic509913",
+   "now": 42800,
+   "points": 0,
+   "premium_points": 0,
+   "real": 38800,
+   "shop": "ドスパラYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic509913.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで）",
+   "coupon_url": null,
+   "coupon_price": 38800,
+   "free_real": 34904,
+   "other": 41315,
+   "save": 6411,
+   "save_pct": 16,
+   "badge": "クーポンで安い",
+   "id": "01405d8323",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 214,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 389,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 972,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2723,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 778,
+     "c": true
+    }
+   ],
+   "pt_max": 4601,
+   "pt_max_rate": 13.0,
+   "max_real": 34199,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "Dyson Supersonic r ヘアドライヤー HD17CPATO セラミックパティーナ／トパーズ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F476722-01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dyson_476722-01",
+   "now": 25900,
+   "points": 0,
+   "premium_points": 0,
+   "real": 25900,
+   "shop": "Dyson公式Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/dyson/476722-01.html",
+   "jan": "5025155089811",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "f092ffd0a4",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 129,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 235,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 588,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1648,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 941,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 470,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 470,
+     "c": true
+    }
+   ],
+   "pt_max": 4481,
+   "pt_max_rate": 19.0,
+   "max_real": 21419,
+   "free_real": 21889,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "Dyson Supersonic r HD17VBTO ビンカブルー／トパーズ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F522097-01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dyson_522097-01",
+   "now": 25900,
+   "points": 0,
+   "premium_points": 0,
+   "real": 25900,
+   "shop": "Dyson公式Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/dyson/522097-01.html",
+   "jan": "5025155096451",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "ec07af618c",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 129,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 235,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 588,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1648,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 941,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 470,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 470,
+     "c": true
+    }
+   ],
+   "pt_max": 4481,
+   "pt_max_rate": 19.0,
+   "max_real": 21419,
+   "free_real": 21889,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "DELTA 3 Max 2048Wh+220W ポータブル電源ソーラーパネル セット 防災グッズ 大容量 太陽光発電 エコフロー EcoFlow",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecoflow%2FDELTA2Max-220W.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecoflow_DELTA2Max-220W",
+   "now": 139990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 139990,
+   "shop": "EcoFlow公式 Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ecoflow/DELTA2Max-220W.html",
+   "jan": "4895251658225",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "850467e3fc",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 699,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1272,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 3181,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 5000,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 2545,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2545,
+     "c": true
+    }
+   ],
+   "pt_max": 22242,
+   "pt_max_rate": 19.0,
+   "max_real": 117748,
+   "free_real": 120293,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "炊飯器 5合炊き 圧力IH炊飯器 タイガー 5.5合 ご泡火炊き ごほうびだき 内なべ3年保証 日本製 JPI-A100",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftiger-online%2FJPI-A100.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/tiger-online_JPI-A100",
+   "now": 36800,
+   "points": 0,
+   "premium_points": 0,
+   "real": 36800,
+   "shop": "タイガー魔法瓶Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/tiger-online/JPI-A100.html",
+   "jan": "4904710431009",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "7d13ae51d4",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 184,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 334,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 836,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2341,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1338,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 669,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 669,
+     "c": true
+    }
+   ],
+   "pt_max": 6371,
+   "pt_max_rate": 19.0,
+   "max_real": 30429,
+   "free_real": 31098,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "大阪王将 2種餃子146個セット！定番肉餃子とこだわり餃子がセットになった人気餃子詰め合わせ♪",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fohsho%2Fs-1074.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ohsho_s-1074",
+   "now": 4930,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4930,
+   "shop": "大阪王将 公式通販 ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ohsho/s-1074.html",
+   "jan": "4954018185074",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "846a7b0a02",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 24,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 45,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 114,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 182,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 91,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 91,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 182,
+     "c": true
+    }
+   ],
+   "pt_max": 729,
+   "pt_max_rate": 16.0,
+   "max_real": 4201,
+   "free_real": 4292,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "松屋 牛めしの具 プレミアム仕様 34個",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmatsuyafoods%2Fus34.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/matsuyafoods_us34",
+   "now": 8080,
+   "points": 0,
+   "premium_points": 0,
+   "real": 8080,
+   "shop": "松屋フーズ公式 Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/matsuyafoods/us34.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "0ccb5827f1",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 40,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 74,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 187,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 299,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 149,
+     "c": true
+    }
+   ],
+   "pt_max": 749,
+   "pt_max_rate": 10.0,
+   "max_real": 7331,
+   "free_real": 7480,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "【ブラックフライデー】澤井珈琲 コーヒー福袋 ドリップバッグ10種 200杯分",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsawaicoffee%2Fosechi-200set2017.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sawaicoffee_osechi-200set2017",
+   "now": 7990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 7990,
+   "shop": "澤井珈琲",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/sawaicoffee/osechi-200set2017.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "174803f333",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 39,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 73,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 184,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 295,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 147,
+     "c": true
+    }
+   ],
+   "pt_max": 738,
+   "pt_max_rate": 10.0,
+   "max_real": 7252,
+   "free_real": 7399,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "Jackery Solar Generator 1000 New 1070Wh 100W ポータブル電源 ソーラーパネル バッテリー 防災",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjackery-japan%2F60-0810-JPB1C1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/jackery-japan_60-0810-JPB1C1",
+   "now": 85030,
+   "points": 0,
+   "premium_points": 0,
+   "real": 85030,
+   "shop": "Jackery Japan ヤフーショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/jackery-japan/60-0810-JPB1C1.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "e37ad34459",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 425,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 773,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1932,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 5411,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 1546,
+     "c": true
+    }
+   ],
+   "pt_max": 10087,
+   "pt_max_rate": 13.0,
+   "max_real": 74943,
+   "free_real": 76489,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "EVOPOWER SYSTEM iQ+ コードレススティッククリーナー CS851JMVAE＋ プレシジョンダスターセット",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshark%2Fcs851jae-4064ffj360j.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/shark_cs851jae-4064ffj360j",
+   "now": 50050,
+   "points": 0,
+   "premium_points": 0,
+   "real": 50050,
+   "shop": "SharkNinja公式ヤフーショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/shark/cs851jae-4064ffj360j.html",
+   "jan": "622356265614",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "7ced12991e",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 250,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 455,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1137,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 3185,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1820,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 910,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 910,
+     "c": true
+    }
+   ],
+   "pt_max": 8667,
+   "pt_max_rate": 19.0,
+   "max_real": 41383,
+   "free_real": 42293,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "Jackery Solar Generator 2000New V2 2048Wh SolarSaga200 1枚 2点セット ポータブル電源 大容量",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjackery-japan%2F60-2020-JPD1D1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/jackery-japan_60-2020-JPD1D1",
+   "now": 157520,
+   "points": 0,
+   "premium_points": 0,
+   "real": 157520,
+   "shop": "Jackery Japan ヤフーショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/jackery-japan/60-2020-JPD1D1.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "7c6adcaa36",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 787,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 1432,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 3580,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 7000,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 2864,
+     "c": true
+    }
+   ],
+   "pt_max": 15663,
+   "pt_max_rate": 13.0,
+   "max_real": 141857,
+   "free_real": 144721,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "パックご飯 180g 48食 レトルトご飯 パックごはん 備蓄用 アイリスオーヤマ 米 お米 非常食 防災 仕送り 低温製法米 ピローレス",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Firisplaza%2F314624.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/irisplaza_314624",
+   "now": 5480,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5480,
+   "shop": "アイリスプラザ Yahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/314624.html",
+   "jan": "4562403574213",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "67198e273c",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 50,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 126,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 203,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 203,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 101,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 101,
+     "c": true
+    }
+   ],
+   "pt_max": 811,
+   "pt_max_rate": 16.0,
+   "max_real": 4669,
+   "free_real": 4770,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "掃除機 コードレス 軽量 アイリスオーヤマ ゴミ収集ドック 1.5L サイクロン 充電式 きわまでヘッド SCD-124PD-NH",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Firisplaza%2F212764.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/irisplaza_212764",
+   "now": 29800,
+   "points": 0,
+   "premium_points": 0,
+   "real": 29800,
+   "shop": "アイリスプラザ Yahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/212764.html",
+   "jan": "4967576831123",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "27accc8a4c",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 149,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 270,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 677,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 1896,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1083,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 541,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 541,
+     "c": true
+    }
+   ],
+   "pt_max": 5157,
+   "pt_max_rate": 19.0,
+   "max_real": 24643,
+   "free_real": 25184,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "脱毛器 光美容器 を手掛ける ブラウン 公式 vio対応 シルクエキスパート PL5157 正規品 Braun",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbraun%2Fsilk-expert-pl-p-pay01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/braun_silk-expert-pl-p-pay01",
+   "now": 54984,
+   "points": 0,
+   "premium_points": 0,
+   "real": 54984,
+   "shop": "ブラウン公式ストア ヤフー店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/braun/silk-expert-pl-p-pay01.html",
+   "jan": "4210201436737",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "11cdc45574",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 274,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 499,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 1249,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 3499,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 999,
+     "c": true
+    }
+   ],
+   "pt_max": 6520,
+   "pt_max_rate": 13.0,
+   "max_real": 48464,
+   "free_real": 49463,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ニューバランス（new balance）（メンズ）ジョギングシューズ 1080",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsupersportsxebio%2F10903131801.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/supersportsxebio_10903131801",
+   "now": 13200,
+   "points": 0,
+   "premium_points": 0,
+   "real": 13200,
+   "shop": "SuperSportsXEBIO Yahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/supersportsxebio/10903131801.html",
+   "jan": "4550541888644",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "97b0556249",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 66,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 120,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 300,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 480,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 480,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 240,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 240,
+     "c": true
+    }
+   ],
+   "pt_max": 1926,
+   "pt_max_rate": 16.0,
+   "max_real": 11274,
+   "free_real": 11514,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "Ulike公式 Air10 Max IPL 光美容器 2026年最新モデル 脱毛器 VIO 全身 痛みレス",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fulike%2Fair10.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ulike_air10",
+   "now": 41880,
+   "points": 0,
+   "premium_points": 0,
+   "real": 41880,
+   "shop": "Ulike公式店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/ulike/air10.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "4900529a8e",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 209,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 380,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 951,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2665,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 761,
+     "c": true
+    }
+   ],
+   "pt_max": 4966,
+   "pt_max_rate": 13.0,
+   "max_real": 36914,
+   "free_real": 37675,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "松屋人気詰合せ 14種14食の『松屋 セレクト福袋』",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmatsuyafoods%2Fselect14-14.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/matsuyafoods_select14-14",
+   "now": 4430,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4430,
+   "shop": "松屋フーズ公式 Yahoo!ショッピング店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/matsuyafoods/select14-14.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "20b6e50e13",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 41,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 102,
+     "c": false
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 164,
+     "c": true
+    }
+   ],
+   "pt_max": 411,
+   "pt_max_rate": 10.0,
+   "max_real": 4019,
+   "free_real": 4101,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "めぐみのルテイン30 30日分　ルテイン　ゼアキサンチン　GABA　疲労　機能性表示食品 目のサプリメント  AFC公式",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fafcshop%2F01236x01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/afcshop_01236x01",
+   "now": 1485,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1485,
+   "shop": "エーエフシーYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/afcshop/01236x01.html",
+   "jan": "4545593015605",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "9df3caa357",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 7,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 34,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 123,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 27,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 55,
+     "c": true
+    }
+   ],
+   "pt_max": 286,
+   "pt_max_rate": 21.0,
+   "max_real": 1199,
+   "free_real": 1226,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "機能性表示食品BMIと血糖値　約1ヶ月分",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseedcoms%2FAW5-1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/seedcoms_AW5-1",
+   "now": 1000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1000,
+   "shop": "シードコムスYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/seedcoms/AW5-1.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "ad7af2a841",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 83,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    }
+   ],
+   "pt_max": 193,
+   "pt_max_rate": 21.0,
+   "max_real": 807,
+   "free_real": 825,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "NMN 約1ヶ月分",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fseedcoms%2FAU5-1.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/seedcoms_AU5-1",
+   "now": 1000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1000,
+   "shop": "シードコムスYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/seedcoms/AU5-1.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "67c5884730",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 23,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 83,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 18,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 37,
+     "c": true
+    }
+   ],
+   "pt_max": 193,
+   "pt_max_rate": 21.0,
+   "max_real": 807,
+   "free_real": 825,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "ヘアケア4点セット シャンプー トリートメント オルナオーガニック ヘアケア 無添加 ノンシリコン ALLNA ORGANIC オーガニック",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fadew%2Fmanual-905b073w1637l-90xb0784873.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/adew_manual-905b073w1637l-90xb0784873",
+   "now": 4174,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4174,
+   "shop": "イルミルド公式ショップ",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/adew/manual-905b073w1637l-90xb0784873.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "24c9f4d028",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 37,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 94,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 341,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 75,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 75,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 1,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 151,
+     "c": true
+    }
+   ],
+   "pt_max": 830,
+   "pt_max_rate": 22.0,
+   "max_real": 3344,
+   "free_real": 3419,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "国産品 訳あり 国産干し芋 茨城県産 紅はるか 300g(150g×2袋)  無添加",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshizennoyakata%2Fhosiimo-b.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/shizennoyakata_hosiimo-b",
+   "now": 1380,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1380,
+   "shop": "美味しさは元気の源 自然の館",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/hosiimo-b.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "003aeb4e69",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 12,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 31,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 51,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 51,
+     "c": true
+    }
+   ],
+   "pt_max": 201,
+   "pt_max_rate": 16.0,
+   "max_real": 1179,
+   "free_real": 1204,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "かまぼこ さつま揚げ【14種 お試しセット】村田蒲鉾 蒲鉾 老舗 山口県 カマボコ ギフト おつまみ 初節句 内祝い お祝い お返し",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmuratakamaboko%2Fmk200.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/muratakamaboko_mk200",
+   "now": 4480,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4480,
+   "shop": "村田蒲鉾店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/muratakamaboko/mk200.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "ecd0ed426e",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 41,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 103,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 373,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 165,
+     "c": true
+    }
+   ],
+   "pt_max": 868,
+   "pt_max_rate": 21.0,
+   "max_real": 3612,
+   "free_real": 3694,
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "ミナミまぐろ100% ねぎとろ 100g×2p 複数購入で最大おまけ7パック!![南まぐろ 200g 100g×2パック] 天然まぐろ冷凍",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaguronoyamashita%2F10000009.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/maguronoyamashita_10000009",
+   "now": 1990,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1990,
+   "shop": "まぐろのヤマシタYahoo! JAPAN店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/maguronoyamashita/10000009.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "2ec3a798da",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "ねぎとろ100g×2p 複数購入で最大700gおまけ ネギトロ [ねぎとろ 200g 100g×2パック] ふるさと納税でも人気 小分け",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fmaguronoyamashita%2F10000001.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/maguronoyamashita_10000001",
+   "now": 1240,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1240,
+   "shop": "まぐろのヤマシタYahoo! JAPAN店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/maguronoyamashita/10000001.html",
+   "jan": "4589469610402",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "c59183cc7b",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "その他",
+   "store": "yahoo",
+   "name": "肥満気味の方の脂肪減少をサポートする エラグ酸 サプリ  30日分 　ダイエット　サプリ　【機能性表示食品】　サプリメント",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fafcshop%2F01377x01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/afcshop_01377x01",
+   "now": 1242,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1242,
+   "shop": "エーエフシーYahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/afcshop/01377x01.html",
+   "jan": "4545593017647",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "292338a4e3",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "米 雑穀 雑穀米 国産 未来雑穀21+マンナン 800g 400g×2袋 もち麦配合",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fshizennoyakata%2F10046.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/shizennoyakata_10046",
+   "now": 1132,
+   "points": 0,
+   "premium_points": 0,
+   "real": 1132,
+   "shop": "美味しさは元気の源 自然の館",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/10046.html",
+   "jan": "4946763030228",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "931df9833b",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "黒餃子96個",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgyouza-kan%2Fkuro120.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/gyouza-kan_kuro120",
+   "now": 2680,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2680,
+   "shop": "美食点心ぎようざ館",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/gyouza-kan/kuro120.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "48dca63ce6",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "背ワタなし ブラックタイガー 特大 むきえび 2kg前後",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F200112.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_200112",
+   "now": 5980,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5980,
+   "shop": "越前かに職人 甲羅組",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/kouragumi/200112.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "0d54bcfb54",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "ズワイガニ ポーション 800g （NET650g）",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkaisenichibashioso%2Fzuwai-fp-1000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/kaisenichibashioso_zuwai-fp-1000",
+   "now": 5980,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5980,
+   "shop": "港ダイニングしおそう",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/kaisenichibashioso/zuwai-fp-1000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "09408d7440",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "＼7種19食入り／すき家・なか卯 食べ比べセット7種19食（牛丼×牛カルビ丼×豚生姜焼き丼×炭火やきとり丼×横濱カレー×カツ丼×親子丼）",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fzenshotsuhan%2Fy-set-ast0030819-010.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/zenshotsuhan_y-set-ast0030819-010",
+   "now": 6150,
+   "points": 0,
+   "premium_points": 0,
+   "real": 6150,
+   "shop": "ゼンショーネットストア Yahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/zenshotsuhan/y-set-ast0030819-010.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "8cd535e7cd",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "ホルモン 焼肉 黒毛和牛 阿波黒牛 大トロホルモン ホソ 小腸 たれ漬け 1kg 200g×5パック 味付け バーベキュー 肉 国産 BBQ メガ盛り",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiwara11298%2F10001256.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/fujiwara11298_10001256",
+   "now": 3877,
+   "points": 0,
+   "premium_points": 0,
+   "real": 3877,
+   "shop": "有限会社 阿波牛の藤原",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/fujiwara11298/10001256.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "39df44c57c",
+   "since": "2026-11-23T11:36+09:00"
+  },
+  {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "【冷凍】牛丼の具並盛 120g×28袋",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fyoshinoya-shop%2F650128.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/yoshinoya-shop_650128",
+   "now": 7999,
+   "points": 0,
+   "premium_points": 0,
+   "real": 7999,
+   "shop": "吉野家公式ショップ",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/yoshinoya-shop/650128.html",
+   "jan": "4538872264016",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "f894a622cc",
+   "since": "2026-11-23T11:36+09:00"
   },
   {
    "id": "83131abdaf",
@@ -4965,53 +6351,6 @@
    "other": 5980,
    "save": 1672,
    "save_pct": 28,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 24,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 44,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 112,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 179,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 89,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 89,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 179,
-     "c": true
-    }
-   ],
-   "pt_max": 716,
-   "pt_max_rate": 16.0,
-   "max_real": 4219,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5040,62 +6379,15 @@
    "other": 6980,
    "save": 888,
    "save_pct": 13,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 34,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 63,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 158,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 253,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 126,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 126,
-     "c": true
-    }
-   ],
-   "pt_max": 1013,
-   "pt_max_rate": 16.0,
-   "max_real": 5966,
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "5c5f1dcc80",
+   "id": "f7d7c3c81c",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392770.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392770",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
@@ -5108,8 +6400,8 @@
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
-   "jan": "4550668292010",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392770.html",
+   "jan": "4550668292003",
    "pick": true,
    "postage": 539,
    "postage_pref": "東京都",
@@ -5117,36 +6409,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 17,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 32,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 80,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 64,
-     "c": true
-    }
-   ],
-   "pt_max": 193,
-   "pt_max_rate": 6.0,
-   "max_real": 3346,
-   "since": "2026-11-23T08:32+09:00"
+   "since": "2026-11-23T11:36+09:00"
   },
   {
    "id": "693a61b736",
@@ -5174,35 +6437,6 @@
    "other": 24799,
    "save": 2875,
    "save_pct": 12,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 113,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 206,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 517,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 413,
-     "c": true
-    }
-   ],
-   "pt_max": 1249,
-   "pt_max_rate": 6.0,
-   "max_real": 21511,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5231,35 +6465,6 @@
    "other": 20970,
    "save": 1031,
    "save_pct": 5,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 103,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 188,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 470,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 376,
-     "c": true
-    }
-   ],
-   "pt_max": 1137,
-   "pt_max_rate": 6.0,
-   "max_real": 19563,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5288,35 +6493,6 @@
    "other": 19402,
    "save": 762,
    "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 96,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 175,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 439,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 351,
-     "c": true
-    }
-   ],
-   "pt_max": 1061,
-   "pt_max_rate": 6.0,
-   "max_real": 18289,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5345,41 +6521,6 @@
    "other": 31980,
    "save": 5172,
    "save_pct": 16,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 149,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 270,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 677,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 1896,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 541,
-     "c": true
-    }
-   ],
-   "pt_max": 3533,
-   "pt_max_rate": 13.0,
-   "max_real": 26267,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5408,41 +6549,6 @@
    "other": 229800,
    "save": 15238,
    "save_pct": 7,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 1149,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 2089,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 5000,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 7000,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 4178,
-     "c": true
-    }
-   ],
-   "pt_max": 19416,
-   "pt_max_rate": 13.0,
-   "max_real": 210384,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5471,35 +6577,6 @@
    "other": 40800,
    "save": 1501,
    "save_pct": 4,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 204,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 370,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 927,
-     "c": false
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 741,
-     "c": true
-    }
-   ],
-   "pt_max": 2242,
-   "pt_max_rate": 6.0,
-   "max_real": 38558,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5528,41 +6605,6 @@
    "other": 8473,
    "save": 612,
    "save_pct": 7,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 42,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 77,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 192,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 308,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 154,
-     "c": true
-    }
-   ],
-   "pt_max": 773,
-   "pt_max_rate": 10.0,
-   "max_real": 7707,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -5591,53 +6633,6 @@
    "other": 3700,
    "save": 2328,
    "save_pct": 63,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 7,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 14,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 36,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 58,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 29,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 29,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 58,
-     "c": true
-    }
-   ],
-   "pt_max": 231,
-   "pt_max_rate": 16.0,
-   "max_real": 1343,
    "since": "2026-11-23T03:01+09:00"
   }
  ]
