@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:21+09:00",
+ "updated": "2026-11-23T23:38+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -241,7 +241,7 @@
    "shop": "SharkNinja公式ヤフーショッピング店",
    "maker": "Ninja",
    "rating": 4.79,
-   "reviews": 42,
+   "reviews": 43,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/shark/fn100j.html",
@@ -819,8 +819,8 @@
    "end": 1795971599,
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
-   "rating": 4.86,
-   "reviews": 22,
+   "rating": 4.87,
+   "reviews": 23,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -1165,7 +1165,7 @@
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
    "maker": "MYTREX",
    "rating": 4.75,
-   "reviews": 1901,
+   "reviews": 1902,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
@@ -1222,78 +1222,6 @@
    "pt_max_rate": 21.0,
    "max_real": 9772,
    "free_real": 9991,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "id": "0ccf8b5a35",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "Dyson Purifier Hot+Cool Gen1 空気清浄ファンヒーター HP10BN",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F586364-01.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/dyson_586364-01",
-   "now": 40000,
-   "points": 363,
-   "premium_points": 363,
-   "real": 39637,
-   "pt_rate": 0.9,
-   "end": 1795971599,
-   "shop": "Dyson公式Yahoo!ショッピング店",
-   "maker": "ダイソン",
-   "rating": 4.54,
-   "reviews": 249,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/dyson/586364-01.html",
-   "jan": "5025155112533",
-   "badge": "超目玉商品",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 200,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 363,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 909,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 2545,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 1454,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 727,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 727,
-     "c": true
-    }
-   ],
-   "pt_max": 6925,
-   "pt_max_rate": 19.0,
-   "max_real": 33075,
-   "free_real": 33802,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1444,74 +1372,6 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "限定モデル 炊飯器 5合炊き タイガー 圧力IH 炊飯器 ご泡火炊き ごほうびだき 5.5合 日本製 JPI-S10N",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftiger-online%2FJPI-S10NK.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/tiger-online_JPI-S10NK",
-   "now": 38800,
-   "points": 0,
-   "premium_points": 0,
-   "real": 38800,
-   "shop": "タイガー魔法瓶Yahoo!ショッピング店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/tiger-online/JPI-S10NK.html",
-   "jan": "4904710439104",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "超目玉商品",
-   "id": "b3d4b46bcc",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 194,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 352,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 881,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 2469,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 1410,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 705,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 705,
-     "c": true
-    }
-   ],
-   "pt_max": 6716,
-   "pt_max_rate": 19.0,
-   "max_real": 32084,
-   "free_real": 32789,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
    "id": "201c770b7e",
    "genre": "家電",
    "store": "yahoo",
@@ -1572,23 +1432,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "90023851b9",
    "genre": "その他",
    "store": "yahoo",
    "name": "マットレス シングル オリジナルコアラマットレス 低反発 高反発 厚み21cm 硬め 快適 寝心地 寝姿勢 腰痛 120日間返品可能 koala",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkoalasleepjapan%2F101-0035.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/koalasleepjapan_101-0035",
    "now": 55920,
-   "points": 0,
-   "premium_points": 0,
-   "real": 55920,
+   "points": 508,
+   "premium_points": 508,
+   "real": 55412,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "コアラスリープジャパン ヤフーショッピング店",
-   "maker": "",
+   "maker": "コアラマットレス",
+   "rating": 4.71,
+   "reviews": 138,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/koalasleepjapan/101-0035.html",
    "jan": "9358955003043",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "90023851b9",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -6135,6 +5999,60 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "2ec3a798da",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 18,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 46,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 73,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 5,
+     "p": 92,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 73,
+     "c": true
+    }
+   ],
+   "pt_max": 383,
+   "pt_max_rate": 21.0,
+   "max_real": 1607,
+   "free_real": 1643,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6155,6 +6073,60 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "c59183cc7b",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 11,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 28,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 45,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 22,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 5,
+     "p": 57,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 22,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 45,
+     "c": true
+    }
+   ],
+   "pt_max": 236,
+   "pt_max_rate": 21.0,
+   "max_real": 1004,
+   "free_real": 1026,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6260,26 +6232,6 @@
   {
    "genre": "食品",
    "store": "yahoo",
-   "name": "＼7種19食入り／すき家・なか卯 食べ比べセット7種19食（牛丼×牛カルビ丼×豚生姜焼き丼×炭火やきとり丼×横濱カレー×カツ丼×親子丼）",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fzenshotsuhan%2Fy-set-ast0030819-010.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/zenshotsuhan_y-set-ast0030819-010",
-   "now": 6150,
-   "points": 0,
-   "premium_points": 0,
-   "real": 6150,
-   "shop": "ゼンショーネットストア Yahoo!店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/zenshotsuhan/y-set-ast0030819-010.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "目玉商品",
-   "id": "8cd535e7cd",
-   "since": "2026-11-23T11:36+09:00"
-  },
-  {
-   "genre": "食品",
-   "store": "yahoo",
    "name": "ホルモン 焼肉 黒毛和牛 阿波黒牛 大トロホルモン ホソ 小腸 たれ漬け 1kg 200g×5パック 味付け バーベキュー 肉 国産 BBQ メガ盛り",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ffujiwara11298%2F10001256.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/fujiwara11298_10001256",
@@ -6374,25 +6326,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "5c5f1dcc80",
+   "id": "f26bd61cb9",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ECJOY!",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6401,7 +6353,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-23T19:21+09:00"
+   "since": "2026-11-23T23:38+09:00"
   },
   {
    "id": "693a61b736",
@@ -6432,32 +6384,32 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "aa7c26216a",
+   "id": "4b1f315650",
    "genre": "家電",
    "store": "yahoo",
-   "name": "シャープ プラズマクラスター7000 加湿空気清浄機 空気清浄適用床面積（目安）:〜23畳 最大加湿量:500mL/h ホワイト系  KC-T50-W",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsanrex%2Fkc-t50-w.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/sanrex_kc-t50-w",
-   "now": 20700,
-   "points": 188,
-   "premium_points": 188,
-   "real": 20512,
+   "name": "加湿空気清浄機 シャープ KC-T50-W プラズマクラスター7000 ホワイト系 SHARP (空清23畳/加湿14畳まで) 加湿器 花粉対策 除菌 脱臭 集じん リビング 新生活",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F2980000205811.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_2980000205811",
+   "now": 21100,
+   "points": 191,
+   "premium_points": 191,
+   "real": 20909,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "サンサン マーケット",
+   "shop": "XPRICE Yahoo!店",
    "maker": "シャープ",
-   "rating": 4.73,
-   "reviews": 11,
+   "rating": 4.62,
+   "reviews": 992,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/sanrex/kc-t50-w.html",
+   "page": "https://store.shopping.yahoo.co.jp/aprice/2980000205811.html",
    "jan": "4550556135856",
    "rank": true,
-   "free_real": 19939,
+   "free_real": 20325,
    "other": 20970,
-   "save": 1031,
-   "save_pct": 5,
-   "since": "2026-11-23T03:01+09:00"
+   "save": 645,
+   "save_pct": 3,
+   "since": "2026-11-23T23:38+09:00"
   },
   {
    "id": "23d6c84dd0",
@@ -6475,7 +6427,7 @@
    "shop": "XPRICE Yahoo!店",
    "maker": "シャープ",
    "rating": 4.64,
-   "reviews": 463,
+   "reviews": 464,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/aprice/2980000205750.html",
