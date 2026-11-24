@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:24+09:00",
+ "updated": "2026-11-24T19:17+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -166,7 +166,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.59,
-   "reviews": 1807,
+   "reviews": 1808,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -1223,6 +1223,78 @@
    "max_real": 9772,
    "free_real": 9991,
    "since": "2026-11-23T06:34+09:00"
+  },
+  {
+   "id": "0ccf8b5a35",
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "Dyson Purifier Hot+Cool Gen1 空気清浄ファンヒーター HP10BN",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F586364-01.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dyson_586364-01",
+   "now": 40000,
+   "points": 363,
+   "premium_points": 363,
+   "real": 39637,
+   "pt_rate": 0.9,
+   "end": 1795971599,
+   "shop": "Dyson公式Yahoo!ショッピング店",
+   "maker": "ダイソン",
+   "rating": 4.54,
+   "reviews": 249,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/dyson/586364-01.html",
+   "jan": "5025155112533",
+   "badge": "超目玉商品",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 200,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 363,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 909,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 7,
+     "p": 2545,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 1454,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 727,
+     "c": true
+    }
+   ],
+   "pt_max": 6925,
+   "pt_max_rate": 19.0,
+   "max_real": 33075,
+   "free_real": 33802,
+   "since": "2026-11-24T19:17+09:00"
   },
   {
    "id": "52ebf05333",
@@ -4518,7 +4590,7 @@
    "store": "yahoo",
    "name": "AMD エーエムディー Ryzen 7 9700X BOX【国内正規品】",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic509913.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic509913_i_20241011131305",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic509913",
    "now": 42800,
    "points": 0,
    "premium_points": 0,
@@ -6085,60 +6157,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "c59183cc7b",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 6,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 11,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 28,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 45,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 22,
-     "c": true
-    },
-    {
-     "t": "LINE友だち追加",
-     "r": 5,
-     "p": 57,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 22,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 45,
-     "c": true
-    }
-   ],
-   "pt_max": 236,
-   "pt_max_rate": 21.0,
-   "max_real": 1004,
-   "free_real": 1026,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6358,25 +6376,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "cf5a87b588",
+   "id": "f26bd61cb9",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj30%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj30_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "エクセレントショップ",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6385,7 +6403,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-24T16:24+09:00"
+   "since": "2026-11-24T19:17+09:00"
   },
   {
    "id": "693a61b736",
@@ -6477,7 +6495,7 @@
    "store": "yahoo",
    "name": "AMD エーエムディー Ryzen 7 5700X BOX 【国内正規品】",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic479652.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic479652_i_20221107190445",
+   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic479652",
    "now": 29800,
    "points": 270,
    "premium_points": 270,
@@ -6497,34 +6515,6 @@
    "other": 31980,
    "save": 5172,
    "save_pct": 16,
-   "since": "2026-11-23T03:01+09:00"
-  },
-  {
-   "id": "f0f195863c",
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "PNY VCG5070T16TFXXPB1-O (GeForce RTX 5070 Ti 16GB)",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic634895.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic634895_i_20260909120906",
-   "now": 229800,
-   "points": 2089,
-   "premium_points": 2089,
-   "real": 227711,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ドスパラYahoo!店",
-   "maker": "PNY",
-   "rating": 0,
-   "reviews": 1,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic634895.html",
-   "jan": null,
-   "rank": true,
-   "free_real": 214562,
-   "other": 229800,
-   "save": 15238,
-   "save_pct": 7,
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -6571,7 +6561,7 @@
    "shop": "美味しさは元気の源 自然の館",
    "maker": "美味しさは元気の源 自然の館",
    "rating": 4.6,
-   "reviews": 1579,
+   "reviews": 1580,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/ca-mixnuts.html",
