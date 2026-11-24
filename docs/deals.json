@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:31+09:00",
+ "updated": "2026-11-25T08:06+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -250,8 +250,8 @@
    "page": "https://store.shopping.yahoo.co.jp/shark/fn100j.html",
    "jan": "0622356435147",
    "badge": "爆買いタコの注目",
-   "note": "お店のLINEを友だち追加すると500円OFFクーポン（11/23に商品ページで確認） ／ 最大で「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使えると実質16,411円（使える人だけ）",
-   "max_coupon": "ストア内全品500円OFFクーポン（LINE友だち追加で）",
+   "note": "お店のLINEを友だち追加すると500円OFFクーポン（11/23に商品ページで確認） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質15,911円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -298,9 +298,9 @@
    ],
    "pt_max": 2889,
    "pt_max_rate": 16.0,
-   "max_real": 16411,
+   "max_real": 15911,
    "free_real": 17271,
-   "max_note": "最大の実質は「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -537,7 +537,7 @@
    "shop": "LeTAO ルタオ Yahoo!ショッピング店",
    "maker": "ルタオ",
    "rating": 4.82,
-   "reviews": 4958,
+   "reviews": 4959,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/letao/f808.html",
@@ -679,7 +679,7 @@
    "now": 16240,
    "points": 147,
    "premium_points": 1476,
-   "real": 16093,
+   "real": 15598,
    "pt_rate": 0.9,
    "end": null,
    "shop": "ベスト電器Yahoo!店",
@@ -691,8 +691,11 @@
    "page": "https://store.shopping.yahoo.co.jp/best-denki/1393148010.html",
    "jan": "4974305221896",
    "badge": "爆買いタコの注目",
-   "note": "対象者限定の500円OFFクーポンあり（もらえる人だけ・11/24 23:00まで）。値段には入れていません ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質13,773円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
+   "note": "対象者限定の500円OFFクーポンあり（もらえる人だけ・11/24 23:00まで）。値段には入れていません ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質12,946円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "対象商品500円OFFクーポン（要獲得・11/27 23:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/best-denki/1393148010.html",
+   "coupon_price": 15740,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -737,11 +740,11 @@
      "c": true
     }
    ],
-   "pt_max": 2367,
+   "pt_max": 2294,
    "pt_max_rate": 16.0,
-   "max_real": 13773,
-   "free_real": 14168,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_real": 12946,
+   "free_real": 13732,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -766,8 +769,8 @@
    "page": "https://store.shopping.yahoo.co.jp/delonghi/0108776315.html",
    "jan": "4988371012623",
    "badge": "超目玉商品",
-   "note": "お店のLINEを友だち追加すると対象商品1,000円OFFクーポン（値段には入れていません） ／ 最大で「対象商品1,000円OFFクーポン（LINE友だち追加で）」も使えると実質15,393円（使える人だけ）",
-   "max_coupon": "対象商品1,000円OFFクーポン（LINE友だち追加で）",
+   "note": "お店のLINEを友だち追加すると対象商品1,000円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質15,393円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -816,7 +819,7 @@
    "pt_max_rate": 24.0,
    "max_real": 15393,
    "free_real": 16774,
-   "max_note": "最大の実質は「対象商品1,000円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -841,8 +844,6 @@
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
    "jan": "4550311357288",
    "badge": "超目玉商品",
-   "note": "お店のLINEを友だち追加するとストア内全品200円OFFクーポン（3,500円以上・値段には入れていません） ／ 最大で「ストア内全品200円OFFクーポン（LINE友だち追加で）」も使えると実質2,848円（使える人だけ）",
-   "max_coupon": "ストア内全品200円OFFクーポン（LINE友だち追加で）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -889,9 +890,8 @@
    ],
    "pt_max": 516,
    "pt_max_rate": 16.0,
-   "max_real": 2848,
+   "max_real": 3048,
    "free_real": 3112,
-   "max_note": "最大の実質は「ストア内全品200円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -951,26 +951,30 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "40cd5a8db7",
    "genre": "食品",
    "store": "yahoo",
    "name": "カット生ずわい蟹  総重量 2.4kg 前後",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fkouragumi%2F100007.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/kouragumi_100007",
    "now": 9720,
-   "points": 0,
-   "premium_points": 0,
-   "real": 9520,
+   "points": 90,
+   "premium_points": 90,
+   "real": 9432,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "越前かに職人 甲羅組",
-   "maker": "",
+   "maker": "甲羅組",
+   "rating": 4.4,
+   "reviews": 11156,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
    "jan": null,
-   "ship": 2,
-   "free_shipping": true,
    "coupon": "ストア内全品200円OFFクーポン（要獲得・7,300円以上・12/1 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
    "coupon_price": 9520,
    "badge": "超目玉商品",
-   "id": "40cd5a8db7",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1098,23 +1102,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "c80ec8cbab",
    "genre": "食品",
    "store": "yahoo",
    "name": "博多 和洋折衷おせち 4～5人前",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fhisamatsu%2F2009071401.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/hisamatsu_2009071401",
    "now": 14025,
-   "points": 0,
-   "premium_points": 0,
-   "real": 14025,
+   "points": 129,
+   "premium_points": 129,
+   "real": 13896,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "博多久松",
-   "maker": "",
+   "maker": "博多久松",
+   "rating": 4.39,
+   "reviews": 6194,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html",
    "jan": null,
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "c80ec8cbab",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1166,26 +1174,30 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "5a07657544",
    "genre": "家電",
    "store": "yahoo",
    "name": "「TVCM放映中！小松菜奈さん出演」マッサージガン MYTREX 公式 REBIVE MINI XS2 軽量 小型 筋膜リリース マッサージ機",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fs-pln%2Fmt-rx2-24.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/s-pln_mt-rx2-24",
    "now": 12716,
-   "points": 0,
-   "premium_points": 0,
-   "real": 12081,
+   "points": 115,
+   "premium_points": 115,
+   "real": 11972,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
-   "maker": "",
+   "maker": "MYTREX",
+   "rating": 4.75,
+   "reviews": 1902,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
    "jan": "4580058722018",
-   "ship": 2,
-   "free_shipping": true,
    "coupon": "ストア内全品5%OFFクーポン（要獲得・値引き5,000円まで・11/30 2:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
    "coupon_price": 12081,
    "badge": "超目玉商品",
-   "id": "5a07657544",
    "note": "お店のLINEを友だち追加すると対象商品1,000円OFFクーポン（値段には入れていません） ／ 最大で「対象商品1,000円OFFクーポン（LINE友だち追加で）」も使えると実質9,407円（使える人だけ）",
    "max_coupon": "対象商品1,000円OFFクーポン（LINE友だち追加で）",
    "pt_parts": [
@@ -1240,23 +1252,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "0ccf8b5a35",
    "genre": "家電",
    "store": "yahoo",
    "name": "Dyson Purifier Hot+Cool Gen1 空気清浄ファンヒーター HP10BN",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F586364-01.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/dyson_586364-01",
    "now": 40000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 40000,
+   "points": 363,
+   "premium_points": 363,
+   "real": 39637,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "Dyson公式Yahoo!ショッピング店",
-   "maker": "",
+   "maker": "ダイソン",
+   "rating": 4.54,
+   "reviews": 249,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/dyson/586364-01.html",
    "jan": "5025155112533",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "0ccf8b5a35",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1325,8 +1341,7 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "52ebf05333",
-   "note": "お店のLINEを友だち追加するとストア内全品1,000円OFFクーポン（10,000円以上・値段には入れていません） ／ 最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質5,794円（使える人だけ）",
-   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "note": "お店のLINEを友だち追加するとストア内全品1,000円OFFクーポン（10,000円以上・値段には入れていません）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1373,9 +1388,8 @@
    ],
    "pt_max": 1046,
    "pt_max_rate": 16.0,
-   "max_real": 5794,
+   "max_real": 6154,
    "free_real": 6284,
-   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1571,7 +1585,7 @@
    "now": 62990,
    "points": 0,
    "premium_points": 0,
-   "real": 62990,
+   "real": 62361,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
@@ -1580,6 +1594,10 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "566675977b",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
+   "coupon_price": 62361,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1624,10 +1642,12 @@
      "c": true
     }
    ],
-   "pt_max": 13768,
+   "pt_max": 13630,
    "pt_max_rate": 24.0,
-   "max_real": 49222,
-   "free_real": 50367,
+   "max_real": 48360,
+   "free_real": 49865,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質48,360円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1707,7 +1727,7 @@
    "now": 9900,
    "points": 0,
    "premium_points": 0,
-   "real": 9900,
+   "real": 9400,
    "shop": "アンドハビット",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
@@ -1716,6 +1736,10 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "bd690421c4",
+   "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（3,000円以上・値段には入れていません）",
+   "coupon": "ストア内全品500円OFFクーポン（要獲得・1/28 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
+   "coupon_price": 9400,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1760,10 +1784,10 @@
      "c": true
     }
    ],
-   "pt_max": 1444,
+   "pt_max": 1371,
    "pt_max_rate": 16.0,
-   "max_real": 8456,
-   "free_real": 8636,
+   "max_real": 8029,
+   "free_real": 8200,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1846,7 +1870,7 @@
    "now": 5490,
    "points": 0,
    "premium_points": 0,
-   "real": 5490,
+   "real": 5436,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
@@ -1855,6 +1879,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "c9f72c95e5",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
+   "coupon_price": 5436,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1899,10 +1926,10 @@
      "c": true
     }
    ],
-   "pt_max": 1046,
+   "pt_max": 1035,
    "pt_max_rate": 21.0,
-   "max_real": 4444,
-   "free_real": 4543,
+   "max_real": 4401,
+   "free_real": 4499,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1914,7 +1941,7 @@
    "now": 77000,
    "points": 0,
    "premium_points": 0,
-   "real": 77000,
+   "real": 76230,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-1.html",
@@ -1923,6 +1950,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "98c0b6d773",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-1.html",
+   "coupon_price": 76230,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1967,10 +1998,12 @@
      "c": true
     }
    ],
-   "pt_max": 16835,
+   "pt_max": 16666,
    "pt_max_rate": 24.0,
-   "max_real": 60165,
-   "free_real": 61565,
+   "max_real": 59334,
+   "free_real": 60950,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質59,334円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1982,7 +2015,7 @@
    "now": 1990,
    "points": 0,
    "premium_points": 0,
-   "real": 1990,
+   "real": 1971,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121e.html",
@@ -1991,6 +2024,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "88377048b6",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121e.html",
+   "coupon_price": 1971,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2035,10 +2071,10 @@
      "c": true
     }
    ],
-   "pt_max": 378,
+   "pt_max": 374,
    "pt_max_rate": 21.0,
-   "max_real": 1612,
-   "free_real": 1648,
+   "max_real": 1597,
+   "free_real": 1633,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2050,7 +2086,7 @@
    "now": 4490,
    "points": 0,
    "premium_points": 0,
-   "real": 4490,
+   "real": 4446,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121c.html",
@@ -2059,6 +2095,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "ec56deb9b5",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a121c.html",
+   "coupon_price": 4446,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2103,10 +2142,10 @@
      "c": true
     }
    ],
-   "pt_max": 856,
+   "pt_max": 847,
    "pt_max_rate": 21.0,
-   "max_real": 3634,
-   "free_real": 3715,
+   "max_real": 3599,
+   "free_real": 3679,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2118,7 +2157,7 @@
    "now": 2990,
    "points": 0,
    "premium_points": 0,
-   "real": 2990,
+   "real": 2961,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A2039.html",
@@ -2127,6 +2166,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "7bfbe0c616",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A2039.html",
+   "coupon_price": 2961,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2171,10 +2213,10 @@
      "c": true
     }
    ],
-   "pt_max": 568,
+   "pt_max": 562,
    "pt_max_rate": 21.0,
-   "max_real": 2422,
-   "free_real": 2476,
+   "max_real": 2399,
+   "free_real": 2452,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2186,7 +2228,7 @@
    "now": 2240,
    "points": 0,
    "premium_points": 0,
-   "real": 2240,
+   "real": 2218,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a2147.html",
@@ -2195,6 +2237,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "62ab46f2ef",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a2147.html",
+   "coupon_price": 2218,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2239,10 +2284,10 @@
      "c": true
     }
    ],
-   "pt_max": 425,
+   "pt_max": 420,
    "pt_max_rate": 21.0,
-   "max_real": 1815,
-   "free_real": 1855,
+   "max_real": 1798,
+   "free_real": 1837,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -2254,7 +2299,7 @@
    "now": 1390,
    "points": 0,
    "premium_points": 0,
-   "real": 1390,
+   "real": 1377,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A855.html",
@@ -2263,6 +2308,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "daa13583c5",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A855.html",
+   "coupon_price": 1377,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2307,10 +2355,10 @@
      "c": true
     }
    ],
-   "pt_max": 262,
+   "pt_max": 259,
    "pt_max_rate": 21.0,
-   "max_real": 1128,
-   "free_real": 1153,
+   "max_real": 1118,
+   "free_real": 1143,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2322,7 +2370,7 @@
    "now": 1690,
    "points": 0,
    "premium_points": 0,
-   "real": 1690,
+   "real": 1674,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
@@ -2331,6 +2379,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "6b99741fb2",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
+   "coupon_price": 1674,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2375,10 +2426,10 @@
      "c": true
     }
    ],
-   "pt_max": 320,
+   "pt_max": 316,
    "pt_max_rate": 21.0,
-   "max_real": 1370,
-   "free_real": 1400,
+   "max_real": 1358,
+   "free_real": 1387,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2390,7 +2441,7 @@
    "now": 2290,
    "points": 0,
    "premium_points": 0,
-   "real": 2290,
+   "real": 2268,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A8436.html",
@@ -2399,6 +2450,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "eca1b135fe",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A8436.html",
+   "coupon_price": 2268,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2443,10 +2497,10 @@
      "c": true
     }
    ],
-   "pt_max": 435,
+   "pt_max": 430,
    "pt_max_rate": 21.0,
-   "max_real": 1855,
-   "free_real": 1896,
+   "max_real": 1838,
+   "free_real": 1878,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2458,7 +2512,7 @@
    "now": 2690,
    "points": 0,
    "premium_points": 0,
-   "real": 2690,
+   "real": 2664,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A8355.html",
@@ -2467,6 +2521,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "102195951f",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A8355.html",
+   "coupon_price": 2664,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2511,10 +2568,10 @@
      "c": true
     }
    ],
-   "pt_max": 511,
+   "pt_max": 506,
    "pt_max_rate": 21.0,
-   "max_real": 2179,
-   "free_real": 2227,
+   "max_real": 2158,
+   "free_real": 2206,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2526,7 +2583,7 @@
    "now": 2090,
    "points": 0,
    "premium_points": 0,
-   "real": 2090,
+   "real": 2070,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8357.html",
@@ -2535,6 +2592,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "33dd7ff48a",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a8357.html",
+   "coupon_price": 2070,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2579,10 +2639,10 @@
      "c": true
     }
    ],
-   "pt_max": 399,
+   "pt_max": 395,
    "pt_max_rate": 21.0,
-   "max_real": 1691,
-   "free_real": 1729,
+   "max_real": 1675,
+   "free_real": 1713,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2662,7 +2722,7 @@
    "now": 18990,
    "points": 0,
    "premium_points": 0,
-   "real": 18990,
+   "real": 18801,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8376.html",
@@ -2671,6 +2731,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "70ad43acf2",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a8376.html",
+   "coupon_price": 18801,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2715,10 +2779,12 @@
      "c": true
     }
    ],
-   "pt_max": 3630,
+   "pt_max": 3593,
    "pt_max_rate": 21.0,
-   "max_real": 15360,
-   "free_real": 15705,
+   "max_real": 14397,
+   "free_real": 15549,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質14,397円（使える人だけ）",
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2730,7 +2796,7 @@
    "now": 1990,
    "points": 0,
    "premium_points": 0,
-   "real": 1990,
+   "real": 1971,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A9231.html",
@@ -2739,6 +2805,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "e3b4a167fd",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A9231.html",
+   "coupon_price": 1971,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2783,10 +2852,10 @@
      "c": true
     }
    ],
-   "pt_max": 378,
+   "pt_max": 374,
    "pt_max_rate": 21.0,
-   "max_real": 1612,
-   "free_real": 1648,
+   "max_real": 1597,
+   "free_real": 1633,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2798,7 +2867,7 @@
    "now": 7990,
    "points": 0,
    "premium_points": 0,
-   "real": 7990,
+   "real": 7911,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a91c8.html",
@@ -2807,6 +2876,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "7ec230aa2f",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a91c8.html",
+   "coupon_price": 7911,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2851,10 +2923,10 @@
      "c": true
     }
    ],
-   "pt_max": 1525,
+   "pt_max": 1509,
    "pt_max_rate": 21.0,
-   "max_real": 6465,
-   "free_real": 6610,
+   "max_real": 6402,
+   "free_real": 6545,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2866,7 +2938,7 @@
    "now": 2490,
    "points": 0,
    "premium_points": 0,
-   "real": 2490,
+   "real": 2466,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a91f2.html",
@@ -2875,6 +2947,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "fe032ef8d1",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a91f2.html",
+   "coupon_price": 2466,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2919,10 +2994,10 @@
      "c": true
     }
    ],
-   "pt_max": 473,
+   "pt_max": 468,
    "pt_max_rate": 21.0,
-   "max_real": 2017,
-   "free_real": 2062,
+   "max_real": 1998,
+   "free_real": 2043,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -2934,7 +3009,7 @@
    "now": 5490,
    "points": 0,
    "premium_points": 0,
-   "real": 5490,
+   "real": 5436,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A9129.html",
@@ -2943,6 +3018,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "9326c490b1",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A9129.html",
+   "coupon_price": 5436,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2987,10 +3065,10 @@
      "c": true
     }
    ],
-   "pt_max": 1046,
+   "pt_max": 1035,
    "pt_max_rate": 21.0,
-   "max_real": 4444,
-   "free_real": 4543,
+   "max_real": 4401,
+   "free_real": 4499,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3002,7 +3080,7 @@
    "now": 27990,
    "points": 0,
    "premium_points": 0,
-   "real": 27990,
+   "real": 27711,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1301.html",
@@ -3011,6 +3089,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "92a7edf12a",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1301.html",
+   "coupon_price": 27711,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3055,10 +3137,12 @@
      "c": true
     }
    ],
-   "pt_max": 6116,
+   "pt_max": 6055,
    "pt_max_rate": 24.0,
-   "max_real": 21874,
-   "free_real": 22382,
+   "max_real": 20935,
+   "free_real": 22159,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質20,935円（使える人だけ）",
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3070,7 +3154,7 @@
    "now": 8990,
    "points": 0,
    "premium_points": 0,
-   "real": 8990,
+   "real": 8901,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1205.html",
@@ -3079,6 +3163,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "64c49e9686",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d1205.html",
+   "coupon_price": 8901,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3123,10 +3210,10 @@
      "c": true
     }
    ],
-   "pt_max": 1716,
+   "pt_max": 1699,
    "pt_max_rate": 21.0,
-   "max_real": 7274,
-   "free_real": 7437,
+   "max_real": 7202,
+   "free_real": 7364,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3138,7 +3225,7 @@
    "now": 6490,
    "points": 0,
    "premium_points": 0,
-   "real": 6490,
+   "real": 6426,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a3004.html",
@@ -3147,6 +3234,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "3be3128db4",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3004.html",
+   "coupon_price": 6426,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3191,10 +3281,10 @@
      "c": true
     }
    ],
-   "pt_max": 1241,
+   "pt_max": 1228,
    "pt_max_rate": 21.0,
-   "max_real": 5249,
-   "free_real": 5367,
+   "max_real": 5198,
+   "free_real": 5315,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3206,7 +3296,7 @@
    "now": 5490,
    "points": 0,
    "premium_points": 0,
-   "real": 5490,
+   "real": 5436,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a3876.html",
@@ -3215,6 +3305,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "b24a301f99",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a3876.html",
+   "coupon_price": 5436,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3259,10 +3352,10 @@
      "c": true
     }
    ],
-   "pt_max": 1046,
+   "pt_max": 1035,
    "pt_max_rate": 21.0,
-   "max_real": 4444,
-   "free_real": 4543,
+   "max_real": 4401,
+   "free_real": 4499,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3274,7 +3367,7 @@
    "now": 6290,
    "points": 0,
    "premium_points": 0,
-   "real": 6290,
+   "real": 6228,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A3117.html",
@@ -3283,6 +3376,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "c87c1ff489",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A3117.html",
+   "coupon_price": 6228,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3327,10 +3423,10 @@
      "c": true
     }
    ],
-   "pt_max": 1200,
+   "pt_max": 1188,
    "pt_max_rate": 21.0,
-   "max_real": 5090,
-   "free_real": 5204,
+   "max_real": 5040,
+   "free_real": 5153,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3342,7 +3438,7 @@
    "now": 3290,
    "points": 0,
    "premium_points": 0,
-   "real": 3290,
+   "real": 3258,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a31x1.html",
@@ -3351,6 +3447,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "ebf0e91f28",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a31x1.html",
+   "coupon_price": 3258,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3395,10 +3494,10 @@
      "c": true
     }
    ],
-   "pt_max": 625,
+   "pt_max": 618,
    "pt_max_rate": 21.0,
-   "max_real": 2665,
-   "free_real": 2724,
+   "max_real": 2640,
+   "free_real": 2698,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3410,7 +3509,7 @@
    "now": 4790,
    "points": 0,
    "premium_points": 0,
-   "real": 4790,
+   "real": 4743,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A3105.html",
@@ -3419,6 +3518,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "a6c09b4390",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/A3105.html",
+   "coupon_price": 4743,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3463,10 +3565,10 @@
      "c": true
     }
    ],
-   "pt_max": 913,
+   "pt_max": 904,
    "pt_max_rate": 21.0,
-   "max_real": 3877,
-   "free_real": 3964,
+   "max_real": 3839,
+   "free_real": 3926,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3478,7 +3580,7 @@
    "now": 7390,
    "points": 0,
    "premium_points": 0,
-   "real": 7390,
+   "real": 7317,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d5103.html",
@@ -3487,6 +3589,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "11cee24bbb",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d5103.html",
+   "coupon_price": 7317,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3531,10 +3636,10 @@
      "c": true
     }
    ],
-   "pt_max": 1410,
+   "pt_max": 1396,
    "pt_max_rate": 21.0,
-   "max_real": 5980,
-   "free_real": 6114,
+   "max_real": 5921,
+   "free_real": 6054,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3546,7 +3651,7 @@
    "now": 44990,
    "points": 0,
    "premium_points": 0,
-   "real": 44990,
+   "real": 44541,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2200.html",
@@ -3555,6 +3660,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "5940f98d50",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d2200.html",
+   "coupon_price": 44541,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3599,10 +3708,12 @@
      "c": true
     }
    ],
-   "pt_max": 9835,
+   "pt_max": 9736,
    "pt_max_rate": 24.0,
-   "max_real": 35155,
-   "free_real": 35973,
+   "max_real": 34254,
+   "free_real": 35614,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質34,254円（使える人だけ）",
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3614,7 +3725,7 @@
    "now": 84990,
    "points": 0,
    "premium_points": 0,
-   "real": 84990,
+   "real": 84141,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/D2325.html",
@@ -3623,6 +3734,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "f04803a987",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/D2325.html",
+   "coupon_price": 84141,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3667,10 +3782,12 @@
      "c": true
     }
    ],
-   "pt_max": 18578,
+   "pt_max": 18392,
    "pt_max_rate": 24.0,
-   "max_real": 66412,
-   "free_real": 67957,
+   "max_real": 65598,
+   "free_real": 67279,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質65,598円（使える人だけ）",
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3682,7 +3799,7 @@
    "now": 114900,
    "points": 0,
    "premium_points": 0,
-   "real": 114900,
+   "real": 113751,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2431.html",
@@ -3691,6 +3808,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "3f40ea7195",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d2431.html",
+   "coupon_price": 113751,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3735,10 +3855,10 @@
      "c": true
     }
    ],
-   "pt_max": 24807,
+   "pt_max": 24558,
    "pt_max_rate": 24.0,
-   "max_real": 90093,
-   "free_real": 92182,
+   "max_real": 89193,
+   "free_real": 91261,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3750,7 +3870,7 @@
    "now": 100100,
    "points": 0,
    "premium_points": 0,
-   "real": 100100,
+   "real": 99099,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/b1763-1.html",
@@ -3759,6 +3879,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "e3b96f5df9",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/b1763-1.html",
+   "coupon_price": 99099,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3803,10 +3926,10 @@
      "c": true
     }
    ],
-   "pt_max": 21885,
+   "pt_max": 21666,
    "pt_max_rate": 24.0,
-   "max_real": 78215,
-   "free_real": 80035,
+   "max_real": 77433,
+   "free_real": 79235,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3818,7 +3941,7 @@
    "now": 77000,
    "points": 0,
    "premium_points": 0,
-   "real": 77000,
+   "real": 76230,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-2.html",
@@ -3827,6 +3950,10 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "ae462c42a0",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1763-2.html",
+   "coupon_price": 76230,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3871,10 +3998,12 @@
      "c": true
     }
    ],
-   "pt_max": 16835,
+   "pt_max": 16666,
    "pt_max_rate": 24.0,
-   "max_real": 60165,
-   "free_real": 61565,
+   "max_real": 59334,
+   "free_real": 60950,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質59,334円（使える人だけ）",
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3886,7 +4015,7 @@
    "now": 151700,
    "points": 0,
    "premium_points": 0,
-   "real": 151700,
+   "real": 150183,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1783.html",
@@ -3895,6 +4024,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "8e464623b4",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1783.html",
+   "coupon_price": 150183,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3939,10 +4071,10 @@
      "c": true
     }
    ],
-   "pt_max": 28100,
+   "pt_max": 27819,
    "pt_max_rate": 24.0,
-   "max_real": 123600,
-   "free_real": 126358,
+   "max_real": 122364,
+   "free_real": 125095,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -3954,7 +4086,7 @@
    "now": 6600,
    "points": 0,
    "premium_points": 0,
-   "real": 6600,
+   "real": 6534,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a2426.html",
@@ -3963,6 +4095,9 @@
    "free_shipping": true,
    "badge": "Ankerブラックフライデー",
    "id": "bc75ef7735",
+   "coupon": "ストア内全品1％OFFクーポン（要獲得・11/26 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a2426.html",
+   "coupon_price": 6534,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4007,10 +4142,10 @@
      "c": true
     }
    ],
-   "pt_max": 1263,
+   "pt_max": 1250,
    "pt_max_rate": 21.0,
-   "max_real": 5337,
-   "free_real": 5457,
+   "max_real": 5284,
+   "free_real": 5403,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4526,7 +4661,7 @@
    "jan": null,
    "ship": 2,
    "free_shipping": true,
-   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで）",
+   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで・要獲得）",
    "coupon_url": null,
    "coupon_price": 58800,
    "free_real": 52895,
@@ -4588,7 +4723,7 @@
    "jan": null,
    "ship": 2,
    "free_shipping": true,
-   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで）",
+   "coupon": "4,000円OFFクーポン（対象商品・11/30 2:00まで・要獲得）",
    "coupon_url": null,
    "coupon_price": 38800,
    "free_real": 34904,
@@ -5167,8 +5302,8 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "7ced12991e",
-   "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（8,000円以上・値段には入れていません） ／ 最大で「ストア内全品2,000円OFFクーポン（対象者限定）」も使えると実質39,418円（使える人だけ）",
-   "max_coupon": "ストア内全品2,000円OFFクーポン（対象者限定）",
+   "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（8,000円以上・値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質40,418円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "coupon": "対象商品200円OFFクーポン（要獲得・11/30 12:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/shark/cs851jae-4064ffj360j.html",
    "coupon_price": 49850,
@@ -5218,9 +5353,9 @@
    ],
    "pt_max": 8632,
    "pt_max_rate": 19.0,
-   "max_real": 39418,
+   "max_real": 40418,
    "free_real": 42124,
-   "max_note": "最大の実質は「ストア内全品2,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5557,8 +5692,8 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "4900529a8e",
-   "note": "お店のLINEを友だち追加すると対象商品500円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品2,000円OFFクーポン（対象者限定）」も使えると実質34,914円（使える人だけ）",
-   "max_coupon": "ストア内全品2,000円OFFクーポン（対象者限定）",
+   "note": "お店のLINEを友だち追加すると対象商品500円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質35,914円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5593,9 +5728,9 @@
    ],
    "pt_max": 4966,
    "pt_max_rate": 13.0,
-   "max_real": 34914,
+   "max_real": 35914,
    "free_real": 37675,
-   "max_note": "最大の実質は「ストア内全品2,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5876,8 +6011,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "24c9f4d028",
-   "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（3,000円以上・値段には入れていません） ／ 最大で「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使えると実質2,844円（使える人だけ）",
-   "max_coupon": "ストア内全品500円OFFクーポン（LINE友だち追加で）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5930,9 +6063,8 @@
    ],
    "pt_max": 830,
    "pt_max_rate": 22.0,
-   "max_real": 2844,
+   "max_real": 3344,
    "free_real": 3419,
-   "max_note": "最大の実質は「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6396,25 +6528,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "f26bd61cb9",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771_i_20260928100603",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6423,7 +6555,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-24T19:17+09:00"
+   "since": "2026-11-25T08:06+09:00"
   },
   {
    "id": "693a61b736",
@@ -6479,10 +6611,10 @@
    "other": 20970,
    "save": 645,
    "save_pct": 3,
-   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（5,000円以上・値段には入れていません） ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質20,809円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
-   "max_real": 20809,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（5,000円以上・値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質19,909円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "max_real": 19909,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T23:38+09:00"
   },
   {
@@ -6511,10 +6643,10 @@
    "other": 19402,
    "save": 762,
    "save_pct": 4,
-   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（5,000円以上・値段には入れていません） ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質19,075円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
-   "max_real": 19075,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（5,000円以上・値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質18,175円（使える人だけ）",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "max_real": 18175,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T03:01+09:00"
   },
   {
@@ -6549,36 +6681,32 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "3e455851e5",
+   "id": "3cec5655e0",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "GIGABYTE B850 AORUS ELITE-P ICE ATXマザーボード メーカー直送",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Faprice%2F4719331882488.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/aprice_4719331882488_i_20261119152519",
-   "now": 40800,
-   "points": 1112,
-   "premium_points": 1112,
-   "real": 39688,
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsake-premoa%2F4719331882488.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sake-premoa_4719331882488",
+   "now": 41440,
+   "points": 1130,
+   "premium_points": 1130,
+   "real": 40310,
    "pt_rate": 2.7,
    "end": null,
-   "shop": "XPRICE Yahoo!店",
+   "shop": "総合通販PREMOA Yahoo!店",
    "maker": "GIGA-BYTE",
    "rating": 0,
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/aprice/4719331882488.html",
+   "page": "https://store.shopping.yahoo.co.jp/sake-premoa/4719331882488.html",
    "jan": "4719331882488",
    "rank": true,
-   "free_real": 39299,
+   "free_real": 37279,
    "other": 40800,
-   "save": 1501,
-   "save_pct": 4,
-   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（5,000円以上・値段には入れていません） ／ 最大で「ストア内全品2,000円OFFクーポン（対象者限定）」も使えると実質37,688円（使える人だけ）",
-   "max_coupon": "ストア内全品2,000円OFFクーポン（対象者限定）",
-   "max_real": 37688,
-   "max_note": "最大の実質は「ストア内全品2,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
-   "since": "2026-11-23T03:01+09:00"
+   "save": 3521,
+   "save_pct": 9,
+   "since": "2026-11-25T08:06+09:00"
   },
   {
    "id": "6c43f6310b",
