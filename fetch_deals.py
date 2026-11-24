@@ -67,6 +67,26 @@ NG_SHEET = "18xEzO00ztRWrRg3T1Ihz1kWFBpqCqN8_QmciVmYBU8I"
 NG_WORDS = []
 # 管理ページ（admin.html）のボタンで記録されるシート（Googleフォームの回答）
 ADMIN_SHEET = "1GT8YOJjHL17nyQX4PCqwZUjj-GFEihHCLBGTif4--Qs"
+YIMG = "https://item-shopping.c.yimg.jp/i/j/"
+
+
+def fix_image(d: dict) -> None:
+    """画像を直す。商品コードの大文字が混じると「NO IMAGE」が返るので、
+    家のPCが読んだ商品ページの画像ID（いちばん確か）か、小文字にしたURLにする。"""
+    pg = (d.get("page") or "").split("?")[0]
+    mid = ((PAGE_DATA.get(pg) or {}).get("item") or {}).get("mainImageId") or ""
+    if "_i_" in mid:
+        d["image"] = YIMG + mid
+        return
+    img = d.get("image") or ""
+    if img.startswith(YIMG):
+        d["image"] = YIMG + img[len(YIMG):].lower()
+    elif not img and pg.startswith("https://store.shopping.yahoo.co.jp/"):
+        p = pg.split("/")
+        if len(p) >= 5:
+            d["image"] = YIMG + (p[3] + "_" + p[4].removesuffix(".html")).lower()
+
+
 HIDE = set()          # 「隠す」を押した商品のid
 ALLOW = {}            # 「載せる」を押した商品のid → {"genre","jan","name"}
 CANDIDATES = []       # 値段は合格だが載っていない商品（管理ページの候補）
@@ -876,7 +896,7 @@ def load_special(now_ts: int) -> list:
                 aff = os.environ.get("VC_AFFILIATE_ID") or ""
                 d = {"genre": it.get("genre") or g.get("genre") or "食品", "store": "yahoo", "name": name,
                      "url": aff + urllib.parse.quote(page, safe="") if aff else page,
-                     "image": f"https://item-shopping.c.yimg.jp/i/j/{seller}_{srid}",
+                     "image": f"https://item-shopping.c.yimg.jp/i/j/{seller}_{srid}".lower(),
                      "now": price, "points": 0, "premium_points": 0, "real": price,
                      "shop": item.get("shopName") or (pp.get("seller") or {}).get("name"),
                      "maker": "", "page": page, "jan": item.get("janCode") or None}
@@ -1356,6 +1376,8 @@ def main(out_path: str) -> None:
         print("掲載できる商品が0件のため、deals.json は更新しません", file=sys.stderr)
         sys.exit(1)
 
+    for d in deals:
+        fix_image(d)
     out = {
         "updated": datetime.now(JST).isoformat(timespec="minutes"),
         "deals": deals,
@@ -1386,6 +1408,8 @@ def main(out_path: str) -> None:
         cand_out.append({k: d.get(k) for k in ("id", "genre", "name", "image", "was", "now", "off", "points",
                                                 "real", "real_off", "pt_rate", "maker", "shop", "jan", "page", "url", "reviews", "rel")}
                         | {"why": d.get("_why") or ("知らないメーカー" if d["_unknown"] else "件数の上限")})
+    for d in cand_out + CHECK:
+        fix_image(d)
     with open(os.path.join(os.path.dirname(out_path) or ".", "check.json"), "w", encoding="utf-8") as f:
         json.dump({"updated": out["updated"], "items": CHECK[:60]}, f, ensure_ascii=False, indent=1)
     print(f"[クーポン確認用] {len(CHECK)}件を check.json に書き出し")
