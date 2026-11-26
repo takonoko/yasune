@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T08:04+09:00",
+ "updated": "2026-11-26T13:09+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
    "genre": "日用品",
    "store": "yahoo",
-   "name": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | ブラックフライデー トイレットペーパー 3倍巻",
+   "name": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | トイレットペーパー 3倍巻き まとめ買い 備蓄用",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4901750227401-4.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/beisia_4901750227401-4_i_20250421175204",
    "now": 6480,
@@ -172,7 +172,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1812,
+   "reviews": 1813,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -247,7 +247,7 @@
    "shop": "SharkNinja公式ヤフーショッピング店",
    "maker": "Ninja",
    "rating": 4.8,
-   "reviews": 45,
+   "reviews": 46,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/shark/fn100j.html",
@@ -534,7 +534,7 @@
    "now": 5580,
    "points": 51,
    "premium_points": 51,
-   "real": 5529,
+   "real": 5430,
    "pt_rate": 0.9,
    "end": null,
    "shop": "LeTAO ルタオ Yahoo!ショッピング店",
@@ -546,8 +546,10 @@
    "page": "https://store.shopping.yahoo.co.jp/letao/f808.html",
    "jan": null,
    "badge": "爆買いタコの注目",
-   "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認） ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質4,396円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
+   "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認）",
+   "coupon": "ストア内全品100円OFFクーポン（要獲得・4,000円以上・12/13 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/letao/f808.html",
+   "coupon_price": 5480,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -592,11 +594,10 @@
      "c": true
     }
    ],
-   "pt_max": 1084,
+   "pt_max": 1064,
    "pt_max_rate": 21.0,
-   "max_real": 4396,
-   "free_real": 4599,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_real": 4416,
+   "free_real": 4517,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -841,7 +842,7 @@
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
    "rating": 4.87,
-   "reviews": 30,
+   "reviews": 31,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -1330,7 +1331,7 @@
    "now": 7200,
    "points": 65,
    "premium_points": 65,
-   "real": 7135,
+   "real": 7036,
    "pt_rate": 0.9,
    "end": 1795971599,
    "shop": "ドクターシーラボ公式ショップ",
@@ -1343,6 +1344,9 @@
    "jan": null,
    "badge": "超目玉商品",
    "note": "お店のLINEを友だち追加するとストア内全品1,000円OFFクーポン（10,000円以上・値段には入れていません）",
+   "coupon": "ストア内全品100円OFFクーポン（要獲得・4,000円以上・12/13 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ci-labo-official/18250227-00.html",
+   "coupon_price": 7100,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1387,10 +1391,10 @@
      "c": true
     }
    ],
-   "pt_max": 1046,
+   "pt_max": 1031,
    "pt_max_rate": 16.0,
-   "max_real": 6154,
-   "free_real": 6284,
+   "max_real": 6069,
+   "free_real": 6197,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1470,27 +1474,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "201c770b7e",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 水拭き両用 25,000pa 薄型 エコバックス DEEBOT T50S OMNI 高性能 自動掃除機 メーカー保証最大24ヶ月",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecovacsjapan%2Fddx47.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ecovacsjapan_ddx47",
    "now": 44800,
-   "points": 4072,
-   "premium_points": 4072,
-   "real": 40728,
-   "pt_rate": 9.1,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 44800,
    "shop": "エコバックス公式ストア",
-   "maker": "エコバックス",
-   "rating": 4.6,
-   "reviews": 88,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ddx47.html",
    "jan": "6979463770536",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "201c770b7e",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4908,77 +4908,6 @@
    "since": "2026-11-23T11:36+09:00"
   },
   {
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "炊飯器 5合炊き 圧力IH炊飯器 タイガー 5.5合 ご泡火炊き ごほうびだき 内なべ3年保証 日本製 JPI-A100",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftiger-online%2FJPI-A100.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/tiger-online_jpi-a100",
-   "now": 36800,
-   "points": 0,
-   "premium_points": 0,
-   "real": 36800,
-   "shop": "タイガー魔法瓶Yahoo!ショッピング店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/tiger-online/JPI-A100.html",
-   "jan": "4904710431009",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "目玉商品",
-   "id": "7d13ae51d4",
-   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 184,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 334,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 836,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 2341,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 1338,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 669,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 669,
-     "c": true
-    }
-   ],
-   "pt_max": 6371,
-   "pt_max_rate": 19.0,
-   "max_real": 29429,
-   "free_real": 31098,
-   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
-   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質29,429円（使える人だけ）",
-   "since": "2026-11-23T11:36+09:00"
-  },
-  {
    "genre": "食品",
    "store": "yahoo",
    "name": "大阪王将 2種餃子146個セット！定番肉餃子とこだわり餃子がセットになった人気餃子詰め合わせ♪",
@@ -5352,6 +5281,74 @@
    "since": "2026-11-23T11:36+09:00"
   },
   {
+   "genre": "食品",
+   "store": "yahoo",
+   "name": "パックご飯 180g 48食 レトルトご飯 パックごはん 備蓄用 アイリスオーヤマ 米 お米 非常食 防災 仕送り 低温製法米 ピローレス",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Firisplaza%2F314624.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/irisplaza_314624",
+   "now": 5480,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5480,
+   "shop": "アイリスプラザ Yahoo!店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/irisplaza/314624.html",
+   "jan": "4562403574213",
+   "ship": 2,
+   "free_shipping": true,
+   "badge": "目玉商品",
+   "id": "67198e273c",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 27,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 50,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 126,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 203,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 203,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 101,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 101,
+     "c": true
+    }
+   ],
+   "pt_max": 811,
+   "pt_max_rate": 16.0,
+   "max_real": 4669,
+   "free_real": 4770,
+   "since": "2026-11-26T13:09+09:00"
+  },
+  {
    "genre": "家電",
    "store": "yahoo",
    "name": "掃除機 コードレス 軽量 アイリスオーヤマ ゴミ収集ドック 1.5L サイクロン 充電式 きわまでヘッド SCD-124PD-NH",
@@ -5431,7 +5428,7 @@
    "now": 54984,
    "points": 0,
    "premium_points": 0,
-   "real": 54984,
+   "real": 53984,
    "shop": "ブラウン公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/braun/silk-expert-pl-p-pay01.html",
@@ -5440,6 +5437,9 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "11cdc45574",
+   "coupon": "ストア内全品1,000円OFFクーポン（要獲得・25,000円以上・12/13 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/braun/silk-expert-pl-p-pay01.html",
+   "coupon_price": 53984,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5472,10 +5472,10 @@
      "c": true
     }
    ],
-   "pt_max": 6520,
+   "pt_max": 6401,
    "pt_max_rate": 13.0,
-   "max_real": 48464,
-   "free_real": 49463,
+   "max_real": 47583,
+   "free_real": 48564,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5543,7 +5543,7 @@
    "now": 41880,
    "points": 0,
    "premium_points": 0,
-   "real": 41880,
+   "real": 40880,
    "shop": "Ulike公式店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ulike/air10.html",
@@ -5552,8 +5552,10 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "4900529a8e",
-   "note": "お店のLINEを友だち追加すると対象商品500円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質35,914円（使える人だけ）",
-   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "note": "お店のLINEを友だち追加すると対象商品500円OFFクーポン（値段には入れていません）",
+   "coupon": "ストア内全品1,000円OFFクーポン（要獲得・25,000円以上・12/13 0:00まで）",
+   "coupon_url": "https://store.shopping.yahoo.co.jp/ulike/air10.html",
+   "coupon_price": 40880,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5586,11 +5588,10 @@
      "c": true
     }
    ],
-   "pt_max": 4966,
+   "pt_max": 4847,
    "pt_max_rate": 13.0,
-   "max_real": 35914,
-   "free_real": 37675,
-   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "max_real": 36033,
+   "free_real": 36776,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6388,7 +6389,7 @@
    "store": "yahoo",
    "name": "ノンフライヤーシート エアフライヤー シート エアフライヤー用紙 ノンフライヤー用紙 四角型 蒸し紙 16cm 200枚 ブラックフライデー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2F2ndhand%2Fpapertray02.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/2ndhand_papertray02",
+   "image": "https://item-shopping.c.yimg.jp/i/j/2ndhand_papertray02_i_20260630173455",
    "was": 2480,
    "now": 1612,
    "off": 35,
@@ -6471,25 +6472,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "f26bd61cb9",
+   "id": "cf5a87b588",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771_i_20260928100603",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj30%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj30_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "エクセレントショップ",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6498,7 +6499,35 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-25T23:33+09:00"
+   "since": "2026-11-26T13:09+09:00"
+  },
+  {
+   "id": "47da7e196b",
+   "genre": "家電",
+   "store": "yahoo",
+   "name": "ドウシシャ ゴリラのゴリ霧中 GRK-2601 スチーム式加湿器 2.8L 熱帯雨林モード ハイパワー加湿 上部給水 【 ブラックフライデー 】",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fe-goods%2Fry1105917.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/e-goods_ry1105917",
+   "now": 13200,
+   "points": 720,
+   "premium_points": 720,
+   "real": 12480,
+   "pt_rate": 5.5,
+   "end": null,
+   "shop": "インテリアショップe-goods",
+   "maker": "ドウシシャ",
+   "rating": 0,
+   "reviews": 1,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/e-goods/ry1105917.html",
+   "jan": "4550767144791",
+   "pick": true,
+   "free_real": 11514,
+   "other": 12800,
+   "save": 1286,
+   "save_pct": 10,
+   "since": "2026-11-26T13:09+09:00"
   },
   {
    "id": "693a61b736",
