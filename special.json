@@ -441,6 +441,43 @@
      }
     }
    ]
+  },
+  {
+   "label": "Google Playギフトコード",
+   "genre": "ガジェット",
+   "coupon": {
+    "pct": 10,
+    "min": 100,
+    "end": "2026-12-06T00:00:00+09:00",
+    "text": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+    "url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz"
+   },
+   "items": [
+    {
+     "code": "googleplay/50000",
+     "other": 50000
+    },
+    {
+     "code": "googleplay/30000",
+     "other": 30000
+    },
+    {
+     "code": "googleplay/20000",
+     "other": 20000
+    },
+    {
+     "code": "googleplay/10000",
+     "other": 10000
+    },
+    {
+     "code": "googleplay/5000",
+     "other": 5000
+    },
+    {
+     "code": "googleplay/3000",
+     "other": 3000
+    }
+   ]
   }
  ]
 }
