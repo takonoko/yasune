@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:07+09:00",
+ "updated": "2026-11-27T08:31+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -4521,120 +4521,6 @@
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "Google Play ギフトコード",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F50000.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_50000",
-   "now": 50000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 45000,
-   "shop": "Google Play ギフトコード認定店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/googleplay/50000.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
-   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
-   "coupon_price": 45000,
-   "free_real": 44550,
-   "other": 50000,
-   "save": 5450,
-   "save_pct": 11,
-   "badge": "Google Playギフトコード",
-   "id": "b0518ec5c4",
-   "pt_parts": [
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 500,
-     "c": false
-    }
-   ],
-   "pt_max": 450,
-   "pt_max_rate": 1,
-   "max_real": 44550,
-   "since": "2026-11-27T07:37+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "Google Play ギフトコード",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F30000.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_30000",
-   "now": 30000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 27000,
-   "shop": "Google Play ギフトコード認定店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/googleplay/30000.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
-   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
-   "coupon_price": 27000,
-   "free_real": 26730,
-   "other": 30000,
-   "save": 3270,
-   "save_pct": 11,
-   "badge": "Google Playギフトコード",
-   "id": "d8e3ff5827",
-   "pt_parts": [
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 300,
-     "c": false
-    }
-   ],
-   "pt_max": 270,
-   "pt_max_rate": 1,
-   "max_real": 26730,
-   "since": "2026-11-27T07:37+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "Google Play ギフトコード",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F20000.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_20000",
-   "now": 20000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 18000,
-   "shop": "Google Play ギフトコード認定店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/googleplay/20000.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
-   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
-   "coupon_price": 18000,
-   "free_real": 17820,
-   "other": 20000,
-   "save": 2180,
-   "save_pct": 11,
-   "badge": "Google Playギフトコード",
-   "id": "6c2ba0d50f",
-   "pt_parts": [
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 200,
-     "c": false
-    }
-   ],
-   "pt_max": 180,
-   "pt_max_rate": 1,
-   "max_real": 17820,
-   "since": "2026-11-27T07:37+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "Google Play ギフトコード",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F10000.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_10000",
    "now": 10000,
@@ -4667,82 +4553,6 @@
    "pt_max": 90,
    "pt_max_rate": 1,
    "max_real": 8910,
-   "since": "2026-11-27T07:37+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "Google Play ギフトコード",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F5000.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_5000",
-   "now": 5000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 4500,
-   "shop": "Google Play ギフトコード認定店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/googleplay/5000.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
-   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
-   "coupon_price": 4500,
-   "free_real": 4455,
-   "other": 5000,
-   "save": 545,
-   "save_pct": 11,
-   "badge": "Google Playギフトコード",
-   "id": "4106a9cc5a",
-   "pt_parts": [
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 50,
-     "c": false
-    }
-   ],
-   "pt_max": 45,
-   "pt_max_rate": 1,
-   "max_real": 4455,
-   "since": "2026-11-27T07:37+09:00"
-  },
-  {
-   "genre": "ガジェット",
-   "store": "yahoo",
-   "name": "Google Play ギフトコード",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F3000.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_3000",
-   "now": 3000,
-   "points": 0,
-   "premium_points": 0,
-   "real": 2700,
-   "shop": "Google Play ギフトコード認定店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/googleplay/3000.html",
-   "jan": null,
-   "ship": 2,
-   "free_shipping": true,
-   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
-   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
-   "coupon_price": 2700,
-   "free_real": 2673,
-   "other": 3000,
-   "save": 327,
-   "save_pct": 11,
-   "badge": "Google Playギフトコード",
-   "id": "9ecd3eb2ba",
-   "pt_parts": [
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 30,
-     "c": false
-    }
-   ],
-   "pt_max": 27,
-   "pt_max_rate": 1,
-   "max_real": 2673,
    "since": "2026-11-27T07:37+09:00"
   },
   {
@@ -6043,6 +5853,60 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "24c9f4d028",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 20,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 37,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 94,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 341,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 75,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 75,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 1,
+     "p": 37,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 151,
+     "c": true
+    }
+   ],
+   "pt_max": 830,
+   "pt_max_rate": 22.0,
+   "max_real": 3344,
+   "free_real": 3419,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6063,6 +5927,54 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "003aeb4e69",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 12,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 31,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 51,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 25,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 51,
+     "c": true
+    }
+   ],
+   "pt_max": 201,
+   "pt_max_rate": 16.0,
+   "max_real": 1179,
+   "free_real": 1204,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6083,6 +5995,54 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "ecd0ed426e",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 22,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 41,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 103,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 373,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 82,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 165,
+     "c": true
+    }
+   ],
+   "pt_max": 868,
+   "pt_max_rate": 21.0,
+   "max_real": 3612,
+   "free_real": 3694,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6103,6 +6063,60 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "2ec3a798da",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 9,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 18,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 46,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 73,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 5,
+     "p": 92,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 36,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 73,
+     "c": true
+    }
+   ],
+   "pt_max": 383,
+   "pt_max_rate": 21.0,
+   "max_real": 1607,
+   "free_real": 1643,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6123,6 +6137,60 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "c59183cc7b",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 11,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 28,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 45,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 22,
+     "c": true
+    },
+    {
+     "t": "LINE友だち追加",
+     "r": 5,
+     "p": 57,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 22,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 45,
+     "c": true
+    }
+   ],
+   "pt_max": 236,
+   "pt_max_rate": 21.0,
+   "max_real": 1004,
+   "free_real": 1026,
    "since": "2026-11-23T11:36+09:00"
   },
   {
