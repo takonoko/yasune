@@ -1,6 +1,40 @@
 {
- "checked": "2026-11-27T00:16:17+09:00",
+ "checked": "2026-11-27T07:23:00+09:00",
  "items": [
+  {
+   "id": "b0518ec5c4",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/50000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F50000.html",
+   "name": "Google Play ギフトコード 50,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 50000,
+   "target": 50000,
+   "coupon_yen": 5000,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 45000,
+   "save": 5000,
+   "checked": "2026-11-27"
+  },
+  {
+   "id": "d8e3ff5827",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/30000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F30000.html",
+   "name": "Google Play ギフトコード 30,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 30000,
+   "target": 30000,
+   "coupon_yen": 3000,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 27000,
+   "save": 3000,
+   "checked": "2026-11-27"
+  },
   {
    "id": "01405d8323",
    "page": "https://store.shopping.yahoo.co.jp/dospara-y/ic509913.html",
@@ -36,6 +70,23 @@
    "checked": "2026-11-25"
   },
   {
+   "id": "6c2ba0d50f",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/20000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F20000.html",
+   "name": "Google Play ギフトコード 20,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 20000,
+   "target": 20000,
+   "coupon_yen": 2000,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 18000,
+   "save": 2000,
+   "checked": "2026-11-27"
+  },
+  {
    "id": "d926dd8cd3",
    "page": "https://store.shopping.yahoo.co.jp/dyson/631031-01.html",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdyson%2F631031-01.html",
@@ -50,6 +101,23 @@
    "coupon_text": "Dyson公式店 対象商品1,500円OFFクーポン（12/2 0:00まで）",
    "total": 25682,
    "save": 1207,
+   "checked": "2026-11-27"
+  },
+  {
+   "id": "c86f6cbc50",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/10000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F10000.html",
+   "name": "Google Play ギフトコード 10,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 10000,
+   "target": 10000,
+   "coupon_yen": 1000,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 9000,
+   "save": 1000,
    "checked": "2026-11-27"
   },
   {
@@ -84,6 +152,40 @@
    "coupon_text": "ストア内全品1,000円OFFクーポン（15,000円以上・11/30 2:00まで）",
    "total": 24194,
    "save": 806,
+   "checked": "2026-11-27"
+  },
+  {
+   "id": "4106a9cc5a",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/5000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F5000.html",
+   "name": "Google Play ギフトコード 5,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 5000,
+   "target": 5000,
+   "coupon_yen": 500,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 4500,
+   "save": 500,
+   "checked": "2026-11-27"
+  },
+  {
+   "id": "9ecd3eb2ba",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/3000.html",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F3000.html",
+   "name": "Google Play ギフトコード 3,000円分",
+   "genre": "ガジェット",
+   "image": "https://shopping.c.yimg.jp/lib/googleplay/gp_dy_product_gift-code_digital_300dpi.png?size=n",
+   "now": 3000,
+   "target": 3000,
+   "coupon_yen": 300,
+   "coupon_min": 100,
+   "coupon_end": "2026-12-06T00:00:00+09:00",
+   "coupon_text": "Google Play ギフトコード 10%OFFクーポン（上限なし・12/6 0:00まで）",
+   "total": 2700,
+   "save": 300,
    "checked": "2026-11-27"
   }
  ]
