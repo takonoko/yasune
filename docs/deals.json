@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:31+09:00",
+ "updated": "2026-11-27T08:49+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -1679,8 +1679,8 @@
    "end": 1795971599,
    "shop": "Xiaomi公式ストア",
    "maker": "POCO",
-   "rating": 4.29,
-   "reviews": 17,
+   "rating": 4.33,
+   "reviews": 18,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/743000.html",
@@ -1818,26 +1818,30 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "651e7a9981",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 Anker Eufy (ユーフィ) RoboVac G30 Hybrid スマート・ダイナミック・ナビゲーション 2.0 /2-in-1 吸引・水拭き クーポン対象",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2253.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2253",
    "now": 39990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 21995,
+   "points": 363,
+   "premium_points": 363,
+   "real": 21796,
+   "pt_rate": 0.9,
+   "end": null,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.74,
+   "reviews": 27,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "jan": "4571411214707",
-   "ship": 2,
-   "free_shipping": true,
    "coupon": "対象商品45%OFFクーポン（要獲得・11/30 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "coupon_price": 21995,
    "badge": "Ankerブラックフライデー",
-   "id": "651e7a9981",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4541,6 +4545,7 @@
    "save": 1090,
    "save_pct": 11,
    "badge": "Google Playギフトコード",
+   "note": "商品ページで100円〜50,000円まで金額を選べます（どの金額でも10%OFF）",
    "id": "c86f6cbc50",
    "pt_parts": [
     {
@@ -6453,25 +6458,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "5c5f1dcc80",
+   "id": "f26bd61cb9",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771_i_20260928100603",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ECJOY!",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6480,7 +6485,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-27T07:37+09:00"
+   "since": "2026-11-27T08:49+09:00"
   },
   {
    "id": "47da7e196b",
