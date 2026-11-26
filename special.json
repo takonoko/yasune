@@ -454,28 +454,8 @@
    },
    "items": [
     {
-     "code": "googleplay/50000",
-     "other": 50000
-    },
-    {
-     "code": "googleplay/30000",
-     "other": 30000
-    },
-    {
-     "code": "googleplay/20000",
-     "other": 20000
-    },
-    {
      "code": "googleplay/10000",
      "other": 10000
-    },
-    {
-     "code": "googleplay/5000",
-     "other": 5000
-    },
-    {
-     "code": "googleplay/3000",
-     "other": 3000
     }
    ]
   }
