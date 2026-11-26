@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:32+09:00",
+ "updated": "2026-11-27T07:37+09:00",
  "deals": [
   {
    "id": "6ea71d486c",
@@ -17,7 +17,7 @@
    "shop": "ベイシア ヤフーショップ",
    "maker": "クリネックス",
    "rating": 4.9,
-   "reviews": 20,
+   "reviews": 21,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/beisia/4901750227401-4.html",
@@ -172,7 +172,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1820,
+   "reviews": 1821,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -404,7 +404,6 @@
    "jan": null,
    "badge": "爆買いタコの注目",
    "comment": "軽い！デカい！強い！",
-   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -439,10 +438,8 @@
    ],
    "pt_max": 502,
    "pt_max_rate": 10.0,
-   "max_real": 4723,
+   "max_real": 4998,
    "free_real": 5098,
-   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
-   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質4,723円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -843,8 +840,8 @@
    "end": 1795971599,
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
-   "rating": 4.85,
-   "reviews": 34,
+   "rating": 4.86,
+   "reviews": 35,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -1411,8 +1408,8 @@
    "end": 1795971599,
    "shop": "アンドハビット",
    "maker": "SALONIA",
-   "rating": 4.58,
-   "reviews": 215,
+   "rating": 4.57,
+   "reviews": 216,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html",
@@ -1743,23 +1740,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "bd690421c4",
    "genre": "その他",
    "store": "yahoo",
    "name": "【新色登場】 SALONIAフェイスカレントポインター",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fqueensshop%2Fsal060.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/queensshop_sal060",
    "now": 9900,
-   "points": 0,
-   "premium_points": 0,
-   "real": 9600,
+   "points": 90,
+   "premium_points": 90,
+   "real": 9513,
+   "pt_rate": 0.9,
+   "end": 1795971599,
    "shop": "アンドハビット",
-   "maker": "",
+   "maker": "SALONIA",
+   "rating": 4.32,
+   "reviews": 196,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
    "jan": "4571607694184",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "超目玉商品",
-   "id": "bd690421c4",
    "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（3,000円以上・値段には入れていません） ／ 最大で「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使えると実質8,000円（使える人だけ）",
    "max_coupon": "ストア内全品500円OFFクーポン（LINE友だち追加で）",
    "coupon": "ストア内全品300円OFFクーポン（要獲得・3,000円以上・12/1 0:00まで）",
@@ -2440,10 +2441,10 @@
    "name": "アンカー ケーブル Anker PowerLine II 3-in-1 ケーブル ライトニング/USB-C/Micro USB端子対応ケーブル Apple MFi認証取得 iPhone XS/XS Max/XR 0.9m",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2FA8436.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a8436",
-   "now": 2290,
+   "now": 1790,
    "points": 0,
    "premium_points": 0,
-   "real": 2290,
+   "real": 1790,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/A8436.html",
@@ -2456,50 +2457,50 @@
     {
      "t": "＜税込決済額対象＞PayPay残高",
      "r": 0.5,
-     "p": 11,
+     "p": 8,
      "c": false
     },
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 20,
+     "p": 16,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 52,
+     "p": 40,
      "c": false
     },
     {
      "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
      "r": 9,
-     "p": 187,
+     "p": 146,
      "c": true
     },
     {
      "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
      "r": 2,
-     "p": 41,
+     "p": 32,
      "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 41,
+     "p": 32,
      "c": true
     },
     {
      "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
      "r": 4,
-     "p": 83,
+     "p": 65,
      "c": true
     }
    ],
-   "pt_max": 435,
+   "pt_max": 339,
    "pt_max_rate": 21.0,
-   "max_real": 1855,
-   "free_real": 1896,
+   "max_real": 1451,
+   "free_real": 1483,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -4519,6 +4520,234 @@
   {
    "genre": "ガジェット",
    "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F50000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_50000",
+   "now": 50000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 45000,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/50000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 45000,
+   "free_real": 44550,
+   "other": 50000,
+   "save": 5450,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "b0518ec5c4",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 500,
+     "c": false
+    }
+   ],
+   "pt_max": 450,
+   "pt_max_rate": 1,
+   "max_real": 44550,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F30000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_30000",
+   "now": 30000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 27000,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/30000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 27000,
+   "free_real": 26730,
+   "other": 30000,
+   "save": 3270,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "d8e3ff5827",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 300,
+     "c": false
+    }
+   ],
+   "pt_max": 270,
+   "pt_max_rate": 1,
+   "max_real": 26730,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F20000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_20000",
+   "now": 20000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 18000,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/20000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 18000,
+   "free_real": 17820,
+   "other": 20000,
+   "save": 2180,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "6c2ba0d50f",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 200,
+     "c": false
+    }
+   ],
+   "pt_max": 180,
+   "pt_max_rate": 1,
+   "max_real": 17820,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F10000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_10000",
+   "now": 10000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9000,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/10000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 9000,
+   "free_real": 8910,
+   "other": 10000,
+   "save": 1090,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "c86f6cbc50",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 100,
+     "c": false
+    }
+   ],
+   "pt_max": 90,
+   "pt_max_rate": 1,
+   "max_real": 8910,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F5000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_5000",
+   "now": 5000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 4500,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/5000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 4500,
+   "free_real": 4455,
+   "other": 5000,
+   "save": 545,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "4106a9cc5a",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 50,
+     "c": false
+    }
+   ],
+   "pt_max": 45,
+   "pt_max_rate": 1,
+   "max_real": 4455,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Google Play ギフトコード",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F3000.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/googleplay_3000",
+   "now": 3000,
+   "points": 0,
+   "premium_points": 0,
+   "real": 2700,
+   "shop": "Google Play ギフトコード認定店",
+   "maker": "",
+   "page": "https://store.shopping.yahoo.co.jp/googleplay/3000.html",
+   "jan": null,
+   "ship": 2,
+   "free_shipping": true,
+   "coupon": "Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）",
+   "coupon_url": "https://shopping.yahoo.co.jp/coupon/others/ZDJkMGI1MWUxODcxM2E5YjMzZTg2ZDViZjUz",
+   "coupon_price": 2700,
+   "free_real": 2673,
+   "other": 3000,
+   "save": 327,
+   "save_pct": 11,
+   "badge": "Google Playギフトコード",
+   "id": "9ecd3eb2ba",
+   "pt_parts": [
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 30,
+     "c": false
+    }
+   ],
+   "pt_max": 27,
+   "pt_max_rate": 1,
+   "max_real": 2673,
+   "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "genre": "ガジェット",
+   "store": "yahoo",
    "name": "AMD エーエムディー Ryzen 7 9700X BOX【国内正規品】",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdospara-y%2Fic509913.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/dospara-y_ic509913_i_20241011131305",
@@ -4852,77 +5081,6 @@
    "max_real": 113543,
    "free_real": 115997,
    "since": "2026-11-23T11:36+09:00"
-  },
-  {
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "炊飯器 5合炊き 圧力IH炊飯器 タイガー 5.5合 ご泡火炊き ごほうびだき 内なべ3年保証 日本製 JPI-A100",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Ftiger-online%2FJPI-A100.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/tiger-online_jpi-a100",
-   "now": 36800,
-   "points": 0,
-   "premium_points": 0,
-   "real": 36800,
-   "shop": "タイガー魔法瓶Yahoo!ショッピング店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/tiger-online/JPI-A100.html",
-   "jan": "4904710431009",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "目玉商品",
-   "id": "7d13ae51d4",
-   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 184,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 334,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 836,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 2341,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 1338,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 669,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 669,
-     "c": true
-    }
-   ],
-   "pt_max": 6371,
-   "pt_max_rate": 19.0,
-   "max_real": 29429,
-   "free_real": 31098,
-   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
-   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質29,429円（使える人だけ）",
-   "since": "2026-11-26T19:18+09:00"
   },
   {
    "genre": "食品",
@@ -5885,60 +6043,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "24c9f4d028",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 20,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 37,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 94,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 341,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 75,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 75,
-     "c": true
-    },
-    {
-     "t": "LINE友だち追加",
-     "r": 1,
-     "p": 37,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 151,
-     "c": true
-    }
-   ],
-   "pt_max": 830,
-   "pt_max_rate": 22.0,
-   "max_real": 3344,
-   "free_real": 3419,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5959,54 +6063,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "003aeb4e69",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 6,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 12,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 31,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 51,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 25,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 25,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 51,
-     "c": true
-    }
-   ],
-   "pt_max": 201,
-   "pt_max_rate": 16.0,
-   "max_real": 1179,
-   "free_real": 1204,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6027,54 +6083,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "ecd0ed426e",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 22,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 41,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 103,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 373,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 82,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 82,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 165,
-     "c": true
-    }
-   ],
-   "pt_max": 868,
-   "pt_max_rate": 21.0,
-   "max_real": 3612,
-   "free_real": 3694,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6095,60 +6103,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "2ec3a798da",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 9,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 18,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 46,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 73,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 36,
-     "c": true
-    },
-    {
-     "t": "LINE友だち追加",
-     "r": 5,
-     "p": 92,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 36,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 73,
-     "c": true
-    }
-   ],
-   "pt_max": 383,
-   "pt_max_rate": 21.0,
-   "max_real": 1607,
-   "free_real": 1643,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6169,60 +6123,6 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "c59183cc7b",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 6,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 11,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 28,
-     "c": false
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 45,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 22,
-     "c": true
-    },
-    {
-     "t": "LINE友だち追加",
-     "r": 5,
-     "p": 57,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 22,
-     "c": true
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 45,
-     "c": true
-    }
-   ],
-   "pt_max": 236,
-   "pt_max_rate": 21.0,
-   "max_real": 1004,
-   "free_real": 1026,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6485,25 +6385,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "f26bd61cb9",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6512,7 +6412,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-26T23:32+09:00"
+   "since": "2026-11-27T07:37+09:00"
   },
   {
    "id": "47da7e196b",
@@ -6547,16 +6447,16 @@
    "since": "2026-11-26T13:09+09:00"
   },
   {
-   "id": "73be75b324",
+   "id": "04d464b251",
    "genre": "家電",
    "store": "yahoo",
-   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン ホワイト GRD-2501 WH ドウシシャ",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007756.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007756",
-   "now": 13650,
-   "points": 124,
-   "premium_points": 124,
-   "real": 13526,
+   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン グレー GRD-2501 GY ドウシシャ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007754.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007754",
+   "now": 13480,
+   "points": 122,
+   "premium_points": 122,
+   "real": 13358,
    "pt_rate": 0.9,
    "end": null,
    "shop": "y-3ショップ",
@@ -6565,14 +6465,14 @@
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007756.html",
-   "jan": "4550668656409",
+   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007754.html",
+   "jan": "4550668656416",
    "pick": true,
-   "free_real": 13148,
+   "free_real": 12985,
    "other": 13780,
-   "save": 632,
-   "save_pct": 5,
-   "since": "2026-11-26T23:32+09:00"
+   "save": 795,
+   "save_pct": 6,
+   "since": "2026-11-27T07:37+09:00"
   },
   {
    "id": "693a61b736",
@@ -6696,6 +6596,34 @@
    "coupon_url": "https://store.shopping.yahoo.co.jp/dospara-y/ic479652.html",
    "coupon_price": 27800,
    "since": "2026-11-23T03:01+09:00"
+  },
+  {
+   "id": "95f30e31e9",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "MSI SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1 容量1TB M.2(2280) 3D NAND｜SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fitempost%2F1-pc4u-95973.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/itempost_1-pc4u-95973",
+   "now": 25479,
+   "points": 231,
+   "premium_points": 231,
+   "real": 25248,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "shopooo by GMO",
+   "maker": "MSI",
+   "rating": 0,
+   "reviews": 0,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/itempost/1-pc4u-95973.html",
+   "jan": "0824142396803",
+   "rank": true,
+   "free_real": 21532,
+   "other": 25480,
+   "save": 3948,
+   "save_pct": 15,
+   "since": "2026-11-27T07:37+09:00"
   },
   {
    "id": "3e455851e5",
