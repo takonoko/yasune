@@ -10,12 +10,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Google Play ギフトコード｜実質8,910円（ポイント・クーポン込み）- ヤスネ帳</title>
-<meta name="description" content="Google Play ギフトコード。セール価格10,000円、クーポンで9,000円、ポイント還元込みの実質8,910円。Google Play ギフトコード認定店。2026-11-27 23:31時点の価格です。">
+<meta name="description" content="Google Play ギフトコード。セール価格10,000円、クーポンで9,000円、ポイント還元込みの実質8,910円。Google Play ギフトコード認定店。2026-11-28 08:05時点の価格です。">
 <link rel="canonical" href="https://takonoko.github.io/yasune/item-c86f6cbc50.html">
 <meta property="og:type" content="product">
 <meta property="og:site_name" content="ヤスネ帳">
 <meta property="og:title" content="Google Play ギフトコード｜実質8,910円（ポイント・クーポン込み）- ヤスネ帳">
-<meta property="og:description" content="Google Play ギフトコード。セール価格10,000円、クーポンで9,000円、ポイント還元込みの実質8,910円。Google Play ギフトコード認定店。2026-11-27 23:31時点の価格です。">
+<meta property="og:description" content="Google Play ギフトコード。セール価格10,000円、クーポンで9,000円、ポイント還元込みの実質8,910円。Google Play ギフトコード認定店。2026-11-28 08:05時点の価格です。">
 <meta property="og:url" content="https://takonoko.github.io/yasune/item-c86f6cbc50.html">
 <meta property="og:image" content="https://item-shopping.c.yimg.jp/i/j/googleplay_10000">
 <meta name="twitter:card" content="summary">
@@ -95,7 +95,7 @@ li{margin:3px 0}
 <body>
 <div class="wrap">
   <div class="top"><img src="logo.webp" alt="" width="36" height="36"><a href="./">ヤスネ帳</a><a class="back" href="./">← 一覧にもどる</a></div>
-  <main id="main"><h1>Google Play ギフトコード</h1><p>セール価格 10,000円 ／ ポイント・クーポン込みの実質 <b>8,910円</b>（2026-11-27 23:31時点）</p><p>Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）</p><p>販売：Google Play ギフトコード認定店　<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&amp;pid=892749717&amp;vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F10000.html" rel="noopener sponsored">お店で見る</a></p></main>
+  <main id="main"><h1>Google Play ギフトコード</h1><p>セール価格 10,000円 ／ ポイント・クーポン込みの実質 <b>8,910円</b>（2026-11-28 08:05時点）</p><p>Google Play ギフトコード 10%OFFクーポン（要獲得・上限なし・12/6 0:00まで）</p><p>販売：Google Play ギフトコード認定店　<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&amp;pid=892749717&amp;vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fgoogleplay%2F10000.html" rel="noopener sponsored">お店で見る</a></p></main>
   <div class="foot">
     <span>価格・在庫・ポイント・送料は更新時点のものです。購入前に販売ページで必ずご確認ください。</span>
     <span>当サイトはアフィリエイト広告を利用しています。</span>
@@ -109,6 +109,9 @@ const num=v=>Number(v).toLocaleString("ja-JP");
 const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
+const about=x=>{if(x<100)return x;const p=10**(String(Math.floor(x)).length-2);return Math.floor(x/p)*p;};
+const AMZ="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892760444&vc_url=";
+const amz=d=>AMZ+encodeURIComponent("https://www.amazon.co.jp/s?k="+encodeURIComponent(d.jan||((d.maker||"")+" "+d.name).replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／/g," ").split(/\s+/).filter(w=>w&&!/^[|｜/／・]$/.test(w)).slice(0,6).join(" ")));
 const id="c86f6cbc50";
 const today=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));
 const isFive=[5,15,25].includes(today);
@@ -137,7 +140,7 @@ function shipBox(d){
 function render(d){
   const real=d.real??d.now;
   const badges=[];
-  if(d.save) badges.push(`他店より${num(d.save)}円安い`);
+  if(d.save) badges.push(`他店より約${num(about(d.save))}円安い`);
   if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
   if(d.pick) badges.push("爆買いタコおすすめ");
   else if(d.badge) badges.push(esc(d.badge));
@@ -154,13 +157,14 @@ function render(d){
       <div class="photo">${d.image?`<img src="${esc(d.image)}" alt="">`:""}</div>
       ${(()=>{const c=[[real,"ストアポイント込み"],[d.free_real,"条件をそろえた場合（LYPプレミアム除く）"],[d.max_real,"条件をすべてそろえた場合（各キャンペーンの上限込み）"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="sum"><div class="lab">いちばん安い実質</div><div class="yen">${num(c[0])}<small>円</small></div><div class="lab">${c[1]}・販売価格 ${num(d.now)}円</div></div>`})()}
       <a class="go" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${STORE[d.store]||"お店"}で見る</a>
+      ${d.store!=="amazon"?`<a class="go" style="background:#ff9900;margin-top:8px;font-size:.95rem;padding:10px" href="${esc(amz(d))}" target="_blank" rel="noopener sponsored">Amazonでも探す（PR）</a>`:""}
     </div>
     <div>
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
       ${d.note?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff8e1;color:#5c4400;border-radius:10px;font-size:.9rem;line-height:1.6"><b>🎫 クーポン：</b>${esc(d.note)}</p>`:""}${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;color:#3b2a1f;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
-      <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
+      <div><span class="now">${num(d.now)}<small>円</small></span>${d.save?`<span class="was" style="text-decoration:none">他店より約${num(about(d.save))}円安い</span>`:""}</div>
       ${d.other?`<p class="small" style="margin:.3em 0">他店との比較は、PayPay払い・LINE連携・ボーナスストアPlusのエントリーをした場合の値段（送料込み）です。有料のLYPプレミアム分は入れていません。</p>`:""}
       <dl class="rows">
         ${d.coupon?`<div><dt>${esc(d.coupon)}${d.coupon_url?`<br><a href="${esc(d.coupon_url)}" target="_blank" rel="noopener" style="font-size:.78rem">クーポンを獲得する</a>`:""}</dt><dd>${num(d.coupon_price)}円</dd></div>`:""}
