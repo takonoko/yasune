@@ -99,7 +99,7 @@ const num=v=>Number(v).toLocaleString("ja-JP");
 const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
-const about=x=>x<10000?Math.floor(x/100)*100:Math.floor(x/1000)*1000;
+const about=x=>{if(x<100)return x;const p=10**(String(Math.floor(x)).length-2);return Math.floor(x/p)*p;};
 const AMZ="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892760444&vc_url=";
 const amz=d=>AMZ+encodeURIComponent("https://www.amazon.co.jp/s?k="+encodeURIComponent(d.jan||((d.maker||"")+" "+d.name).replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／/g," ").split(/\s+/).filter(w=>w&&!/^[|｜/／・]$/.test(w)).slice(0,6).join(" ")));
 const id=new URLSearchParams(location.search).get("id");
