@@ -99,6 +99,7 @@ const num=v=>Number(v).toLocaleString("ja-JP");
 const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
+const about=x=>x<10000?Math.floor(x/100)*100:Math.floor(x/1000)*1000;
 const AMZ="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892760444&vc_url=";
 const amz=d=>AMZ+encodeURIComponent("https://www.amazon.co.jp/s?k="+encodeURIComponent(d.jan||((d.maker||"")+" "+d.name).replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／/g," ").split(/\s+/).filter(w=>w&&!/^[|｜/／・]$/.test(w)).slice(0,6).join(" ")));
 const id=new URLSearchParams(location.search).get("id");
@@ -129,7 +130,7 @@ function shipBox(d){
 function render(d){
   const real=d.real??d.now;
   const badges=[];
-  if(d.save) badges.push(`他店より${num(d.save)}円安い`);
+  if(d.save) badges.push(`他店より約${num(about(d.save))}円安い`);
   if(d.pt_rate>=10) badges.push(`ポイント${Math.floor(d.pt_rate)}%還元`);
   if(d.pick) badges.push("爆買いタコおすすめ");
   else if(d.badge) badges.push(esc(d.badge));
@@ -153,7 +154,7 @@ function render(d){
       <h1>${esc(d.name)}</h1>
       <div class="badges">${badges.map(b=>`<span class="badge">${b}</span>`).join("")}${end?`<span class="badge">セール ${esc(end)}</span>`:""}</div>
       ${d.note?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff8e1;color:#5c4400;border-radius:10px;font-size:.9rem;line-height:1.6"><b>🎫 クーポン：</b>${esc(d.note)}</p>`:""}${d.comment?`<p style="margin:.6em 0;padding:.6em .8em;background:#fff4ec;color:#3b2a1f;border-radius:10px;font-size:.9rem;line-height:1.6"><b>爆買いタコのひとこと：</b>${esc(d.comment)}</p>`:""}
-      <div><span class="now">${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>
+      <div><span class="now">${num(d.now)}<small>円</small></span>${d.save?`<span class="was" style="text-decoration:none">他店より約${num(about(d.save))}円安い</span>`:""}</div>
       ${d.other?`<p class="small" style="margin:.3em 0">他店との比較は、PayPay払い・LINE連携・ボーナスストアPlusのエントリーをした場合の値段（送料込み）です。有料のLYPプレミアム分は入れていません。</p>`:""}
       <dl class="rows">
         ${d.coupon?`<div><dt>${esc(d.coupon)}${d.coupon_url?`<br><a href="${esc(d.coupon_url)}" target="_blank" rel="noopener" style="font-size:.78rem">クーポンを獲得する</a>`:""}</dt><dd>${num(d.coupon_price)}円</dd></div>`:""}
