@@ -99,6 +99,8 @@ const num=v=>Number(v).toLocaleString("ja-JP");
 const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE={yahoo:"Yahoo!ショッピング",rakuten:"楽天市場",amazon:"Amazon"};
+const AMZ="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892760444&vc_url=";
+const amz=d=>AMZ+encodeURIComponent("https://www.amazon.co.jp/s?k="+encodeURIComponent(d.jan||((d.maker||"")+" "+d.name).replace(/【[^】]*】|［[^］]*］|\[[^\]]*\]|＼[^／]*／/g," ").split(/\s+/).filter(w=>w&&!/^[|｜/／・]$/.test(w)).slice(0,6).join(" ")));
 const id=new URLSearchParams(location.search).get("id");
 const today=Number(new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",day:"numeric"}).format(new Date()).replace(/\D/g,""));
 const isFive=[5,15,25].includes(today);
@@ -144,6 +146,7 @@ function render(d){
       <div class="photo">${d.image?`<img src="${esc(d.image)}" alt="">`:""}</div>
       ${(()=>{const c=[[real,"ストアポイント込み"],[d.free_real,"条件をそろえた場合（LYPプレミアム除く）"],[d.max_real,"条件をすべてそろえた場合（各キャンペーンの上限込み）"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="sum"><div class="lab">いちばん安い実質</div><div class="yen">${num(c[0])}<small>円</small></div><div class="lab">${c[1]}・販売価格 ${num(d.now)}円</div></div>`})()}
       <a class="go" href="${esc(d.url)}" target="_blank" rel="noopener sponsored">${STORE[d.store]||"お店"}で見る</a>
+      ${d.store!=="amazon"?`<a class="go" style="background:#ff9900;margin-top:8px;font-size:.95rem;padding:10px" href="${esc(amz(d))}" target="_blank" rel="noopener sponsored">Amazonでも探す（PR）</a>`:""}
     </div>
     <div>
       <div class="maker">${esc(d.maker||"")}${d.shop?` ・ ${esc(d.shop)}`:""}</div>
