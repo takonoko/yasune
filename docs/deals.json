@@ -1,86 +1,6 @@
 {
- "updated": "2026-11-27T08:49+09:00",
+ "updated": "2026-11-27T13:09+09:00",
  "deals": [
-  {
-   "id": "6ea71d486c",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "【ポイント10倍！10/1 11:00-11/30迄】スコッティ フラワーパック 3倍長持ち トイレット ダブル 12ロール×4個 | トイレットペーパー 3倍巻き まとめ買い 備蓄用",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbeisia%2F4901750227401-4.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/beisia_4901750227401-4_i_20250421175204",
-   "now": 6480,
-   "points": 589,
-   "premium_points": 589,
-   "real": 5891,
-   "pt_rate": 9.1,
-   "end": null,
-   "shop": "ベイシア ヤフーショップ",
-   "maker": "クリネックス",
-   "rating": 4.9,
-   "reviews": 21,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/beisia/4901750227401-4.html",
-   "jan": "4901750227401",
-   "free_real": 5656,
-   "other": 6218,
-   "save": 562,
-   "save_pct": 9,
-   "badge": "爆買いタコおすすめ",
-   "pick": true,
-   "comment": "48ロールで量はすごいけど、置き場所さえあれば家まで運んでくれるから楽。3倍長持ちで交換の手間が少なく、やわらかくて香り付き。",
-   "note": "お店のLINEを友だち追加するとストア内全品300円OFFクーポン（3,000円以上・値段には入れていません） ／ 最大で「ストア内全品300円OFFクーポン（LINE友だち追加で）」も使えると実質5,239円（使える人だけ）",
-   "max_coupon": "ストア内全品300円OFFクーポン（LINE友だち追加で）",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 32,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 58,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 147,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 235,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 235,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 117,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 117,
-     "c": true
-    }
-   ],
-   "pt_max": 941,
-   "pt_max_rate": 16.0,
-   "max_real": 5239,
-   "max_note": "最大の実質は「ストア内全品300円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
-   "since": "2026-11-23T13:11+09:00"
-  },
   {
    "id": "1fd668d414",
    "genre": "家電",
@@ -172,7 +92,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "ご飯のお供",
    "rating": 4.58,
-   "reviews": 1821,
+   "reviews": 1824,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -440,88 +360,6 @@
    "pt_max_rate": 10.0,
    "max_real": 4998,
    "free_real": 5098,
-   "since": "2026-11-23T06:34+09:00"
-  },
-  {
-   "id": "43b0a0c256",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ホワイト　NW-YD10-WA",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-kojima%2F4974305232328.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4974305232328_i_20260619191122",
-   "now": 38250,
-   "points": 347,
-   "premium_points": 3477,
-   "real": 32453,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "コジマYahoo!店",
-   "maker": "象印",
-   "rating": 0,
-   "reviews": 0,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/y-kojima/4974305232328.html",
-   "jan": "4974305232328",
-   "badge": "爆買いタコの注目",
-   "note": "対象者限定の4,300円OFFクーポンあり（もらえる人だけ・11/28 0:00まで）。値段には入れていません",
-   "coupon": "対象商品5,500円OFFクーポン（要獲得・11/28 0:00まで）",
-   "coupon_url": "https://store.shopping.yahoo.co.jp/y-kojima/4974305232328.html",
-   "coupon_price": 32750,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 191,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 347,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 869,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 2434,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
-     "r": 4,
-     "p": 1390,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 695,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 695,
-     "c": true
-    },
-    {
-     "t": "LINE友だち追加",
-     "r": 0.5,
-     "p": 173,
-     "c": true
-    }
-   ],
-   "pt_max": 5817,
-   "pt_max_rate": 19.5,
-   "max_real": 26933,
-   "free_real": 27528,
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -841,7 +679,7 @@
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
    "rating": 4.86,
-   "reviews": 35,
+   "reviews": 36,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -972,7 +810,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.4,
-   "reviews": 11166,
+   "reviews": 11167,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
@@ -1590,27 +1428,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "566675977b",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "プロジェクター Anker Nebula Capsule 3",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd2425.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d2425",
    "now": 62990,
-   "points": 572,
-   "premium_points": 572,
-   "real": 59941,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 60490,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.8,
-   "reviews": 99,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
    "jan": null,
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "566675977b",
    "coupon": "対象商品2,500円OFFクーポン（要獲得・55,000円以上・11/30 2:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/d2425.html",
    "coupon_price": 60490,
@@ -1665,27 +1499,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "d60c0cc162",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "POCO X8 Pro 8+256GB",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fxiaomijapanofficial%2F743000.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/xiaomijapanofficial_743000",
    "now": 54980,
-   "points": 499,
-   "premium_points": 499,
-   "real": 54481,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 54980,
    "shop": "Xiaomi公式ストア",
-   "maker": "POCO",
-   "rating": 4.33,
-   "reviews": 18,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/xiaomijapanofficial/743000.html",
    "jan": null,
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "d60c0cc162",
    "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
@@ -1740,27 +1570,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "bd690421c4",
    "genre": "その他",
    "store": "yahoo",
    "name": "【新色登場】 SALONIAフェイスカレントポインター",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fqueensshop%2Fsal060.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/queensshop_sal060",
    "now": 9900,
-   "points": 90,
-   "premium_points": 90,
-   "real": 9513,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9600,
    "shop": "アンドハビット",
-   "maker": "SALONIA",
-   "rating": 4.32,
-   "reviews": 196,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
    "jan": "4571607694184",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "bd690421c4",
    "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（3,000円以上・値段には入れていません） ／ 最大で「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使えると実質8,000円（使える人だけ）",
    "max_coupon": "ストア内全品500円OFFクーポン（LINE友だち追加で）",
    "coupon": "ストア内全品300円OFFクーポン（要獲得・3,000円以上・12/1 0:00まで）",
@@ -1818,30 +1644,26 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "651e7a9981",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 Anker Eufy (ユーフィ) RoboVac G30 Hybrid スマート・ダイナミック・ナビゲーション 2.0 /2-in-1 吸引・水拭き クーポン対象",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2253.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2253",
    "now": 39990,
-   "points": 363,
-   "premium_points": 363,
-   "real": 21796,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 21995,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.74,
-   "reviews": 27,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "jan": "4571411214707",
+   "ship": 2,
+   "free_shipping": true,
    "coupon": "対象商品45%OFFクーポン（要獲得・11/30 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "coupon_price": 21995,
    "badge": "Ankerブラックフライデー",
+   "id": "651e7a9981",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -6219,6 +6041,54 @@
    "coupon": "対象商品20％OFFクーポン（要獲得・12/1 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/afcshop/01377x01.html",
    "coupon_price": 994,
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 6,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 11,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 28,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
+     "r": 9,
+     "p": 103,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 23,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 23,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 46,
+     "c": true
+    }
+   ],
+   "pt_max": 192,
+   "pt_max_rate": 21.0,
+   "max_real": 802,
+   "free_real": 821,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6239,6 +6109,54 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "931df9833b",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 5,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 10,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 26,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 41,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 20,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 20,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 41,
+     "c": true
+    }
+   ],
+   "pt_max": 163,
+   "pt_max_rate": 16.0,
+   "max_real": 969,
+   "free_real": 989,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6458,25 +6376,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "f26bd61cb9",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771_i_20260928100603",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6485,7 +6403,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-27T08:49+09:00"
+   "since": "2026-11-27T13:09+09:00"
   },
   {
    "id": "47da7e196b",
@@ -6520,12 +6438,12 @@
    "since": "2026-11-26T13:09+09:00"
   },
   {
-   "id": "04d464b251",
+   "id": "73be75b324",
    "genre": "家電",
    "store": "yahoo",
-   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン グレー GRD-2501 GY ドウシシャ",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007754.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007754",
+   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン ホワイト GRD-2501 WH ドウシシャ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007756.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007756",
    "now": 13480,
    "points": 122,
    "premium_points": 122,
@@ -6538,14 +6456,14 @@
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007754.html",
-   "jan": "4550668656416",
+   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007756.html",
+   "jan": "4550668656409",
    "pick": true,
    "free_real": 12985,
    "other": 13780,
    "save": 795,
    "save_pct": 6,
-   "since": "2026-11-27T07:37+09:00"
+   "since": "2026-11-27T13:09+09:00"
   },
   {
    "id": "693a61b736",
@@ -6676,7 +6594,7 @@
    "store": "yahoo",
    "name": "MSI SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1 容量1TB M.2(2280) 3D NAND｜SPATIUM M450 PCIe 4.0 NVMe M.2 1TB V1",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fitempost%2F1-pc4u-95973.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/itempost_1-pc4u-95973",
+   "image": "https://item-shopping.c.yimg.jp/i/j/itempost_1-pc4u-95973_i_20261007153625",
    "now": 25479,
    "points": 231,
    "premium_points": 231,
@@ -6696,7 +6614,39 @@
    "other": 25480,
    "save": 3948,
    "save_pct": 15,
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
+   "max_real": 24248,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質24,248円（使える人だけ）",
    "since": "2026-11-27T07:37+09:00"
+  },
+  {
+   "id": "c7f5367d97",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "ASUS (国内正規品)ASUS PRIME B550M-A マイクロATXマザーボード AM4 デュアルM.2  PRIME B550M-A 返品種別B",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F0192876755525-44-55929.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/joshin_0192876755525-44-55929",
+   "now": 6870,
+   "points": 62,
+   "premium_points": 624,
+   "real": 6808,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "Joshin web",
+   "maker": "ASUS",
+   "rating": 4.92,
+   "reviews": 13,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/joshin/0192876755525-44-55929.html",
+   "jan": "0192876755525",
+   "rank": true,
+   "free_real": 5996,
+   "other": 7250,
+   "save": 1254,
+   "save_pct": 17,
+   "since": "2026-11-27T13:09+09:00"
   },
   {
    "id": "3e455851e5",
@@ -6731,6 +6681,34 @@
    "since": "2026-11-25T19:21+09:00"
   },
   {
+   "id": "736e9f1d64",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "CORSAIR｜コルセア RM850e -2025- ATX 3.1準拠 PCIe 5.1対応 電源ユニット 850W (ブラック) CP-9020296-JP 返品種別B",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fjoshin%2F4537694358347-44-74741.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/joshin_4537694358347-44-74741",
+   "now": 14980,
+   "points": 136,
+   "premium_points": 1361,
+   "real": 14844,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "Joshin web",
+   "maker": "CORSAIR",
+   "rating": 0,
+   "reviews": 2,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/joshin/4537694358347-44-74741.html",
+   "jan": "4537694358347",
+   "rank": true,
+   "free_real": 13070,
+   "other": 16500,
+   "save": 3430,
+   "save_pct": 21,
+   "since": "2026-11-27T13:09+09:00"
+  },
+  {
    "id": "6c43f6310b",
    "genre": "食品",
    "store": "yahoo",
@@ -6746,7 +6724,7 @@
    "shop": "美味しさは元気の源 自然の館",
    "maker": "美味しさは元気の源 自然の館",
    "rating": 4.6,
-   "reviews": 1581,
+   "reviews": 1582,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/shizennoyakata/ca-mixnuts.html",
