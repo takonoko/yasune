@@ -1,81 +1,6 @@
 {
- "updated": "2026-11-27T19:15+09:00",
+ "updated": "2026-11-27T23:31+09:00",
  "deals": [
-  {
-   "id": "1fd668d414",
-   "genre": "家電",
-   "store": "yahoo",
-   "name": "電気フライヤー 3L 家庭用 スチーム ヘルシー カロリーオフ 揚げ物 過熱水蒸気エア フライヤー コンパクト アイリスオーヤマ FV-M30A-C * 安心延長保証対象",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Firisplaza%2F113158.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/irisplaza_113158_i_20261120120212",
-   "now": 19800,
-   "points": 180,
-   "premium_points": 180,
-   "real": 19620,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "アイリスプラザ Yahoo!店",
-   "maker": "アイリスオーヤマ",
-   "rating": 4.5,
-   "reviews": 26,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/irisplaza/113158.html",
-   "jan": "4967576809078",
-   "badge": "爆買いタコの注目",
-   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 99,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 180,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 450,
-     "c": false
-    },
-    {
-     "t": "ボーナスセレクション+40%【対象商品限定】",
-     "r": 39,
-     "p": 7020,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 4,
-     "p": 720,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 360,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 360,
-     "c": true
-    }
-   ],
-   "pt_max": 9189,
-   "pt_max_rate": 51.0,
-   "max_real": 9611,
-   "free_real": 10971,
-   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
-   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質9,611円（使える人だけ）",
-   "since": "2026-11-23T06:34+09:00"
-  },
   {
    "id": "a880510313",
    "genre": "食品",
@@ -92,7 +17,7 @@
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "【認定グルメ！50%OFFクーポン！】ご",
    "rating": 4.59,
-   "reviews": 1831,
+   "reviews": 1836,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -520,7 +445,7 @@
    "now": 16240,
    "points": 147,
    "premium_points": 1476,
-   "real": 15598,
+   "real": 15895,
    "pt_rate": 0.9,
    "end": null,
    "shop": "ベスト電器Yahoo!店",
@@ -532,11 +457,11 @@
    "page": "https://store.shopping.yahoo.co.jp/best-denki/1393148010.html",
    "jan": "4974305221896",
    "badge": "爆買いタコの注目",
-   "note": "対象者限定の500円OFFクーポンあり（もらえる人だけ・11/24 23:00まで）。値段には入れていません ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質12,946円（使える人だけ）",
+   "note": "対象者限定の500円OFFクーポンあり（もらえる人だけ・11/24 23:00まで）。値段には入れていません ／ 最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質12,903円（使える人だけ）",
    "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
-   "coupon": "対象商品500円OFFクーポン（要獲得・11/27 23:00まで）",
+   "coupon": "ストア内全品200円OFFクーポン（要獲得・10,000円以上・11/30 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/best-denki/1393148010.html",
-   "coupon_price": 15740,
+   "coupon_price": 16040,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -581,10 +506,10 @@
      "c": true
     }
    ],
-   "pt_max": 2294,
+   "pt_max": 2337,
    "pt_max_rate": 16.0,
-   "max_real": 12946,
-   "free_real": 13732,
+   "max_real": 12903,
+   "free_real": 13994,
    "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
@@ -678,8 +603,8 @@
    "end": 1795971599,
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
-   "rating": 4.88,
-   "reviews": 40,
+   "rating": 4.86,
+   "reviews": 43,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -810,7 +735,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.4,
-   "reviews": 11168,
+   "reviews": 11170,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
@@ -961,7 +886,7 @@
    "shop": "博多久松",
    "maker": "博多久松",
    "rating": 4.39,
-   "reviews": 6194,
+   "reviews": 6195,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html",
@@ -1021,7 +946,7 @@
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
    "maker": "MYTREX",
    "rating": 4.75,
-   "reviews": 1905,
+   "reviews": 1907,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
@@ -1383,12 +1308,13 @@
    "shop": "コアラスリープジャパン ヤフーショッピング店",
    "maker": "コアラマットレス",
    "rating": 4.71,
-   "reviews": 138,
+   "reviews": 139,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/koalasleepjapan/101-0035.html",
    "jan": "9358955003043",
    "badge": "超目玉商品",
+   "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1423,8 +1349,10 @@
    ],
    "pt_max": 6631,
    "pt_max_rate": 13.0,
-   "max_real": 49289,
+   "max_real": 48289,
    "free_real": 50305,
+   "max_note": "最大の実質は「ストア内全品1,000円OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「ストア内全品1,000円OFFクーポン（対象者限定）」も使えると実質48,289円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -6189,6 +6117,54 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "48dca63ce6",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 13,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 24,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 60,
+     "c": false
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 97,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 48,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 48,
+     "c": true
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 97,
+     "c": true
+    }
+   ],
+   "pt_max": 387,
+   "pt_max_rate": 16.0,
+   "max_real": 2293,
+   "free_real": 2341,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6388,25 +6364,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "cf5a87b588",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj30%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj30_21392771",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "エクセレントショップ",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj30/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6415,7 +6391,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-27T19:15+09:00"
+   "since": "2026-11-27T23:31+09:00"
   },
   {
    "id": "47da7e196b",
@@ -6450,12 +6426,12 @@
    "since": "2026-11-26T13:09+09:00"
   },
   {
-   "id": "04d464b251",
+   "id": "73be75b324",
    "genre": "家電",
    "store": "yahoo",
-   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン グレー GRD-2501 GY ドウシシャ",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007754.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007754",
+   "name": "ゴリラのひとふき ドライヤー 大風量 速乾 爆風 軽量540g 時短 静音 マイナスイオン ホワイト GRD-2501 WH ドウシシャ",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-3shop%2F3612-007756.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/y-3shop_3612-007756",
    "now": 13480,
    "points": 122,
    "premium_points": 122,
@@ -6468,14 +6444,14 @@
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007754.html",
-   "jan": "4550668656416",
+   "page": "https://store.shopping.yahoo.co.jp/y-3shop/3612-007756.html",
+   "jan": "4550668656409",
    "pick": true,
    "free_real": 12985,
    "other": 13780,
    "save": 795,
    "save_pct": 6,
-   "since": "2026-11-27T19:15+09:00"
+   "since": "2026-11-27T23:31+09:00"
   },
   {
    "id": "693a61b736",
