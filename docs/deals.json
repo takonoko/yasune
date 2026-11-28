@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T08:05+09:00",
+ "updated": "2026-11-28T13:06+09:00",
  "deals": [
   {
    "id": "a880510313",
@@ -604,7 +604,7 @@
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
    "rating": 4.86,
-   "reviews": 43,
+   "reviews": 44,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -946,7 +946,7 @@
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
    "maker": "MYTREX",
    "rating": 4.75,
-   "reviews": 1907,
+   "reviews": 1908,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
@@ -1503,27 +1503,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "bd690421c4",
    "genre": "その他",
    "store": "yahoo",
    "name": "【新色登場】 SALONIAフェイスカレントポインター",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fqueensshop%2Fsal060.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/queensshop_sal060",
    "now": 9900,
-   "points": 90,
-   "premium_points": 90,
-   "real": 9513,
-   "pt_rate": 0.9,
-   "end": 1795971599,
+   "points": 0,
+   "premium_points": 0,
+   "real": 9600,
    "shop": "アンドハビット",
-   "maker": "SALONIA",
-   "rating": 4.32,
-   "reviews": 196,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal060.html",
    "jan": "4571607694184",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "超目玉商品",
+   "id": "bd690421c4",
    "note": "お店のLINEを友だち追加するとストア内全品500円OFFクーポン（3,000円以上・値段には入れていません） ／ 最大で「ストア内全品500円OFFクーポン（LINE友だち追加で）」も使えると実質8,000円（使える人だけ）",
    "max_coupon": "ストア内全品500円OFFクーポン（LINE友だち追加で）",
    "coupon": "ストア内全品300円OFFクーポン（要獲得・3,000円以上・12/1 0:00まで）",
@@ -1581,30 +1577,26 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "651e7a9981",
    "genre": "家電",
    "store": "yahoo",
    "name": "ロボット掃除機 Anker Eufy (ユーフィ) RoboVac G30 Hybrid スマート・ダイナミック・ナビゲーション 2.0 /2-in-1 吸引・水拭き クーポン対象",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Ft2253.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_t2253",
    "now": 39990,
-   "points": 363,
-   "premium_points": 363,
-   "real": 21796,
-   "pt_rate": 0.9,
-   "end": null,
+   "points": 0,
+   "premium_points": 0,
+   "real": 21995,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.74,
-   "reviews": 27,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "jan": "4571411214707",
+   "ship": 2,
+   "free_shipping": true,
    "coupon": "対象商品45%OFFクーポン（要獲得・11/30 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/t2253.html",
    "coupon_price": 21995,
    "badge": "Ankerブラックフライデー",
+   "id": "651e7a9981",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1656,27 +1648,23 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
-   "id": "c9f72c95e5",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "ワイヤレスイヤホン Anker Soundcore P31i / ノイズキャンセリング / かわいい / 通学 / IP55 防塵・防水規格 / マルチポイント接続 / 最大50時間再生 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fd1202.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_d1202",
    "now": 5490,
-   "points": 49,
-   "premium_points": 49,
-   "real": 5441,
-   "pt_rate": 0.9,
-   "end": 1795971540,
+   "points": 0,
+   "premium_points": 0,
+   "real": 5490,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "Anker",
-   "rating": 4.71,
-   "reviews": 678,
-   "free_shipping": true,
-   "ship": 2,
+   "maker": "",
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
    "jan": "4571651009590",
+   "ship": 2,
+   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
+   "id": "c9f72c95e5",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -3650,77 +3638,6 @@
    "pt_max_rate": 24.0,
    "max_real": 58212,
    "free_real": 59567,
-   "since": "2026-11-23T09:24+09:00"
-  },
-  {
-   "genre": "その他",
-   "store": "yahoo",
-   "name": "ポータブル電源 Anker Solix C2000 Gen 2 Portable Power Station ダークグレー 2048Wh 世界最小クラスの大容量 アンカー",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa1783.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a1783",
-   "now": 151700,
-   "points": 0,
-   "premium_points": 0,
-   "real": 146700,
-   "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
-   "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a1783.html",
-   "jan": "4571651010121",
-   "ship": 2,
-   "free_shipping": true,
-   "badge": "Ankerブラックフライデー",
-   "id": "8e464623b4",
-   "coupon": "対象商品5,000円OFFクーポン（要獲得・110,000円以上・11/30 2:00まで）",
-   "coupon_url": "https://store.shopping.yahoo.co.jp/ankerdirect/a1783.html",
-   "coupon_price": 146700,
-   "pt_parts": [
-    {
-     "t": "＜税込決済額対象＞PayPay残高",
-     "r": 0.5,
-     "p": 758,
-     "c": false
-    },
-    {
-     "t": "ストアポイント",
-     "r": 1,
-     "p": 1379,
-     "c": false
-    },
-    {
-     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
-     "r": 2.5,
-     "p": 3447,
-     "c": false
-    },
-    {
-     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
-     "r": 7,
-     "p": 7000,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlus ＋9％【対象ストア限定】",
-     "r": 9,
-     "p": 10000,
-     "c": true
-    },
-    {
-     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
-     "r": 2,
-     "p": 2758,
-     "c": true
-    },
-    {
-     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
-     "r": 2,
-     "p": 2758,
-     "c": true
-    }
-   ],
-   "pt_max": 27173,
-   "pt_max_rate": 24.0,
-   "max_real": 119527,
-   "free_real": 122194,
    "since": "2026-11-23T09:24+09:00"
   },
   {
@@ -6190,6 +6107,54 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "0d54bcfb54",
+   "pt_parts": [
+    {
+     "t": "＜税込決済額対象＞PayPay残高",
+     "r": 0.5,
+     "p": 29,
+     "c": false
+    },
+    {
+     "t": "ストアポイント",
+     "r": 1,
+     "p": 55,
+     "c": false
+    },
+    {
+     "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
+     "r": 2.5,
+     "p": 138,
+     "c": false
+    },
+    {
+     "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
+     "r": 4,
+     "p": 221,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
+     "r": 4,
+     "p": 221,
+     "c": true
+    },
+    {
+     "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
+     "r": 2,
+     "p": 110,
+     "c": true
+    },
+    {
+     "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
+     "r": 2,
+     "p": 110,
+     "c": true
+    }
+   ],
+   "pt_max": 884,
+   "pt_max_rate": 16.0,
+   "max_real": 5096,
+   "free_real": 5206,
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6340,25 +6305,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "5c5f1dcc80",
+   "id": "f26bd61cb9",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771_i_20251127175024",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "ECJOY!",
+   "shop": "HJN ヤフー店",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6367,7 +6332,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-27T23:31+09:00"
+   "since": "2026-11-28T13:06+09:00"
   },
   {
    "id": "47da7e196b",
@@ -6407,7 +6372,7 @@
    "store": "yahoo",
    "name": "【在庫有・即納】ドウシシャ ゴリラのひとふき ホワイト GRD-2501WH ドライヤー ゴリラ ハイパワー 速乾 時短 大風量",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbasecamp8%2F4550668656409.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/basecamp8_4550668656409",
+   "image": "https://item-shopping.c.yimg.jp/i/j/basecamp8_4550668656409_i_20260930230435",
    "now": 13478,
    "points": 245,
    "premium_points": 245,
