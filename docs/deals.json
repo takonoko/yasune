@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T19:01+09:00",
+ "updated": "2026-11-28T23:13+09:00",
  "deals": [
   {
    "id": "a880510313",
@@ -16,8 +16,8 @@
    "end": null,
    "shop": "かごしまぐるり公式ストア Yahoo!店",
    "maker": "【認定グルメ！50%OFFクーポン！】ご",
-   "rating": 4.58,
-   "reviews": 1842,
+   "rating": 4.59,
+   "reviews": 1846,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/gururi-japan/167167018.html",
@@ -294,10 +294,10 @@
    "name": "象印マホービン　ZOJIRUSHI　炊飯器 5.5合 豪熱大火力 圧力IHジャー 鉄 -くろがね仕込み- 豪炎かまど釜 ホワイト　NW-YD10-WA",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fy-kojima%2F4974305232328.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/y-kojima_4974305232328_i_20260619191122",
-   "now": 41580,
+   "now": 38250,
    "points": 378,
    "premium_points": 3780,
-   "real": 38131,
+   "real": 34803,
    "pt_rate": 0.9,
    "end": null,
    "shop": "コジマYahoo!店",
@@ -312,61 +312,61 @@
    "note": "対象者限定の4,300円OFFクーポンあり（もらえる人だけ・11/28 0:00まで）。値段には入れていません",
    "coupon": "対象商品3,100円OFFクーポン（要獲得・12/2 0:00まで）",
    "coupon_url": "https://store.shopping.yahoo.co.jp/y-kojima/4974305232328.html",
-   "coupon_price": 38480,
+   "coupon_price": 35150,
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
      "r": 0.5,
-     "p": 207,
+     "p": 191,
      "c": false
     },
     {
      "t": "ストアポイント",
      "r": 1,
-     "p": 378,
+     "p": 347,
      "c": false
     },
     {
      "t": "LINEと連携で毎日もらえる【支払方法指定あり】",
      "r": 2.5,
-     "p": 945,
+     "p": 869,
      "c": false
     },
     {
      "t": "＜ブラックフライデー＞合計5千円以上+4% 合計2万円以上+7%【対象ストア限定】",
      "r": 7,
-     "p": 2646,
+     "p": 2434,
      "c": true
     },
     {
      "t": "ボーナスストアPlus ＋4％【対象ストア限定】",
      "r": 4,
-     "p": 1512,
+     "p": 1390,
      "c": true
     },
     {
      "t": "ボーナスストアPlusでさらに+2%【対象ストア限定】",
      "r": 2,
-     "p": 756,
+     "p": 695,
      "c": true
     },
     {
      "t": "LYPプレミアム会員 ＋2%【支払方法指定あり】",
      "r": 2,
-     "p": 756,
+     "p": 695,
      "c": true
     },
     {
      "t": "LINE友だち追加",
      "r": 0.5,
-     "p": 189,
+     "p": 173,
      "c": true
     }
    ],
-   "pt_max": 6838,
+   "pt_max": 6243,
    "pt_max_rate": 19.5,
-   "max_real": 31642,
-   "free_real": 32342,
+   "max_real": 28907,
+   "free_real": 29546,
    "since": "2026-11-28T19:01+09:00"
   },
   {
@@ -391,8 +391,8 @@
    "page": "https://store.shopping.yahoo.co.jp/letao/f808.html",
    "jan": null,
    "badge": "爆買いタコの注目",
-   "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認） ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質4,396円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
+   "note": "お店のLINEを友だち追加すると100円OFFクーポン（11/23に商品ページで確認） ／ 最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質4,217円（使える人だけ）",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -439,9 +439,9 @@
    ],
    "pt_max": 1084,
    "pt_max_rate": 21.0,
-   "max_real": 4396,
+   "max_real": 4217,
    "free_real": 4599,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -611,7 +611,7 @@
    "shop": "デロンギ公式Yahoo!ショッピング店",
    "maker": "デロンギ",
    "rating": 4.6,
-   "reviews": 42,
+   "reviews": 43,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/delonghi/0108776315.html",
@@ -685,8 +685,8 @@
    "end": 1795971599,
    "shop": "靴下の岡本公式 Yahoo!ショッピング店",
    "maker": "靴下サプリ",
-   "rating": 4.86,
-   "reviews": 44,
+   "rating": 4.85,
+   "reviews": 47,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/okamoto-official/b329992.html",
@@ -763,6 +763,7 @@
    "free_shipping": true,
    "badge": "超目玉商品",
    "id": "8b8729b8ef",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -797,8 +798,10 @@
    ],
    "pt_max": 413,
    "pt_max_rate": 10.0,
-   "max_real": 4067,
+   "max_real": 3843,
    "free_real": 4149,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質3,843円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -817,7 +820,7 @@
    "shop": "越前かに職人 甲羅組",
    "maker": "甲羅組",
    "rating": 4.4,
-   "reviews": 11175,
+   "reviews": 11177,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
@@ -826,6 +829,7 @@
    "coupon_url": "https://store.shopping.yahoo.co.jp/kouragumi/100007.html",
    "coupon_price": 9520,
    "badge": "超目玉商品",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -872,8 +876,10 @@
    ],
    "pt_max": 1413,
    "pt_max_rate": 16.0,
-   "max_real": 8107,
+   "max_real": 7821,
    "free_real": 8283,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質7,821円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -974,6 +980,7 @@
    "page": "https://store.shopping.yahoo.co.jp/hisamatsu/2009071401.html",
    "jan": null,
    "badge": "超目玉商品",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1008,8 +1015,10 @@
    ],
    "pt_max": 1301,
    "pt_max_rate": 10.0,
-   "max_real": 12724,
+   "max_real": 12224,
    "free_real": 12983,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質12,224円（使える人だけ）",
    "since": "2026-11-23T06:34+09:00"
   },
   {
@@ -1028,7 +1037,7 @@
    "shop": "MYTREX 公式 Yahoo!ショッピング店",
    "maker": "MYTREX",
    "rating": 4.75,
-   "reviews": 1909,
+   "reviews": 1910,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/s-pln/mt-rx2-24.html",
@@ -1254,7 +1263,7 @@
    "shop": "アンドハビット",
    "maker": "SALONIA",
    "rating": 4.57,
-   "reviews": 220,
+   "reviews": 221,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/queensshop/sal027.html",
@@ -1329,8 +1338,8 @@
    "end": 1795971599,
    "shop": "エコバックス公式ストア",
    "maker": "エコバックス",
-   "rating": 4.6,
-   "reviews": 88,
+   "rating": 4.61,
+   "reviews": 89,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ecovacsjapan/ddx47.html",
@@ -1752,8 +1761,8 @@
    "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
    "maker": "Anker",
-   "rating": 4.7,
-   "reviews": 677,
+   "rating": 4.71,
+   "reviews": 679,
    "free_shipping": true,
    "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/d1202.html",
@@ -1885,23 +1894,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "88377048b6",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker Zolo Charger (50W, 4 Ports)最大50Wの高出力と4ポートをコンパクトな1台に。スマホからノートPCまでまとめて充電。USB-C 充電器 50W PD アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa121e.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a121e",
    "now": 1990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 1990,
+   "points": 18,
+   "premium_points": 18,
+   "real": 1972,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.71,
+   "reviews": 189,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121e.html",
    "jan": "4571651010084",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "88377048b6",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -1953,23 +1966,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "ec56deb9b5",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker Zolo Charger (70W, 4 Ports)70W USB-C急速充電器 Pro MacBook Air iPhone iPad Galaxy対応 PSE技術基準適合 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa121c.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a121c",
    "now": 4490,
-   "points": 0,
-   "premium_points": 0,
-   "real": 4490,
+   "points": 40,
+   "premium_points": 40,
+   "real": 4450,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.89,
+   "reviews": 91,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a121c.html",
    "jan": "4571651007817",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "ec56deb9b5",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2089,23 +2106,27 @@
    "since": "2026-11-23T06:34+09:00"
   },
   {
+   "id": "62ab46f2ef",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "充電器 Anker 511 Charger (Nano 3, 30W)30W USB-C 急速充電器 ノートPC GaN採用 折りたたみ式 プラグ搭載 PD PPS対応 Air アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa2147.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a2147",
    "now": 2240,
-   "points": 0,
-   "premium_points": 0,
-   "real": 2240,
+   "points": 20,
+   "premium_points": 20,
+   "real": 2220,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.78,
+   "reviews": 504,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a2147.html",
    "jan": "4571411200151",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "62ab46f2ef",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2225,23 +2246,27 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
+   "id": "6b99741fb2",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "ケーブル Anker USB-C & USB-C ケーブル (240W, 高耐久ナイロン) type-c タイプC / USB PD対応 MacBook Pro iPhone 18 / 17 / 16 Galaxy アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa82e2.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a82e2",
    "now": 1690,
-   "points": 0,
-   "premium_points": 0,
-   "real": 1690,
+   "points": 15,
+   "premium_points": 15,
+   "real": 1675,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.8,
+   "reviews": 133,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a82e2.html",
    "jan": "4571411180347",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "6b99741fb2",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2429,23 +2454,27 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
+   "id": "33dd7ff48a",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "USBハブ Anker USB-C ハブ (5-in-1, 4K, HDMI) グレー100W USB PD対応 4K HDMIポート5Gbps 高速データ転送 USB-C/USB-Aポート搭載 アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa8357.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a8357",
    "now": 2090,
-   "points": 0,
-   "premium_points": 0,
-   "real": 2090,
+   "points": 19,
+   "premium_points": 19,
+   "real": 2071,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.69,
+   "reviews": 124,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8357.html",
    "jan": "4571411227196",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "33dd7ff48a",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -2565,23 +2594,27 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
+   "id": "70ad43acf2",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "USBハブ Anker USB-C ハブ (10-in-1, Monitor Stand)モニタースタンド ドッキングステーション USB PD100W 対応 5Gbps USB-Cポート USB-Aポート4K アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa8376.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a8376",
    "now": 18990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 18990,
+   "points": 172,
+   "premium_points": 172,
+   "real": 18818,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 0,
+   "reviews": 1,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a8376.html",
    "jan": "4571411218941",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "70ad43acf2",
    "max_coupon": "ストア内全品1,000円OFFクーポン（対象者限定）",
    "pt_parts": [
     {
@@ -2704,23 +2737,27 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
+   "id": "7ec230aa2f",
    "genre": "ガジェット",
    "store": "yahoo",
    "name": "電源タップ Anker Nano Charging Station (7-in-1, 100W, 巻取り式 USB-Cケーブル)USBタップ PSE技術基準適合MacBook iPad iPhone Galaxy Android アンカー",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fankerdirect%2Fa91c8.html",
    "image": "https://item-shopping.c.yimg.jp/i/j/ankerdirect_a91c8",
    "now": 7990,
-   "points": 0,
-   "premium_points": 0,
-   "real": 7990,
+   "points": 72,
+   "premium_points": 72,
+   "real": 7918,
+   "pt_rate": 0.9,
+   "end": 1795971540,
    "shop": "Anker 公式ストア ヤフー店",
-   "maker": "",
+   "maker": "Anker",
+   "rating": 4.7,
+   "reviews": 67,
+   "free_shipping": true,
+   "ship": 2,
    "page": "https://store.shopping.yahoo.co.jp/ankerdirect/a91c8.html",
    "jan": "4571411227912",
-   "ship": 2,
-   "free_shipping": true,
    "badge": "Ankerブラックフライデー",
-   "id": "7ec230aa2f",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4697,8 +4734,8 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "846a7b0a02",
-   "note": "お店のLINEを友だち追加するとストア内全品50円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品50円OFFクーポン（LINE友だち追加で）」も使えると実質4,151円（使える人だけ）",
-   "max_coupon": "ストア内全品50円OFFクーポン（LINE友だち追加で）",
+   "note": "お店のLINEを友だち追加するとストア内全品50円OFFクーポン（値段には入れていません） ／ 最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質3,955円（使える人だけ）",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4745,9 +4782,9 @@
    ],
    "pt_max": 729,
    "pt_max_rate": 16.0,
-   "max_real": 4151,
+   "max_real": 3955,
    "free_real": 4292,
-   "max_note": "最大の実質は「ストア内全品50円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -4768,6 +4805,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "0ccb5827f1",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -4802,8 +4840,10 @@
    ],
    "pt_max": 749,
    "pt_max_rate": 10.0,
-   "max_real": 7331,
+   "max_real": 6927,
    "free_real": 7480,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質6,927円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5070,6 +5110,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "67198e273c",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5116,8 +5157,10 @@
    ],
    "pt_max": 811,
    "pt_max_rate": 16.0,
-   "max_real": 4669,
+   "max_real": 4395,
    "free_real": 4770,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質4,395円（使える人だけ）",
    "since": "2026-11-26T13:09+09:00"
   },
   {
@@ -5380,6 +5423,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "20b6e50e13",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5414,8 +5458,10 @@
    ],
    "pt_max": 411,
    "pt_max_rate": 10.0,
-   "max_real": 4019,
+   "max_real": 3798,
    "free_real": 4101,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質3,798円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5714,6 +5760,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "003aeb4e69",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5760,8 +5807,10 @@
    ],
    "pt_max": 201,
    "pt_max_rate": 16.0,
-   "max_real": 1179,
+   "max_real": 1110,
    "free_real": 1204,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質1,110円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5782,6 +5831,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "ecd0ed426e",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5828,8 +5878,10 @@
    ],
    "pt_max": 868,
    "pt_max_rate": 21.0,
-   "max_real": 3612,
+   "max_real": 3388,
    "free_real": 3694,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質3,388円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5850,6 +5902,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "2ec3a798da",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5902,8 +5955,10 @@
    ],
    "pt_max": 383,
    "pt_max_rate": 21.0,
-   "max_real": 1607,
+   "max_real": 1508,
    "free_real": 1643,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質1,508円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -5924,6 +5979,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "c59183cc7b",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -5976,8 +6032,10 @@
    ],
    "pt_max": 236,
    "pt_max_rate": 21.0,
-   "max_real": 1004,
+   "max_real": 942,
    "free_real": 1026,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質942円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6069,6 +6127,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "931df9833b",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -6115,8 +6174,10 @@
    ],
    "pt_max": 163,
    "pt_max_rate": 16.0,
-   "max_real": 969,
+   "max_real": 913,
    "free_real": 989,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質913円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6137,6 +6198,7 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "48dca63ce6",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
    "pt_parts": [
     {
      "t": "＜税込決済額対象＞PayPay残高",
@@ -6183,8 +6245,10 @@
    ],
    "pt_max": 387,
    "pt_max_rate": 16.0,
-   "max_real": 2293,
+   "max_real": 2159,
    "free_real": 2341,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質2,159円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6205,6 +6269,10 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "0d54bcfb54",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "max_real": 5681,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質5,681円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6249,6 +6317,10 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "8cd535e7cd",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "max_real": 5843,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質5,843円（使える人だけ）",
    "since": "2026-11-24T13:08+09:00"
   },
   {
@@ -6269,10 +6341,10 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "39df44c57c",
-   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（値段には入れていません） ／ 最大で「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使えると実質3,777円（使える人だけ）",
-   "max_coupon": "ストア内全品100円OFFクーポン（LINE友だち追加で）",
-   "max_real": 3777,
-   "max_note": "最大の実質は「ストア内全品100円OFFクーポン（LINE友だち追加で）」も使ったときの目安です（使える人だけ）",
+   "note": "お店のLINEを友だち追加するとストア内全品100円OFFクーポン（値段には入れていません） ／ 最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質3,684円（使える人だけ）",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "max_real": 3684,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6293,6 +6365,10 @@
    "free_shipping": true,
    "badge": "目玉商品",
    "id": "f894a622cc",
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "max_real": 7600,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質7,600円（使える人だけ）",
    "since": "2026-11-23T11:36+09:00"
   },
   {
@@ -6327,34 +6403,6 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "1ac3fdc31d",
-   "genre": "日用品",
-   "store": "yahoo",
-   "name": "☆ Gillette ジレット フュージョン マニュアル 替刃 12個入 カミソリ 髭剃り 男性用 メンズ 極薄５枚刃 深剃り 長持ち 大容量パック 送料無料",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fvaluemarket2%2Frt1-4987176032638.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/valuemarket2_rt1-4987176032638",
-   "now": 4176,
-   "points": 37,
-   "premium_points": 37,
-   "real": 4139,
-   "pt_rate": 0.9,
-   "end": null,
-   "shop": "ハッピーライフスタイルショップ",
-   "maker": "P&G",
-   "rating": 4.88,
-   "reviews": 8,
-   "free_shipping": true,
-   "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/valuemarket2/rt1-4987176032638.html",
-   "jan": "4987176032638",
-   "pick": true,
-   "free_real": 3874,
-   "other": 4579,
-   "save": 705,
-   "save_pct": 15,
-   "since": "2026-11-28T19:01+09:00"
-  },
-  {
    "id": "1423f700ae",
    "genre": "日用品",
    "store": "yahoo",
@@ -6383,25 +6431,25 @@
    "since": "2026-11-23T09:24+09:00"
   },
   {
-   "id": "f26bd61cb9",
+   "id": "5c5f1dcc80",
    "genre": "家電",
    "store": "yahoo",
    "name": "DOSHISHA ドウシシャ GRT2501 ゴリラの握手",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecjoyecj25%2F21392771.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/ecjoyecj25_21392771_i_20260928100603",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fecj%2F21392771.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/ecj_21392771",
    "now": 3539,
    "points": 32,
    "premium_points": 32,
    "real": 3507,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "HJN ヤフー店",
+   "shop": "ECJOY!",
    "maker": "ドウシシャ",
    "rating": 0,
    "reviews": 0,
    "free_shipping": false,
    "ship": 1,
-   "page": "https://store.shopping.yahoo.co.jp/ecjoyecj25/21392771.html",
+   "page": "https://store.shopping.yahoo.co.jp/ecj/21392771.html",
    "jan": "4550668292010",
    "pick": true,
    "postage": 539,
@@ -6410,7 +6458,7 @@
    "other": 5480,
    "save": 1531,
    "save_pct": 28,
-   "since": "2026-11-28T13:06+09:00"
+   "since": "2026-11-28T23:13+09:00"
   },
   {
    "id": "47da7e196b",
@@ -6450,7 +6498,7 @@
    "store": "yahoo",
    "name": "【在庫有・即納】ドウシシャ ゴリラのひとふき グレー GRD-2501GY ドライヤー ゴリラ ハイパワー 速乾 時短 大風量",
    "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fbasecamp8%2F4550668656416.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/basecamp8_4550668656416",
+   "image": "https://item-shopping.c.yimg.jp/i/j/basecamp8_4550668656416_i_20260930230450",
    "now": 13478,
    "points": 245,
    "premium_points": 245,
@@ -6565,32 +6613,60 @@
    "since": "2026-11-23T03:01+09:00"
   },
   {
-   "id": "6312c70461",
+   "id": "5e71ac6295",
    "genre": "ガジェット",
    "store": "yahoo",
-   "name": "AMD Ryzen 7 9800X3D BOX[ラッピング可]",
-   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F730143315289.html",
-   "image": "https://item-shopping.c.yimg.jp/i/j/sokuteikiya_730143315289",
-   "now": 59769,
-   "points": 543,
-   "premium_points": 543,
-   "real": 59226,
+   "name": "【新品】AMD CPU Ryzen 7 9700X BOX",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fdensidonya%2F0730143315593.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/densidonya_0730143315593",
+   "now": 41648,
+   "points": 378,
+   "premium_points": 378,
+   "real": 41270,
    "pt_rate": 0.9,
    "end": null,
-   "shop": "測定の森Yahoo!ショッピング店",
+   "shop": "電子問屋",
    "maker": "AMD",
    "rating": 0,
    "reviews": 0,
    "free_shipping": true,
    "ship": 2,
-   "page": "https://store.shopping.yahoo.co.jp/sokuteikiya/730143315289.html",
-   "jan": "0730143000000",
+   "page": "https://store.shopping.yahoo.co.jp/densidonya/0730143315593.html",
+   "jan": "0730143315593",
    "rank": true,
-   "free_real": 57570,
-   "other": 60260,
-   "save": 2690,
+   "free_real": 37466,
+   "other": 41315,
+   "save": 3849,
+   "save_pct": 9,
+   "since": "2026-11-28T23:13+09:00"
+  },
+  {
+   "id": "f8f5db487d",
+   "genre": "ガジェット",
+   "store": "yahoo",
+   "name": "Intel Core Ultra 7 プロセッサー  270K Plus BOX[ラッピング可]",
+   "url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3788353&pid=892749717&vc_url=https%3A%2F%2Fstore.shopping.yahoo.co.jp%2Fsokuteikiya%2F735858553308.html",
+   "image": "https://item-shopping.c.yimg.jp/i/j/sokuteikiya_735858553308",
+   "now": 53332,
+   "points": 484,
+   "premium_points": 484,
+   "real": 52848,
+   "pt_rate": 0.9,
+   "end": null,
+   "shop": "測定の森Yahoo!ショッピング店",
+   "maker": "インテル",
+   "rating": 0,
+   "reviews": 0,
+   "free_shipping": true,
+   "ship": 2,
+   "page": "https://store.shopping.yahoo.co.jp/sokuteikiya/735858553308.html",
+   "jan": "0735858553308",
+   "rank": true,
+   "free_real": 51370,
+   "other": 53430,
+   "save": 2060,
    "save_pct": 4,
-   "since": "2026-11-28T19:01+09:00"
+   "since": "2026-11-28T23:13+09:00"
   },
   {
    "id": "6e7a258545",
@@ -6769,6 +6845,10 @@
    "other": 3700,
    "save": 2328,
    "save_pct": 63,
+   "max_coupon": "対象商品5％OFFクーポン（対象者限定）",
+   "max_real": 1482,
+   "max_note": "最大の実質は「対象商品5％OFFクーポン（対象者限定）」も使ったときの目安です（使える人だけ）",
+   "note": "最大で「対象商品5％OFFクーポン（対象者限定）」も使えると実質1,482円（使える人だけ）",
    "since": "2026-11-23T03:01+09:00"
   }
  ]
