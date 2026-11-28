@@ -179,10 +179,13 @@ const num=v=>Number(v).toLocaleString("ja-JP");
 const prem=d=>Math.floor((d.now||0)/1.1*0.02);
 const todayJST=new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date());
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const about=x=>{if(x<100)return x;const p=10**(String(Math.floor(x)).length-2);return Math.floor(x/p)*p;};
 function left(t){if(!t)return null;const h=Math.round((t*1000-Date.now())/36e5);if(h<0)return null;return h<24?{txt:`あと${h}時間`,soon:true}:{txt:`あと${Math.floor(h/24)}日`,soon:false}}
 GENRES.forEach(g=>{const b=document.createElement("button");b.type="button";b.textContent=g;b.setAttribute("aria-pressed",g===genre);
   b.onclick=()=>{genre=g;[...$("tabs").children].forEach(x=>x.setAttribute("aria-pressed",x===b));render()};$("tabs").append(b)});
 function card(d){
+  // Amazonの商品：値段はAmazonの規約で載せられないので、名前・ひとこと・リンクだけ
+  if(d.noprice)return `<a class="card" href="${esc(d.url)}" target="_blank" rel="noopener sponsored"><div class="thumb" style="display:flex;align-items:center;justify-content:center;font:700 1.1rem var(--round);color:#ff9900">amazon<span class="pick">${esc(d.badge||"爆買いタコおすすめ")}</span></div><div class="body"><p class="name">${esc(d.name)}</p><div class="realtop" style="font-size:.95rem">値段はAmazonで確認</div>${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}<div class="meta"><span>Amazon（PR）</span></div></div></a>`;
   const real=d.real??d.now, l=left(d.end);
   const pt=d.points?`<div class="pt"><span><b>+${num(d.points)}pt</b> 還元</span></div>`:"";
   const cp="";  // 付与率×値段の自前計算は上限を無視してしまうので出さない（商品ページの内訳だけを使う）
@@ -198,11 +201,11 @@ function card(d){
   // まず詳細ページ（送料・キャンペーンの説明つき）に行く。古いデータで番号がなければ直接お店へ
   const href=d.id?`item-${encodeURIComponent(d.id)}.html`:d.url;
   return `<a class="card" href="${esc(href)}"${d.id?"":' target="_blank" rel="noopener sponsored"'}>
-    <div class="thumb">${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より${num(d.save)}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
+    <div class="thumb">${d.since&&Date.now()-new Date(d.since)<864e5?'<span class="new">NEW</span>':""}${d.image?`<img src="${esc(d.image)}" alt="" loading="lazy">`:""}${d.badge?`<span class="pick">${esc(d.badge)}</span>`:d.pick?`<span class="pick">爆買いタコおすすめ</span>`:d.rank?`<span class="rank">人気上位</span>`:""}${d.save?`<span class="off">他店より約${num(about(d.save))}円安い</span>`:d.only?`<span class="off">ヤフショだけで販売</span>`:d.unit_price?`<span class="off">1${esc(d.unit)}${num(Math.round(d.unit_price))}円</span>`:""}</div>
     <div class="body">
       ${d.usual_save?`<span class="usual">いつもより${num(d.usual_save)}円安い</span>`:""}<p class="name">${esc(d.name)}</p>
       ${(()=>{const c=[[real,""],[d.free_real,"条件をそろえた場合"],[d.max_real,"条件をすべてそろえた場合"]].filter(x=>x[0]!=null&&x[0]>0).sort((a,b)=>a[0]-b[0])[0];return `<div class="realtop">実質<b>${num(c[0])}</b>円${c[1]?`<small style="font-weight:500;color:var(--muted,#888)">（${c[1]}）</small>`:""}</div>`})()}
-      <div class="price"><span class="now">販売価格 ${num(d.now)}<small>円</small></span>${d.other?`<span class="was" style="text-decoration:none">他店最安 ${num(d.other)}円</span>`:""}</div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
+      <div class="price"><span class="now">販売価格 ${num(d.now)}<small>円</small></span></div>${d.unit_price?`<div class="unit">${d.count}${esc(d.unit)}入り・1${esc(d.unit)}あたり <b>${num(d.unit_price)}円</b>${d.points?"（ポイント込み）":""}</div>`:""}
       ${d.note?`<div class="cp">🎫 ${esc(d.note)}</div>`:""}${d.coupon?`<div class="cp">クーポンで <b>${num(d.coupon_price)}円</b>（${esc(d.coupon)}）</div>`:""}${pt}${cp}${d.pt_max?`<div class="pm">条件をそろえると最大${d.pt_max_rate}%（${num(d.pt_max)}pt） <b>実質${num(d.max_real)}円</b></div>`:pm}${sw}${d.comment?`<div class="cp">🐙 ${esc(d.comment)}</div>`:""}
       <div class="meta">${l?`<span class="${l.soon?"soon":""}">セール${l.txt}</span>`:""}${d.reviews?`<span>★${d.rating??"-"}（${num(d.reviews)}）</span>`:""}${ship?`<span>${ship}</span>`:""}<span>${STORE[d.store]||""}</span></div>
     </div></a>`;
@@ -234,6 +237,7 @@ render=function(){const keep=deals;deals=deals.filter(d=>!isNg(d));origRender();
 fetch(`https://docs.google.com/spreadsheets/d/${NG_SHEET}/gviz/tq?tqx=out:csv`).then(r=>r.text()).then(t=>{ng=parseCsv(t).slice(1).map(r=>nz(r[0])).filter(Boolean);if(deals.length)render()}).catch(()=>{});
 fetch("deals.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{
   deals=j.deals||[];
+  fetch("amazon.json",{cache:"no-store"}).then(r=>r.json()).then(a=>{deals=deals.concat((a.items||[]).filter(x=>!x.end||x.end*1000>Date.now()).map(x=>({...x,store:"amazon",noprice:true})));render()}).catch(()=>{});
   $("updated").textContent="最終更新 "+new Date(j.updated).toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"});
   render();
 }).catch(()=>{$("updated").textContent="";$("grid").innerHTML='<p class="empty">データを読み込めませんでした。時間をおいて開き直してください。</p>'});
